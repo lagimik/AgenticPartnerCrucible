@@ -6,7 +6,7 @@ layout: generativepartnercrucible
 thumbnail: /PartnerCrucible/assets/images/2026-07-10-DataAISolutionArea.md-image.png
 ---
 
-# Data and AI Workloads
+# Data and AI Workloads 
 
 ## What's new?
 

@@ -1,0 +1,10 @@
+{
+  "source_url": "https://partner.microsoft.com/en-ca/blog/article/skilling-updates-jan-2026",
+  "final_url": "https://partner.microsoft.com/en-ca/blog/article/skilling-updates-jan-2026",
+  "content_type": "",
+  "saved_file": "content.bin",
+  "title": "partner.microsoft.com/en-ca/blog/article/skilling-updates-jan-2026",
+  "status": "reference-only",
+  "error": "HTTPSConnectionPool(host='partner.microsoft.com', port=443): Max retries exceeded with url: /en-ca/blog/article/skilling-updates-jan-2026 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
+  "captured": "2026-07-10"
+}

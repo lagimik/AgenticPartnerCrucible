@@ -1,0 +1,142 @@
+<!doctype html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e"><meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover" ><meta name="generator" content="Jekyll v4.4.1" /><meta property="og:title" content="The Custom Engine" /><meta property="og:locale" content="en" /><meta name="description" content="Technical examples from the Microsoft Copilot Studio Customer Advisory Team." /><meta name="twitter:description" property="og:description" content="Technical examples from the Microsoft Copilot Studio Customer Advisory Team." /><link rel="canonical" href="https://microsoft.github.io/mcscatblog/" /><meta property="og:url" content="https://microsoft.github.io/mcscatblog/" /><meta property="og:site_name" content="The Custom Engine" /><meta property="og:type" content="website" /><link rel="next" href="https://microsoft.github.io/mcscatblog/page2" /><meta property="og:image" content="https://microsoft.github.io/mcscatblog/assets/img/customengine.png" /><meta name="twitter:card" content="summary_large_image" /><meta property="twitter:image" content="https://microsoft.github.io/mcscatblog/assets/img/customengine.png" /><meta name="twitter:title" content="The Custom Engine" /><meta name="twitter:site" content="@MSPowerPlat" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"WebSite","description":"Technical examples from the Microsoft Copilot Studio Customer Advisory Team.","headline":"The Custom Engine","name":"Microsoft Copilot Studio CAT","sameAs":["https://github.com/microsoft/mcscatblog","https://twitter.com/MSPowerPlat"],"url":"https://microsoft.github.io/mcscatblog/"}</script><title>The Custom Engine</title><link rel="icon" type="image/png" href="/mcscatblog/assets/img/favicons/favicon-96x96.png" sizes="96x96"><link rel="icon" type="image/svg+xml" href="/mcscatblog/assets/img/favicons/favicon.svg"><link rel="shortcut icon" href="/mcscatblog/assets/img/favicons/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/mcscatblog/assets/img/favicons/apple-touch-icon.png"><link rel="preconnect" href="https://fonts.googleapis.com" ><link rel="dns-prefetch" href="https://fonts.googleapis.com" ><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="dns-prefetch" href="https://fonts.gstatic.com" ><link rel="preconnect" href="https://cdn.jsdelivr.net" ><link rel="dns-prefetch" href="https://cdn.jsdelivr.net" ><link rel="stylesheet" href="/mcscatblog/assets/css/jekyll-theme-chirpy.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css"> <script src="/mcscatblog/assets/js/dist/theme.min.js"></script> <script defer src="https://cdn.jsdelivr.net/combine/npm/algoliasearch@4.24.0/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4.74.2/dist/instantsearch.production.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script> <script defer src="/mcscatblog/assets/js/dist/home.min.js"></script> <script type="text/javascript"> (function(c,l,a,r,i,t,y){ c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)}; t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i; y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y); })(window, document, "clarity", "script", "wrvdi3rw3l"); </script><meta name="algolia-site-verification" content="46C247BC7C8677B2" /></head><body><aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end"><header class="profile-wrapper"> <a href="/mcscatblog/" id="avatar" class="rounded-circle"><img src="/mcscatblog/assets/img/paw.png" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a> <a class="site-title d-block" href="/mcscatblog/">The Custom Engine</a><p class="site-subtitle fst-italic mb-0">Technical examples and best practices from the Microsoft Copilot Studio CAT team</p></header><nav class="flex-column flex-grow-1 w-100 ps-0"><ul class="nav">
+<li class="nav-item active"> <a href="/mcscatblog/" class="nav-link"> <i class="fa-fw fas fa-home"></i> <span>HOME</span> </a>
+</li>
+<li class="nav-item"> <a href="/mcscatblog/categories/" class="nav-link"> <i class="fa-fw fas fa-stream"></i> <span>CATEGORIES</span> </a>
+</li>
+<li class="nav-item"> <a href="/mcscatblog/tags/" class="nav-link"> <i class="fa-fw fas fa-tags"></i> <span>TAGS</span> </a>
+</li>
+<li class="nav-item"> <a href="/mcscatblog/archives/" class="nav-link"> <i class="fa-fw fas fa-archive"></i> <span>ARCHIVES</span> </a>
+</li>
+<li class="nav-item"> <a href="/mcscatblog/resources/" class="nav-link"> <i class="fa-fw fas fa-compass"></i> <span>RESOURCES</span> </a>
+</li>
+<li class="nav-item"> <a href="/mcscatblog/about/" class="nav-link"> <i class="fa-fw fas fa-info-circle"></i> <span>ABOUT</span> </a>
+</li>
+<li class="nav-item"> <a href="/mcscatblog/authors/" class="nav-link"> <i class="fa-fw fas fa-feather-alt"></i> <span>AUTHORS</span> </a>
+</li>
+</ul></nav><div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
+<div class="btn-group dropup"> <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle" data-bs-toggle="dropdown"><i class="fa-regular fa-sun" data-theme-mode="light"></i><i class="fa-regular fa-moon" data-theme-mode="dark"></i><i class="fa-solid fa-display" data-theme-mode="system"></i></button><ul class="dropdown-menu rounded-3 mb-1 p-1">
+<li> <button class="dropdown-item d-flex align-items-center" type="button" data-theme-mode="light"><i class="fa-regular fa-sun" data-theme-mode="light"></i>Light</button>
+</li>
+<li> <button class="dropdown-item d-flex align-items-center" type="button" data-theme-mode="dark"><i class="fa-regular fa-moon" data-theme-mode="dark"></i>Dark</button>
+</li>
+<li> <button class="dropdown-item d-flex align-items-center" type="button" data-theme-mode="system"><i class="fa-solid fa-display" data-theme-mode="system"></i>System</button>
+</li>
+</ul>
+</div>
+<span class="icon-border"></span> <a href="https://github.com/microsoft" aria-label="github" target="_blank" rel="noopener noreferrer noopener noreferrer"> <i class="fab fa-github"></i> </a> <a href="https://twitter.com/MSPowerPlat" aria-label="twitter" target="_blank" rel="noopener noreferrer noopener noreferrer"> <i class="fa-brands fa-x-twitter"></i> </a> <a href="javascript:void(location.href%20=%20'mailto:'%20+%20['adileibowitz','microsoft.com'].join('@'))" aria-label="email"> <i class="fas fa-envelope"></i> </a> <a href="/mcscatblog/feed.xml" aria-label="rss"> <i class="fas fa-rss"></i> </a>
+</div></aside><div id="main-wrapper" class="d-flex justify-content-center">
+<div class="container d-flex flex-column px-xxl-5">
+<header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar"><div id="topbar" class="d-flex align-items-center justify-content-between px-lg-3 h-100">
+<nav id="breadcrumb" aria-label="Breadcrumb"> <span>Home</span></nav><button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Sidebar"> <i class="fas fa-bars fa-fw"></i> </button><div id="topbar-title"> The Custom Engine</div>
+<button type="button" id="search-trigger" class="btn btn-link" aria-label="Search"> <i class="fas fa-search fa-fw"></i> </button> <search id="search" class="align-items-center ms-3 ms-lg-0"> <i class="fas fa-search fa-fw"></i> <input class="form-control" id="search-input" type="search" aria-label="search" autocomplete="off" placeholder="Search..."> </search> <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">Cancel</button>
+</div></header><div class="row flex-grow-1">
+<main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4"><div id="post-list" class="flex-grow-1 px-xl-1">
+<article class="card-wrapper card"> <a href="/mcscatblog/posts/e3-users-build-agents-turn-it-off/" class="post-preview row g-0 flex-md-row-reverse"><div class="col-md-5"><div class="preview-img shimmer"><img src="/mcscatblog/assets/posts/e3-users-build-agents-turn-it-off/classic-agents-governance-hero.png" alt="Disabling the Power Virtual Agents for Office 365 service plan" loading="lazy"></div></div>
+<div class="col-md-7"><div class="card-body d-flex flex-column">
+<h1 class="card-title my-2 mt-md-0">Why Your E3 Users Can Suddenly Build Agents in Copilot Studio — and How to Turn It Off</h1>
+<div class="card-text content mt-0 mb-3"><p>A recent redirect change surfaced classic agent creation in the Copilot Studio web app for basic-licensed users. Here's the single service plan admins can disable to govern it.</p></div>
+<div class="post-meta flex-grow-1 d-flex align-items-end"><div class="me-auto"> <i class="far fa-calendar fa-fw me-1"></i> <time data-ts="1783555200" data-df="ll"> Jul 9, 2026 </time> <i class="far fa-folder-open fa-fw me-1"></i> <span class="categories"> copilot-studio, governance </span>
+</div></div>
+</div></div></a></article><article class="card-wrapper card"> <a href="/mcscatblog/posts/modern-mcs-agent-skills/" class="post-preview row g-0 flex-md-row-reverse"><div class="col-md-5"><div class="preview-img shimmer"><img src="/mcscatblog/assets/posts/modern-mcs-agent-skills/header.png" alt="Our agent, calmly grabbing exactly the one Skill it needs while ignoring the other 47 drawers. We should all be so organized." loading="lazy"></div></div>
+<div class="col-md-7"><div class="card-body d-flex flex-column">
+<h1 class="card-title my-2 mt-md-0">Modern Agents Have Skills Now — Here's How They Work in Copilot Studio</h1>
+<div class="card-text content mt-0 mb-3"><p>How Skills work in modern Copilot Studio agents: instructions and resources loaded on demand for specific scenarios, why you would modularize instructions into Skills, and when to use Skills versus instructions.</p></div>
+<div class="post-meta flex-grow-1 d-flex align-items-end"><div class="me-auto"> <i class="far fa-calendar fa-fw me-1"></i> <time data-ts="1781481600" data-df="ll"> Jun 15, 2026 </time> <i class="far fa-folder-open fa-fw me-1"></i> <span class="categories"> copilot-studio, skills </span>
+</div></div>
+</div></div></a></article><article class="card-wrapper card"> <a href="/mcscatblog/posts/agent-authentication-controls/" class="post-preview row g-0 flex-md-row-reverse"><div class="col-md-5"><div class="preview-img shimmer"><img src="/mcscatblog/assets/posts/agent-authentication-controls/header.png" alt="Sometimes even saying hello is too much." loading="lazy"></div></div>
+<div class="col-md-7"><div class="card-body d-flex flex-column">
+<h1 class="card-title my-2 mt-md-0">The Admin Control That Closes the Door Before "Hello"</h1>
+<div class="card-text content mt-0 mb-3"><p>A new Power Platform admin control lets you govern how users authenticate to Copilot Studio agents, and it answers a question that DLP channel blocking never could.</p></div>
+<div class="post-meta flex-grow-1 d-flex align-items-end"><div class="me-auto"> <i class="far fa-calendar fa-fw me-1"></i> <time data-ts="1781395200" data-df="ll"> Jun 14, 2026 </time> <i class="far fa-folder-open fa-fw me-1"></i> <span class="categories"> copilot-studio, governance </span>
+</div></div>
+</div></div></a></article><article class="card-wrapper card"> <a href="/mcscatblog/posts/alm-copilot-studio-agents-foundation/" class="post-preview row g-0 flex-md-row-reverse"><div class="col-md-5"><div class="preview-img shimmer"><img src="/mcscatblog/assets/posts/alm-copilot-studio-agents-foundation/header.png" alt="ALM foundation for Copilot Studio agents" loading="lazy"></div></div>
+<div class="col-md-7"><div class="card-body d-flex flex-column">
+<h1 class="card-title my-2 mt-md-0">ALM for Copilot Studio Agents: The Foundation</h1>
+<div class="card-text content mt-0 mb-3"><p>The fundamentals of Application Lifecycle Management for Copilot Studio agents: environments, solutions, publishers, and pipelines - the safe baseline every maker should have in place.</p></div>
+<div class="post-meta flex-grow-1 d-flex align-items-end"><div class="me-auto"> <i class="far fa-calendar fa-fw me-1"></i> <time data-ts="1780444800" data-df="ll"> Jun 3, 2026 </time> <i class="far fa-folder-open fa-fw me-1"></i> <span class="categories"> copilot-studio, alm </span>
+</div></div>
+</div></div></a></article><article class="card-wrapper card"> <a href="/mcscatblog/posts/pdf-page-level-citations/" class="post-preview row g-0 flex-md-row-reverse"><div class="col-md-5"><div class="preview-img shimmer"><img src="/mcscatblog/assets/posts/pdf-page-level-citations/header.png" alt="A cat in a tweed jacket using a magnifying glass to find the exact page in a PDF document" loading="lazy"></div></div>
+<div class="col-md-7"><div class="card-body d-flex flex-column">
+<h1 class="card-title my-2 mt-md-0">Page-Level PDF Citations in Copilot Studio</h1>
+<div class="card-text content mt-0 mb-3"><p>How to deliver page-level PDF citations in Copilot Studio for SharePoint and uploaded file knowledge sources, so users land on the exact page that grounded the answer.</p></div>
+<div class="post-meta flex-grow-1 d-flex align-items-end"><div class="me-auto"> <i class="far fa-calendar fa-fw me-1"></i> <time data-ts="1780358400" data-df="ll"> Jun 2, 2026 </time> <i class="far fa-folder-open fa-fw me-1"></i> <span class="categories"> copilot-studio, knowledge </span>
+</div></div>
+</div></div></a></article><article class="card-wrapper card"> <a href="/mcscatblog/posts/snowflake-mcp-copilot-studio/" class="post-preview row g-0 flex-md-row-reverse"><div class="col-md-5"><div class="preview-img shimmer"><img src="/mcscatblog/assets/posts/snowflake-mcp-copilot-studio/header.png" alt="Copilot Studio agent connected to Snowflake through an MCP link" loading="lazy"></div></div>
+<div class="col-md-7"><div class="card-body d-flex flex-column">
+<h1 class="card-title my-2 mt-md-0">Wiring up a Snowflake-managed MCP server in Copilot Studio</h1>
+<div class="card-text content mt-0 mb-3"><p>An end-to-end walkthrough for wiring a Snowflake-managed MCP server into a Microsoft Copilot Studio agent with delegated user OAuth through Microsoft Entra ID, including the Cortex Agent prerequisite, the manual OAuth path Snowflake actually requires, and the small details that make or break the setup.</p></div>
+<div class="post-meta flex-grow-1 d-flex align-items-end"><div class="me-auto"> <i class="far fa-calendar fa-fw me-1"></i> <time data-ts="1779408000" data-df="ll"> May 22, 2026 </time> <i class="far fa-folder-open fa-fw me-1"></i> <span class="categories"> copilot-studio, mcp </span>
+</div></div>
+</div></div></a></article><article class="card-wrapper card"> <a href="/mcscatblog/posts/human-in-the-loop-custom-connector/" class="post-preview row g-0 flex-md-row-reverse"><div class="col-md-5"><div class="preview-img shimmer"><img src="/mcscatblog/assets/posts/human-in-the-loop-custom-connector/header.png" alt="Preview Image" loading="lazy"></div></div>
+<div class="col-md-7"><div class="card-body d-flex flex-column">
+<h1 class="card-title my-2 mt-md-0">Building a Custom Human-in-the-Loop Experience for Copilot Studio Workflows</h1>
+<div class="card-text content mt-0 mb-3"><p>When every workflow approval is another email in someone's inbox, something has gone wrong. A custom connector pattern that lets Copilot Studio workflows pause for human input and resume through any UI you want.</p></div>
+<div class="post-meta flex-grow-1 d-flex align-items-end"><div class="me-auto"> <i class="far fa-calendar fa-fw me-1"></i> <time data-ts="1779235200" data-df="ll"> May 20, 2026 </time> <i class="far fa-folder-open fa-fw me-1"></i> <span class="categories"> copilot-studio, connectors </span>
+</div></div>
+</div></div></a></article><article class="card-wrapper card"> <a href="/mcscatblog/posts/atlassian-jira-remote-mcp-copilot-studio/" class="post-preview row g-0 flex-md-row-reverse"><div class="col-md-5"><div class="preview-img shimmer"><img src="/mcscatblog/assets/posts/atlassian-jira-remote-mcp-copilot-studio/header.png" alt="Copilot Studio connected to Jira via an MCP link labeled 'Dynamic discovery', with a 5-minute badge" loading="lazy"></div></div>
+<div class="col-md-7"><div class="card-body d-flex flex-column">
+<h1 class="card-title my-2 mt-md-0">Wiring up the Jira (Atlassian) Remote MCP server in Copilot Studio in 5 mins</h1>
+<div class="card-text content mt-0 mb-3"><p>The Atlassian Remote MCP server uses Dynamic Client Registration. If you wire it up with Manual OAuth in Copilot Studio you'll waste an afternoon. Use Dynamic discovery and a few Atlassian admin toggles, and you're done in five minutes.</p></div>
+<div class="post-meta flex-grow-1 d-flex align-items-end"><div class="me-auto"> <i class="far fa-calendar fa-fw me-1"></i> <time data-ts="1778803200" data-df="ll"> May 15, 2026 </time> <i class="far fa-folder-open fa-fw me-1"></i> <span class="categories"> copilot-studio, mcp </span>
+</div></div>
+</div></div></a></article><article class="card-wrapper card"> <a href="/mcscatblog/posts/managing-spend-pay-as-you-go/" class="post-preview row g-0 flex-md-row-reverse"><div class="col-md-5"><div class="preview-img shimmer"><img src="/mcscatblog/assets/posts/managing-spend-pay-as-you-go/header.png" alt="The pain (in the budget) will leave once it finishes teaching you...hang tight, this might be the last lesson..." loading="lazy"></div></div>
+<div class="col-md-7"><div class="card-body d-flex flex-column">
+<h1 class="card-title my-2 mt-md-0">Herding Clouds: Taming Pay-As-You-Go Billing Policies in Power Platform at Scale</h1>
+<div class="card-text content mt-0 mb-3"><p>Assigning billing policies to 50+ environments by hand doesn't scale, and nobody reads the budget alert email before Monday. This post walks through a bulk assignment script and an automated unlinking pipeline that solve both problems.</p></div>
+<div class="post-meta flex-grow-1 d-flex align-items-end"><div class="me-auto"> <i class="far fa-calendar fa-fw me-1"></i> <time data-ts="1778630400" data-df="ll"> May 13, 2026 </time> <i class="far fa-folder-open fa-fw me-1"></i> <span class="categories"> copilot-studio, licensing </span>
+</div></div>
+</div></div></a></article><article class="card-wrapper card"> <a href="/mcscatblog/posts/bulk-file-testing-copilot-evals/" class="post-preview row g-0 flex-md-row-reverse"><div class="col-md-5"><div class="preview-img shimmer"><img src="/mcscatblog/assets/posts/bulk-file-testing-copilot-evals/header.png" alt="Bulk file-based testing architecture for Copilot Studio agents" loading="lazy"></div></div>
+<div class="col-md-7"><div class="card-body d-flex flex-column">
+<h1 class="card-title my-2 mt-md-0">Bulk File-Based Testing for Copilot Studio: Beyond Standard Evals</h1>
+<div class="card-text content mt-0 mb-3"><p>How to build a scalable bulk file-based testing framework for Copilot Studio agents using Dataverse, SharePoint, Power Automate, and Power BI when standard evals aren't enough.</p></div>
+<div class="post-meta flex-grow-1 d-flex align-items-end"><div class="me-auto"> <i class="far fa-calendar fa-fw me-1"></i> <time data-ts="1778544000" data-df="ll"> May 12, 2026 </time> <i class="far fa-folder-open fa-fw me-1"></i> <span class="categories"> copilot-studio, testing </span>
+</div></div>
+</div></div></a></article>
+</div>
+<nav aria-label="Page Navigation"><ul class="pagination align-items-center mt-4 mb-0">
+<li class="page-item disabled"> <a class="page-link" href="#" aria-label="previous-page"> <i class="fas fa-angle-left"></i> </a>
+</li>
+<li class="page-item active"> <a class="page-link" href="/mcscatblog/">1</a>
+</li>
+<li class="page-item "> <a class="page-link" href="/mcscatblog/page2">2</a>
+</li>
+<li class="page-item "> <a class="page-link" href="/mcscatblog/page3">3</a>
+</li>
+<li class="page-item disabled"> <span class="page-link">...</span>
+</li>
+<li class="page-item "> <a class="page-link" href="/mcscatblog/page7">7</a>
+</li>
+<li class="page-index align-middle"> <span>1</span> <span class="text-muted">/ 7</span>
+</li>
+<li class="page-item "> <a class="page-link" href="/mcscatblog/page2" aria-label="next-page"> <i class="fas fa-angle-right"></i> </a>
+</li>
+</ul></nav></main><aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted"><div class="access">
+<section id="access-lastmod"><h2 class="panel-heading">Recently Updated</h2>
+<ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+<li class="text-truncate lh-lg"> <a href="/mcscatblog/posts/e3-users-build-agents-turn-it-off/">Why Your E3 Users Can Suddenly Build Agents in Copilot Studio — and How to Turn It Off</a>
+</li>
+<li class="text-truncate lh-lg"> <a href="/mcscatblog/posts/modern-mcs-agent-skills/">Modern Agents Have Skills Now — Here's How They Work in Copilot Studio</a>
+</li>
+<li class="text-truncate lh-lg"> <a href="/mcscatblog/posts/bulk-file-testing-copilot-evals/">Bulk File-Based Testing for Copilot Studio: Beyond Standard Evals</a>
+</li>
+<li class="text-truncate lh-lg"> <a href="/mcscatblog/posts/managing-spend-pay-as-you-go/">Herding Clouds: Taming Pay-As-You-Go Billing Policies in Power Platform at Scale</a>
+</li>
+<li class="text-truncate lh-lg"> <a href="/mcscatblog/posts/atlassian-jira-remote-mcp-copilot-studio/">Wiring up the Jira (Atlassian) Remote MCP server in Copilot Studio in 5 mins</a>
+</li>
+</ul></section><section><h2 class="panel-heading">Trending Tags</h2>
+<div class="d-flex flex-wrap mt-3 mb-1 me-3"> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/copilot-studio/">copilot-studio</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/webchat/">webchat</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/mcp/">mcp</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/orchestration/">orchestration</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/authentication/">authentication</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/connectors/">connectors</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/dataverse/">dataverse</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/m365-agents-sdk/">m365-agents-sdk</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/power-automate/">power-automate</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/power-platform/">power-platform</a>
+</div></section>
+</div></aside>
+</div>
+<div class="row"><div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4"><footer aria-label="Site Info" class=" d-flex flex-column justify-content-center text-muted flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3 "><p>© <time>2026</time> <a href="https://github.com/microsoft/mcscatblog" target="_blank" rel="noopener noreferrer">Microsoft Copilot Studio CAT</a>. <span data-bs-toggle="tooltip" data-bs-placement="top" title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.">Some rights reserved.</span></p>
+<p>Using the <a data-bs-toggle="tooltip" data-bs-placement="top" title="v7.6.0" href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener noopener noreferrer">Chirpy</a> theme for <a href="https://jekyllrb.com" target="_blank" rel="noopener noopener noreferrer">Jekyll</a>.</p></footer></div></div>
+<div id="search-result-wrapper" class="d-flex justify-content-center d-none"><div class="col-11 content">
+<div id="search-hints"><section><h2 class="panel-heading">Trending Tags</h2>
+<div class="d-flex flex-wrap mt-3 mb-1 me-3"> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/copilot-studio/">copilot-studio</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/webchat/">webchat</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/mcp/">mcp</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/orchestration/">orchestration</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/authentication/">authentication</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/connectors/">connectors</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/dataverse/">dataverse</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/m365-agents-sdk/">m365-agents-sdk</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/power-automate/">power-automate</a> <a class="post-tag btn btn-outline-primary" href="/mcscatblog/tags/power-platform/">power-platform</a>
+</div></section></div>
+<div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div>
+<div id="algolia-poweredby" class="mt-3 text-center"></div>
+</div></div>
+</div>
+<aside aria-label="Scroll to Top"> <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow"> <i class="fas fa-angle-up"></i> </button></aside>
+</div><div id="mask" class="d-none position-fixed w-100 h-100 z-1"></div><script> window.searchConfig = { appId: 'BI7UJK9MV3', apiKey: 'a88dc8ca907a61be8c799e0b686574a5', indexName: 'mcscatblog', baseUrl: '/mcscatblog', jsonUrl: "/mcscatblog/assets/js/data/search.json", resultTemplate: '<article class="px-1 px-sm-2 px-lg-4 px-xl-0"><header><h2><a href="{url}">{title}</a></h2><div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1"> {categories} {tags}</div></header><p>{content}</p></article>', noResultsText: '<p class="mt-5">Oops! No results found.</p>' }; </script> <script defer src="/mcscatblog/assets/js/search-loader.js"></script></body></html>

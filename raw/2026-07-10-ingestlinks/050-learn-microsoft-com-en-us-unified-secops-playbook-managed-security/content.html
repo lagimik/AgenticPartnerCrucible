@@ -1,0 +1,1858 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-holy-grail   show-table-of-contents conceptual show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>Microsoft Defender portal implementation guide for Managed Security Service Providers (MSSPs) - Unified security operations | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="Implementation guide for partners and SOC architects implementing Microsoft Defender portal with multitenant management capabilities." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/unified-secops/playbook-managed-security" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Microsoft Defender portal implementation guide for Managed Security Service Providers (MSSPs) - Unified security operations" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/unified-secops/playbook-managed-security" />
+			<meta property="og:description" content="Implementation guide for partners and SOC architects implementing Microsoft Defender portal with multitenant management capabilities." />
+			<meta name="platform_id" content="ad58c738-6279-097f-f405-5b58b1601615" /> <meta name="scope" content="Unified security operations" />
+			<meta name="locale" content="en-us" />
+			 
+			<meta name="uhfHeaderId" content="MSDocsHeader-MicrosoftDefender" />
+
+			<meta name="page_type" content="conceptual" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="manager" content="orspodek" />
+	
+		<meta name="audience" content="ITPro" />
+	
+		<meta name="ms.localizationpriority" content="medium" />
+	
+		<meta name="ms.service" content="microsoft-defender" />
+	
+		<meta name="search.appverid" content="met150" />
+	
+		<meta name="breadcrumb_path" content="breadcrumb/toc.json" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="feedback_product_url" content="https://techcommunity.microsoft.com/t5/security-compliance-and-identity/ct-p/MicrosoftSecurityandCompliance" />
+	
+		<meta name="author" content="guywi-ms" />
+	
+		<meta name="ms.author" content="guywild" />
+	
+		<meta name="ms.date" content="2025-12-20T00:00:00Z" />
+	
+		<meta name="ms.topic" content="concept-article" />
+	
+		<meta name="document_id" content="ad0da819-9c5e-1805-e36b-483f1a847f5d" />
+	
+		<meta name="document_version_independent_id" content="ad0da819-9c5e-1805-e36b-483f1a847f5d" />
+	
+		<meta name="updated_at" content="2026-04-13T22:33:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/defender-docs-pr/blob/live/unified-secops-platform/playbook-managed-security.md" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/defender-docs-pr/blob/e5e024df2189c2f05c8a7a66f60fff59a0c0bfd8/unified-secops-platform/playbook-managed-security.md" />
+	
+		<meta name="git_commit_id" content="e5e024df2189c2f05c8a7a66f60fff59a0c0bfd8" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="Learn.unified-secops-platform" />
+	
+		<meta name="schema" content="Conceptual" />
+	
+		<meta name="toc_rel" content="toc.json" />
+	
+		<meta name="feedback_help_link_type" content="" />
+	
+		<meta name="feedback_help_link_url" content="" />
+	
+		<meta name="word_count" content="3606" />
+	
+		<meta name="asset_id" content="playbook-managed-security" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="unified-secops-platform/playbook-managed-security.md" />
+	
+		<meta name="previous_tlsh_hash" content="96D70EC2A30E0802FF81BB0239ABE72151B0D0CFBEB07E8815363A96D4D92DB25BF95CBBDB22B74C712547D74283654A69C67B3DD25B23524A0D646C415C63E37EAA37B3D8" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/defender-docs/blob/public/unified-secops-platform/playbook-managed-security.md" />
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/en-us/unified-secops/playbook-managed-security?accept=text/markdown" />
+	 
+		<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/c671beaa-a830-4c9f-aceb-97379ee031ca" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/8a94907f-2511-4271-b5ca-ec7f2e75067c" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/a3955c7b-f5ee-420d-aff5-d7119738f38b" data-source="generated" />
+	
+		<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/8921374c-4dbe-4ed0-b011-a39e18bfbd98" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/bffa8e88-f633-409d-a24d-083bdbc68872" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/b31948f4-2f38-404b-ac93-c3c8c5b3ae33" data-source="generated" />
+	
+
+			<!-- Apply persisted/system theme before first paint to prevent wrong-theme flash when scripts are deferred. -->
+			<script id="theme-preference">
+				(function () {
+			try {
+				var stored = localStorage.getItem('theme');
+				var theme = /^(light|dark|high-contrast)$/.test(stored)
+					? stored
+					: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				document.documentElement.classList.add('theme-' + theme);
+			} catch (e) {}
+		})();;
+			</script>
+
+			<script id="atlas-layout-preferences">
+				(function () {
+			try {
+				var state = JSON.parse(localStorage.getItem('atlas-layout-preferences') || '{}');
+				var view = state["docs-layout-persistence"] || {};
+				var excludesKey = "";
+				var blocked = {};
+				if (excludesKey) {
+					var exclusions = JSON.parse(localStorage.getItem('atlas-layout-exclusions') || '{}');
+					if (Object.prototype.hasOwnProperty.call(exclusions, excludesKey)) {
+						var scoped = exclusions[excludesKey];
+						if (scoped) {
+							if (typeof scoped === 'object') blocked = scoped;
+						}
+					}
+				}
+				var html = document.documentElement;
+				for (var c in view) {
+					if (Object.prototype.hasOwnProperty.call(blocked, c)) continue;
+					if (view[c]) html.classList.add(c);
+					else html.classList.remove(c);
+				}
+			} catch (e) {}
+		})();;
+			</script>
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03475.7996-de13af4f/styles/site.css" />
+			
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<script async src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Conceptual",
+    "layoutStateStorageKey": "docs-layout-persistence",
+    "brand": "",
+    "context": {},
+    "standardFeedback": true,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "",
+    "feedbackHelpLinkUrl": "",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "https://techcommunity.microsoft.com/t5/security-compliance-and-identity/ct-p/MicrosoftSecurityandCompliance",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": true,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": true,
+    "contributors": [
+      {
+        "name": "guywi-ms",
+        "url": "https://github.com/guywi-ms"
+      },
+      {
+        "name": "kenwith",
+        "url": "https://github.com/kenwith"
+      },
+      {
+        "name": "mberdugo",
+        "url": "https://github.com/mberdugo"
+      },
+      {
+        "name": "sbreingold-ms",
+        "url": "https://github.com/sbreingold-ms"
+      },
+      {
+        "name": "VipulMSFT",
+        "url": "https://github.com/VipulMSFT"
+      }
+    ]
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script
+				src="/static/assets/0.4.03475.7996-de13af4f/scripts/en-us/index-docs.js"
+				async
+			></script>
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header background-color-body-medium">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+		<a
+			href="#"
+			data-skip-to-ask-learn
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			hidden
+		>
+			Skip to Ask Learn chat experience
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+					
+				></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu border-right display-flex background-color-body-medium"
+					data-bi-name="menu"
+			  >
+					
+		<div
+			id="left-container"
+			class="left-container display-none padding-none display-block-tablet width-full display-none-until-layout-restored"
+			data-toc-container="true"
+		>
+			<div
+				id="ms--toc-content"
+				class="padding-left-sm padding-right-none padding-bottom-sm height-full"
+			>
+				<nav
+					id="affixed-left-container"
+					class="margin-top-xxs-tablet position-sticky display-flex flex-direction-column width-full"
+					aria-label="Primary"
+					data-bi-name="left-toc"
+					role="navigation"
+				>
+					<div
+						id="ms--collapsible-toc-header"
+						class="display-flex flex-direction-row-reverse justify-content-center align-items-center margin-bottom-xxs margin-right-xxs"
+					>
+						<button
+							type="button"
+							class="button button-clear inner-focus"
+							data-collapsible-toc-toggle
+							aria-expanded="true"
+							hidden
+							aria-controls="ms--toc-content"
+							aria-label="Table of contents"
+						>
+							<span class="icon icon-mirrored-rtl font-size-md" aria-hidden="true">
+								<span
+									class="docon docon-panel-left-contract display-none-layout-menu-collapsed"
+								></span>
+								<span
+									class="docon docon-panel-left-expand display-none display-inline-layout-menu-collapsed"
+								></span>
+							</span>
+						</button>
+						<div
+							id="ms--collapsible-toc-moniker-slot"
+							class="flex-grow-1 display-none-layout-menu-collapsed"
+						></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+		id="ms--content-header"
+		class="content-header default-focus border-bottom-none"
+		data-bi-name="content-header"
+	>
+		<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+			<button
+				type="button"
+				class="contents-button button button-sm margin-right-xxs"
+				data-bi-name="contents-expand"
+				aria-haspopup="true"
+				data-contents-button
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-menu"></span></span>
+				<span class="contents-expand-title"> Table of contents </span>
+			</button>
+			<button
+				type="button"
+				class="ap-collapse-behavior ap-expanded button button-sm"
+				data-bi-name="ap-collapse"
+				aria-controls="action-panel"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit editor mode</span>
+			</button>
+		</div>
+	</div>
+			<div
+				data-main-column
+				class="reading-width margin-inline-auto layout-padding padding-top-none padding-top-sm-tablet padding-bottom-sm"
+			>
+				<div>
+					
+		<div id="article-header" class="background-color-body margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover popover-left"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 "
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			type="button"
+			id="ms--focus-mode-button"
+			data-focus-mode
+			data-bi-name="focus-mode-entry"
+			data-page-action-item="overflow-all"
+			data-popover-close
+			class="button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus display-none display-inline-flex-tablet"
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-glasses"></span>
+			</span>
+			<span>Reading mode</span>
+		</button>
+	 
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="display-block-layout-menu-collapsed button-block button-sm inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true"
+				><span class="docon docon-editor-list-bullet"></span
+			></span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	
+					
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	 
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to plan</span>
+		</button>
+	 
+					
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			
+			href="https://github.com/MicrosoftDocs/defender-docs/blob/public/unified-secops-platform/playbook-managed-security.md"
+			data-original_content_git_url="https://github.com/MicrosoftDocs/defender-docs-pr/blob/live/unified-secops-platform/playbook-managed-security.md"
+			data-original_content_git_url_template="{repo}/blob/{branch}/unified-secops-platform/playbook-managed-security.md"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	  
+		<hr class="margin-block-xxs" />
+		
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="copy-markdown"
+					data-page-action-item="overflow-all"
+					data-copy-markdown
+					data-copy-state="idle"
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span data-show-when="idle" class="docon docon-code-lang"></span>
+						<span data-show-when="loading" class="loader" hidden></span>
+						<span data-show-when="success" class="docon docon-check-mark" hidden></span>
+					</span>
+					<span>Copy Markdown</span>
+				</button>
+		   
+				<button
+					class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+					type="button"
+					data-bi-name="print"
+					data-page-action-item="overflow-all"
+					data-popover-close
+					data-print-page
+					data-check-hidden="true"
+				>
+					<span class="icon color-primary" aria-hidden="true">
+						<span class="docon docon-print"></span>
+					</span>
+					<span>Print</span>
+				</button>
+		  
+	
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	  
+		<!-- privateUnauthorizedTemplate is hidden by default -->
+		<div unauthorized-private-section data-bi-name="permission-content-unauthorized-private" hidden>
+			<hr class="hr margin-top-xs margin-bottom-sm" />
+			<div class="notification notification-info">
+				<div class="notification-content">
+					<p class="margin-top-none notification-title">
+						<span class="icon" aria-hidden="true"
+							><span class="docon docon-exclamation-circle-solid"></span
+						></span>
+						<span>Note</span>
+					</p>
+					<p class="margin-top-none authentication-determined not-authenticated">
+						Access to this page requires authorization. You can try <a class="docs-sign-in" href="#" data-bi-name="permission-content-sign-in">signing in</a> or <a  class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+					<p class="margin-top-none authentication-determined authenticated">
+						Access to this page requires authorization. You can try <a class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	
+					<div class="content"><h1 id="microsoft-defender-portal-implementation-guide-for-mssps">Microsoft Defender portal implementation guide for MSSPs</h1></div>
+					
+		<div
+			id="article-metadata"
+			data-bi-name="article-metadata"
+			data-test-id="article-metadata"
+			class="page-metadata-container display-flex gap-xxs justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			 
+				<div
+					id="user-feedback"
+					class="margin-block-xxs display-none display-none-print"
+					hidden
+					data-hide-on-archived
+				>
+					
+		<button
+			id="user-feedback-button"
+			data-test-id="conceptual-feedback-button"
+			class="button button-sm button-clear button-primary display-none"
+			type="button"
+			data-bi-name="user-feedback-button"
+			data-user-feedback-button
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span>Feedback</span>
+		</button>
+	
+				</div>
+		  
+		</div>
+	 
+		<div data-id="ai-summary" class="display-none-print">
+			<div id="ms--ai-summary-cta" class="margin-top-xs display-flex align-items-center">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-sparkle-fill gradient-text-vivid"></span>
+				</span>
+				<button
+					id="ms--ai-summary"
+					type="button"
+					class="tag tag-sm tag-suggestion margin-left-xxs"
+					data-test-id="ai-summary-cta"
+					data-bi-name="ai-summary-cta"
+					data-an="ai-summary"
+				>
+					<span class="ai-summary-cta-text">
+						Summarize this article for me
+					</span>
+				</button>
+			</div>
+			<!-- Slot where the client will render the summary card after the user clicks the CTA -->
+			<div id="ms--ai-summary-header" class="margin-top-xs"></div>
+		</div>
+	 
+		<nav
+			id="center-doc-outline"
+			class="doc-outline display-none-desktop display-none-print margin-bottom-sm"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">
+				In this article
+			</h2>
+		</nav>
+	
+					<div class="content"><p>The Microsoft Defender portal is a unified security operations platform that brings together incident management, threat hunting, and workload management across multiple customer tenants. For a comprehensive overview of these capabilities and their benefits, see <a href="mto-overview" data-linktype="relative-path">Microsoft Defender multitenant management</a>.</p>
+<p>This guide focuses on implementing tenant management for Managed Security Service Providers (MSSPs). It covers the entire process from initial setup and customer onboarding through advanced operational workflows for MSSPs.</p>
+<h3 id="key-capabilities--differentiators">Key Capabilities &amp; Differentiators</h3>
+<p>Key features of the Microsoft Defender portal for MSSPs include:</p>
+<ul>
+<li><p><strong>Unified incident management</strong>: A single unified incidents queue includes data from Microsoft Sentinel, Microsoft Defender, and third-party sources. For more information, see <a href="#manage-security-operations-across-tenants" data-linktype="self-bookmark">Manage Security Operations across tenants</a></p>
+</li>
+<li><p><strong>Cross-platform threat hunting</strong>: Unified hunting capabilities across security data, eliminates the need to switch between portals and allows analysts to easily locate the data they need across their entire customer base. For more information, see <a href="#advanced-hunting" data-linktype="self-bookmark">Advanced hunting</a>.</p>
+</li>
+<li><p><strong>Proactive attack disruption</strong>: Attack Disruption delivers proactive protection by stopping attacks in progress. It works on native Microsoft Defender technologies and across third-party environments, such as SAP, <a href="/en-us/azure/sentinel/aws-disruption" data-linktype="absolute-path">AWS</a>, Proofpoint, and Okta. Microsoft Defender reduces dwell time and prevents lateral movement by automatically revoking compromised credentials, isolating malicious sessions, and neutralizing attacker footholds.</p>
+</li>
+<li><p><strong>Attack path analysis and exposure visualization</strong>: Analyze attack paths and reduce exposure by visualizing how cyber attackers could exploit vulnerabilities to move laterally across exposed assets in customer environments. Get guided recommendations on reducing exposure and prioritize actions based on each exposure's potential impact. For more information, see <a href="#exposure-management" data-linktype="self-bookmark">Microsoft Security Exposure Management</a>.</p>
+</li>
+<li><p><strong>Enhanced detection accuracy</strong>: Detect and investigate quickly and accurately by combining the depth of signals Microsoft Defender with the flexibility of log sources from Microsoft Sentinel. This results in an improved signal-to-noise ratio and enhanced alert correlation.</p>
+</li>
+<li><p><strong>AI-powered security operations</strong>: Take advantage of Microsoft Security Copilot for incident summaries and reports, guided investigation, autogenerated Microsoft Teams messages, code analysis, and more. For more information, see <a href="#get-started-with-agentic-ai" data-linktype="self-bookmark">Get started with agentic AI</a>.</p>
+</li>
+<li><p><strong>Scalable multitenant management</strong>: Get aggregate views of your tenants' alerts, incidents, and assets, hunt over all your tenants' data, and maintain a consistent security baseline across your tenants using <a href="#manage-and-distribute-content" data-linktype="self-bookmark">content management and distribution features</a> for custom detection rules, endpoint security policies, analytics rules, automation rules, and more.</p>
+</li>
+<li><p><strong>Continuous improvement insights</strong>: Receive tailored, post-incident recommendations on preventing similar or repeat cyberattacks, which tie directly into <a href="#exposure-management" data-linktype="self-bookmark">Microsoft Security Exposure Management</a> initiatives to automatically improve readiness scores as actions are completed.</p>
+</li>
+</ul>
+<p>To build Security Operations on the Microsoft Defender Portal, read through the <a href="#prerequisites" data-linktype="self-bookmark">prerequisites</a>, then follow these steps:</p>
+<ol>
+<li><p><a href="#step-1---prepare-your-environment" data-linktype="self-bookmark">Step 1</a> - Prepare your environment: Prepare your MSSP environment and onboard your customers to a multitenant configuration</p>
+</li>
+<li><p><a href="#step-2---manage-content" data-linktype="self-bookmark">Step 2</a> - Content Management: Build security content once and deploy it across all customer tenants efficiently.</p>
+</li>
+<li><p><a href="#step-3---multitenant-security-operations" data-linktype="self-bookmark">Step 3</a> - Multitenant Security Operations: Run daily incident response, threat hunting, and investigations across customer tenants.</p>
+</li>
+</ol>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Transitioning customers to the Microsoft Defender portal involves migrating Microsoft Sentinel workspaces and ensuring continuity of security operations.</p>
+<ul>
+<li>See <a href="microsoft-sentinel-onboard" data-linktype="relative-path">Connect Microsoft Sentinel to Microsoft Defender XDR</a> for the technical migration process.</li>
+<li>Establish clear timelines and expectations with customers before beginning the transition</li>
+<li>Review the multitenant access requirements and ensure proper delegation is configured for each customer tenant</li>
+<li>Determine the optimal workspace configuration (primary vs. secondary) based on each customer's environment and compliance requirements</li>
+</ul>
+<h2 id="step-1---prepare-your-environment">Step 1 - Prepare your environment</h2>
+<h3 id="set-up-access-to-multiple-customer-tenants">Set up access to multiple customer tenants</h3>
+<p>MSSPs can delegate access to customer tenants through several methods. <a href="/en-us/partner-center/customers/gdap-introduction" data-linktype="absolute-path">Learn more about delegated access options</a> so you can choose the approach that best fits your organization's needs and customer requirements.</p>
+<div class="NOTE">
+<p>Note</p>
+<p>There are scenarios where MSSPs shouldn't use cross-workspace rules. For example, when the same rule applies to multiple individual workspaces, data doesn't need to be correlated together. For this scenario, MSSPs should push the same rule to whatever workspaces it applies to.</p>
+</div>
+<h4 id="advanced-automation-ruleplaybook-scenario">Advanced automation rule/playbook scenario</h4>
+<p>Some advanced scenarios using automation rules and playbooks might still require using Azure Lighthouse. For example, to protect the intellectual property of a playbook hosted in the partner tenant when the playbook needs to execute actions in the customer tenant. Another example is described in <a href="/en-us/azure/sentinel/automate-incident-handling-with-automation-rules?tabs=onboarded#permissions-in-a-multitenant-architecture" data-linktype="absolute-path">Automate threat response in Microsoft Sentinel with automation rules</a></p>
+<h4 id="unified-rbac">Unified RBAC</h4>
+<p>When looking at using unified RBAC in managing your Microsoft Defender for Office 365 customers, you must have Defender for Office 365 Plan 2 license. For more information, see:</p>
+<ul>
+<li><a href="/en-us/defender-xdr/compare-rbac-roles#email--collaboration-permissions-mapping" data-linktype="absolute-path">Email and collaboration permissions mapping</a></li>
+<li><a href="/en-us/defender-xdr/compare-rbac-roles#exchange-online-permissions-mapping" data-linktype="absolute-path">Exchange Online permissions mapping</a></li>
+</ul>
+<h4 id="azure-b2b">Azure B2B</h4>
+<p>Azure B2B invited guests aren't supported by experiences that were previously under Microsoft Exchange Online RBAC. Since Defender for Office 365 unified RBAC leans on Exchange Online Admin APIs, actions performed in Defender for Office 365 have limitations. B2B guest admins might get errors when attempting to perform certain actions, such as:</p>
+<ul>
+<li>Managing spam and phishing policies</li>
+<li>Managing TABL</li>
+<li>Can't release emails from quarantine</li>
+<li>Missing Threat Explorer in navigation pane</li>
+</ul>
+<h3 id="manage-entitlement">Manage entitlement</h3>
+<p><a href="/en-us/entra/id-governance/entitlement-management-overview" data-linktype="absolute-path">Entitlement management</a> is an <a href="/en-us/entra/id-governance/identity-governance-overview" data-linktype="absolute-path">identity governance</a> feature that enables organizations to manage identity and access lifecycle at scale, by automating access request workflows, access assignments, reviews, and expiration.</p>
+<p>Some typical entitlement management configurations are:</p>
+<ul>
+<li><p>B2B Collaboration</p>
+<ul>
+<li>Invite external users as guests into your tenant</li>
+<li>Supports Conditional Access, MFA, and lifecycle management</li>
+<li>Ideal for partners, suppliers, and contractors needing app/resource access that can be governed</li>
+</ul>
+</li>
+<li><p>Cross-Tenant access settings</p>
+<ul>
+<li>Fine-grained control over inbound/outbound collaboration</li>
+<li>Trust MFA and device compliance claims across tenants</li>
+<li>Configure default or organization-specific policies</li>
+</ul>
+</li>
+<li><p>B2B Direct Connect</p>
+<ul>
+<li>Enables mutual trust between two Microsoft Entra tenants</li>
+<li>Seamless collaboration via Teams shared channels without adding guests</li>
+<li>Perfect for ongoing partnerships where users keep home credentials</li>
+</ul>
+</li>
+</ul>
+<p>Often, a combination of B2B Collaboration and Cross-Tenant access settings are the most relevant choices for an MSSP.</p>
+<p>This picture shows the B2B collaboration guest representation in the customer tenant.</p>
+<p><span class="mx-imgBorder">
+<img src="media/playbook-mssps/b2b-collaboration-diagram.png" alt="Diagram illustrating B2B collaboration." data-linktype="relative-path">
+</span>
+</p>
+<!---
+The following section discusses the most commonly used B2B collaboration options:
+
+**Option 1 – invite an external user (guest permissions only)**
+
+- An external user has been directly invited through entra.microsoft.com
+
+- Entra roles like Security Operator have been assigned
+
+- Azure roles like Sentinel Responder have been assigned
+
+This enables the MSSP analyst to connect to the customer tenant leveraging the Defender portal to manage both Sentinel and Defender using *security.microsoft.com/homepage?tid=\[tenantID\]* or switch tenant from the MSSP Defender portal. Notice that the identity UPN “changes” from the MSSP UPN to the guest UPN using the \#EXT# identifier. The same experience is noticeable when using GDAP.
+
+Since there’s little or no management or governance available with this option, it is generally not used by MSSPs.
+
+**Option 2 – leveraging entitlement access packages**
+
+A simple invitation and redemption process lets MSSP's use their own credentials to access their customer's resources. You can also enable self-service sign-up user flows to let MSSP analyst's sign-up for apps or resources themselves. Once the MSSP analyst redeems their invitation or completes sign-up, they're represented in the customer's directory as a user object. The user type for these B2B collaboration users is typically set to "guest" and their user principal name contains the \#EXT# identifier. Developers can use Microsoft Entra business-to-business APIs to customize the invitation process or write applications like self-service sign-up portals.
+
+Together with Azure Lighthouse, this is the most common option used by MSSPs to manage their customers' environment. Entra service limitations are described [here](/entra/identity/users/directory-service-limits-restrictions).
+
+### Limitations
+
+- A single user can belong to a maximum of 500 Microsoft Entra tenants as a member or a guest.
+
+- Entra P2 licensing might be required for the customer tenant, please check [the licensing fundamentals](/entra/id-governance/licensing-fundamentals).
+
+# Defender Portal Permissions
+
+## Define permissions and URBAC
+
+After setting establishing delegated access, the next step is to set up granular roles in the Defender portal, which will be used to access Defender and Sentinel.
+
+[Unified RBAC](/defender-xdr/manage-rbac) to provides centralized permissions management for several Defender solutions. You not a required to transition to the unified experience, but it does simplify the delegation of Defender permissions. Your Microsoft Sentinel permissions will continue to work as expected in the unified experience, with or without URBAC. Instructions on how to enable Defender URBAC can be found here [Activate Microsoft Defender unified role-based access control (RBAC)](/defender-xdr/activate-defender-rbac)
+
+The minimal required permissions for an analyst to view Microsoft Sentinel data is to delegate permissions for the Azure RBAC **Sentinel Reader** role. These permissions are also applied to the unified portal. Without these permissions, the Microsoft Sentinel navigation menu is not available on the unified portal, despite the analyst having access to the Defender portal. Microsoft Sentinel permissions will not provide access to Microsoft Defender XDR incidents/data, and you will need appropriate unified RBAC or global Entra ID roles to see those incidents/data.
+
+Refer to the permissions  mentioned in [Connect Microsoft Sentinel to the Microsoft Defender portal Prerequisites](/defender-xdr/microsoft-sentinel-onboard#microsoft-sentinel-prerequisites) for specific Microsoft Sentinel roles.
+
+A best practice is to have all Microsoft Sentinel-related resources in the same Azure resource group, then delegate Microsoft Sentinel role permissions, such as the Sentinel Reader role, at the resource group level that contains the Microsoft Sentinel workspace. This approach ensures that the role assignment applies to all resources supporting Microsoft Sentinel.
+
+Specific Defender URBAC mappings can be found at [Map Microsoft Defender unified RBAC permissions to existing RBAC permissions](/defender-xdr/compare-rbac-roles#map-microsoft-defender-xdr-unified-rbac-permissions-to-existing-rbac-permissions).
+
+<!---
+The section below shows an example of how a user, with only Microsoft Sentinel read permissions, can see, and then in the second example, can manage incidents that contain alerts from other Defender workloads.
+
+After enabling Defender URBAC, permissions can be delegated in the unified portal through **System\> Settings\> Endpoints\> Microsoft Defender XDR** as shown below:
+
+:::image type="content" source="media/playbook-mssps/defender-rbac-endpoints-settings.png" alt-text="Screenshot of Defender XDR RBAC settings showing Endpoints and Vulnerability Management delegations.":::
+
+The above example is using a role that has been imported for **Endpoints & Vulnerability Management** delegations and is used for Security operations (All read-only). Then an assignment has been created to actually assign the role, see the screenshot below.
+
+:::image type="content" source="media/playbook-mssps/security-operations-role-assignment.png" alt-text="Screenshot of role assignment creation for Security operations.":::
+
+Assigning the Sentinel Reader role and creating a Defender assignment allows an analyst to view Microsoft Sentinel and Defender for Endpoint incidents and alerts in the unified portal.
+
+The screenshot below shows the user access configuration for the device group that is part of the incident that the analyst would like to view. The analyst is a member of the Entra ID user group **Tier 1 – SOC Analysts**.
+
+:::image type="content" source="media/playbook-mssps/device-group-user-access.png" alt-text="Screenshot of user access configuration for device group with Tier 1 SOC Analysts.":::
+
+In case the analyst is viewing an incident in the unified portal which contains an asset (like a device) and does not have access permissions for that device, the alert is hidden from the incident. In case the incident only contains a device alert, the incident is completely hidden from the analyst.
+
+In the Microsoft Sentinel portal, the incident will show the alerts related to the device, since Defender (U)RBAC is not applied there. The unified experience allows you to apply a more fine-grained delegation model for Defender assets.
+
+To allow an analyst to triage and **manage** incidents for the Microsoft Sentinel and Defender XDR detection sources, two changes are required compared to the example above:
+
+1. The analyst needs to have **Sentinel Responder** permissions or greater for Microsoft Sentinel as the detection source
+
+1. The analyst needs to be added to a **Security Operations** role that allows **All read and manage** permissions, see the screenshot below
+
+:::image type="content" source="media/playbook-mssps/security-operations-manage-permissions.png" alt-text="Screenshot of Security Operations role with All read and manage permissions.":::
+
+Additional permission might be required for the analyst to triage and investigate incidents like the Microsoft Sentinel Playbook Operator role, specific Entra ID, Cloud Apps, etc., roles and permissions.
+
+Please refer here: [Import roles to Microsoft Defender unified role-based access control (RBAC)](/defender-xdr/import-rbac-roles) to import roles to get you quickly started with URBAC, or here [Create custom roles with Microsoft Defender unified role-based access control (RBAC)](/defender-xdr/create-custom-rbac-roles#create-a-custom-role) to create custom roles.
+
+
+For sample role assignments for different SOC roles, see the [Sample permission mappings of Microsoft Sentinel built-in roles to Microsoft Defender unified RBAC roles](/defender-xdr/compare-rbac-roles.md#sample-permission-mappings-of-microsoft-sentinel-built-in-roles-to-microsoft-defender-xdr-unified-rbac-roles) --->
+<p>For sample role assignments for different SOC roles, see the <a href="/en-us/defender-xdr/compare-rbac-roles" data-linktype="absolute-path">Sample permission mappings of Microsoft Sentinel built-in roles to Microsoft Defender unified RBAC roles</a>.</p>
+<h2 id="step-2---manage-content">Step 2 - Manage content</h2>
+<h3 id="manage-and-distribute-content">Manage and distribute content</h3>
+<p>In Microsoft Sentinel, content refers to the building blocks that enable security operations. It includes analytics rules, data connectors, hunting queries, parsers, playbooks, watchlists, and workbooks. <a href="/en-us/azure/sentinel/sentinel-solutions" data-linktype="absolute-path">Microsoft Sentinel provides out-of-the-box content</a> that you can use as-is or you can customize it. You can also create and distribute custom content to meet specific requirements. Effective content management and distribution ensure consistent security baselines, rapid threat response, and scalable operations across customer tenants.</p>
+<p>MSSPs working in the Microsoft Defender portal have several tools for managing and distributing security content at scale:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Option</strong></th>
+<th><strong>Best for</strong></th>
+<th><strong>Technical details</strong></th>
+<th><strong>Key capabilities</strong></th>
+<th><strong>Learn more</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Native multitenant content distribution</strong></td>
+<td>Quick deployment of standard content across many tenants</td>
+<td>Uses Defender portal's built-in multitenant management. Ideal for OOB content or lightly customized content.</td>
+<td><ul><li>Create once, deploy everywhere across multiple tenants</li><li>Execute content on target scopes (devices, workspaces)</li><li>Centralized tracking to reduce duplication and errors</li></ul></td>
+<td><a href="/en-us/unified-secops-platform/mto-distribution-profiles" data-linktype="absolute-path">Content distribution in multitenant management</a></td>
+</tr>
+<tr>
+<td><strong>Microsoft Sentinel repositories (content as code)</strong></td>
+<td>Structured DevOps processes and moderate customization needs</td>
+<td>Enables advanced governance and lifecycle management. Quick configuration and reduction in human error.</td>
+<td><ul><li>Manage SIEM content using automation</li><li>Apply CI/CD practices for version control, testing, and deployment</li><li>Supports hybrid workflows combining native distribution and DevOps</li></ul></td>
+<td><a href="https://aka.ms/microsoft-sentinel-repos" data-linktype="external">Manage content as code with Microsoft Sentinel repositories (public preview)</a></td>
+</tr>
+<tr>
+<td><strong>Custom CI/CD pipelines</strong></td>
+<td>Maximum customization and automation across tenants</td>
+<td>Built using Azure DevOps or GitHub Actions. Requires custom scripts and configuration files. Current method for advanced content types.</td>
+<td><ul><li>Full flexibility for complex workflows</li><li>Custom testing and integration</li></ul></td>
+<td><a href="/en-us/azure/sentinel/ci-cd-custom-deploy" data-linktype="absolute-path">Customize repository deployments (public preview)</a></td>
+</tr>
+</tbody>
+</table>
+<div class="TIP">
+<p>Tip</p>
+<p>We recommend a hybrid approach, combining native multitenant management content distribution capabilities for immediate deployment needs with CI/CD workflows for custom content development, testing, and advanced automation scenarios.</p>
+</div>
+<h3 id="common-repository-architecture-patterns-for-mssps">Common repository architecture patterns for MSSPs</h3>
+<p>A key consideration with multi-customer CI/CD pipelines is choosing the best structure to serve all clients. While there’s no universal approach, here are three patterns we recommend considering:</p>
+<h4 id="pattern-1-central-repository-for-generic-content-customer-specific-repositories-for-tailored-content">Pattern 1: Central repository for generic content, customer-specific repositories for tailored content</h4>
+<ul>
+<li><p>One central repository for common content deployed to all customers</p>
+</li>
+<li><p>Individual repositories for customer-specific customizations</p>
+</li>
+<li><p>Each customer workspace connects to both repositories</p>
+</li>
+<li><p>Optimal for MSSPs with balanced common and tailored content needs</p>
+<p><span class="mx-imgBorder">
+<img src="media/playbook-mssps/sentinel-content-deployment-diagram.png" alt="Repository architecture showing central and customer-specific content deployment" data-linktype="relative-path">
+</span>
+</p>
+</li>
+</ul>
+<h4 id="pattern-2-single-repository-with-custom-folders">Pattern 2: Single repository with custom folders</h4>
+<ul>
+<li><p>All content in one repository</p>
+</li>
+<li><p>Folder structure based on shared data sources - for example, Entra ID Analytics - or customer names</p>
+</li>
+<li><p>Deployment pipelines customized per customer connection</p>
+</li>
+<li><p>Requires more initial setup but simplifies repository management</p>
+<p><span class="mx-imgBorder">
+<img src="media/playbook-mssps/content-distribution-workflow-diagram.png" alt="Single repository architecture with custom folder deployment workflows" data-linktype="relative-path">
+</span>
+</p>
+</li>
+</ul>
+<h4 id="pattern-3-one-repository-per-customer">Pattern 3: One repository per customer</h4>
+<ul>
+<li><p>Complete content separation across customers</p>
+</li>
+<li><p>Full customization flexibility for each customer</p>
+</li>
+<li><p>Best for customers with unique content requirements</p>
+</li>
+<li><p>Higher management overhead but maximum isolation</p>
+<p><span class="mx-imgBorder">
+<img src="media/playbook-mssps/ci-cd-pipeline-diagram.png" alt="Individual repository architecture per customer tenant" data-linktype="relative-path">
+</span>
+</p>
+</li>
+</ul>
+<p>To customize your CI/CD pipelines, use configuration files in each repository branch to prioritize deployment of high-priority content, exclude content you don’t want to deploy, and map parameter files to their corresponding content files. For more information, see <a href="/en-us/azure/sentinel/ci-cd-custom-deploy#customize-your-connection-configuration" data-linktype="absolute-path">Customize your connection configuration</a>.</p>
+<p>For more information about how to use Azure DevOps in multitenant scenarios, see <a href="https://techcommunity.microsoft.com/blog/microsoftsentinelblog/use-azure-devops-to-manage-sentinel-for-mssps-and-multi-tenant-environments/4008109" data-linktype="external">Use Azure DevOps to manage Microsoft Sentinel for MSSPs and multitenant Environments</a>.</p>
+<h3 id="shared-content-management-considerations">Shared content management considerations</h3>
+<p>When MSSPs and customers both manage content, conflicts can occur, especially if you're using both content-as-code and the portal for content management. Updates in your content-as-code repositories overwrite any changes made to that content through the portal.</p>
+<p>To prevent such conflicts, we recommend:</p>
+<ul>
+<li>Centralized management only - Restrict permissions so only MSSP users can create and update content.</li>
+<li>Shared management with clear markers - Prefix MSSP-managed items with a naming convention. This allows local updates but reduces errors.</li>
+</ul>
+<h2 id="step-3---multitenant-security-operations">Step 3 - Multitenant Security Operations</h2>
+<h3 id="manage-security-operations-across-tenants">Manage security operations across tenants</h3>
+<p>The Microsoft Defender portal provides all relevant information so you don't have to switch to another portal or page. Its unified incident queue and the ability to correlate events and alerts can reveal a larger, potentially more comprehensive attack, providing a complete attack story. It also lets you view the detection source and product names, and apply and share filters for these, making incident and alert triaging more efficient.</p>
+<h4 id="manage-incidents-and-alerts">Manage incidents and alerts</h4>
+<ul>
+<li><p><strong>Incident triage:</strong> Triaging incidents is a core activity in a SOC, starting with the Investigation and response section in the Defender portal. The Microsoft Sentinel incident and alert integration with Defender consolidates all relevant information in one place, eliminating the need to switch between portals or pages. This streamlined workflow might require some analyst retraining and updates to existing SOC processes.</p>
+<p>For more information, see <a href="/en-us/azure/sentinel/move-to-defender?toc=%2Funified-secops-platform%2Ftoc.json&amp;bc=%2Funified-secops-platform%2Fbreadcrumb%2Ftoc.json#update-incident-triage-processes-for-the-defender-portal" data-linktype="absolute-path">Update incident triage processes for the Defender portal</a>.</p>
+</li>
+<li><p><strong>Alert correlation and incident merging:</strong> Defender's correlation engine merges incidents when it recognizes common elements between alerts in separate incidents. When a new alert meets <a href="/en-us/defender-xdr/alerts-incidents-correlation#incident-creation-and-alert-correlation" data-linktype="absolute-path">correlation</a> criteria, Defender aggregates and correlates it with other related alerts from all detection sources into a new incident. The unified incident queue reveals a more comprehensive attack, making analysts more efficient and providing a complete attack story.</p>
+<p>In <a href="/en-us/azure/sentinel/workspaces-defender-portal#primary-and-secondary-workspaces" data-linktype="absolute-path">multi-workspace</a> scenarios, only alerts from a primary workspace are correlated with Microsoft Defender data. There are also scenarios where incidents can't be merged.</p>
+<p>For more information, see <a href="/en-us/azure/sentinel/move-to-defender?toc=%2Funified-secops-platform%2Ftoc.json&amp;bc=%2Funified-secops-platform%2Fbreadcrumb%2Ftoc.json#understand-how-alerts-are-correlated-and-incidents-are-merged-in-the-defender-portal" data-linktype="absolute-path">Understand how alerts are correlated and incidents are merged in the Defender portal</a>.</p>
+</li>
+<li><p><strong>Multitenant organization:</strong> You can view and manage incidents, alerts, and cases across customer tenants in a unified queue. Each analyst can set up their multitenant view with the tenants they're managing. For more information, see <a href="mto-overview" data-linktype="relative-path">Microsoft Defender multitenant management</a>.</p>
+</li>
+<li><p><strong>Integration with external ticketing systems:</strong> If an external ticketing system fetches and synchronizes with the alerts and incidents you manage, we recommend that you use the <a href="/en-us/graph/api/resources/security-api-overview" data-linktype="absolute-path">Microsoft Graph REST API v1.0</a> to ensure seamless integration and efficient management of incidents and alerts across different systems.</p>
+<p>If you're using the Microsoft Sentinel SecurityInsights API to interact with Microsoft Sentinel incidents, you might need to update your automation conditions and trigger criteria due to changes in the response body.</p>
+<p>For more information, see <a href="/en-us/azure/sentinel/move-to-defender?toc=%2Funified-secops-platform%2Ftoc.json&amp;bc=%2Funified-secops-platform%2Fbreadcrumb%2Ftoc.json&amp;branch=main#configure-apis" data-linktype="absolute-path">Configure APIs</a>.</p>
+</li>
+</ul>
+<h4 id="advanced-hunting">Advanced hunting</h4>
+<p>Advanced hunting lets you proactively hunt for intrusion attempts and breach activity in email, data, devices, and accounts across multiple tenants and workspaces at the same time, in a single place. If you have multiple tenants with Microsoft Sentinel workspaces onboarded to the Microsoft Defender portal (MTO), you can query Microsoft Sentinel with data from all your workspaces, running queries across multiple workspaces and tenants using the workspace operator in your query.</p>
+<p>For more information, see <a href="mto-advanced-hunting" data-linktype="relative-path">Advanced hunting in Microsoft Defender multitenant management</a>.</p>
+<h3 id="manage-workloads-across-tenants">Manage workloads across tenants</h3>
+<p>This section explores the various actions you can take and methods you can use for managing specific workloads, either through MTO or other available means.</p>
+<h4 id="endpoints">Endpoints</h4>
+<p>The multitenant view in the Defender portal provides security administrators a consolidated view of all security policies across their entire organization, including all tenants' policies, without needing to switch portals. To access this page, go to <strong>Endpoints</strong> &gt; <strong>Configuration Management</strong> &gt; <strong>Endpoint Security Policies</strong>.</p>
+<p>Once the tenants are onboarded to multitenant management in Defender (MTO), endpoints across all onboarded tenants can be managed through the <a href="https://mto.security.microsoft.com/machines" data-linktype="external"><strong>Devices</strong></a> page. For more information, see <a href="mto-tenant-devices" data-linktype="relative-path">Devices in multitenant management</a>.</p>
+<div class="IMPORTANT">
+<p>Important</p>
+<p>To manage security settings for multiple tenants in the multitenant view in the Defender portal, you must follow all the prerequisites to configure security settings for a single tenant for each of their tenants, including the following RBAC requirements:</p>
+<ul>
+<li>For Microsoft Defender, use the security administrator role (or custom role with security configuration management permissions scoped to all devices)</li>
+<li>For Microsoft Intune, use the Endpoint security manager role</li>
+<li>The devices in each Defender tenant must be affiliated with the corresponding Microsoft Entra tenant</li>
+</ul>
+<p>For more information, see <a href="/en-us/mem/intune/protect/mde-security-integration?toc=%2Fdefender-endpoint%2Ftoc.json&amp;bc=%2Fdefender-endpoint%2Fbreadcrumb%2Ftoc.json" data-linktype="absolute-path">Use Intune to manage Microsoft Defender settings on devices that aren't enrolled with Intune</a>.</p>
+</div>
+<div class="NOTE">
+<p>Note</p>
+<p>Multitenant management in Defender (MTO) doesn't support Microsoft Defender for Business tenants.</p>
+</div>
+<h4 id="email-and-collaboration-tools">Email and collaboration tools</h4>
+<p>When managing email and collaboration tools in the unified portal, there are some important distinctions to note around capabilities as they relate to managing customers through B2B and Granular Delegated Admin Privileges (GDAP).</p>
+<h4 id="identities">Identities</h4>
+<p>The multitenant view in the Defender portal provides complex organizations with means to segregate regions and business units into individual tenants, without losing access to those tenant data.</p>
+<p>Once the tenants are onboarded to multitenant management in Defender (MTO), identities across all onboarded tenants can be managed through the Identities page. For more information, see <a href="multitenant-identities-inventory" data-linktype="relative-path">Multitenant identities</a>.</p>
+<h4 id="cloud-applications">Cloud applications</h4>
+<p><strong>Microsoft Defender for Cloud Apps</strong> is a software-as-a-service (SaaS) security solution that comes with relevant licenses and a compliance boundary of the tenant where the license is provisioned. Due to this architecture, only Microsoft 365 and Azure connectors ingest activities and trigger alerts for users within those tenants. However, you can still connect multiple third-party connectors.</p>
+<p>Defender for Cloud Apps is natively integrated with Microsoft Defender and follows the same multitenancy capabilities. While connectors are limited to a specific tenant, the data ingested from each tenant in the <code>CloudAppEvents</code> table and incidents or alerts are available through MTO. You can hunt for events across tenants and triage incidents or that originate from Defender for Cloud Apps signals.</p>
+<p>For more information, see <a href="/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps" data-linktype="absolute-path">Microsoft Defender for Cloud Apps overview</a>.</p>
+<h4 id="cloud">Cloud</h4>
+<p><strong>Microsoft Defender for Cloud</strong> is integrated with Microsoft Defender. This integration lets you access Defender for Cloud alerts and incidents within the Defender portal, and provides you with richer context to investigations that span cloud resources, devices, and identities. It allows security teams to get the complete picture of an attack, including suspicious and malicious events that happen in their cloud environment.</p>
+<p>For more information, see <a href="/en-us/azure/defender-for-cloud/defender-for-cloud-introduction" data-linktype="absolute-path">What is Microsoft Defender for Cloud?</a>.</p>
+<h4 id="exposure-management">Exposure management</h4>
+<p><strong>Microsoft Security Exposure Management</strong> is a security solution that provides a unified view of security posture across company assets and workloads. It enriches asset information with security context that helps you to proactively manage attack surfaces, protect critical assets, and explore and mitigate exposure risk.</p>
+<p>For more information, see <a href="/en-us/security-exposure-management/microsoft-security-exposure-management" data-linktype="absolute-path">What is Microsoft Security Exposure Management?</a>.</p>
+<h4 id="data">Data</h4>
+<p><strong>Microsoft Purview</strong> data security solutions provide unified data discovery, classification, and protection across clouds, SaaS, and on premises data stores. They complement Defender and Microsoft Sentinel by turning data risk into actionable security signals, helping you understand what sensitive data exists, where it lives, and how it is being accessed or shared. For more information, see <a href="/en-us/purview/purview-security" data-linktype="absolute-path">Microsoft Purview data security solutions</a>.</p>
+<p>Key integrations include:</p>
+<ul>
+<li><p><strong>Alert and incidents (Defender and Sentinel):</strong> Microsoft Purview Data Loss Prevention, Insider Risk Management and sensitivity-label based detections generates alerts that flow into the unified incident queue. This enables correlation with device, identity, cloud application, and network signals, surfacing cross-domain attack stories and reducing context switching for analysts. When Microsoft Purview alerts are part of an incident, the unified portal displays the metadata and can be used in automation rules and playbooks through the Microsoft Graph security APIs, just like other Defender and Sentinel alerts.</p>
+</li>
+<li><p><strong>Hunting and investigations (advanced hunting):</strong> Microsoft Purview events, such as data loss prevention (DLP) hits, file access anomalies, and label changes are available in Defender advanced hunting schema. You can run cross-tenant queries in the MTO portal to hunt for patterns that span data, identity, and endpoint signals. For example, a surge of high-sensitivity file downloads from a single user, followed by anomalous sign-in behavior.</p>
+</li>
+<li><p><strong>Context enrichment:</strong> Purview's data inventory and classification enrich the Security Exposure Management story by mapping critical data assets to exposure insights and attack paths. This helps prioritize mitigations based on the business impact of exposed data.</p>
+</li>
+</ul>
+<h3 id="manage-cases">Manage cases</h3>
+<p>The unified security operations portal provides native case management to eliminate reliance on external ticketing systems and maintain security context within the Defender portal.
+For complete guidance on case features, workflows, linking incidents and IoCs, RBAC requirements, and customization options, see <a href="cases-overview" data-linktype="relative-path">Cases overview</a>. For multitenant case management, see <a href="mto-manage-cases" data-linktype="relative-path">Manage cases in MTO</a>.</p>
+<p><strong>Note:</strong> Case management supports custom workflows, task assignments, rich collaboration, and evidence linking.</p>
+<h3 id="get-started-with-microsoft-sentinel-data-lake">Get started with Microsoft Sentinel data lake</h3>
+<p><a href="/en-us/azure/sentinel" data-linktype="absolute-path">Microsoft Sentinel</a> includes a unified, security <a href="/en-us/azure/sentinel/datalake/sentinel-lake-overview" data-linktype="absolute-path">data lake</a>, designed to help optimize costs, simplify data management, and accelerate the adoption of AI in security operations. This data lake serves as the foundation for the Microsoft Sentinel platform. It has a cloud-native architecture and brings together all security data for greater visibility, deeper security analysis, and contextual awareness. It provides affordable, long-term retention allowing organizations to maintain robust security while not compromising on costs.</p>
+<p>The Microsoft Sentinel platform lets you expand your MSSP offerings through professional services, managed services, and agentic solutions:</p>
+<ul>
+<li><p>Offer advisory, consulting, and strategic guidance on lake architectures, with high-value opportunities in deployment, configuration, and cost optimization.</p>
+</li>
+<li><p>Provide ongoing management of Microsoft Sentinel data lake platforms and SOC operations, helping your customers lower data ingestion and retention costs while expanding recurring revenue streams through enhanced security protection opportunities.</p>
+</li>
+<li><p>Develop AI agentic solutions for automated threat enrichment and response, building analytics, and evolving SOAR to agent-based workflows.</p>
+</li>
+</ul>
+<h3 id="get-started-with-agentic-ai">Get started with agentic AI</h3>
+<p>You have multiple opportunities to engage with your customers and diversify your MSSP offerings when it comes to agentic AI scenarios within the Microsoft Defender portal. We break down these benefits into <strong>Sell</strong>, <strong>Build</strong>, and <strong>Use</strong> buckets.</p>
+<h4 id="sell">Sell</h4>
+<p>You can engage with your customers to sell consulting services that educate, enable, configure, and implement agentic solutions, such as:</p>
+<ul>
+<li><p><strong>Partner-developed consulting services</strong> - Traditional consulting services available through the <a href="/en-us/partner-center/marketplace-offers/overview" data-linktype="absolute-path">Microsoft Marketplace</a>. Provide training workshops, implementation engagements, and assessments, proof-of-concepts, or proof-of-value deliveries. These services are great opportunities to improve your customer environment's security maturity, increase their staff's skilling and readiness, and showcase product return on investment with real-world use case scenarios.</p>
+</li>
+<li><p><strong>Partner-developed security services</strong> – Traditional security service offerings like partner-managed security services, partner-managed XDR solutions, and other partner-developed security services are available in the <a href="/en-us/security/store/what-is-security-store" data-linktype="absolute-path">Microsoft Security Store</a>.</p>
+</li>
+<li><p><strong>Microsoft-developed Security Copilot agents</strong> - <a href="/en-us/copilot/security/agents-security-copilot" data-linktype="absolute-path">Microsoft-developed Security Copilot agents</a> that span across Microsoft Defender, Microsoft Sentinel, and other security solutions available within the Defender portal.</p>
+</li>
+<li><p><strong>Partner-developed Security Copilot agents</strong> - These agents are available for purchase and deployment through the Microsoft Security Store. You can integrate your own published Security Copilot agents or other partner agents into your customers' Microsoft Defender environment. For more information, see <a href="/en-us/copilot/security/agents-other" data-linktype="absolute-path">Partner agents</a>.</p>
+</li>
+</ul>
+<h4 id="build">Build</h4>
+<p>Develop Security Copilot agents that can be monetized through the Microsoft Security Store. The agents can be a one-time purchase, subscription-based model for recurring agent updates, or provided at no cost. Partner-developed agent types include:</p>
+<ul>
+<li><strong>Role/Persona-based agents</strong> - Designed with skills to perform a specific type of persona or role like an L1 SOC Analyst</li>
+<li><strong>Scenario-based agents</strong> - Designed with skills for a specific type of scenario like phishing, insider threat, or advanced persistent threats (APTs)</li>
+<li><strong>Product-based agents</strong> - Designed with skills to integrate with a specific product/solution like Microsoft Defender or a third-party security vendors</li>
+</ul>
+<p>For more information, see <a href="/en-us/copilot/security/developer/custom-agent-overview" data-linktype="absolute-path">Microsoft Security Copilot agent development overview</a>.</p>
+<h4 id="use">Use</h4>
+<p>Partner developed agents within your customer's Microsoft Defender environment as part of their <a href="https://www.microsoft.com/security/business/find-a-partner" data-linktype="external">partner managed SOC offering</a>. This includes acting on behalf of your customer within their tenant as an augmentation of their internal team, or performing SOC activities from their tenant and applying multitenancy capabilities of Microsoft Defender through delegated access.</p>
+<h2 id="training-and-community-resources">Training and community resources</h2>
+<ul>
+<li><p>Transition Guide: <a href="/en-us/azure/sentinel/move-to-defender" data-linktype="absolute-path">Transition Your Microsoft Sentinel Environment to the Defender Portal</a></p>
+</li>
+<li><p>How to: <a href="/en-us/unified-secops-platform/microsoft-sentinel-onboard" data-linktype="absolute-path">Connect Microsoft Sentinel to the Microsoft Defender</a>​</p>
+</li>
+<li><p>Documentation: <a href="/en-us/unified-secops-platform/" data-linktype="absolute-path">Microsoft's unified security operations platform documentation</a>  ​</p>
+</li>
+<li><p>Blogs: <a href="https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftechcommunity.microsoft.com%2Fblog%2Fmicrosoftsentinelblog%2Ffrequently-asked-questions-about-the-unified-security-operations-platform%2F4212048&amp;data=05%7C02%7Ccatarinal%40microsoft.com%7Cdde550170daf4040099b08dd79270483%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638799930724641836%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=TDXvftXRO1kjSkiZHRYFg2%2Fj1Sd%2FHCENeQeuMJHSr2Q%3D&amp;reserved=0" data-linktype="external">FAQ</a> | <a href="https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftechcommunity.microsoft.com%2Fblog%2Fmicrosoftsentinelblog%2Funified-security-operations-platform---technical-faq%2F4189136&amp;data=05%7C02%7Ccatarinal%40microsoft.com%7Cdde550170daf4040099b08dd79270483%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638799930724651830%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=N0Et6VOIFEU%2BMk76jVP%2Fdt3Cjrm%2FqamZPvfgNCRqNnU%3D&amp;reserved=0" data-linktype="external">FAQ 2</a>  ​</p>
+</li>
+<li><p>Capability differences: <a href="/en-us/azure/sentinel/microsoft-sentinel-defender-portal?toc=/microsoft-365/security/defender/toc.json&amp;bc=/microsoft-365/security/defender/breadcrumb/toc.json" data-linktype="absolute-path">Microsoft Sentinel in the Microsoft Defender portal</a>  ​</p>
+</li>
+<li><p>Alert correlation and incident merging: <a href="/en-us/defender-xdr/alerts-incidents-correlation" data-linktype="absolute-path">Alert correlation and incident merging in the Microsoft Defender portal</a>  ​</p>
+</li>
+<li><p>What's new: <a href="/en-us/unified-secops-platform/" data-linktype="absolute-path">What's new in the Microsoft's unified SecOps platform</a> ​</p>
+</li>
+<li><p><a href="https://www.youtube.com/playlist?list=PL3ZTgFEc7Lyska6WLWBzc8sob-kYA2jPj" data-linktype="external">Transitioning Microsoft Sentinel into Microsoft Defender</a>– 10 video series:</p>
+</li>
+<li><p>Recorded Webinars:</p>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=WIM6fbJDkK4" data-linktype="external">Transition to the Unified SOC Platform: Deep Dive and Interactive Q&amp;A for SOC Professionals</a></p>
+</li>
+<li><p><a href="https://www.bing.com/videos/riverview/relatedvideo?&amp;q=Microsoft+Unified+SecOps+&amp;&amp;mid=9F8503C52E0CADCA16ED9F8503C52E0CADCA16ED&amp;&amp;FORM=VRDGAR" data-linktype="external">The Unified SecOps Experience Using Microsoft Sentinel's Latest Features</a></p>
+</li>
+<li><p><a href="https://www.youtube.com/watch?v=bPGI8Yu9ReA" data-linktype="external">What's New in Microsoft Sentinel and the Unified Security Operations Platform</a></p>
+</li>
+<li><p><a href="https://www.youtube.com/watch?v=4MeLsbTT3Uk" data-linktype="external">Unlocking the Power of the Unified SecOps: Mastering Multiple Workspaces and Tenants</a></p>
+</li>
+<li><p>Case Management: <a href="https://www.youtube.com/watch?v=7s1ZHiEfzws&amp;t=4s" data-linktype="external">Explore New Case Management Features</a> and <a href="https://www.youtube.com/watch?v=G-vfMJSL11g&amp;list=PLmAptfqzxVEVeZJO1kj4wiUVhCPfCa0Fm" data-linktype="external">Exploring Case Management in the Unified SecOps Platform</a></p>
+</li>
+</ul>
+</li>
+<li><p>Join our security community: <a href="https://aka.ms/SecurityCommunity" data-linktype="external">https://aka.ms/SecurityCommunity</a></p>
+</li>
+</ul>
+</div>
+					
+		<div
+			id="ms--inline-notifications"
+			class="margin-block-xs"
+			data-bi-name="inline-notification"
+		></div>
+	 
+		<div
+			id="assertive-live-region"
+			role="alert"
+			aria-live="assertive"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+		<div
+			id="polite-live-region"
+			role="status"
+			aria-live="polite"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+	
+					
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print display-none-desktop"
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+				</div>
+				
+		<div id="ms--additional-resources-mobile" class="display-none-print">
+			<hr class="hr" hidden />
+			<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>
+				Additional resources
+			</h2>
+			
+		<section
+			id="right-rail-recommendations-mobile"
+			class=""
+			data-bi-name="recommendations"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-training-mobile"
+			class=""
+			data-bi-name="learning-resource-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-events-mobile"
+			class=""
+			data-bi-name="events-card"
+			hidden
+		></section>
+	
+		</div>
+	 
+		<div
+			id="article-metadata-footer"
+			data-bi-name="article-metadata-footer"
+			data-test-id="article-metadata-footer"
+			class="page-metadata-container"
+		>
+			<hr class="hr" />
+			<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+				<li class="visibility-hidden-visual-diff">
+			<span class="badge badge-sm text-wrap-pretty">
+				<span>Last updated on <local-time format="twoDigitNumeric"
+		datetime="2026-01-14T18:33:00.000Z"
+		data-article-date-source="calculated"
+		class="is-invisible"
+	>
+		2026-01-14
+	</local-time></span>
+			</span>
+		</li>
+			</ul>
+		</div>
+	
+			</div>
+			
+		<div
+			id="action-panel"
+			role="region"
+			aria-label="Action Panel"
+			class="action-panel"
+			tabindex="-1"
+		></div>
+	
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside  "
+					data-bi-name="aside"
+					aria-label="Additional resources"
+			  >
+					
+		<div
+			id="ms--additional-resources"
+			class="right-container padding-sm display-none display-block-desktop height-full"
+			data-bi-name="pageactions"
+		>
+			<div id="affixed-right-container" data-bi-name="right-column">
+				
+		<nav
+			id="side-doc-outline"
+			class="doc-outline border-bottom padding-bottom-xs margin-bottom-xs scrollbar-width-thin"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h3>In this article</h3>
+		</nav>
+	
+				<!-- Feedback -->
+				
+		<section
+			id="ms--site-user-feedback-right-rail"
+			class="font-size-sm display-none-print"
+			data-test-id="site-user-feedback-right-rail"
+			data-bi-name="site-feedback-right-rail"
+		>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="display-flex flex-wrap-nowrap">
+					<button
+						class="thumb-rating-button like inner-focus"
+						data-test-id="right-rail-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						aria-label="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike inner-focus"
+						id="right-rail-no-button"
+						hidden
+						data-test-id="right-rail-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						aria-label="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+					</button>
+					<details class="popover popover-right" id="help-popover" data-test-id="feedback-popover">
+						<summary
+							tabindex="0"
+							class="thumb-rating-button dislike inner-focus"
+							data-test-id="details-right-rail-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							aria-label="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading-right-rail"
+							aria-describedby="popover-description-right-rail"
+						>
+							<p
+								id="popover-heading-right-rail"
+								class="font-size-lg margin-bottom-xxs font-weight-semibold"
+							>
+								Need help with this topic?
+							</p>
+							<p id="popover-description-right-rail" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+	
+			</div>
+		</div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout padding-xs padding-sm-desktop has-default-focus border-top"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-expanded="false"
+				title="Theme"
+				data-bi-name="theme"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-sun"></span></span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu">
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="light"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="dark"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="high-contrast"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?linkid=2259814"
+			data-bi-name="consumer-health-privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Consumer Health Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2026</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

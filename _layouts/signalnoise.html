@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | Partner Crucible</title>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/PartnerCrucible/Library/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/PartnerCrucible/Library/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/PartnerCrucible/Library/favicon-16x16.png">
+  <link rel="manifest" href="/PartnerCrucible/Library/site.webmanifest">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/PartnerCrucible/feed.xml">
+
+  {% seo %}
+  {% include head-custom.html %}
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="{{ '/' | relative_url }}" class="navbar-brand">Microsoft Partner Crucible</a>
+      <nav class="navbar-menu" id="navbarMenu" role="navigation" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/SignaltoNoise' | relative_url }}">All Posts</a>
+        <a href="/PartnerCrucible/feed.xml" target="_blank" class="nav-rss" aria-label="RSS Feed">RSS</a>
+      </nav>
+      <button class="navbar-toggle" id="navbarToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero hero-short">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">{{ page.title }}</h1>
+        <p class="hero-subtitle">{{ page.date | date: "%B %d, %Y" }}</p>
+        <div class="hero-actions">
+          <a href="{{ '/SignaltoNoise' | relative_url }}" class="btn btn-secondary">← All Posts</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Post Content -->
+    <section class="section">
+      <div class="container">
+        <article class="prose">
+          {{ content }}
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-text">&copy; 2026 Microsoft Partner Crucible</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/lagimik/PartnerCrucible" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="/PartnerCrucible/feed.xml" target="_blank" rel="noopener">RSS Feed</a></li>
+        <li><a href="{{ '/Search' | relative_url }}">Search</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const toggle = document.getElementById('navbarToggle');
+    const menu = document.getElementById('navbarMenu');
+    const overlay = document.getElementById('mobileOverlay');
+
+    function closeMenu() {
+      menu.classList.remove('active');
+      toggle.classList.remove('active');
+      overlay.classList.remove('active');
+      toggle.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    toggle.addEventListener('click', function() {
+      var isOpen = menu.classList.toggle('active');
+      toggle.classList.toggle('active');
+      overlay.classList.toggle('active');
+      toggle.setAttribute('aria-expanded', isOpen);
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+
+    overlay.addEventListener('click', closeMenu);
+
+    menu.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', closeMenu);
+    });
+
+    // Navbar scroll effect
+    var navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', function() {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    }, { passive: true });
+  </script>
+
+</body>
+</html>

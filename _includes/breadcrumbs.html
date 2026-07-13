@@ -1,0 +1,13 @@
+<div id="breadcrumb_wrap" class="outer">
+  {% assign crumbs = page.url | remove:'/index.html' | split:'/' %}
+    <section id="breadcrumbs" class="inner">
+      <h3 style="color: white">
+        <a href="/PartnerCrucible">Partner Crucible Home</a>
+          {% for crumb in crumbs offset: 1 %}
+            {% if forloop.last %}
+             / {{ page.title }}
+            {% endif %}
+      <h3>
+   <section>
+  {% endfor %}
+  </div>

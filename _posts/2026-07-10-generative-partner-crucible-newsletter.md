@@ -6,6 +6,8 @@ layout: generativepartnercrucible
 thumbnail: /PartnerCrucible/assets/images/2026-07-10-DataAISolutionArea.md-image.png
 ---
 
+![Fractal cityscape inspired by Microsoft Foundry Labs and Azure AI Foundry](/assets/images/2026-07-10-foundry-labs-cityscape.png)
+
 # Data and AI Workloads
 
 ## What's new?

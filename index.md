@@ -15,6 +15,10 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[optimize-oracle-azure-netapp-files]] - Azure NetApp Files for Oracle on Azure with ANF advancements.
 - [[ai-agent-lifecycle-guide]] - 6-stage enterprise AI agent lifecycle with Microsoft tooling.
 - [[skills-for-fabric]] - Microsoft repository of reusable AI assistant skills for Fabric and Power BI workflows.
+- [[levelup-learning-journeys]] - Curated multi-course learning paths for partner solution areas.
+- [[partner-skilling-hub-microskilling]] - Bite-sized learning units on the Partner Skilling Hub.
+- [[partner-skilling-hub-agent]] - AI assistant for navigating partner skilling offerings.
+- [[levelup-deal-ready-accelerators]] - Bridge from skilling to customer deal engagement.
 
 ## Entities
 
@@ -22,6 +26,8 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[microsoft-fabric]]
 - [[github-copilot-cli]]
 - [[power-bi]]
+- [[levelup]] - Microsoft-sponsored partner skilling platform (TechnoFocus).
+- [[partner-skilling-hub]] - Official Microsoft Partner training system with AI Skilling Agent.
 
 ## Concepts
 

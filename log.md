@@ -8,3 +8,7 @@
 2026-07-13 | ingest | 40-Resources/token-economics-finops-agentic-ai.md | Created resource page, token-economics concept from issue #5 | https://techcommunity.microsoft.com/blog/azuredevcommunityblog/token-economics-the-new-finops-for-agentic-ai/4533743
 2026-07-13 | ingest | 40-Resources/optimize-oracle-azure-netapp-files.md | Created resource page for Oracle+ANF from issue #6 | https://techcommunity.microsoft.com/blog/azurestorageblog/optimize-oracle-workloads-on-azure-with-azure-netapp-files/4532644
 2026-07-13 | ingest | 40-Resources/ai-agent-lifecycle-guide.md | Created resource page, ai-agent-lifecycle concept from issue #7 | https://techcommunity.microsoft.com/blog/azurearchitectureblog/the-ai-agent-lifecycle-a-simple-guide/4535729
+2026-07-14 | ingest | 40-Resources/levelup-learning-journeys.md | Created resource page, LevelUp entity from issue #9 | https://www.skillupwithlevelup.com/journeys
+2026-07-14 | ingest | 40-Resources/partner-skilling-hub-microskilling.md | Created resource page, Partner Skilling Hub entity from issue #10 | https://www.skilling-hub.com/en-US/type/microskilling
+2026-07-14 | ingest | 40-Resources/partner-skilling-hub-agent.md | Created resource page for Skilling Agent from issue #11 | https://www.skilling-hub.com/
+2026-07-14 | ingest | 40-Resources/levelup-deal-ready-accelerators.md | Created resource page for Deal-Ready Accelerators from issue #12 | https://skillupwithlevelup.com/dealreadyaccelerators

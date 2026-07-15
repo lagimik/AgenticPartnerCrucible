@@ -52,6 +52,7 @@ No area pages yet.
 ## Bulk Ingests
 
 - [[moc-ingested-link-library]] - Resources captured from `ingestlinks.md` on 2026-07-10.
+- [[moc-partner-crucible]] - Partner Crucible link library: 46 files organized by solution area (Data & AI, Security, Infrastructure, Modern Work, Power Platform, Industry, Practice Building).
 
 ## Recent Analysis Concepts
 

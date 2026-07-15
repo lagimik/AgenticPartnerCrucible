@@ -12,3 +12,4 @@
 2026-07-14 | ingest | 40-Resources/partner-skilling-hub-microskilling.md | Created resource page, Partner Skilling Hub entity from issue #10 | https://www.skilling-hub.com/en-US/type/microskilling
 2026-07-14 | ingest | 40-Resources/partner-skilling-hub-agent.md | Created resource page for Skilling Agent from issue #11 | https://www.skilling-hub.com/
 2026-07-14 | ingest | 40-Resources/levelup-deal-ready-accelerators.md | Created resource page for Deal-Ready Accelerators from issue #12 | https://skillupwithlevelup.com/dealreadyaccelerators
+2026-07-15 | ingest | _meta/MOCs/moc-partner-crucible.md | Bulk ingested 46 PartnerCrucible .md files into raw/2026-07-15-partner-crucible-bulk/; created MOC and 24 resource pages organized by solution area | raw/2026-07-15-partner-crucible-bulk/

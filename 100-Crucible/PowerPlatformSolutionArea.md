@@ -123,7 +123,7 @@ Source | Description | Notes
 [Dashboard in a Day (DIAD)](https://powerbi.microsoft.com/en-us/diad/) | A one-day, hands-on workshop for business analysts that covers all the capabilities of Power BI | Power BI
 [Learning Plan Resources for Power BI](https://www.microsoftpartnercommunity.com/t5/Readiness-Training/Learning-Plan-Resources-for-Power-BI/td-p/75556) | Content to assist in upskilling on Microsoft Power BI| Tech Community
 [Power BI Enterprise Deployment Whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP)| This whitepaper covers key considerations, the decisions which will be necessary throughout the process, and potential issues, and best practices|...
-[Power BI Dev Camp](https://github.com/PowerBiDevCamp/) | Power BI Dev Camp is a essential resource for any developer that wants to know about developing on the Power BI developer platform. | Github
+[Power BI Dev Camp](https://learn.microsoft.com/en-us/power-bi/developer/embedded/dev-camp-links) | Power BI Dev Camp is an essential resource for any developer that wants to know about developing on the Power BI developer platform. Includes app-owns-data tutorials, examples, and more. | Microsoft Learn
 [Building Multi-language Reports in Power BI](https://github.com/PowerBiDevCamp/Multilanguage-Reports)|This repository contains demo files and documentation for the ProductSales.pbix developer sample which demonstrates how to build a multi-language report for Power BI which supports English, Spanish, French, German and Dutch.| Github
 [Power BI guidance](https://learn.microsoft.com/en-us/power-bi/guidance/) | Power BI guidance documentation provides best practice information from the team that builds Power BI and the folks that work with our enterprise customers.| Microsoft Learn
 [Power BI adoption roadmap](https://learn.microsoft.com/en-us/power-bi/guidance/powerbi-adoption-roadmap-overview) | The goal of this series of articles is to provide a roadmap. The roadmap presents a series of strategic and tactical considerations and action items that directly lead to successful Power BI adoption, and help build a data culture in your organization. | Microsoft Learn
@@ -136,6 +136,7 @@ Source | Description | Notes
 Source | Description | Notes
 :----- | :---------- | :----
 [Power BI Embedded Analytics Playground](https://playground.powerbi.com/en-us/) | Learn and explore how you can use embedded analytics in your applications| Power BI
+[Power BI Dev Sandbox](https://playground.powerbi.com/en-us/dev-sandbox) | Interactive developer sandbox for building and testing Power BI embedded solutions in a browser-based environment | Power BI
 [Power BI Developer Samples](https://github.com/Microsoft/PowerBI-Developer-Samples)| This repository contains Power BI Embedded solutions in 5 different frameworks to suit different scenarios as per requirements. In addition, it has samples for calling the Power BI REST APIs using PowerShell. | GitHub
 [Embedding Setup](https://app.powerbi.com/embedsetup) | Choose whether you’d like to embed Power BI in an application for your customers or in an application, website, or portal for your organization's internal users | POwerBI
 

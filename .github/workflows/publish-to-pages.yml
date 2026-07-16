@@ -29,4 +29,4 @@ jobs:
           git reset --hard main
           git rm -r raw
           git commit --allow-empty -m "Publish to GitHub Pages (excluding /raw)" || true
-          git push origin gh-pages
+          git subtree push --prefix 100-Crucible origin gh-pages                                                                    

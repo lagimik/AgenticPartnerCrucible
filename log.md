@@ -28,3 +28,6 @@
 2026-07-16 | ingest | raw/2026-07-16-github-issues/issues.md | Ingested 2 open GitHub issues (#16 Power BI Dev Camp, #17 Power BI Sandbox) | https://github.com/lagimik/AgenticPartnerCrucible/issues
 2026-07-16 | curate | 100-Crucible/PowerPlatformSolutionArea.md | Updated Power BI Dev Camp link to Microsoft Learn; added Power BI Dev Sandbox to Embedded section | issues #16, #17
 2026-07-16 | curate | 100-Crucible/SandboxEnvironments.md | Added Power BI Dev Sandbox to sandbox environments list | issue #17
+2026-07-16 | ingest | 40-Resources/policy-to-proof-ai-governance.md | Ingested 'From Policy to Proof' AI governance reference architecture; updated ai-governance concept page to active with full framework | raw/2026-07-16-policy-to-proof-ai-governance/source.md
+2026-07-16 | curate | 100-Crucible/SecuritySolutionArea.md | Added Policy-to-Proof governance reference to AI Security and Governance section | techcommunity.microsoft.com/blog/azurearchitectureblog/...4535137
+2026-07-16 | curate | 100-Crucible/DataAISolutionArea.md | Added Policy-to-Proof governance reference to Responsible AI section | techcommunity.microsoft.com/blog/azurearchitectureblog/...4535137

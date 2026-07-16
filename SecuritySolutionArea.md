@@ -263,6 +263,7 @@ Source | Description | Notes
 Source | Description | Notes
 :----- | :---------- | :----
 [Using APIM as the Gateway for Azure AI Foundry: AI Adoption to Governance](https://techcommunity.microsoft.com/blog/appsonazureblog/from-ai-adoption-to-ai-governance---using-apim-as-the-gateway-for-azure-ai-found/4536247) | Demonstrates how to use Azure API Management (APIM) as a governance layer and gateway for Azure AI Foundry deployments, enabling enterprise-grade security, rate limiting, and policy enforcement for AI workloads. | Apps on Azure Blog
+[From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence](https://techcommunity.microsoft.com/blog/azurearchitectureblog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and-machine-intelligen/4535137) | Comprehensive AI governance reference architecture covering four pillars (Policy, Control, Visibility, Proof), nine domains, the Microsoft governance stack (Foundry, Purview, Entra, Defender, APIM AI Gateway, Agent 365), and the Agent Control Specification (ACS) for portable runtime controls. | Azure Architecture Blog
 [Zero-Trust Agents: Adding Identity and Access to Multi-Agent Workflows](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/zero-trust-agents-adding-identity-and-access-to-multi-agent-workflows/4427790)| In this article, we demonstrate a zero-trust approach to autonomous AI agents by integrating Identity and access management into an enterprise agentic workflow| Tech Community
 
 ## Microsoft Purview Information Protection Ninja

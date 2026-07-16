@@ -22,4 +22,5 @@ Source | Description | Notes
 [Dynamics 365 Free Trial](https://dynamics.microsoft.com/en-us/dynamics-365-free-trial/)| Try it free and learn how these intelligent business applications go beyond traditional CRM and ERP to help you adapt, innovate, and delight every customer.| ...
 [Microsoft 365 developer sandbox subscription](https://learn.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program-get-started) |  Includes a Microsoft 365 E5 developer sandbox subscription with 25 user licenses. It lasts for 90 days and is free to use for development purposes (coding solutions) only. Commercial transactions, including purchasing paid services, are not supported. | M365 Developer Program
 [Office 365 / E3 Office 365 E3](https://go.microsoft.com/fwlink/p/?LinkID=403802&clcid=0x1009&culture=en-ca&country=CA)| Microsoft (Free Trial) |
+[Power BI Dev Sandbox](https://playground.powerbi.com/en-us/dev-sandbox) | Interactive developer sandbox for building and testing Power BI embedded solutions in a browser-based environment | Power BI
 

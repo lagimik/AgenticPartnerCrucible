@@ -8,7 +8,7 @@ categories: "Data and AI"
 
 ## Purpose
 
-![Microsoft Fabric](/assets/images/crucible-microsoftfabric-overview.png)
+![Microsoft Fabric](./assets/images/crucible-microsoftfabric-overview.png)
 
 A Collection of resources for Microsoft practice building leveraging Fabric. For a view of other Workloads, please see the [Taxonomy](./Taxonomy).
 

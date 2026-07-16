@@ -2,7 +2,7 @@
 
 ## Purpose
 
-![Azure Infrastructure](/assets/images/Azure-Logo.png)
+![Azure Infrastructure](./assets/images/Azure-Logo.png)
 A Collection of resources for Microsoft practice building around 5G. For a view of other Workloads, please see the [Taxonomy](./Taxonomy).
 
 To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuide).

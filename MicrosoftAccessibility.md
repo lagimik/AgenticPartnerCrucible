@@ -1,6 +1,6 @@
 # Microsoft Accessibility
 
-![PowerApps](/assets/images/Acc%2BBadge%2Bv4.png)
+![PowerApps](./assets/images/Acc%2BBadge%2Bv4.png)
 
 
 ## Purpose

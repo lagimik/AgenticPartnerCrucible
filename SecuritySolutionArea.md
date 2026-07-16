@@ -6,7 +6,7 @@ categories: "Security"
 
 # Security Workloads
 
-![Sentinel](/assets/images/crucible-security-title.png)
+![Sentinel](./assets/images/crucible-security-title.png)
 
 
 ## Purpose

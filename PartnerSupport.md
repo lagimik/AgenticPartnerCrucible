@@ -18,7 +18,7 @@ The Microsoft Canada Global Partner Solutions Technical Team will provide techni
 - Partner support options range from those included with the Microsoft Partner Network (Microsoft AI Cloud Partner Program) membership to Advanced and Premier support intended for CSP and hosters.
 - The cloud support options are described here: [Compare Microsoft Partner Support Offerings](https://partner.microsoft.com/en-us/support/partnersupport#:~:text=Compare%20partner%20support%20plans%20%20%20%20,or%20custome%20...%20%209%20more%20rows%20)
 
-![Partner Support Options](/assets/images/Partner%20Support.png)
+![Partner Support Options](./assets/images/Partner%20Support.png)
 
 Option | Description | Link
 :----- | :---------- | :---

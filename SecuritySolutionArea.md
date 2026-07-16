@@ -258,6 +258,13 @@ Source | Description | Notes
 [Secure by default with Microsoft Purview](https://learn.microsoft.com/en-us/purview/deploymentmodels/depmod-securebydefault-intro) | This guide is for administrators with knowledge of Microsoft Purview Information Protection, DLP, and Insider Risk Management and serves as the starting point for your deployment, recommended by the engineering team and describes high-level activities and deployment tips to help you plan an implementation. | Microsoft Learn
 [New Microsoft Purview features help protect and govern your data in the era of AI](https://www.microsoft.com/en-us/security/blog/2024/12/10/new-microsoft-purview-features-help-protect-and-govern-your-data-in-the-era-of-ai/) | Microsoft Purview Data Security Posture Management, data security and security operations center integration, Protecting data and preventing sensitive data loss, Data Governance innovations to drive greater business value, templates in Compliance Manager to help simplify compliance, controls for ChatGPT Enterprise with integration with OpenAI for improved compliance , Data Security Posture Management for AI, controls for Microsoft 365 Copilot help prevent data oversharing, capabilities to detect risky activities in Microsoft 365 Copilot, capabilities for agents built with Microsoft Copilot Studio| Security Blog
 
+## AI Security and Governance
+
+Source | Description | Notes
+:----- | :---------- | :----
+[Using APIM as the Gateway for Azure AI Foundry: AI Adoption to Governance](https://techcommunity.microsoft.com/blog/appsonazureblog/from-ai-adoption-to-ai-governance---using-apim-as-the-gateway-for-azure-ai-found/4536247) | Demonstrates how to use Azure API Management (APIM) as a governance layer and gateway for Azure AI Foundry deployments, enabling enterprise-grade security, rate limiting, and policy enforcement for AI workloads. | Apps on Azure Blog
+[Zero-Trust Agents: Adding Identity and Access to Multi-Agent Workflows](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/zero-trust-agents-adding-identity-and-access-to-multi-agent-workflows/4427790)| In this article, we demonstrate a zero-trust approach to autonomous AI agents by integrating Identity and access management into an enterprise agentic workflow| Tech Community
+
 ## Microsoft Purview Information Protection Ninja
 
 Source | Description | Notes

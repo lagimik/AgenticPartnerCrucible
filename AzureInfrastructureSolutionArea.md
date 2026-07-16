@@ -77,6 +77,12 @@ Source | Description | Notes
 [FastTrack for Azure](https://github.com/Azure/FTALive-Sessions) | This repository has been created to share our FastTrack for Azure Live session materials in one easy to manage location. | Github
 [Migration Execution Guide](https://github.com/Azure/migration) | This repo contains a Migration Execution Guide, which has been authored and developed by a team of FastTrack for Azure Program Managers and Engineers working with the Microsoft SMC team, the Azure Advanced Cloud Engineering team and the Customer Success Unit | FAstTrack
 
+## Specialized Workloads
+
+Source | Description | Notes
+:----- | :---------- | :-----
+[Optimize Oracle Workloads on Azure with Azure NetApp Files](https://techcommunity.microsoft.com/blog/azurestorageblog/optimize-oracle-workloads-on-azure-with-azure-netapp-files/4532644) | Technical guidance on optimizing Oracle database workloads deployed on Azure using Azure NetApp Files for high-performance storage, demonstrating infrastructure best practices for enterprise legacy systems. | Azure Storage Blog
+
 ## Azure Certifications
 
 Source | Description | Notes

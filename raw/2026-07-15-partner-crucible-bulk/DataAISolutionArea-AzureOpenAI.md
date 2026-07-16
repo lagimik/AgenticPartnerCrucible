@@ -1,0 +1,230 @@
+---
+title: "Partner Crucible - Data & AI Workloads - Azure OpenAI"
+layout: "default"
+categories: "Data and AI"
+---
+
+# Data & AI > Azure OpenAI
+
+## Purpose
+
+![Buying Through CSP](./Library/crucible-azure-openai.png)
+
+A Collection of resources for Microsoft practice building leveraging  Azure OpenAI services. For a view of other Workloads, please see the [Taxonomy](./Taxonomy).
+
+To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuide).
+
+
+## Industry
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[Top GenAI Opportunities for Tech Products](https://www.gartner.com/en/industries/high-tech/trends/top-genai-opportunities-for-tech-products?utm_term=1733326500&utm_campaign=SM_GB_YOY_GTR_SOC_SF1_SM-RM-GTS-HT&utm_source=linkedin&utm_medium=social&utm_content=Gartner) | eBook: The top GenAI opportunities for tech products and 4 key actions to drive growth and enhance customer value  | Gartner
+[IDC’s 2024 AI opportunity study: Top five AI trends to watch](https://blogs.microsoft.com/blog/2024/11/12/idcs-2024-ai-opportunity-study-top-five-ai-trends-to-watch/) | To help guide organizations on their AI transformation journey, Microsoft recently commissioned a new study through IDC, The Business Opportunity of AI. IDC’s findings show that when organizations truly commit to and invest in AI, the return on investment (ROI) potential grows significantly.| IDC
+[The Effects of Generative AI on High Skilled Work](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566) | The Effects of Generative AI on High Skilled Work: Evidence from Three Field Experiments with Software Developers | Research Pap
+[The Forrester Wave™: AI Foundation Models For Language](https://reprints2.forrester.com/#/assets/2/157/RES180932/report) | This report shows how each provider measures up and helps enterprise business and technology professionals select the right one for their needs. | Q2 2024 - Forrester
+[Magic Quadrant™ for Cloud AI Developer Services](https://azure.microsoft.com/en-us/blog/microsoft-is-a-leader-in-the-2024-gartner-magic-quadrant-for-cloud-ai-developer-services/) | Updated for 2024 - Microsoft has been named a Leader for the fifth year in a row in the Gartner® Magic Quadrant™ for Cloud AI Developer Services and are especially proud to be placed furthest for our Completeness of Vision. | Gartner
+[The CEO’s Guide to the Generative AI Revolution](https://www.bcg.com/publications/2023/ceo-guide-to-ai-revolution) | By François Candelon, Abhishek Gupta, Lisa Krayer, and Leonid Zhukov | BCG
+[NASA’s Earth Copilot](https://blogs.microsoft.com/blog/2024/11/14/from-questions-to-discoveries-nasas-new-earth-copilot-brings-microsoft-ai-capabilities-to-democratize-access-to-complex-data/) |  NASA IMPACT worked with Microsoft to develop an AI-driven customer copilot, called Earth Copilot, which could simplify data access and encourage a wider range of users to interact with its Earth Science data. | Microsoft Blog
+[Exploring OpenAI in Financial Services](https://www.youtube.com/watch?v=cN_SP_RAl1c) | he potential for OpenAI in financial services is immense, with opportunities across a wide range of use cases. From fraud detection and risk management to portfolio optimization and customer service, OpenAI has the potential to transform the way financial institutions operate. By leveraging advanced machine learning and natural language processing capabilities, OpenAI can help financial services providers make better decisions, automate processes, and reduce costs. | YouTube
+[Transforming Public Sector Services Using Generative AI](https://wwps.microsoft.com/wp-content/uploads/2024/01/Microsoft_Transforming20Public20Sector20Services20Using20Generative20AI_Feb202024201.pdf) | Global Case Studies: This report shares some early and encouraging case studies on the adoption of generative AI. From Canada to Tokyo to Portugal, governments have been leveraging AI quickly to  deliver more citizen centric services. These case studies are also evidence that governments can be leaders in technological innovation, challenging perceptions about slow adoption. Here are great examples of local and national governments seizing the opportunities AI offers without compromising on the management of its risks | Microsoft and Apolitical
+[GDPR and Generative AI – A Guide for the Public Sector](https://wwps.microsoft.com/blog/GDPR-GenAI) | The paper provides an in-depth exploration of the key obligations under the GDPR, which public sector organizations need to consider when procuring generative AI services such as Copilot for Microsoft 365 and Azure OpenAI Service. It also includes information on the associated support and resources that Microsoft can offer, including in relation to transparency, data subject rights, processor obligations, technical and organizational security measures, DPIAs, and international transfers of personal data.| Microsoft
+[Advancing human-centered AI: Updates on responsible AI research](https://www.microsoft.com/en-us/research/blog/advancing-human-centered-ai-updates-on-responsible-ai-research/) | he following is a glimpse into the past year’s research for advancing responsible AI with authors from Aether.| Microsoft Research
+[AI Anthology](https://unlocked.microsoft.com/ai-anthology/a) | we invited 20 experts, with specialties encompassing a broad spectrum—spanning the fields of business, economics, education, engineering, health, history, law, mathematics, medicine, psychology, and the sciences—to explore the capabilities of GPT-4 and provide their insightful reflections in the form of essays. | Microsoft Unlocked
+[AI Business School](https://www.microsoft.com/en-us/ai/ai-business-school) | Online leadership series and learn how to drive business impact by creating an effective AI strategy, enabling an AI-ready culture, innovating responsibly, and more| Microsoft
+
+## Azure OpenAI Practice Building
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[AI Transformation Partner Playbook](https://aka.ms/aipartnerplaybook) | No matter where you are in your AI transformation journey, the AI Transformation Partner Playbook will empower you to accelerate innovation and grow your AI practice. | Partner
+[Partner Data and AI Workloads Landing](https://partner.microsoft.com/en-us/explore/solution-areas#tab-2) | Landing page for partner resources | Partner
+[Azure OpenAI Sales Acceleration](https://partner.microsoft.com/en-us/asset/collection/azure-openai-service-sales-acceleration-content#/) | Sales Acceleration content| Partner
+[Microsoft Azure OpenAI: Learning guide for partners](https://assetsprod.microsoft.com/mpn/en-ca/azure-openai-learning-guide-for-partners.pdf) | Azure OpenAI - Learning Guide for Partners to understand, get access, and learn about Azure OpenAI| PArtner 
+[Generative AI for Beginners - A Course](https://aka.ms/genai-beginners) | Learn the fundamentals of building Generative AI applications with our 12-lesson comprehensive course by Microsoft Cloud Advocates. Each lesson covers a key aspect of Generative AI principles and application development. Throughout this course, we will be building our own Generative AI startup so you can get an understanding of what it takes to launch your ideas. | GitHub
+[Understanding the Difference in Using Different Large Language Models: Step-by-Step Guide](https://techcommunity.microsoft.com/t5/educator-developer-blog/understanding-the-difference-in-using-different-large-language/ba-p/3919444)| In this blog, you will learn how to leverage different Large Language Models available on Azure Machine Learning and provided by Hugging Face, Azure ML, OpenAI, and Meta. Also, you will learn how to integrate them into your Web Application or Power App.| Tech Community
+[Learning About Generative AI](https://www.youtube.com/watch?v=Ch6KE7KxHGM) | @John Savill explores the Generative AI concepts and services | YouTube
+[Azure OpenAI with Azure API Management](https://www.linkedin.com/pulse/azure-openai-api-management-john-savill-l9vjc/) | Diving into using APIM with generative AI models with @JohnSavill | LinkedIn
+[Azure OpenAI as a central capability with Azure API Management](https://github.com/Azure/enterprise-azureai) | Unleash the power of Azure OpenAI to your application developers in a secure & manageable way with Azure API Management and Azure Developer CLI | GitHub
+[AI Industry Use Cases: Insights and Priorities from the Field](https://assetsprod.microsoft.com/mpn/en-us/industry-ai-use-cases-and-tech-patterns.ppt) | This deck provides high priority AI industry use cases. It is meant to help prioritize use cases for a customer and then link that business use cases to technical assets to facilitate implementation. | Microsoft Partners
+[AI-powered Use Cases and Technical Patterns for Key Organizational Functions](https://assetsprod.microsoft.com/mpn/en-us/rooms-of-the-house-use-cases-and-tech-patterns.ppt) |  This deck provides high priority AI use cases for key organizational functions. It is meant to help prioritize use cases for a customer and then link that business use cases to technical assets to facilitate implementation. | Microsoft Partners
+[Best Practices for Requesting Quota Increase for Azure OpenAI Models](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/bv-for-azure-openai-models/4397533) | This document outlines a set of best practices to guide users in submitting quota increase requests for Azure OpenAI models. Following these recommendations will help streamline the process, ensure proper documentation, and improve the likelihood of a successful request. | Tech Community
+
+## Security for Generative AI
+Source | Description | Notes
+:----- | :-----  | :-----
+[Secure Generative AI with Microsoft Entra and Purview](https://learn.microsoft.com/en-ca/entra/architecture/secure-generative-ai) | Microsoft Entra and Microsoft Purview offer a comprehensive suite of capabilities to securely manage AI applications, appropriately control access, and protect sensitive data | Microsoft Learn
+[Security for AI: How to Secure and govern AI usage](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/security-for-ai-how-to-secure-and-govern-ai-usage/ba-p/4082269) |  detailed guidance on implementing the controls for securing and governing AI usage| Tech Community
+[Data, privacy, and security for Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy) |This article provides details regarding how data provided by you to the Azure OpenAI service is processed, used, and stored. | Microsoft Learn
+[AI jailbreaks: What they are and how they can be mitigated](https://www.microsoft.com/en-us/security/blog/2024/06/04/ai-jailbreaks-what-they-are-and-how-they-can-be-mitigated/) | This blog will provide an understanding of what AI jailbreaks are, why generative AI is susceptible to them, and how you can mitigate the risks and harms.| Micrososft Threat Intelligence
+[Mitigating Skeleton Key, a new type of generative AI jailbreak technique](https://www.microsoft.com/en-us/security/blog/2024/06/26/mitigating-skeleton-key-a-new-type-of-generative-ai-jailbreak-technique/) | In this blog, we’ll cover the details of a newly discovered type of jailbreak attack that we call Skeleton Key, which we covered briefly in the Microsoft Build talk Inside AI Security with Mark Russinovich | Micrososft Threat Intelligence
+
+
+
+## Azure OpenAI Services
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[What's new in Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/whats-new) | STay up to date on model, API, and Azure OpenAI service updates| Microsoft Lean
+[Azure OpenAI Service model deprecations and retirements](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/model-retirements) | Azure OpenAI Service models are continually refreshed with newer and more capable models. As part of this process, we deprecate and retire older models. This document provides information about the models that are currently available, deprecated, and retired. | Microsoft Lean
+[What runs ChatGPT?](https://www.youtube.com/watch?v=Rk3nTUfRZmo) | Inside Microsoft's AI supercomputer Featuring Mark Russinovich - Get an inside look at the AI supercomputer infrastructure built to run ChatGPT and other large language models, and see how to leverage it for your workloads in Azure, at any scale. | Microsoft Mechanics
+[Azure OpenAI Service Documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/) | Learn how to use Azure OpenAI's powerful language models including the GPT-3, Codex and Embeddings model series for content generation, summarization, semantic search, and natural language to code translation. | Microsoft Learn
+[Plan to manage costs for Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/manage-costs) | This article describes how you plan for and manage costs for Azure OpenAI Service.  | Microsoft Learn
+[Azure OpenAI Service pricing](https://azure.microsoft.com/en-gb/pricing/details/cognitive-services/openai-service/) |  Optimise costs with a pay-as-you-go consumption model and a price per unit for each model.|
+[Request Access to Azure OpenAI Service](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUNTZBNzRKNlVQSFhZMU9aV09EVzYxWFdORCQlQCN0PWcu) |  Please submit this form to register for approval to access and use the Azure OpenAI models (as indicated in the form) | Form
+[Right-size your PTU deployment](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/right-size-your-ptu-deployment-and-save-big/ba-p/4053857) | In this blog post, we try to convey the message that PTUs done right are not necessarily expensive by characterizing customer’s scenarios anecdotally | Tech Community
+
+## Azure AI Studio
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[The seven pillars of modern AI development: Leaning into the era of custom copilots](https://azure.microsoft.com/en-us/blog/the-seven-pillars-of-modern-ai-development-leaning-into-the-era-of-custom-copilots/) | How can AI developers ensure their solutions do not just capture attention, but also enhance customer engagement? Here are seven pillars to think through when building your custom copilot. | Blog
+[Azure AI Studio](https://www.youtube.com/watch?v=Qes7p5w8Tz8) | Azure AI Studio ushers in a new era of generative AI development. It empowers developers to explore, build, test, and deploy their AI innovations at scale – moving faster from idea to impact. Whether creating custom copilots, enhancing search, improving call centers, developing bots and bespoke applications, or a combination of these, Azure AI Studio provides the necessary support. The unified platform is tailor-made for AI developers to integrate pre-built services and models, prompt orchestration and evaluation, content safety, and responsible AI tools for privacy, security, and compliance, helping developers navigate the complexities of generative AI with confidence. | YouTube
+[Building your own copilot – yes, but how? (Part 1 of 2)](https://techcommunity.microsoft.com/t5/educator-developer-blog/building-your-own-copilot-yes-but-how-part-1-of-2/ba-p/4029571?WT.mc_id=academic-0000-abartolo) |  This blog post wants to provide an overview of some of the main choices you have in the Microsoft technology ecosystem. Part 1 will look into low code tools and out-of-the-box features, while part 2 will focus on code-heavy and extensible options. | Tech Community
+[Model catalog in Azure AI Studio](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/model-catalog) | The model catalog in AI Studio is a hub for discovering foundation models. The catalog includes some of the most popular large language and vision foundation models curated by Microsoft, Hugging Face, and Meta. These models are packaged for out-of-the-box usage and are optimized for use in Azure AI Studio.| Microsoft Learn
+[Deploy Secure Azure AI Studio with a managed virtual network](https://github.com/Azure-Samples/azure-ai-studio-secure-bicep/blob/main/bicep/managedvnet/README.md) | This collection of Bicep templates demonstrates how to set up an Azure AI Studio environment with managed identity and Azure RBAC to connected Azure AI Services and dependent resources and with the managed virtual network isolation mode set to Allow Internet Outbound.| GitHub
+
+## Azure OpenAI APIs
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[Azure OpenAI Assistants](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/assistant) | Azure OpenAI Assistants (Preview) allows you to create AI assistants tailored to your needs through custom instructions and augmented by advanced tools like code interpreter, and custom functions. Discover Assistants API, Tools, and PLayground. | Microsoft Learn
+
+## Azure OpenAI Models
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[GPT-4o mini](https://azure.microsoft.com/en-us/blog/openais-fastest-model-gpt-4o-mini-is-now-available-on-azure-ai/) | GPT-4o mini, announced by OpenAI today, is available simultaneously on Azure AI, supporting text processing capabilities with excellent speed and with image, audio, and video coming later | Azure AI
+[Llama 2 on Azure](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/introducing-llama-2-on-azure/ba-p/3881233) | Llama 2 is the next generation of large language model (LLM) developed and released by Meta. It is pretrained on 2 trillion tokens of public data and is designed to enable developers and organizations to build generative AI-powered tools and experiences. | Tech Community
+
+## Azure OpenAI Models - Whisper
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[Preview of OpenAI Whisper in Azure OpenAI service and Azure AI Speech](https://techcommunity.microsoft.com/t5/azure-ai-services-blog/announcing-the-preview-of-openai-whisper-in-azure-openai-service/ba-p/3928388?WT.mc_id=academic-0000-abartolo) | The OpenAI Whisper model is an encoder-decoder Transformer that can transcribe audio into text in 57 languages. Additionally, it offers translation services from those languages to English, producing English-only output. Furthermore, it creates transcripts with enhanced readability. | Tech Community
+[Speech Studio](https://speech.microsoft.com/portal/batchspeechtotext) | Developers preferring to use the Whisper model in Azure AI Speech can access it through the Batch speech-to-text in Azure AI Speech Studio. | Speech Studio
+[Speech to text with the Azure OpenAI Whisper model](https://learn.microsoft.com/en-us/azure/ai-services/openai/whisper-quickstart?tabs=command-line%2Cpython&pivots=rest-api) | In this quickstart, you use the Azure OpenAI Whisper model for speech to text. | Microsoft Learn
+[Create a batch transcription](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/batch-transcription-create?pivots=rest-api#using-whisper-models) | With batch transcriptions, you submit audio data in a batch. The service transcribes the audio data and stores the results in a storage container. You can then retrieve the results from the storage container.| Microsoft Learn
+
+## Azure OpenAI Learning Path
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[OpenAI Learning Collection](https://sway.office.com/YLu2lOkCjvtNCHZC?ref=Link) | From Quickstarts to L100, L200, L300, and L400 content| Microsoft GPS Canada
+[Introduction to Azure OpenAI Service](https://learn.microsoft.com/en-us/training/modules/explore-azure-openai/) | Understand how you can use Azure OpenAI to build solutions against AI models within Azure.| Microsoft Learn
+[Azure OpenAI Workshop](https://github.com/Azure/azure-openai-workshop) | In this workshop, you will learn how to use the Azure OpenAI service to create AI powered solutions. You will get hands-on experience with the latest AI technologies and will learn how to use Azure OpenAI API.| GitHub
+[Azure OpenAI Service Playlist](https://www.youtube.com/watch?v=FJ0v3apQ2dM&list=PL8_VXqhvJI9CNF6Q409mSjh0InP6_GfBg) | | YouTube
+[ChatGPT & OpenAI powering your apps](https://www.youtube.com/watch?v=3t3qZu1Dy1k) | For your next application, leverage large-scale, generative AI models with a deep understanding of language and code, using Azure’s OpenAI service. Interact with models using natural language, prompts, and few-shot learning. Use the Azure OpenAI Studio to experiment and test your models before bringing them into your code to deliver differentiated app experiences, all with Azure’s enterprise-grade security built-in. | Microsoft Mechanics
+[The AI Show](https://aka.ms/AIShowsubscribe) | The AI Show Live showcases the amazing work happening in AI at Microsoft. Developers learn what's new in AI in a short amount of time and are directed to assets helping them get started and on the road to success right away. Seth Juarez and friends work on cool projects and highlight what's new in Azure AI and Machine Learning. | Microsoft Learn
+[Azure AI Bootcamp](https://vshow.on24.com/vshow/Azure_Depth/registration/22504) | On-demand - learn about Azure artificial intelligence (AI) services designed for developers and data scientists to acquire the knowledge to access and integrate high-quality vision, speech, language, and decision-making AI models through simple API calls in your apps and services and create your own machine learning models with tools like Jupyter Notebooks, Visual Studio Code, and open-source frameworks like TensorFlow and PyTorch.| Learning
+
+## Prompt Engineering
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[The Basics of Prompt Engineering with Azure OpenAI Service](https://www.youtube.com/watch?v=e7w6QV1NX1c)| On this episode of the AI Show, we are excited to welcome Marco Casalaina for a demo on how you can program your own ChatGPT - with natural language. And how prompt engineering really works.| The AI Show
+[15 Tips to Become a Better Prompt Engineer for Generative AI](https://techcommunity.microsoft.com/t5/azure-ai-services-blog/15-tips-to-become-a-better-prompt-engineer-for-generative-ai/ba-p/3882935?WT.mc_id=academic-0000-abartolo) | this guide for developers, data scientists and curious newcomers alike to create effective prompts with confidence | Tech Community
+[Large Language Model Prompt Engineering for Complex Summarization](https://devblogs.microsoft.com/cse/2023/06/27/gpt-summary-prompt-engineering/) | In this post we’ll demonstrate some prompt engineering techniques to create summaries of medical research publications.  | DevBlogs
+[Prompt Engineering 101 - Introduction and resources](https://www.linkedin.com/pulse/prompt-engineering-101-introduction-resources-amatriain/) | By Xavier  (Xavi) Amatriain | LinkedIn
+[Prompt Engine](https://github.com/microsoft/prompt-engine) | This repo contains an NPM utility library for creating and maintaining prompts for Large Language Models (LLMs).| GitHub
+[Prompts for Education: Enhancing Productivity & Learning](https://github.com/microsoft/prompts-for-edu) | The Prompts for Education repository's mission is to transform the way students, educators, and staff in K-12 and higher education institutions interact with generative AI technology like ChatGPT and Bing Chat. | GitHub
+
+## Content Safety
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[Azure AI Content Safety](https://aka.ms/contentsafety) | Use AI to monitor text and image content for safety.| Azure|
+[Tech community blog](https://aka.ms/contentsafety-techblog) | Azure AI Content Safety enables enterprises across various industries to harness the power of Responsible AI, facilitating the creation of secure online spaces and fostering a sense of community.| Tech Community
+[Azure AI Content Safety studio](https://aka.ms/contentsafetystudio) | Machine learning assisted moderation APIs that detect material that is potentially offensive, risky, or otherwise undesirable, to assure the contents in community is safe.| Azure
+[Introducing Azure AI Content Safety - A new Azure Cognitive Service for content moderation](https://aka.ms/contentsafetydemo) | Introducing Azure AI Content Safety, the content moderation platform that uses AI to identify inappropriate content to create better online experiences for everyone. With advanced language and vision models, AI content classifiers, and content moderation severity scores, you can confidently review content to keep online communities safe.| YouTube
+
+
+
+## Plugins
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[ChatGPT Plugins waitlist](https://openai.com/waitlist/plugins) | ChatGPT Plugins will now be available to all ChatGPT plus subscribers, no waitlist required! If you are a developer who has ChatGPT plus and you are interested in making a plugin, please fill out the form below. | OpenAI
+[ChatGPT Plugin Quickstart using Python and FastAPI](https://github.com/Azure-Samples/openai-plugin-fastapi) | his is a quickstart for sample for creating ChatGPT Plugin using GitHub Codespaces, VS Code, and Azure. The sample includes templates to deploy the plugin to Azure Container Apps using the Azure Developer CLI. | GitHub
+
+## Development
+
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[An Introduction to LLMOps](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/an-introduction-to-llmops-operationalizing-and-managing-large/ba-p/3910996) | Operationalizing and Managing Large Language Models using Azure ML: Operationalizing and Managing Large Language Models using Azure ML  | Tech Community
+[Azure OpenAI client library for .NET - version 1.0.0-beta.5](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.openai-readme?view=azure-dotnet-preview) | The Azure OpenAI client library for .NET is an adaptation of OpenAI's REST APIs that provides an idiomatic interface and rich integration with the rest of the Azure SDK ecosystem | Microsoft Learn
+[Azure OpenAI Service REST API reference](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/reference)| This article provides details on the inference REST API endpoints for Azure OpenAI.| Microsoft Learn
+[Autogen: Microsoft’s Open-Source Tool for Streamlining Development](https://techcommunity.microsoft.com/t5/educator-developer-blog/autogen-microsoft-s-open-source-tool-for-streamlining/ba-p/4040417) | Autogen is an open-source project by Microsoft, designed to simplify the process of creating and maintaining libraries of data structures and routines. It's a powerful tool that can significantly speed up your development process.| Tech Community
+[AutoGen - Getting Started](https://microsoft.github.io/autogen/docs/Getting-Started) | AutoGen is a framework that enables development of LLM applications using multiple agents that can converse with each other to solve tasks. AutoGen agents are customizable, conversable, and seamlessly allow human participation. They can operate in various modes that employ combinations of LLMs, human inputs, and tools. | GitHub
+[The Evolution of GenAI Application Deployment Strategy: From MVP to Production](https://techcommunity.microsoft.com/t5/ai-ai-platform-blog/the-evolution-of-genai-application-deployment-strategy-from-mvp/ba-p/4156313) | Guidance on the key transition is moving from MVP to production | Tech Community
+[GraphRAG](https://github.com/microsoft/graphrag?tab=readme-ov-file#graphrag) | The GraphRAG project is a data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs.| GitHub
+
+
+## Labs
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[What The Hack - Azure OpenAI Fundamentals](https://github.com/devanshithakar12/AOAI-Fundamentals-WTH) | This hack is for anyone who wants to gain hands-on experience experimenting with prompt engineering and machine learning best practices, and apply them to generate effective responses from Azure OpenAI models.| What the Hack
+[AI Hackathon Starter Kit](https://github.com/rohit-lakhanpal/ai-hackathon-starter-kit) | Welcome to the AI Hackathon Starter Kit! This project has been created to make AI accessible and easy for everyone. Whether you are a beginner with no prior experience or an experienced developer, this starter kit is designed to help you incorporate AI into your apps quickly and easily. | GitHub
+[Azure OpenAI in-a-day workshop](https://github.com/microsoft/azure-openai-in-a-day-workshop) | In this technical workshop, you will get a comprehensive introduction to Azure OpenAI Service and Azure OpenAI Studio. You will learn how to create and refine prompts for various scenarios using hands-on exercises.| GitHub
+[Azure OpenAI Labs](https://github.com/MicrosoftLearning/mslearn-openai/tree/main/Labfiles) | NLP, Prompt Engineering | GitHub
+[Microsoft Foundry Labs](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/a-guided-tour-of-the-new-microsoft-foundry-labs/4527908) | A guided tour of the new Microsoft Foundry Labs, providing hands-on experimentation environments for exploring Azure AI Foundry capabilities. | Tech Community
+
+## Azure OpenAI Solution Accelerators
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[Enterprise Azure OpenAI Hub](https://github.com/Azure/ai-hub/blob/main/docs/EnterpriseAzureOpenAIHub.md) | The reference implementation has been developed, validated, and proven with several of Microsoft's largest customers, and represent the best practices for the Azure serivces involved regardless of industry industry, and to accelerate a safe and secure by-default deployment of Generative Azure Open AI on Microsoft Azure. | GitHub
+[Azure OpenAI Landing Zone reference architecture](https://techcommunity.microsoft.com/t5/azure-architecture-blog/azure-openai-landing-zone-reference-architecture/ba-p/3882102) | In this article, we delve into the synergy of Azure Landing Zones and Azure OpenAI Service, building a secure and scalable AI environment. unpacking the Azure OpenAI Landing Zone architecture, which integrates numerous Azure services for optimal AI workloads. | Tech Community
+[Implement logging and monitoring for Azure OpenAI models](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/openai/architecture/log-monitor-azure-openai) | This solution provides comprehensive logging and monitoring and enhanced security for enterprise deployments of the Azure OpenAI Service API. The solution enables advanced logging capabilities for tracking API usage and performance and robust security measures to help protect sensitive data and help prevent malicious activity.| Microsoft Learn
+[Building and Deploying Azure AI Landing Zones with Terraform](https://techcommunity.microsoft.com/t5/azure-architecture-blog/empowering-ai-building-and-deploying-azure-ai-landing-zones-with/ba-p/3891249) | In this article, we delve into leveraging Terraform to deploy the Azure OpenAI Landing Zone architecture concentrating on the connectivity and application aspects. By integrating various Azure services and implementing features like Azure Firewall, Virtual Networks, and Private Endpoints, Private DNS Zones, organizations can create a secure and scalable AI environment.| Tech Community
+[Azure OpenAI Architecture Patterns and Implementation Steps](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/azure-openai-architecture-patterns-and-implementation-steps/ba-p/3979934) | A comprehensive overview of the most frequently used and discussed architecture patterns among our customers in various domains. | Tech Community
+[Baseline OpenAI end-to-end chat reference architecture](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat) | This article provides a baseline architecture for building and deploying enterprise chat applications that use Azure OpenAI large language models. The architecture employs Azure Machine Learning (AML) prompt flow to create executable flows that orchestrate the workflow from incoming prompts out to data stores to fetch grounding data for the LLMs, along with any other Python logic required. The executable flow is deployed to an Azure Machine Learning compute cluster behind a managed online endpoint.| Microsoft Learn
+[OpenAI end-to-end baseline reference implementation - GitHUb](https://github.com/azure-Samples/openai-end-to-end-baseline) | This reference implementation illustrates an approach for authoring and running a chat application in a single region with Azure Machine Learning and OpenAI.| GitHub
+[Azure OpenAI chat baseline architecture in an Azure landing zone](https://learn.microsoft.com/en-ca/azure/architecture/ai-ml/architecture/azure-openai-baseline-landing-zone) | This article describes the architecture of a generative AI workload that deploys the same baseline chat application but uses resources that are outside the scope of the workload team. | Microsoft Learn
+[Azure Well-Architected Framework perspective on Azure OpenAI](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-openai) | This article provides architectural recommendations for making informed decisions when using Azure OpenAI as part of your workload's architecture based on the Azure Well-Architected Framework pillars. | Microsoft Learn
+[Azure OpenAI Architecture : Patterns and implementation steps](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/azure-openai-architecture-patterns-and-implementation-steps/ba-p/3979934) | A comprehensive overview of the most frequently used and discussed architecture patterns among our customers in various domains.| Tech Community
+[Azure/GPT-RAG](https://github.com/Azure/GPT-RAG/) | The Enterprise RAG Solution Accelerator (GPT-RAG) offers a robust architecture tailored for enterprise-grade deployment of the RAG pattern. It ensures grounded responses and is built on Zero-trust security and Responsible AI, ensuring availability, scalability, and auditability. Ideal for organizations transitioning from exploration and PoC stages to full-scale production and MVPs. | GitHub
+[Information Assistant Accelerator](https://github.com/microsoft/PubSec-Info-Assistant)| This industry accelerator showcases integration between Azure and OpenAI's large language models. It leverages Azure AI Search for data retrieval and ChatGPT-style Q&A interactions. Using the Retrieval Augmented Generation (RAG) design pattern with Azure Open AI's GPT models, it provides a natural language interaction to discover relevant responses to user queries. Azure AI Search simplifies data ingestion, transformation, indexing, and multilingual translation. | GitHub
+[GenAI powered Smart Knowledge Search platform for enterprises](https://techcommunity.microsoft.com/t5/azure-ai-services-blog/how-to-build-genai-powered-smart-knowledge-search-platform-for/ba-p/3950818) | n this blog, we will share our perspective on how enterprises can leverage Azure Open AI to develop a platform for smart enterprise knowledge search. We will also discuss other essential components of the platform to build a holistic system which caters for enterprise guardrails | Tech Community
+[Azure Accelerators](https://github.com/MSUSAzureAccelerators/) | Repeatable solution that can be quickly and easily implemented for your specific business outcomes.| GitHub
+[GPT Azure Search Engine Accelerator](https://github.com/MSUSAzureAccelerators/Azure-Cognitive-Search-Azure-OpenAI-Accelerator-1) | Multi-Channel Smart Chatbot and a search engine capable of comprehending diverse types of data scattered across various locations leveraging Azure Search + Azure OpenAI + Bot Framework + Langchain + Azure SQL + CosmosDB + Bing Search API |  GitHub
+[Conversational Azure OpenAI (ChatGPT) Accelerator](https://github.com/MSUSAzureAccelerators/Conversational-Azure-OpenAI-Accelerator) | Rapid Custom Demo tailored to customer use case, focused on top two use cases of generating conversation and summarization. Systems Integrator (SI) partners welcome. POC is white-labeled.| GitHub
+[Information Assistant accelerator](https://forms.microsoft.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6o4NZzd2WJFhMOsgKclOl9UOFVXWEMyVERTVkxZTU9SUk5PVTkyUzdDRiQlQCN0PWcu) | Please fill out this form to set up a discussion about the Information Assistant accelerator, powered by Azure OpenAI. |
+[Azure OpenAI Embeddings QnA](https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna) | A simple web application for a OpenAI-enabled document search. This repo uses Azure OpenAI Service for creating embeddings vectors from documents. For answering the question of a user, it retrieves the most relevant document and then uses GPT-3 to extract the matching answer for the question. |  GitHub
+[Customer Service Conversational Insights with Azure OpenA](https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services) | The Customer Service Conversational Insights is a solution accelerator built on top of Azure Cognitive Search, Bot Framework, Azure Speech Services and Azure OpenAI that allows customers to quickly deploy an integrated platform and immediately start extracting insights from customer conversations. | GitHub
+[Business Process Automation Accelerator](https://github.com/Azure/business-process-automation) | This accelerator provides a no code Studio for users to quickly build complex, multi-stage AI pipelines across multiple Azure AI and ML Services. Users can select, and stack, AI/ML Services from across Azure Cognitive Services (OpenAI, Speech, Language, Form Recognizer, ReadAPI), Azure Machine Learning into a single, fully integrated pipeline. | GitHub
+[Project Miyagi](https://github.com/Azure-Samples/miyagi) | Project Miyagi serves as the foundation for an envisioning workshop that reimagines the design, development, and deployment of intelligent applications using Microsoft's Copilot stack | GitHub
+[TinyTroupe](https://github.com/microsoft/TinyTroupe) | TinyTroupe is an LLM-powered multiagent persona simulation for imagination enhancement and business insights.| GitHub
+[Azure Cosmos DB + Azure OpenAI Python Developer Guide](https://github.com/AzureCosmosDB/Azure-OpenAI-Python-Developer-Guide) | This guide will walks through the creating intelligent solutions that combines vCore-based Azure Cosmos DB for MongoDB vector search and document retrieval with Azure OpenAI services to build a chat bot experience| GitHub
+[Fine-tuning Azure OpenAI GPT-4o for Chart Analysis](https://github.com/Azure/gen-cv/tree/main/vision-fine-tuning/01-AOAI-vision-fine-tuning-starter) | This accelerator  demonstrates the process of vision fine-tuning of GPT-4o leveraging a chart analysis benchmark dataset for visual and logical reasoning. It covers data preparation, fine-tuning, deployment, and evaluation against GPT-4o's baseline performance.| GitHub
+[Fine-Tuning GPT-4o for Action Recognition in Video Clips](https://github.com/Azure/gen-cv/tree/main/vision-fine-tuning/02-AOAI-video-fine-tuning) | This Solution Accelerator demonstrates how to use Azure OpenAI GPT-4o vision fine-tuning to improve the model's performance in detecting human activities in video clips.| GitHub
+[Multi-Agent Custom Automation Engine Accelerator](https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator) | The Multi-Agent Custom Automation Engine Solution Accelerator is an AI-driven orchestration system that manages a group of AI agents to accomplish tasks based on user input. Powered by AutoGen, Azure OpenAI, Cosmos, and infrastructure services, it provides a ready to go application to use as a reference, allowing you to hit the ground running. | GitHub 
+[Advanced RAG Solution Accelerator](https://github.com/Azure-Samples/openai/tree/main/Solution_Accelerators/Advanced_RAG) | This solution accelerator supports advanced techniques for parsing, indexing and improved querying over non-structured data through a simple web interface to achieve improved accuracy and performance rates than a simple out of the box Retrieval-Augmented Generation (RAG) solution.| GitHub
+
+## Demos
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[Data & AI Industry DREAM Demos & DREAM Demo in a Box](https://partner.microsoft.com/en-us/asset/collection/industry-dream-demos-and-dream-demo-in-a-box#/) | Data & AI Industry DREAM Demos are realistic clickable demos based on actual customer engagements that cover a range of industry scenarios in story form. | Partner
+[Azure OpenAI Service Generative AI Customer Demo](https://assetsprod.microsoft.com/mpn/en-us/azure-openai-service-chatgpt-tdm-customer-demo.mp4) | Customer-ready customer technical decision maker demo | Partner
+[Azure Open AI Demos](https://github.com/retkowsky/Azure-OpenAI-demos) | Azure OpenAI Demos by Serge Retkowsky serge.retkowsky@microsoft.com https://www.linkedin.com/in/serger/ | @retkowsky GitHub
+
+
+
+## Code Samples
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[AI in action: 5 real-world intelligent apps you can build on Azure](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/ai-in-action-5-real-world-intelligent-apps-you-can-build-on/ba-p/4083413) | In this blog post, we dive into 5 types of AI-powered apps you can create with Azure’s generative AI technology, cloud-scale data, and modern application platforms. We look at how industry leaders are modernizing and innovating with AI, present sample architectures, and offer solution accelerators to help you kickstart your own app development. | Tech Community
+[Azure OpenAI Embeddings QnA](https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna) | A simple web application for a OpenAI-enabled document search. This repo uses Azure OpenAI Service for creating embeddings vectors from documents. For answering the question of a user, it retrieves the most relevant document and then uses GPT-3 to extract the matching answer for the question.| @ruoccofabrizio GitHub
+[Azure Cosmos DB + OpenAI ChatGPT](https://github.com/Azure-Samples/cosmosdb-chatgpt) | This sample application combines Azure Cosmos DB with OpenAI ChatGPT with a Blazor Server front-end for an intelligent chat bot application that shows off how you can build a simple chat application with OpenAi ChatGPT and Azure Cosmos DB.| GitHub
+[Azure OpenAI Examples](https://github.com/jakeatmsft/AzureOpenAIExamples)| @jakeatmsf - This repository shares example code and example prompts for accomplishing common tasks with the Azure OpenAI API. | GitHub
+[Customer Service Conversational Insights with Azure OpenAI](https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services) | The Customer Service Conversational Insights is a solution accelerator built on top of Azure Cognitive Search, Bot Framework, Azure Speech Services and Azure OpenAI that allows customers to quickly deploy an integrated platform and immediately start extracting insights from customer conversations.| GitHub
+[Azure OpenAI GPT Models - Token Cost Optimization](https://github.com/msalemor/llm-use-cases/blob/main/cost-savings.md) | by @Alex Morales - Cost saving techniques through pricing models, model selection, prompt engineering, semantic caching, and monitoring | GitHub
+[Improving RAG results](https://github.com/msalemor/llm-use-cases/blob/main/improving-rag-results.md) | by @Alex Morales - This document offers recommendations to enhance the results of RAG.The suggestions include techniques such as text splitting, determining the optimal chunk size, setting result limits and model context window, adjusting relevance scores, utilizing the native vector database nearest search functionality, and performing trimming and document cleanup.| GitHub
+[Evaluating RAG Applications with AzureML Model Evaluation](https://techcommunity.microsoft.com/t5/microsoft-developer-community/evaluating-rag-applications-with-azureml-model-evaluation/ba-p/4108603?WT.mc_id=DT-MVP-5001664) |RAG evaluation is the process of measuring and improving the performance of this RAG pipeline.| Tech Community
+[Improving RAG performance with Azure AI Search and Azure AI prompt flow in Azure AI Studio](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/improving-rag-performance-with-azure-ai-search-and-azure-ai/ba-p/4117118) |  Since the retrieved data is key for the successful implementation of the RAG pattern, a retrieval system that can significantly enhance the quality of your results is integration of Azure AI Search. Even if AI Search offers keyword (full-text), vector and hybrid search capabilities, this post will be focused on using hybrid search. The hybrid search approach can be particularly beneficial in scenarios where the retrieval performance is varied or insufficient. By integrating both keyword and vector-based search techniques, hybrid search can improve the accuracy and completeness of the retrieved documents, which in turn can positively impact the relevance of the generated responses.  | TEch Community
+[Retrieval-Augmented Fine-Tuning](https://techcommunity.microsoft.com/t5/ai-ai-platform-blog/raft-a-new-way-to-teach-llms-to-be-better-at-rag/ba-p/4084674) | Retrieval-Augmented Fine-Tuning” combines the benefits of Retrieval-Augmented Generation and Fine-Tuning for better domain adaptation | Tech Community
+[Integrating vision into RAG applications](https://techcommunity.microsoft.com/t5/microsoft-developer-community/integrating-vision-into-rag-applications/ba-p/4239460) | By adding multimodal models into your RAG flow, you can get answers based off image sources, too! | Tech Community

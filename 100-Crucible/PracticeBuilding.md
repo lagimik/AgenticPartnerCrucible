@@ -1,6 +1,6 @@
 # Practice Building and Profitability
 
-![Practice Building](./Library/practicebuilding.png)
+![Practice Building](/assets/images/practicebuilding.png)
 
 # Purpose
 
@@ -92,7 +92,7 @@ Source | Description | Notes
 
 ## Association Options
 
-![Partner Associations](./Library/partnerassociations.png)
+![Partner Associations](/assets/images/partnerassociations.png)
 
 ### Association Description
 

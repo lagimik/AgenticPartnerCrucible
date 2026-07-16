@@ -8,7 +8,7 @@ categories: "Data and AI"
 
 ## Purpose
 
-![Buying Through CSP](./Library/crucible-azure-openai.png)
+![Buying Through CSP](/assets/images/crucible-azure-openai.png)
 
 A Collection of resources for Microsoft practice building leveraging  Azure OpenAI services. For a view of other Workloads, please see the [Taxonomy](./Taxonomy).
 

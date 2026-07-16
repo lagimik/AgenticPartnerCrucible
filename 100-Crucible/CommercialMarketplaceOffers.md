@@ -2,7 +2,7 @@
 
 ## Purpose
 
-![Commercial Marketplace](./Library/microsoft-commercial-marketplace.png)
+![Commercial Marketplace](/assets/images/microsoft-commercial-marketplace.png)
 
 <br>
 

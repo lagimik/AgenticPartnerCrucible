@@ -4,7 +4,7 @@
 
 ## Purpose
 
-![Buying Through CSP](./Library/csp.jpg)
+![Buying Through CSP](/assets/images/csp.jpg)
 
 
 To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuide).

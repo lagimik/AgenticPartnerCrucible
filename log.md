@@ -13,3 +13,15 @@
 2026-07-14 | ingest | 40-Resources/partner-skilling-hub-agent.md | Created resource page for Skilling Agent from issue #11 | https://www.skilling-hub.com/
 2026-07-14 | ingest | 40-Resources/levelup-deal-ready-accelerators.md | Created resource page for Deal-Ready Accelerators from issue #12 | https://skillupwithlevelup.com/dealreadyaccelerators
 2026-07-15 | ingest | _meta/MOCs/moc-partner-crucible.md | Bulk ingested 46 PartnerCrucible .md files into raw/2026-07-15-partner-crucible-bulk/; created MOC and 24 resource pages organized by solution area | raw/2026-07-15-partner-crucible-bulk/
+2026-07-16 | curate | 100-Crucible/LearningResources.md | Added Partner Skilling section with 4 links from issues #9-#12 (Learning Journeys, Accelerators, Skilling Hub Agent, Microskilling) | issues #9, #10, #11, #12
+2026-07-16 | curate | 100-Crucible/DataAISolutionArea.md | Added AI Agent Lifecycle and Token Economics guides to Agentic Frameworks section; added Foundry Toolkit Lab to Azure Foundry | issues #5, #7, #4
+2026-07-16 | curate | 100-Crucible/FinOps.md | Added new AI and Agentic Economics section with Token Economics link for cost optimization guidance | issue #5
+2026-07-16 | curate | 100-Crucible/AzureInfrastructureSolutionArea.md | Added Specialized Workloads section with Oracle+NetApp optimization guidance | issue #6
+2026-07-16 | curate | 100-Crucible/ModernWorkSolutionArea-Copilot.md | Added Developer Experience section with .NET GitHub Copilot modernization link | issue #2
+2026-07-16 | curate | 100-Crucible/SecuritySolutionArea.md | Added AI Security and Governance section with APIM-as-gateway for AI Foundry and Zero-Trust Agents links | issues #3
+2026-07-16 | curate | 100-Crucible/LearningResources.md | Added Partner Skilling section with 4 links from issues #9-#12 (Learning Journeys, Accelerators, Skilling Hub Agent, Microskilling) | issues #9, #10, #11, #12
+2026-07-16 | curate | 100-Crucible/DataAISolutionArea.md | Added AI Agent Lifecycle and Token Economics guides to Agentic Frameworks section; added Foundry Toolkit Lab to Azure Foundry | issues #5, #7, #4
+2026-07-16 | curate | 100-Crucible/FinOps.md | Added new AI and Agentic Economics section with Token Economics link for cost optimization guidance | issue #5
+2026-07-16 | curate | 100-Crucible/AzureInfrastructureSolutionArea.md | Added Specialized Workloads section with Oracle+NetApp optimization guidance | issue #6
+2026-07-16 | curate | 100-Crucible/ModernWorkSolutionArea-Copilot.md | Added Developer Experience section with .NET GitHub Copilot modernization link | issue #2
+2026-07-16 | curate | 100-Crucible/SecuritySolutionArea.md | Added APIM-as-gateway for AI Foundry governance to AI Security section | issue #3

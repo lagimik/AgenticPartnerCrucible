@@ -4,9 +4,9 @@ This vault is an LLM-maintained Second Brain: a personal wiki where raw material
 
 The assistant should act as a careful wiki gardener: ingest new material, summarize it, connect it, cite it, and keep the vault navigable.
 
-## 1. Three Layers
+## 1. Four Layers
 
-The vault has three knowledge layers.
+The vault has four knowledge layers.
 
 ### Raw Layer
 
@@ -47,6 +47,14 @@ The vault has three knowledge layers.
 
 **Purpose:** Define how the vault works: folder rules, page types, frontmatter, naming conventions, logs, indexes, and maintenance operations.
 
+### Web Layer
+
+**Location:** `./100-Crucible/`
+
+**Owner:** Assistant maintains solution area, industry, and special topic markdown pages with user direction.
+
+**Purpose:** Curate and aggregate knowledge into public-facing web content organized by solution area (Azure Infrastructure, Data & AI, Modern Work, Power Platform, Security, etc.), industry vertical (Financial Services, Telecom, Public Sector, Sustainability, etc.), and special topics. Syncs to GitHub Pages (`gh-pages` branch) excluding the `raw/` folder for publication.
+
 ## 2. Folder Conventions and Naming Rules
 
 Use folders consistently.
@@ -62,6 +70,7 @@ Use folders consistently.
 | `40-Resources/` | Reference material organized for reuse. |
 | `50-Archive/` | Completed, inactive, superseded, or retired wiki pages. |
 | `_meta/` | Vault operating rules, templates, maps of content, and maintenance notes. |
+| `100-Crucible/` | Web layer — solution area, industry, and special topic markdown files for GitHub Pages publication. |
 
 Naming rules:
 
@@ -154,6 +163,23 @@ Query pattern:
 read index -> drill -> synthesize -> file good answers
 ```
 
+### Curate
+
+Use this flow to update solution area, industry, and special topic pages for the web layer.
+
+1. Identify the relevant solution area(s), industry vertical(s), and/or special topic(s) from ingested content.
+2. Locate or create the corresponding markdown file in `./100-Crucible/` (e.g., `DataAISolutionArea.md`, `IndustryFinancialServices.md`, `DREAMS.md`).
+3. Update the page using the existing format: maintain frontmatter, preserve structure, add or refresh section content with wiki links, learning resources, and relevant materials.
+4. Ensure internal links to wiki pages use relative paths back to the parent vault (`../`).
+5. Update the page's `updated` date.
+6. Add a `curate` entry to `log.md` referencing the web layer page(s) and source(s).
+
+Curate pattern:
+
+```text
+identify topic -> locate/create 100-Crucible page -> update with wiki content -> add log entry
+```
+
 ### Lint
 
 Use this flow to maintain vault quality.
@@ -201,6 +227,7 @@ Use operation names such as:
 - `create`
 - `update`
 - `query`
+- `curate`
 - `lint`
 - `archive`
 - `rename`

@@ -22,6 +22,12 @@ Source | Description | Notes
 [FinOps with Azure](https://azure.microsoft.com/en-us/resources/finops-with-azure-bringing-finops-to-life-through-organizational-and-cultural-alignment/en-us/?cdn=disable) | Bringing FinOps to life through organizational and cultural alignment: this e-book will guide you through the FinOps principles to highlight Microsoft solutions that can support the cloud journey and help your organization to maximize the cloud business value. | Azure
 [Discover and Drive Action with FinOps Workshop Resources](https://partner.microsoft.com/en-us/asset/collection/discover-and-drive-action-finops-resources#/) | This workshop is designed to support your cloud journey with FinOps best practices, enabling a culture of continuous optimization, accountability, and data-driven decisions to maximize the cloud's business value for your organization. Use this Azure Partner Led workshop to understand and optimize your migration, modernization, or innovation journey with Azure.| PArtner Center
 
+## AI and Agentic Economics
+
+Source | Description | Notes
+:----- | :---------- | :-----
+[Token Economics: The New FinOps for Agentic AI](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/token-economics-the-new-finops-for-agentic-ai/4533743) | Explores token economics and financial optimization strategies specific to agentic AI deployments, highlighting cost considerations and token usage patterns for cost management. | Azure Dev Community Blog
+
 ## Tools
 
 Source | Description | Notes

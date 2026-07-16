@@ -20,6 +20,15 @@ Source | Description | Notes
 [Training and Certifications Poster](https://aka.ms/TrainCertPoster) | Fundamental and role-based certification overview | Microsoft
 
 
+## Partner Skilling
+
+Source | Description | Notes
+:----- | :---------- | :----
+[Accelerators and Demos](https://skillupwithlevelup.com/dealreadyaccelerators) | Microsoft LevelUp Deal Ready Accelerators for partner enablement | Microsoft LevelUp
+[Learning Journeys](https://www.skillupwithlevelup.com/journeys) | Curated learning paths and guided journeys for partner development | Microsoft LevelUp
+[Skilling Agent](https://www.skilling-hub.com/) | AI-powered assistance within the Partner Skilling Hub to help partners navigate skilling offerings, identify learning opportunities, and build personalized skilling plans | Partner Skilling Hub
+[Microskilling](https://www.skilling-hub.com/en-US/type/microskilling) | Short-form, focused skill-building opportunities from the Partner Skilling Hub | Partner Skilling Hub
+
 ## Microsoft Learning Resources
 
 Source | Description | Notes

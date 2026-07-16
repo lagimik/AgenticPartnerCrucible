@@ -8,7 +8,7 @@ categories: "Modern Work"
 
 ## Purpose
 
-![Microsoft 365](/assets/images/Microsoft_365_Copilot_Icon.svg.png)
+![Microsoft 365](./assets/images/Microsoft_365_Copilot_Icon.svg.png)
 <br>
 A Collection of resources for Microsoft practice building Copilot capabilities for the Modern Work Workloads. For a view of other Workloads, please see the [Taxonomy](./Taxonomy).
 

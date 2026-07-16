@@ -1,6 +1,6 @@
 # Software-as-a-Service (SaaS)
 
-![SaaS](/assets/images/SaaS.png)
+![SaaS](./assets/images/SaaS.png)
 
 
 ## Purpose

@@ -3,7 +3,7 @@ title: Generative Partner Crucible - for the week ending 2026-07-13
 date: 2026-07-13
 flag: GenerativePartnerCrucible
 layout: generativepartnercrucible
-thumbnail: /PartnerCrucible/assets/images/2026-07-13-DataAISolutionArea.md-image.png
+thumbnail: ../assets/images/2026-07-13-DataAISolutionArea.md-image.png
 ---
 
 # Azure Workloads

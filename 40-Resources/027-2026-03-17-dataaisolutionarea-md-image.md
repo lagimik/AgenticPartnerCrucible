@@ -14,15 +14,15 @@ status: draft
 
 # 2026 03 17 Dataaisolutionarea.Md Image
 
-Source: https://lagimik.github.io/PartnerCrucible/assets/images/2026-03-17-DataAISolutionArea.md-image.png
+Source: https://lagimik.github.io../assets/images/2026-03-17-DataAISolutionArea.md-image.png
 
-Final URL: https://lagimik.github.io/PartnerCrucible/assets/images/2026-03-17-DataAISolutionArea.md-image.png
+Final URL: https://lagimik.github.io../assets/images/2026-03-17-DataAISolutionArea.md-image.png
 
 Raw capture: `raw/2026-07-10-ingestlinks/027-lagimik-github-io-partnercrucible-assets-images-2026-03-17-dataaisolutionarea-md`
 
 ## Summary
 
-Raw reference captured for `https://lagimik.github.io/PartnerCrucible/assets/images/2026-03-17-DataAISolutionArea.md-image.png`. Automated text extraction was limited; review the raw source before relying on details.
+Raw reference captured for `https://lagimik.github.io../assets/images/2026-03-17-DataAISolutionArea.md-image.png`. Automated text extraction was limited; review the raw source before relying on details.
 
 ## Ingest Notes
 

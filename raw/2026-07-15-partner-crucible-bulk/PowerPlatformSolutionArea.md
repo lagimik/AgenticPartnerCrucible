@@ -6,10 +6,10 @@ categories: "Business Applications"
 
 # Power Platform Workloads
 
-![PowerApps](/assets/images/PowerApps_256x256.png)
-![PowerVirtualAgent](/assets/images/PowerVirtualAgents_256x256.png)
-![PowerAutomate](/assets/images/PowerAutomate_256x256.png)
-![PowerBI](/assets/images/PowerBI_256x256.png)
+![PowerApps](./assets/images/PowerApps_256x256.png)
+![PowerVirtualAgent](./assets/images/PowerVirtualAgents_256x256.png)
+![PowerAutomate](./assets/images/PowerAutomate_256x256.png)
+![PowerBI](./assets/images/PowerBI_256x256.png)
 
 
 ## Purpose

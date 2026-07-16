@@ -6,7 +6,7 @@ categories: "Security"
 
 # Security Workloads - Sentinel
 
-![Sentinel](/assets/images/sentinel-logo.png)
+![Sentinel](./assets/images/sentinel-logo.png)
 
 # Purpose
 

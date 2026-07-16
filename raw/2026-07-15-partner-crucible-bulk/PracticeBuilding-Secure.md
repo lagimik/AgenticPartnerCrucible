@@ -1,6 +1,6 @@
 # Secure the practice
 
-![Sentinel](/assets/images/crucible-security-title.png)
+![Sentinel](./assets/images/crucible-security-title.png)
 
 ## Purpose
 

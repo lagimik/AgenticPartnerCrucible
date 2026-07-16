@@ -1,0 +1,32 @@
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Remove raw folder
+        run: rm -rf raw
+
+      - name: Commit and push to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout gh-pages || git checkout -b gh-pages
+          git reset --hard main
+          git rm -r raw
+          git commit --allow-empty -m "Publish to GitHub Pages (excluding /raw)" || true
+          git push origin gh-pages

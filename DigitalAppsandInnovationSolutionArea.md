@@ -6,7 +6,7 @@ categories: "Digital and App Innovation"
 
 # Digital Apps and Innovation
 
-![OpenHack](./Library/crucible-digitalapp.png)
+![OpenHack](/assets/images/crucible-digitalapp.png)
 
 
 ## Purpose

@@ -8,7 +8,7 @@ categories: "Infrastructure"
 
 ## Purpose
 
-![Azure Infrastructure](./Library/Azure-Logo.png)
+![Azure Infrastructure](/assets/images/Azure-Logo.png)
 
 A Collection of resources for Microsoft practice building in the Azure infrastructure Workloads. For a view of other Workloads, please see the [Taxonomy](./Taxonomy).
 

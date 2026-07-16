@@ -8,7 +8,7 @@ categories: "Business Applications"
 
 ## Purpose
 
-![Business Applications](./Library/Dynamics365_icon_scalable.svg)
+![Business Applications](/assets/images/Dynamics365_icon_scalable.svg)
 <br>
 A Collection of resources for Microsoft practice building in the Business Applications Workloads. For a view of other Workloads, please see the [Taxonomy](./Taxonomy).
 

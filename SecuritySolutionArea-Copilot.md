@@ -6,7 +6,7 @@ categories: "Security"
 
 # Security Workloads - Security Copilot
 
-![Sentinel](./Library/crucible-security-title.png)
+![Sentinel](/assets/images/crucible-security-title.png)
 
 
 ## Purpose

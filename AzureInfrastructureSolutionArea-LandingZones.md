@@ -6,7 +6,7 @@ categories: "Infrastructure"
 
 # Azure Infrastructure - Landing Zones
 
-![Azure Infrastructure](./Library/Azure-LandingZone.png)
+![Azure Infrastructure](/assets/images/Azure-LandingZone.png)
 
 ## Purpose
 

@@ -1,7 +1,7 @@
 
 # Industry - Sustainability
 
-![Industry - Sustainability](./Library/crucible-sustainability-title.png)
+![Industry - Sustainability](/assets/images/crucible-sustainability-title.png)
 
 
 ## Purpose
@@ -32,7 +32,7 @@ Source | Description | Notes
 
 The Industry Cloud portfolio is an extension of Microsoft's existing Cloud services. As such, the Microsoft Cloud for Sustainability is a set of capabilities that runs on Azure.
 
-![Cloud for Sustainability High-Level Architecture](./Library/cloud-for-sustainability-arch.png)
+![Cloud for Sustainability High-Level Architecture](/assets/images/cloud-for-sustainability-arch.png)
 
 Component | Description | Notes
 :----- | :-----  | :-----

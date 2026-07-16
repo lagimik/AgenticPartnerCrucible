@@ -66,6 +66,7 @@ Source | Description | Notes
 [AI for Good Research Lab](https://www.microsoft.com/en-us/research/group/ai-for-good-research-lab/) | Microsoft’s AI for Good Lab is an applied research and data visualization lab that harnesses the power of big data, and Microsoft’s cloud technology. | Microsoft Research
 [Responsible AI Tracker](https://github.com/microsoft/responsible-ai-toolbox-tracker) | Responsible AI Tracker is a JupyterLab Extension for managing, tracking, and comparing results of machine learning experiments for model improvement.  | GitHub
 [Responsible AI Mitigations](https://github.com/microsoft/responsible-ai-toolbox-mitigations) | This Responsible-AI-Toolbox-Mitigations repo consists of a python library that aims to empower data scientists and ML developers to measure their dataset balance and representation of different dataset cohorts, while having access to mitigation techniques they could incorporate to mitigate errors and fairness issues in their datasets. | GitHub
+[From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence](https://techcommunity.microsoft.com/blog/azurearchitectureblog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and-machine-intelligen/4535137) | AI governance reference architecture: four pillars (Policy, Control, Visibility, Proof), nine domains, the Microsoft governance stack (Foundry, Purview, Entra, Defender, APIM AI Gateway, Agent 365), Agent Control Specification (ACS), and a practical adoption path. | Azure Architecture Blog
 
 ## Partner Practice
 

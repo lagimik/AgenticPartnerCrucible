@@ -1,0 +1,49 @@
+# Mixed Reality
+
+## Purpose
+
+A collection of resources for Microsoft practice building in the Digital Apps and Innovation - Mixed Reality Workloads. For a view of other Workloads, please see the [Taxonomy](./Taxonomy).
+
+To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuide).
+
+## References
+
+### Metaverse
+
+Source | Description | Notes
+:----- | :---------- | :----
+[Metaverse - Satya Nadella 2022 Build Keynote](https://youtu.be/rnJHHamrflw) | |
+
+### Mixed Reality
+
+Source | Description | Notes
+:----- | :---------- | :----
+[The Ultimate Guide to Mixed Reality Deployment](https://www.kognitivspark.com/pilot-guide) | An eBook for Industrial Enterprise| Kognitive Spark
+[Mixed Reality Partner Program](https://www.microsoft.com/en-ca/hololens/mrpp) | The Mixed Reality Partner Program (MRPP) is a Microsoft-sponsored, community-driven program for partners that design, build, deploy, and operate mixed reality solutions. |
+
+### Development
+
+Source | Description | Notes
+:----- | :---------- | :----
+[Building Volumetric UI with MRTK3](https://techcommunity.microsoft.com/t5/mixed-reality-blog/building-volumetric-ui-with-mrtk3/ba-p/3631764#msdynttrid=YV7UT7n5GiBo6GZrP3_wh_19FhHE9-bx3i5Udjean84) | Read how MRTK3 expands and improves upon your ability to build volumetric user interfaces in 3D with MRTK -- from variant explosion, measurements, inputs, and more. | Tech Community / Mixed Reality Developer Program
+[MRTK3 Aquarium](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/mrtk3-aquarium) | The MRTK3 Aquarium sample provides a Unity in-editor tutorial that explores various MRTK3 features. Set in an underwater scene, you'll be introduced to the creatures of the aquarium and the objects that make up their habitat.| MS Learn
+[Create Low-Code MR Apps with Power Apps](https://techcommunity.microsoft.com/t5/mixed-reality-blog/create-low-code-mr-apps-with-power-apps/ba-p/3629444#msdynttrid=db-8fG-I3CLO8JpRlMpIAm_xI2hT5AVpJSNn6WST6ec) | An awesome learning experience that leverages the Smithsonian 3D API and open-source models! Joining me this week is Daniel Laskewitz, Sr. Cloud Advocate within our Power/Fusion Cloud Advocacy team | Tech Community / Mixed Reality Developer Program
+
+### Mesh
+
+Source | Description | Notes
+:----- | :---------- | :----
+[Microsoft Mesh, now generally available in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2024/01/24/bring-virtual-connections-to-life-with-microsoft-mesh-now-generally-available-in-microsoft-teams/)| o support hybrid work and geographically distributed organizations, we created Microsoft Mesh. Mesh powers 3D immersive experiences using next-generation technology that help virtual connections feel more like face-to-face interactions.| Microsoft
+[Microsoft Mesh Technology Adoption Program](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyAJpgrP_R1NrtdbborOob5UQUpFVURSRDVYRjNXNzY2VlU1SEVZV0YzNiQlQCN0PWcu&ctx=%7B%22Event%22%3A%22Build%22%7D) | Complete this form to be considered for the Microsoft Mesh Technology Adoption Program (TAP) for building custom solutions and environments in Private Preview. | MTAP
+[Mesh Innovation blog: Innovation Stories blog](https://aka.ms/aaaxf16) | |
+[Mesh home](https://Microsoft.com/mesh) | |
+[Video: Microsoft Mesh – Ignite Session](https://www.microsoft.com/en-ca/p/microsoft-mesh-app-preview/9p64lj74ngw0?rtc=1&activetab=pivot:overviewtab)| Mesh Ignite Featured session |
+[Mesh Tech Overview blog](https://aka.ms/mesh-tech-blog) | |
+[See the Microsoft Mesh announcement](https://aka.ms/MicrosoftMesh) | |
+[Watch the Microsoft Mesh Hero video](https://aka.ms/meshvisionvideo ) | |
+[Microsoft Mesh Updates](https://Microsoft.com/mesh) | |
+[Preview Mesh app](https://www.microsoft.com/en-ca/p/microsoft-mesh-app-preview/9p64lj74ngw0?rtc=1&activetab=pivot:overviewtab) | |
+[Tech Community Blog](https://aka.ms/Ignite21-MRTechBlog) | |
+[Microsoft Mechanics Mesh episode](https://aka.ms/mesh-mechanics) | |
+
+

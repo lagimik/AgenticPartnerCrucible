@@ -25,3 +25,6 @@
 2026-07-16 | curate | 100-Crucible/AzureInfrastructureSolutionArea.md | Added Specialized Workloads section with Oracle+NetApp optimization guidance | issue #6
 2026-07-16 | curate | 100-Crucible/ModernWorkSolutionArea-Copilot.md | Added Developer Experience section with .NET GitHub Copilot modernization link | issue #2
 2026-07-16 | curate | 100-Crucible/SecuritySolutionArea.md | Added APIM-as-gateway for AI Foundry governance to AI Security section | issue #3
+2026-07-16 | ingest | raw/2026-07-16-github-issues/issues.md | Ingested 2 open GitHub issues (#16 Power BI Dev Camp, #17 Power BI Sandbox) | https://github.com/lagimik/AgenticPartnerCrucible/issues
+2026-07-16 | curate | 100-Crucible/PowerPlatformSolutionArea.md | Updated Power BI Dev Camp link to Microsoft Learn; added Power BI Dev Sandbox to Embedded section | issues #16, #17
+2026-07-16 | curate | 100-Crucible/SandboxEnvironments.md | Added Power BI Dev Sandbox to sandbox environments list | issue #17

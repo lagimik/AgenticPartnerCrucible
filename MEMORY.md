@@ -6,3 +6,5 @@
 - Shakespeare's Dream Loop should keep MEMORY.md, DREAMS.md, and outbound summaries whiteboard-level only, omitting raw private communications and sensitive details.
 - July 2026 Shakespeare work expanded the partner AI knowledge base with governed production-agent patterns: AI gateway/APIM for Azure AI Foundry, token economics, AI agent lifecycle, Foundry Toolkit hosted-agent labs, Copilot .NET modernization, and Oracle-on-Azure infrastructure notes.
 - Shakespeare's Partner Crucible newsletter workflow turns current-period vault ingests into workload-grouped Markdown posts under `Newsletter/_posts/`, using only curated, whiteboard-level summaries.
+- Shakespeare now includes a curated `100-Crucible/` publishing layer where ingested resources are organized into solution-area pages and refreshed from issue-driven source links.
+- July 2026 Shakespeare AI governance notes emphasize a runtime governance loop: Policy -> Control -> Visibility -> Proof, connecting Purview, Foundry, APIM, Defender/Entra, Agent 365/ACS, observability, evaluations, and audit evidence.

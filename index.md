@@ -19,6 +19,8 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[partner-skilling-hub-microskilling]] - Bite-sized learning units on the Partner Skilling Hub.
 - [[partner-skilling-hub-agent]] - AI assistant for navigating partner skilling offerings.
 - [[levelup-deal-ready-accelerators]] - Bridge from skilling to customer deal engagement.
+- [[agent-365-demo-led-poc-kit]] - Partner demo-led PoC kit for Agent 365 estate visibility, governance, and AI agent strategy conversations.
+- [[cyber-pulse-ai-security-report]] - Security Insider report/video on AI agent visibility gaps, governance, and Zero Trust protection.
 
 ## Entities
 

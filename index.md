@@ -21,6 +21,11 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[levelup-deal-ready-accelerators]] - Bridge from skilling to customer deal engagement.
 - [[agent-365-demo-led-poc-kit]] - Partner demo-led PoC kit for Agent 365 estate visibility, governance, and AI agent strategy conversations.
 - [[cyber-pulse-ai-security-report]] - Security Insider report/video on AI agent visibility gaps, governance, and Zero Trust protection.
+- [[cat-agent-skills-business-os]] - Business OS for Copilot Studio: structured agent skills for decision-making, planning, and reusable tasks.
+- [[new-copilot-studio-tech-guide]] - CAT team hands-on guide to new Copilot Studio multi-agent architecture.
+- [[copilot-studio-plugin-pac]] - PAC CLI plugin for creating/migrating Copilot Studio agents.
+- [[modern-copilot-studio-deep-dive]] - Technical deep dive into modern Copilot Studio.
+- [[agentic-apps-partner-practice-guide]] - Partner practice guide for agentic apps on Power Platform and Copilot Studio.
 
 ## Entities
 

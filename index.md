@@ -26,6 +26,8 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[copilot-studio-plugin-pac]] - PAC CLI plugin for creating/migrating Copilot Studio agents.
 - [[modern-copilot-studio-deep-dive]] - Technical deep dive into modern Copilot Studio.
 - [[agentic-apps-partner-practice-guide]] - Partner practice guide for agentic apps on Power Platform and Copilot Studio.
+- [[microsoft-agent-365-runtime-protection]] - Microsoft Defender runtime threat detection and inline protection for Agent 365 agents and tooling servers.
+- [[dynamics-365-partner-sandbox-licenses]] - Overview and how-to resources for Dynamics 365 partner sandbox licenses.
 
 ## Entities
 

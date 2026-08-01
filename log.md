@@ -40,3 +40,8 @@
 2026-07-23 | ingest | 40-Resources/modern-copilot-studio-deep-dive.md | Ingested Modern Copilot Studio Technical Deep Dive from issue #23 | https://www.linkedin.com/posts/harish-purohit_modern-copilot-studio-ugcPost-7482829813083467776-U2yC/
 2026-07-23 | ingest | 40-Resources/agentic-apps-partner-practice-guide.md | Ingested Agentic Apps Partner Practice Guide from issue #24 | https://microsoftpartners.microsoft.com/Downloads/?filename=/abs/protected/Agentic-Apps-PP-and-CS-Partner-practice-guide.pptx
 2026-07-23 | curate | 100-Crucible/PowerPlatform-CopilotStudio.md | Added 5 new entries: CAT Agent Skills, Copilot Studio Plugin, New Tech Guide, Modern Deep Dive, Agentic Apps Practice Guide | issues #20, #21, #22, #23, #24
+2026-08-01 | ingest | raw/2026-08-01-github-issues/issues.md | Captured and ingested open GitHub issues #27 and #28 | https://github.com/lagimik/AgenticPartnerCrucible/issues
+2026-08-01 | ingest | 40-Resources/microsoft-agent-365-runtime-protection.md | Created resource page for Microsoft Defender Agent 365 runtime threat detection and real-time protection | issue #27
+2026-08-01 | ingest | 40-Resources/dynamics-365-partner-sandbox-licenses.md | Created resource page for Dynamics 365 partner sandbox license overview and how-to guidance | issue #28
+2026-08-01 | curate | 100-Crucible/SecuritySolutionArea.md | Added Agent 365 runtime protection and threat detection to AI security and Agent 365 resources | issue #27
+2026-08-01 | curate | 100-Crucible/BusinessApplicationsSolutionArea.md; 100-Crucible/SandboxEnvironments.md | Added Dynamics 365 partner sandbox license overview and how-to guide | issue #28

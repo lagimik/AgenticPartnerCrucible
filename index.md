@@ -28,6 +28,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[agentic-apps-partner-practice-guide]] - Partner practice guide for agentic apps on Power Platform and Copilot Studio.
 - [[microsoft-agent-365-runtime-protection]] - Microsoft Defender runtime threat detection and inline protection for Agent 365 agents and tooling servers.
 - [[dynamics-365-partner-sandbox-licenses]] - Overview and how-to resources for Dynamics 365 partner sandbox licenses.
+- [[security-advisors-program-member-sign-up]] - Microsoft Security Advisors Program membership form covering advisory communities, benefits, requirements, and confidentiality obligations.
 
 ## Entities
 

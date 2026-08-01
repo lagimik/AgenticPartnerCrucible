@@ -3,7 +3,7 @@ title: Generative Partner Crucible - for the week ending 2026-07-16
 date: 2026-07-16
 flag: GenerativePartnerCrucible
 layout: generativepartnercrucible
-thumbnail: /PartnerCrucible/assets/images/2026-07-16-PowerPlatformSolutionArea.md-image.png
+thumbnail: /AgenticPartnerCrucible/assets/images/2026-07-16-PowerPlatformSolutionArea.md-image.png
 ---
 
 # Partner Skilling, Demos, and Accelerators
@@ -21,7 +21,7 @@ thumbnail: /PartnerCrucible/assets/images/2026-07-16-PowerPlatformSolutionArea.m
 * [Microskilling](https://www.skilling-hub.com/en-US/type/microskilling): Partner Skilling Hub microskilling offers short-form, focused learning experiences for targeted partner capability building. (Partner Skilling Hub)
 * [Skilling Agent](https://www.skilling-hub.com/): The Partner Skilling Hub agent helps partners navigate skilling offerings, identify learning opportunities, and build personalized skilling plans. (Partner Skilling Hub)
 
-Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/PartnerCrucible/LearningResources) for more partner resources.
+Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/LearningResources) for more partner resources.
 
 # Microsoft AI Workload
 
@@ -33,7 +33,7 @@ s- 🧾 Policy-to-Proof reframes AI governance as an operating loop from policy 
 
 * [From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence](https://techcommunity.microsoft.com/blog/azurearchitectureblog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and-machine-intelligen/4535137): The reference architecture defines Policy, Control, Visibility, and Proof as a governance loop using Foundry, Purview, Entra, Defender, APIM AI Gateway, Agent 365, and ACS. (Azure Architecture Blog)
 
-Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/PartnerCrucible/DataAISolutionArea) for more partner resources.
+Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/DataAISolutionArea) for more partner resources.
 
 # GitHub Copilot Workloads
 
@@ -47,7 +47,7 @@ Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.gi
 
 * [Modernize .NET in the GitHub Copilot App](https://devblogs.microsoft.com/dotnet/modernize-dotnet-in-github-copilot-app/): The GitHub Copilot upgrade agent assesses .NET applications, generates upgrade plans, creates implementation tasks, executes code changes, and validates results through an interactive upgrade canvas. (Microsoft DevBlogs)
 
-Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/PartnerCrucible/ModernWorkSolutionArea-Copilot) for more partner resources.
+Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/ModernWorkSolutionArea-Copilot) for more partner resources.
 
 # Data Workloads
 
@@ -61,7 +61,7 @@ Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.gi
 * [Power BI Dev Camp](https://learn.microsoft.com/en-us/power-bi/developer/embedded/dev-camp-links): Power BI Dev Camp is a developer resource hub for the Power BI developer platform, including app-owns-data tutorials, examples, and embedded analytics guidance. (Microsoft Learn)
 * [Power BI Dev Sandbox](https://playground.powerbi.com/en-us/dev-sandbox): The sandbox provides an interactive browser-based environment for building and testing Power BI embedded solutions. (Power BI)
 
-Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/PartnerCrucible/PowerPlatformSolutionArea) for more partner resources.
+Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/PowerPlatformSolutionArea) for more partner resources.
 
 # Security Workloads
 
@@ -77,4 +77,4 @@ Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.gi
 * [From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence](https://techcommunity.microsoft.com/blog/azurearchitectureblog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and-machine-intelligen/4535137): The architecture covers four pillars, nine governance domains, Microsoft governance services, and the Agent Control Specification for portable runtime controls. (Azure Architecture Blog)
 * [Zero-Trust Agents: Adding Identity and Access to Multi-Agent Workflows](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/zero-trust-agents-adding-identity-and-access-to-multi-agent-workflows/4427790): The article demonstrates how identity and access management can be integrated into enterprise multi-agent workflows using zero-trust principles. (Tech Community)
 
-Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/PartnerCrucible/SecuritySolutionArea) for more partner resources.
+Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/SecuritySolutionArea) for more partner resources.

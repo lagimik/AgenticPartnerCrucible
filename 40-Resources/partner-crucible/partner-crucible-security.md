@@ -2,7 +2,7 @@
 title: "Partner Crucible - Security"
 type: resource
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-08-01
 tags:
   - security
   - zero-trust
@@ -16,7 +16,7 @@ status: active
 
 # Partner Crucible - Security
 
-Curated link library for Microsoft Security practice building. Covers Zero Trust, XDR, Defender, Entra, data security, and industry analyst recognition (Gartner, Forrester, MITRE).
+Curated link library for Microsoft Security practice building. Covers Zero Trust, XDR, Defender, Entra, data security, Security Advisors community engagement, and industry analyst recognition (Gartner, Forrester, MITRE).
 
 ## Key Themes
 
@@ -26,6 +26,7 @@ Curated link library for Microsoft Security practice building. Covers Zero Trust
 - Data security and governance
 - AI security (MDASH, Generative AI Defense)
 - Secure Future Initiative (SFI)
+- Security Advisors communities for roadmap, preview, and engineering-feedback engagement
 
 ## Source File
 
@@ -35,4 +36,5 @@ Full link collection: `raw/2026-07-15-partner-crucible-bulk/SecuritySolutionArea
 
 - [[partner-crucible-security-copilot]]
 - [[partner-crucible-security-sentinel]]
+- [[security-advisors-program-member-sign-up]]
 - [[moc-partner-crucible]]

@@ -34,6 +34,12 @@ Source | Description | Notes
 [LevelUp CSP AIBS Bootcamps](https://levelupcspmwba.eventbuilder.com/Bootcamp) | These bootcamps are designed for CSP partners to develop sales and technical capabilities, acquire new customers, and explore upselling and cross-selling strategies. | 
 [AI @ Work CSP Insider](https://www.microsoft.com/en-us/AIatWorkCSPInsider) | Sign up to receive exclusive updates on products, programs, promotions and events tailored specifically for Microsoft Cloud Solution Provider (CSP) partners.
 
+## CSP Sales | Azure and Hosting Modernization
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[Hosters Marketing Moment](https://partner.microsoft.com/en-ca/blog/article/hosters-marketing-moment) | Guidance for hosting and hybrid cloud partners moving from SPLA-era hosting models toward CSP services-led revenue with Microsoft Adaptive Cloud, Azure Arc, Azure Local, and Azure Native services. | Microsoft Partner Blog
+
 ## CSP Sales | Security Solution Areas
 
 Source | Description | Notes

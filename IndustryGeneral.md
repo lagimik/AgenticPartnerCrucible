@@ -70,6 +70,13 @@ Source | Description | Notes
 [Microsoft Cloud for Manufacturing: Partnering to manufacture a more resilient and sustainable future](https://cloudblogs.microsoft.com/industry-blog/manufacturing/2022/01/03/microsoft-cloud-for-manufacturing-partnering-to-manufacture-a-more-resilient-and-sustainable-future/) | Blog post | January 2022
 [The Road to Intelligent Manufacturing: Leveraging a Platform Approach](https://azure.microsoft.com/en-us/resources/the-road-to-intelligent-manufacturing-leveraging-a-platform-approach/) | Whitepaper - Learn how Capgemini and Microsoft work together to help organizations successfully pass through each phase of their journey to connectivity, automation, and cloud-scale analytics, data, and decision making. | 2020
 [Stay informed about Microsoft Cloud for Manufacturing](https://info.microsoft.com/ww-landing-Manufacturing-StayInformed.html) | Updates |
+[Agentic AI for plant operations: From dashboards to decisions](https://www.microsoft.com/en-us/microsoft-cloud/blog/manufacturing/2026/06/18/agentic-ai-for-plant-operations-from-dashboards-to-decisions/) | Manufacturing article on governed human-agent teams for plant operations, connecting operational context, digital twins, ontologies, safety guardrails, and repeatable playbooks. | Microsoft Cloud Blog
+
+### Retail and Consumer Goods
+
+Source | Description | Notes
+:----- | :-----  | :-----
+[Agentic AI is reshaping retail economics](https://www.microsoft.com/en-us/microsoft-cloud/blog/retail-and-consumer-goods/2026/05/21/agentic-ai-is-reshaping-retail-economics/) | Retail and consumer goods article describing agentic AI ROI across marketing, supply chain, and store operations, including shopping assistants, campaign execution, demand forecasting, inventory optimization, and frontline automation. | Microsoft Cloud Blog
 
 ### Public Safety
 

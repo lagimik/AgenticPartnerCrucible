@@ -21,6 +21,7 @@ Source | Description | Notes
 [TEI Of Microsoft Copilot For Microsoft 365](https://bcb.transform.microsoft.com/analyststudies) | The Projected Total Economic Impact™ Of Microsoft Copilot For Microsoft 365 - Cost Savings And Business Benefits Enabled By Copilot For Microsoft 365| Forrester, April 2024
 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/) | Research and data on the trends reshaping the world of work | Microsoft Work Index
 [How systems integrators are scaling innovation with Microsoft 365 Copilot and agents](https://partner.microsoft.com/en-us/blog/article/copilot-partner-spotlight-august-2025) | Across industries, SIs are introducing intelligent agents that streamline operations, boost productivity, and create entirely new customer experiences. These aren’t experiments; they’re high-impact solutions delivering measurable results. And behind many of them are Microsoft 365 Copilot, agentic AI, and a deep partnership with Microsoft.  | Microsoft Partner Blog
+[How system integrators and developers win with Microsoft 365 E7 and Agent 365](https://microsoftpartners.microsoft.com/abs/Blog/?title=How%20system%20integrators%20and%20developers%20win%20with%20Microsoft%20365%20E7%20and%20Agent%20365) | Partner blog pointer for Microsoft 365 E7 and Agent 365 opportunity with systems integrators and developers. | Microsoft Partners
 
 
 ## Partner Practice Building
@@ -95,5 +96,4 @@ Source | Description | Notes
 [M365 Deployment Blueprint - Mitigate Oversharing](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing) | In this deployment blueprint, we provide a recommended approach to address internal oversharing concerns throughout a Microsoft 365 Copilot deployment| Microsoft Learn
 [Work IQ Training Video](http://aka.ms/workiqtrainingvideo) | Training video for Work IQ, a tool that leverages Microsoft 365 Copilot and Microsoft Graph to deliver intelligent workplace insights and automation. | Microsoft
 [Work IQ Samples](https://github.com/microsoft/work-iq-samples) | Sample code and implementations for Work IQ, demonstrating how to build intelligent workplace solutions using Microsoft 365 Copilot and Microsoft Graph. | GitHub
-
 

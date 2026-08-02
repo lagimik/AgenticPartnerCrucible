@@ -29,6 +29,20 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[microsoft-agent-365-runtime-protection]] - Microsoft Defender runtime threat detection and inline protection for Agent 365 agents and tooling servers.
 - [[dynamics-365-partner-sandbox-licenses]] - Overview and how-to resources for Dynamics 365 partner sandbox licenses.
 - [[security-advisors-program-member-sign-up]] - Microsoft Security Advisors Program membership form covering advisory communities, benefits, requirements, and confidentiality obligations.
+- [[hosters-marketing-moment]] - Microsoft Partner blog/e-book motion for hosting modernization with Adaptive Cloud, Azure Arc, Azure Local, DCO, and CSP services-led revenue.
+- [[microsoft-security-124-roi-forrester-tei]] - Forrester TEI business case for Microsoft Security consolidation and AI-first end-to-end security.
+- [[m365-e7-agent-365-si-developers]] - Partner blog pointer for SI/developer motions around Microsoft 365 E7 and Agent 365.
+- [[microsoft-ai-coach-sales-training]] - Microsoft Customer Zero AI coach pattern for personalized, scenario-driven sales training.
+- [[azure-ai-foundry-zero-to-production]] - Azure AI Foundry zero-to-production source placeholder from open issue #33.
+- [[agent-framework-copilot-cli-squad-agent-teams]] - Microsoft Agent Framework integration with GitHub Copilot CLI/SDK and Squad multi-agent teams.
+- [[agentic-ai-renewable-energy-operations]] - Agentic AI use cases for renewable energy operations and Energy Frontier scenarios.
+- [[agentic-ai-plant-operations]] - Manufacturing plant operations pattern for governed human-agent teams and operational intelligence.
+- [[agentic-ai-retail-economics]] - Retail and consumer goods agentic AI ROI/use-case summary across marketing, supply chain, and store operations.
+- [[forrester-wave-data-lakehouses-q3-2026]] - Forrester Wave Data Lakehouses Q3 2026 reprint pointer for Data & AI positioning.
+- [[reliable-voice-agents-practical-guide]] - Copilot Studio practical guide for reliable customer-facing voice agents.
+- [[azure-chaos-studio-workspaces]] - Azure Chaos Studio Workspaces for scenario-based resilience validation and AI-powered operations.
+- [[project-perception-agentic-security-stack]] - Microsoft Project Perception and the agentic security cyber stack.
+- [[azure-copilot-observability-agent]] - Azure Monitor-powered Copilot Observability Agent for explainable investigations and autonomous operations preview.
 
 ## Entities
 
@@ -50,6 +64,8 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[fabric-authoring-consumption-operations]]
 - [[model-context-protocol-mcp]]
 - [[medallion-architecture]]
+- [[adaptive-cloud-hosting-modernization]] - Phased hoster modernization pattern: stabilize, modernize with Adaptive Cloud, and grow managed services.
+- [[agentic-cloud-operations]] - AIOps pattern where agents correlate telemetry, investigate issues, and preserve evidence while humans control mitigation.
 
 ## Projects
 

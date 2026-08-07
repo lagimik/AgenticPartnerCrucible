@@ -2,7 +2,7 @@
 title: AI Agent Lifecycle
 type: concept
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-08-07
 tags:
   - agentic-ai
   - responsible-ai
@@ -11,6 +11,7 @@ tags:
   - architecture-pattern
 sources:
   - raw/2026-07-13-ai-agent-lifecycle/source.md
+  - raw/2026-08-07-github-open-issues-42-45/issues.md
 status: active
 ---
 
@@ -58,9 +59,14 @@ Regulators ask: "is it safe NOW and can you prove it has been improving?" The it
 | Human overrides spike | Loop to Design (rethink HITL threshold) |
 | New regulation | Loop to Design (full cycle restart) |
 
+## Configuration Optimization
+
+The iterate stage can use evaluation results and execution traces to propose versioned changes to agent instructions, skills, tool descriptions, or model selection. Representative datasets and trusted evaluators are prerequisites, and a human owner should approve which candidate becomes the next deployed version.
+
 ## Related Pages
 
 - [[ai-agent-lifecycle-guide]]
 - [[agentic-ai]]
 - [[ai-governance]]
 - [[azure-ai-foundry]]
+- [[agent-configuration-optimization]]

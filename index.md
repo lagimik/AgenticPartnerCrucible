@@ -43,6 +43,10 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[azure-chaos-studio-workspaces]] - Azure Chaos Studio Workspaces for scenario-based resilience validation and AI-powered operations.
 - [[project-perception-agentic-security-stack]] - Microsoft Project Perception and the agentic security cyber stack.
 - [[azure-copilot-observability-agent]] - Azure Monitor-powered Copilot Observability Agent for explainable investigations and autonomous operations preview.
+- [[foundry-pyrit-ai-red-teaming]] - Decision guide for managed Foundry red teaming versus flexible PyRIT application testing.
+- [[microsoft-foundry-agent-optimizer]] - Reflection-based optimization of agent instructions and configuration using traces and evaluators.
+- [[ai-augmented-code-modernization-leader]] - Microsoft agentic modernization approach and 2026 Gartner recognition.
+- [[cnapp-cloud-ai-security-control-plane]] - CNAPP evolution toward unified cloud, application, identity, data, runtime, and AI risk.
 
 ## Entities
 
@@ -66,6 +70,8 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[medallion-architecture]]
 - [[adaptive-cloud-hosting-modernization]] - Phased hoster modernization pattern: stabilize, modernize with Adaptive Cloud, and grow managed services.
 - [[agentic-cloud-operations]] - AIOps pattern where agents correlate telemetry, investigate issues, and preserve evidence while humans control mitigation.
+- [[ai-red-teaming-tool-selection]] - Select managed or custom adversarial testing according to the system boundary.
+- [[agent-configuration-optimization]] - Evaluation-and-trace-driven improvement of versioned agent configuration.
 
 ## Projects
 

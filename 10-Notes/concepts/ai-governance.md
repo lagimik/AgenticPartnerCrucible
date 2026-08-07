@@ -2,7 +2,7 @@
 title: AI Governance
 type: concept
 created: 2026-07-10
-updated: 2026-07-16
+updated: 2026-08-07
 tags:
   - governance
   - security
@@ -12,6 +12,7 @@ tags:
 sources:
   - raw/2026-07-10-ingestlinks/
   - raw/2026-07-16-policy-to-proof-ai-governance/source.md
+  - raw/2026-08-07-github-open-issues-42-45/issues.md
 status: active
 ---
 
@@ -57,8 +58,16 @@ The continuous loop — not any single control — is what makes governance real
 3. **Apply controls** – Purview, Entra, Defender, Foundry guardrails, APIM AI Gateway, Agent 365, ACS.
 4. **Measure and prove** – Evaluations (ASSERT), observability, audit evidence, dashboards.
 
+## Security Validation Boundaries
+
+Governance evidence must cover both the model and the application around it. Managed Foundry evaluation and red teaming can test supported Foundry and Azure OpenAI targets, while custom endpoints, RAG layers, tools, and business logic may require PyRIT or comparable application-level adversarial testing.
+
+Cloud and AI posture should also be correlated with runtime, identity, data, application, and attack-path context. Treating AI systems as part of the broader cloud risk graph avoids a separate governance silo.
+
 ## Related
 
 - [Policy to Proof — AI Governance Reference](../40-Resources/policy-to-proof-ai-governance.md)
 - [AI Gateway Pattern](ai-gateway-pattern.md)
+- [AI Red-Teaming Tool Selection](ai-red-teaming-tool-selection.md)
+- [CNAPP as a Cloud and AI Security Control Plane](../../40-Resources/cnapp-cloud-ai-security-control-plane.md)
 - [[moc-ingested-link-library]]

@@ -2,6 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads"
 layout: "default"
 categories: "Data and AI"
+updated: 2026-08-07
 ---
 
 # Data and AI
@@ -127,6 +128,7 @@ Source | Description | Notes
 [Lessons from red teaming 100 generative AI products](https://www.linkedin.com/posts/heenapurohit_lessons-from-red-teaming-100-products-ugcPost-7285138123909443584-Q7GU/?utm_source=share&utm_medium=member_desktop) |  Based on our experience red teaming over 100 generative Al products at Microsoft, we present our internal threat model ontology and eight main lessons we have learned | Microsoft AI Red Team
 [Python Risk Identification Toolkit for generative AI (PyRIT)](https://www.microsoft.com/en-us/security/blog/2024/02/22/announcing-microsofts-open-automation-framework-to-red-team-generative-ai-systems/) | Microsoft releases an open automation framework, PyRIT (Python Risk Identification Toolkit for generative AI), to empower security professionals and machine learning engineers to proactively find risks in their generative AI systems | Blog
 [Python Risk Identification Tool for generative AI (PyRIT) - GitHub](https://github.com/Azure/PyRIT) | The Python Risk Identification Tool for generative AI (PyRIT) is an open access automation framework to empower security professionals and ML engineers to red team foundation models and their applications. | GitHub
+[Microsoft Foundry and PyRIT for AI Red Teaming](../40-Resources/foundry-pyrit-ai-red-teaming.md) | Use managed Foundry evaluation and red teaming for supported targets; use PyRIT for custom endpoints, external APIs, bespoke RAG and agent flows, and lower-level attack orchestration. | Issue #42
 [Adversarial ML Threat Matrix](https://github.com/mitre/advmlthreatmatrix) | The goal of this project is to position attacks on machine learning (ML) systems in an ATT&CK-style framework so that security analysts can orient themselves to these new and upcoming threats. | Mitre
 [Counterfit](https://www.microsoft.com/en-us/security/blog/2021/05/03/ai-security-risk-assessment-using-counterfit/) | Counterfit helps organizations conduct AI security risk assessments to ensure that the algorithms used in their businesses are robust, reliable, and trustworthy. | Blog
 [Counterfit - GitHub](https://github.com/Azure/counterfit) | Counterfit is a generic automation layer for assessing the security of machine learning systems. It brings several existing adversarial frameworks under one tool, or allows users to create their own. | GitHub
@@ -138,6 +140,7 @@ This section has been regrouped here: [Data & AI > Azure OpenAI](./DataAISolutio
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Microsoft Foundry Agent Optimizer](../40-Resources/microsoft-foundry-agent-optimizer.md) | Preview reflection-based optimization that uses representative datasets, trusted evaluators, and execution traces to propose reviewable changes to agent instructions and configuration. | Issue #43
 [Foundry Toolkit Lab](https://github.com/microsoft-foundry/Foundry_Toolkit_for_VSCode_Lab/) | Hands-on lab for VS Code development with Microsoft Foundry toolkit, from setup to advanced agent workflows. | Microsoft Foundry GitHub
 [Foundry Agent Lab](https://github.com/microsoft-foundry/Foundry-Agent-Lab) | Progressive hands-on lab for building AI agents with Microsoft Foundry, from basic hello-world scenarios to more advanced agent workflows. | Microsoft Foundry GitHub
 [Building AI Agents with Microsoft Foundry: A Progressive Lab from Hello World to ...](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/building-ai-agents-with-microsoft-foundry-a-progressive-lab-from-hello-world-to-/4521792) | Companion walkthrough article for the Foundry Agent Lab that guides developers through the staged learning path and implementation approach. | Tech Community

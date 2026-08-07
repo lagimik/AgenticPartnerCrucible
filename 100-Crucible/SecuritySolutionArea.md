@@ -2,6 +2,7 @@
 title: "Partner Crucible - Security Workloads "
 layout: "default"
 categories: "Security"
+updated: 2026-08-07
 ---
 
 # Security Workloads
@@ -209,6 +210,7 @@ Source | Description | Notes
 [Microsoft Defender for Cloud Apps open app connector platform](https://learn.microsoft.com/en-us/defender-cloud-apps/connector-platform) | This article describes how SaaS app vendors can use the Defender for Cloud Apps open app connector platform to build connectors for their own apps. The codeless open app connector platform helps simplify connector development by avoiding extra coding and reducing integration time. | Microsoft Learn
 [Support matrices for Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/support-matrix-defender-for-cloud) | Describes Azure services and client operating systems that are supported by Microsoft Defender for Cloud. | Microsoft Learn
 [Microsoft Defender for Cloud](https://github.com/Azure/Microsoft-Defender-for-Cloud) |  Will help you work programmatically at scale with Microsoft Defender for Cloud and provide you additional value to secure your environment, some of which has not yet been embedded into the product (yet). | GitHub
+[CNAPP as a Cloud and AI Security Control Plane](../40-Resources/cnapp-cloud-ai-security-control-plane.md) | KuppingerCole recognition and Microsoft perspective on CNAPP evolving toward correlated cloud, application, identity, data, runtime, and AI risk with exploitability-based attack-path prioritization. | Issue #45
 [Become a Microsoft Defender for Cloud Ninja](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/become-a-microsoft-defender-for-cloud-ninja/ba-p/1608761) | This blog post has a curation of many Microsoft Defender for Cloud (formerly known as Azure Security Center and Azure Defender) resources, organized in a format that can help you to go from absolutely no knowledge in Microsoft Defender for Cloud, to design and implement different scenarios |  Tech Community 2022
 [Discover Which Generative AI Apps Are Used in Your Environment](https://www.youtube.com/watch?v=ZQI4A7W4E_4&t=21s) | Learn and configure your environment, step by step, while watching, to simply discover and control the use of Generative AI apps in your organization. This step-by-step video is meant to be followed as it plays along to help you easily setup the proper config and policies.| Microsoft Security Community YouTube
 
@@ -272,6 +274,7 @@ Source | Description | Notes
 [From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence](https://techcommunity.microsoft.com/blog/azurearchitectureblog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and-machine-intelligen/4535137) | Comprehensive AI governance reference architecture covering four pillars (Policy, Control, Visibility, Proof), nine domains, the Microsoft governance stack (Foundry, Purview, Entra, Defender, APIM AI Gateway, Agent 365), and the Agent Control Specification (ACS) for portable runtime controls. | Azure Architecture Blog
 [Zero-Trust Agents: Adding Identity and Access to Multi-Agent Workflows](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/zero-trust-agents-adding-identity-and-access-to-multi-agent-workflows/4427790)| In this article, we demonstrate a zero-trust approach to autonomous AI agents by integrating Identity and access management into an enterprise agentic workflow| Tech Community
 [Project Perception: Rethinking security for the age of AI](https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/) | Agentic security stack built from signals, context, models, harness, agents, and actuators, coordinating red/blue/green agent teams to defend at machine speed while keeping humans in control. | Microsoft Blog
+[Microsoft Foundry and PyRIT for AI Red Teaming](../40-Resources/foundry-pyrit-ai-red-teaming.md) | Decision guide for managed Foundry red teaming of supported targets versus flexible PyRIT testing of custom APIs, RAG, tools, and agent workflows. | Issue #42
 
 ## Microsoft Purview Information Protection Ninja
 
@@ -297,4 +300,3 @@ Source | Description | Notes
 [Compliance Manager Ninja](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/microsoft-compliance-manager-mscm-ninja-training-q1-2022/ba-p/3181322?WT.mc_id=modinfra-0000-rotrent) | We’ve sifted through the vast resources Microsoft has to offer for MSCM and developed this training to guide you – all in one location, in a simple easy to follow format!  If there is anything we can do to improve this training, please do not hesitate to leave a comment below and we will be sure to review it. | Feb 2022
 [Insider risk Insider Risk Management Ninja](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/become-an-insider-risk-management-ninja/ba-p/3282306) | In this Ninja page, we share the top resources for Insider Risk Management users to become more proficient with the Microsoft Purview Insider Risk Management solution.  | April 2022
 [Communication Compliance Ninja](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/become-a-communication-compliance-ninja/ba-p/3283283) | In this Ninja page, we share the top resources for Communication Compliance users to become more proficient with the Microsoft Purview Communication Compliance solutio| April 2022
-

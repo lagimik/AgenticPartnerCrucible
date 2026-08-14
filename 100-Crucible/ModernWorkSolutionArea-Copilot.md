@@ -2,6 +2,7 @@
 title: "Partner Crucible - Modern Work Workloads - Copilot"
 layout: "default"
 categories: "Modern Work"
+updated: 2026-08-14
 ---
 
 # Modern Work Workloads - Copilot
@@ -29,6 +30,7 @@ Source | Description | Notes
 Source | Description | Notes
 :----- | :-----  | :-----
 [Microsoft Copilot specialization](https://partner.microsoft.com/en-US/partnership/specialization/microsoft-copilot) | The Microsoft Copilot specialization demonstrates your experience and skills related to Microsoft 365 Copilot, including Microsoft 365 Copilot Chat, Microsoft Copilot Studio, and agents | Microsoft Partner
+[Cowork Partner Launch Kit](../40-Resources/cowork-partner-launch-kit.md) | Protected Microsoft partner launch package for Cowork. The linked ZIP requires authorized partner access. | Issue #47
 [Microsoft 365 Copilot: The AI-Powered Future of Work](https://aka.ms/M365CopilotPartner) | Partner resource landing page | Transform
 [Microsoft 365 Copilot - Partner Opportunities](https://cloudpartners.transform.microsoft.com/download?assetname=assets%2FMicrosoft365-Copilot-Services-Solution-Partner-Opportunities.pptx&download=1)| M365 Copilot Partner opportunities - guidance on advisory, deployment, selling, adopting, and extending M365 Copilot | Transform
 [Get AI-ready with Microsoft 365](https://cloudpartners.transform.microsoft.com/partner-gtm/csp?tab=get-ai-ready) | CSP - With Microsoft 365, SMBs can safely run their businesses from anywhere with a secure, comprehensive, AI-powered cloud solution that makes hybrid work, work.| Transform
@@ -96,4 +98,3 @@ Source | Description | Notes
 [M365 Deployment Blueprint - Mitigate Oversharing](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing) | In this deployment blueprint, we provide a recommended approach to address internal oversharing concerns throughout a Microsoft 365 Copilot deployment| Microsoft Learn
 [Work IQ Training Video](http://aka.ms/workiqtrainingvideo) | Training video for Work IQ, a tool that leverages Microsoft 365 Copilot and Microsoft Graph to deliver intelligent workplace insights and automation. | Microsoft
 [Work IQ Samples](https://github.com/microsoft/work-iq-samples) | Sample code and implementations for Work IQ, demonstrating how to build intelligent workplace solutions using Microsoft 365 Copilot and Microsoft Graph. | GitHub
-

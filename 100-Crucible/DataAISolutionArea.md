@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-08-07
+updated: 2026-08-14
 ---
 
 # Data and AI
@@ -141,6 +141,8 @@ This section has been regrouped here: [Data & AI > Azure OpenAI](./DataAISolutio
 Source | Description | Notes
 :----- | :-----  | :-----
 [Microsoft Foundry Agent Optimizer](../40-Resources/microsoft-foundry-agent-optimizer.md) | Preview reflection-based optimization that uses representative datasets, trusted evaluators, and execution traces to propose reviewable changes to agent instructions and configuration. | Issue #43
+[Economics of Agent Optimization](../40-Resources/economics-of-agent-optimization.md) | Run AI as a managed investment system by optimizing each request at runtime, improving agent workflows over time, and governing spend continuously. | Issue #51
+[Reliable Agent Recovery with Microsoft Foundry](../40-Resources/reliable-agent-recovery-foundry.md) | Production reliability pattern for side-effecting tools using explicit failure semantics, idempotency, action ledgers, state verification, recovery state machines, and risk-driven escalation. | Issue #53
 [Foundry Toolkit Lab](https://github.com/microsoft-foundry/Foundry_Toolkit_for_VSCode_Lab/) | Hands-on lab for VS Code development with Microsoft Foundry toolkit, from setup to advanced agent workflows. | Microsoft Foundry GitHub
 [Foundry Agent Lab](https://github.com/microsoft-foundry/Foundry-Agent-Lab) | Progressive hands-on lab for building AI agents with Microsoft Foundry, from basic hello-world scenarios to more advanced agent workflows. | Microsoft Foundry GitHub
 [Building AI Agents with Microsoft Foundry: A Progressive Lab from Hello World to ...](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/building-ai-agents-with-microsoft-foundry-a-progressive-lab-from-hello-world-to-/4521792) | Companion walkthrough article for the Foundry Agent Lab that guides developers through the staged learning path and implementation approach. | Tech Community
@@ -199,6 +201,7 @@ Source | Description | Notes
 :----- | :-----  | :-----
 [Azure AI Content Understanding YouTube Playlist](https://www.youtube.com/playlist?list=PLlrxD0HtieHiy0w4peKmU-1eyMwFHd8UL) | A curated YouTube playlist featuring demos, tutorials, and deep dives on Azure AI Content Understanding capabilities. | YouTube
 [Choose the right Azure AI tool for document processing](https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/choosing-right-ai-tool) | Learn about Azure Content Understanding in Foundry Tools, Azure Document Intelligence in Foundry Tools, and Azure LLM solutions for document processing workflows and field extractions. | Microsoft Learn
+[Azure Content Understanding GPT-5 Model Selection](../40-Resources/content-understanding-gpt5-model-selection.md) | Benchmark-informed starting points for balancing quality, cost, grounding, and confidence across document, speech, video, and image workloads. | Issue #50
 
 ## Synapse
 
@@ -206,6 +209,12 @@ Source | Description | Notes
 :----- | :-----  | :-----
 [Analytics end-to-end with Azure Synapse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/dataplate2e/data-platform-end-to-end?tabs=portal) | This example scenario demonstrates how to use Azure Synapse Analytics with the extensive family of Azure Data Services to build a modern data platform that's capable of handling the most common data challenges in an organization. | Azure Architecture Centre
 [Azure Synapse Influencer program](https://azure.github.io/Synapse/influencers/#:~:text=The%20Azure%20Synapse%20Influencer%20Program%20brings%20together%20like-minded,of%20users%2C%20and%20achieve%20more%20through%20Azure%20Synapse.) | The Azure Synapse Influencer program recognizes Azure Synapse Analytics community members who actively support one another by sharing Synapse-related content, announcements, and product news via social media. | Github
+
+## SQL Partner Community
+
+Source | Description | Notes
+:----- | :----- | :-----
+[Join the SQL Partner Community](../40-Resources/sql-partner-community.md) | Official Microsoft Forms registration entry point for partners interested in the SQL Partner Community. | Issue #48
 
 ## PostgreSQL
 

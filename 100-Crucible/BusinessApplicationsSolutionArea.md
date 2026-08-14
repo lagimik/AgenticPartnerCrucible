@@ -2,6 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads"
 layout: "default"
 categories: "Business Applications"
+updated: 2026-08-14
 ---
 
 # Business Applications Workloads
@@ -20,6 +21,7 @@ To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuid
 Source | Description | Notes
 :----- | :-----  | :-----
 [Microsoft is named a Leader in 2023 Gartner® Magic Quadrant™ for B2B Marketing Automation Platform](https://cloudblogs.microsoft.com/dynamics365/bdm/2023/09/25/microsoft-is-named-a-leader-in-2023-gartner-magic-quadrant-for-b2b-marketing-automation-platform/) | Microsoft has been recognized as a Leader within the 2023 Gartner Magic Quadrant for B2B Marketing Automation Platforms* for the second consecutive year. In this year’s report, Microsoft is positioned highest in Ability to Execute. | Blog
+[Dynamics 365 in the 2026 CRM Sales Platforms Magic Quadrant](../40-Resources/dynamics-365-crm-sales-platform-leader.md) | Microsoft recognition and agentic CRM summary covering Dynamics 365 Sales, Microsoft 365 Copilot, sales agents, workflow automation, and the shift from system of record to system of action. | Gartner 2026; Issue #49
 [IDC MarketScapes for Finance & Accounting Applications](https://idcdocserv.com/US51405823e_Microsoft) | Microsoft Recognized as a Leader in IDC’s MarketScapes for Finance & Accounting Applications | IDC
 [Microsoft is a Leader in The Forrester Wave™: Customer Service Solutions](https://cloudblogs.microsoft.com/dynamics365/bdm/2024/03/11/microsoft-is-a-leader-in-the-forrester-wave-customer-service-solutions-q1-2024/) | Microsoft has been named a Leader in The Forrester WaveTM: Customer Service Solutions, Q1 2024 attaining top scores possible in the business intelligence, process management, and collaboration criteria. | Forrester, Q1 2024
 
@@ -109,4 +111,3 @@ Source | Description | Notes
 Source | Description | Notes
 :----- | :-----  | :-----
 [Dynamics 365 Developers: Start here](https://learn.microsoft.com/en-ca/dynamics365/get-started/developers?wt.mc_id=sitertzn_dynamics365_content_developermscom)| Developers and ISVs can use the underlying platform to build or extend apps, depending on the app's type | Microsoft Lean
-

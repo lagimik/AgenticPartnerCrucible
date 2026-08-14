@@ -2,7 +2,7 @@
 title: Token Economics
 type: concept
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-08-14
 tags:
   - finops
   - agentic-ai
@@ -12,6 +12,7 @@ tags:
 sources:
   - raw/2026-07-13-token-economics-finops-agentic-ai/source.md
   - raw/2026-07-13-apim-gateway-azure-ai-foundry/source.md
+  - raw/2026-08-14-github-open-issues-47-53/issues.md
 status: active
 ---
 
@@ -44,6 +45,16 @@ In agentic systems, one user goal can trigger dozens of model calls (planning, r
 Scenario → Compress → Deduplicate → Route → Memory → Meter → Evaluate
 ```
 
+## Managed Investment System
+
+AI FinOps operates at three speeds:
+
+1. Optimize each request at runtime through routing, deployment choices, caching, fine-tuning, and selective retrieval.
+2. Optimize agent workflows over time using evaluators, configuration optimization, focused toolsets, and memory.
+3. Govern spend continuously with attribution, quotas, budgets, enforcement, allocation, and chargeback.
+
+Spend should be attributable by application, agent, workflow, and model. Roadmap capabilities must be separated from controls available today when designing governance.
+
 ## Token Meter Pattern
 
 ```
@@ -60,3 +71,4 @@ INTERCEPTOR → COUNTER (accounting / budget threshold) → ACTION HUB (throttle
 - [[apim-gateway-azure-ai-foundry]]
 - [[ai-gateway-pattern]]
 - [[agentic-ai]]
+- [[economics-of-agent-optimization]]

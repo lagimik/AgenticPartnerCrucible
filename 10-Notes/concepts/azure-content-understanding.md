@@ -2,7 +2,7 @@
 title: Azure Content Understanding
 type: concept
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-08-14
 tags:
   - azure
   - azure-ai-foundry
@@ -10,6 +10,7 @@ tags:
   - content-understanding
 sources:
   - raw/2026-07-10-ingestlinks/044-learn-microsoft-com-en-us-azure-ai-services-content-understanding-choosing-right/extracted_text.md
+  - raw/2026-08-14-github-open-issues-47-53/issues.md
 status: active
 ---
 
@@ -26,6 +27,14 @@ Azure Content Understanding is a Foundry Tool for document and content processin
 - Custom extraction where fields can be described in plain language.
 - Scenarios needing reasoning, validation, enrichment, confidence, and grounding.
 
+## Model Selection
+
+Model selection should balance quality on representative content against end-to-end cost, latency, throughput, availability, and compliance. Hold the analyzer, schema, inputs, and labeled examples constant while swapping model deployments.
+
+For GPT-5-series starting points, Microsoft recommends GPT-5.1 or GPT-5.2 for balanced document and speech extraction, GPT-5 or GPT-5.1 for video, and GPT-5.1 for image classification. Smaller models can reduce cost but require workload-specific quality testing. Confidence-sensitive workflows should avoid assuming Mini or Nano confidence scores are interchangeable with full-size models.
+
+Acceptance thresholds should be calibrated per field and recalibrated whenever the model changes.
+
 ## Related
 
 - [[azure-ai-foundry]]
@@ -33,3 +42,4 @@ Azure Content Understanding is a Foundry Tool for document and content processin
 - [[document-processing-tool-selection]]
 - [[044-choose-the-right-azure-ai-tool-for-document-processing-foundry-tools-microsoft-l]]
 - [[moc-ingested-link-library]]
+- [[content-understanding-gpt5-model-selection]]

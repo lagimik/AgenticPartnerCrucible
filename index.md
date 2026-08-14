@@ -47,6 +47,13 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[microsoft-foundry-agent-optimizer]] - Reflection-based optimization of agent instructions and configuration using traces and evaluators.
 - [[ai-augmented-code-modernization-leader]] - Microsoft agentic modernization approach and 2026 Gartner recognition.
 - [[cnapp-cloud-ai-security-control-plane]] - CNAPP evolution toward unified cloud, application, identity, data, runtime, and AI risk.
+- [[cowork-partner-launch-kit]] - Protected Microsoft partner launch package for Cowork.
+- [[sql-partner-community]] - Official registration entry point for the Microsoft SQL Partner Community.
+- [[dynamics-365-crm-sales-platform-leader]] - Dynamics 365 Sales, agentic CRM, and 2026 Gartner recognition.
+- [[content-understanding-gpt5-model-selection]] - GPT-5 model-selection, grounding, and confidence guidance for Content Understanding.
+- [[economics-of-agent-optimization]] - Framework for operating AI as a managed investment system.
+- [[defender-experts-mdr-idc-marketscape]] - Defender Experts MDR and 2026 IDC MarketScape recognition.
+- [[reliable-agent-recovery-foundry]] - Idempotency, action-ledger, verification, and escalation patterns for production agents.
 
 ## Entities
 
@@ -72,6 +79,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[agentic-cloud-operations]] - AIOps pattern where agents correlate telemetry, investigate issues, and preserve evidence while humans control mitigation.
 - [[ai-red-teaming-tool-selection]] - Select managed or custom adversarial testing according to the system boundary.
 - [[agent-configuration-optimization]] - Evaluation-and-trace-driven improvement of versioned agent configuration.
+- [[agent-recovery-engineering]] - Safe recovery of side-effecting agent operations under uncertainty.
 
 ## Projects
 

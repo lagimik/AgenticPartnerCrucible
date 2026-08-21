@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-08-14
+updated: 2026-08-21
 ---
 
 # Data and AI
@@ -129,6 +129,7 @@ Source | Description | Notes
 [Python Risk Identification Toolkit for generative AI (PyRIT)](https://www.microsoft.com/en-us/security/blog/2024/02/22/announcing-microsofts-open-automation-framework-to-red-team-generative-ai-systems/) | Microsoft releases an open automation framework, PyRIT (Python Risk Identification Toolkit for generative AI), to empower security professionals and machine learning engineers to proactively find risks in their generative AI systems | Blog
 [Python Risk Identification Tool for generative AI (PyRIT) - GitHub](https://github.com/Azure/PyRIT) | The Python Risk Identification Tool for generative AI (PyRIT) is an open access automation framework to empower security professionals and ML engineers to red team foundation models and their applications. | GitHub
 [Microsoft Foundry and PyRIT for AI Red Teaming](../40-Resources/foundry-pyrit-ai-red-teaming.md) | Use managed Foundry evaluation and red teaming for supported targets; use PyRIT for custom endpoints, external APIs, bespoke RAG and agent flows, and lower-level attack orchestration. | Issue #42
+[SAFE Agent Controls on Microsoft Foundry](../40-Resources/safe-agent-controls-foundry.md) | Enforces scope, anchored decisions, flow integrity, and required escalation around a hosted agent with signed evidence and policy-as-code. | Issue #61
 [Adversarial ML Threat Matrix](https://github.com/mitre/advmlthreatmatrix) | The goal of this project is to position attacks on machine learning (ML) systems in an ATT&CK-style framework so that security analysts can orient themselves to these new and upcoming threats. | Mitre
 [Counterfit](https://www.microsoft.com/en-us/security/blog/2021/05/03/ai-security-risk-assessment-using-counterfit/) | Counterfit helps organizations conduct AI security risk assessments to ensure that the algorithms used in their businesses are robust, reliable, and trustworthy. | Blog
 [Counterfit - GitHub](https://github.com/Azure/counterfit) | Counterfit is a generic automation layer for assessing the security of machine learning systems. It brings several existing adversarial frameworks under one tool, or allows users to create their own. | GitHub
@@ -143,6 +144,9 @@ Source | Description | Notes
 [Microsoft Foundry Agent Optimizer](../40-Resources/microsoft-foundry-agent-optimizer.md) | Preview reflection-based optimization that uses representative datasets, trusted evaluators, and execution traces to propose reviewable changes to agent instructions and configuration. | Issue #43
 [Economics of Agent Optimization](../40-Resources/economics-of-agent-optimization.md) | Run AI as a managed investment system by optimizing each request at runtime, improving agent workflows over time, and governing spend continuously. | Issue #51
 [Reliable Agent Recovery with Microsoft Foundry](../40-Resources/reliable-agent-recovery-foundry.md) | Production reliability pattern for side-effecting tools using explicit failure semantics, idempotency, action ledgers, state verification, recovery state machines, and risk-driven escalation. | Issue #53
+[Choosing the Right Agent in Microsoft Foundry](../40-Resources/microsoft-foundry-agent-selection.md) | Decision guide for prompt agents versus hosted agents based on ownership of orchestration, state, custom code, and operations. | Issue #57
+[AI Agents for IT and Operations Workshop](../40-Resources/ai-agents-for-it-ops-workshop.md) | Compares custom AKS-hosted agents with Foundry-hosted agents while teaching identity, networking, secrets, observability, and cost management. | Issue #58
+[Browser Automation with Pydantic AI and Playwright](../40-Resources/pydantic-ai-playwright-browser-automation.md) | Typed agent pattern for stateful browser automation with Foundry models, Entra authentication, domain restrictions, and private-network blocking. | Issue #63
 [Foundry Toolkit Lab](https://github.com/microsoft-foundry/Foundry_Toolkit_for_VSCode_Lab/) | Hands-on lab for VS Code development with Microsoft Foundry toolkit, from setup to advanced agent workflows. | Microsoft Foundry GitHub
 [Foundry Agent Lab](https://github.com/microsoft-foundry/Foundry-Agent-Lab) | Progressive hands-on lab for building AI agents with Microsoft Foundry, from basic hello-world scenarios to more advanced agent workflows. | Microsoft Foundry GitHub
 [Building AI Agents with Microsoft Foundry: A Progressive Lab from Hello World to ...](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/building-ai-agents-with-microsoft-foundry-a-progressive-lab-from-hello-world-to-/4521792) | Companion walkthrough article for the Foundry Agent Lab that guides developers through the staged learning path and implementation approach. | Tech Community

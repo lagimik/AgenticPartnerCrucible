@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Azure OpenAI"
 layout: "default"
 categories: "Digital and App Innovation"
-updated: 2026-08-07
+updated: 2026-08-21
 ---
 
 # Digital Apps and Innovation
@@ -33,6 +33,7 @@ Source | Description | Notes
 [State of DevOps Report](https://www.puppet.com/resources/state-of-platform-engineering) | Platform Engineering is the DevOps Differentiator — Learn Why| Puppet 2023
 [Open at Microsoft](https://learn.microsoft.com/en-ca/shows/open-at-microsoft/) | Open at Microsoft is a weekly show for open-source enthusiasts. It features a diverse group of guests including maintainers, software and DevOps engineers, and community members who come together to share their insights on an open-source project. Each episode focuses on one collaborative goal of the project, such as a new feature, release, or call for user feedback, and provides information on how to contribute to the project. | Open at Microsoft
 [Cloud Native Computing Foundation](https://www.cncf.io/) | As part of the Linux Foundation, we provide support, oversight and direction for fast-growing, cloud native projects, including Kubernetes, Envoy, and Prometheus. | CNCF
+[Microsoft Cloud-Native Application Platform Leader 2026](../40-Resources/cloud-native-application-platform-leader-2026.md) | Positions Azure's integrated application, AI, API, security, and operations platform as the production foundation for cloud-native and agentic applications. | Gartner 2026; Issue #62
 
 
 ## Practice Building
@@ -71,6 +72,7 @@ Source | Description | Notes
 [VSCode: GitHub Copilot app modernization](https://marketplace.visualstudio.com/items?itemName=vscjava.migrate-java-to-azure) | VSCode extension to upgrade and migrate your Java applications to Azure | Visual Studio Marketplace
 [Improving token efficiency in GitHub Agentic Workflows](https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/) | Learn how GitHub instrumented production agentic workflows, audited token usage, and applied optimizations like MCP tool pruning and GitHub CLI substitution to lower token cost in CI. | GitHub Blog (May 2026)
 [GitHub Copilot App](https://github.com/github/app) | The GitHub Copilot app is a desktop application purpose-built for agent-driven development. It gives you a single place to direct AI agents across parallel workstreams, work with GitHub issues and pull requests, and manage the full development lifecycle. Available for Windows, Mac, and Linux. | GitHub (Technical Preview)
+[Hypervelocity Engineering Core](../40-Resources/hypervelocity-engineering-hve-core.md) | Opinionated agentic SDLC pattern library combining specialized agents, prompts, instructions, skills, and Research-Plan-Implement-Review workflows for GitHub Copilot. | Issue #55
 
 
 
@@ -91,6 +93,7 @@ Source | Description | Notes
 [Azure Load Testing samples](https://github.com/Azure-Samples/azure-load-testing-samples/tree/main) | This repo contains a collection of samples for using Azure Load Testing. Azure Load Testing is a fully managed load-testing service that enables you to generate high-scale load. The service simulates traffic for your applications, regardless of where they're hosted. | GitHub
 [Microsoft.Crank](https://github.com/dotnet/crank) | Crank is the benchmarking infrastructure used by the .NET team to run benchmarks including (but not limited to) scenarios from the TechEmpower Web Framework Benchmarks. One of the goals of this system is to give developers a tool that lets them work on performance and measure potential improvements very easily.| GitHub
 [Playwright Test Framework](https://github.com/microsoft/playwright) | Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, capable, reliable and fast. | Github
+[Browser Automation with Pydantic AI and Playwright](../40-Resources/pydantic-ai-playwright-browser-automation.md) | Combines typed Pydantic AI agents, Playwright Harness, Foundry models, Entra authentication, domain allowlists, and private-network blocking. | Issue #63
 [Introducing Azure Deployment Environments](https://techcommunity.microsoft.com/t5/azure-developer-community-blog/introducing-azure-deployment-environments/ba-p/3412095) | Azure Deployment Environments is a managed service that enables dev teams to quickly spin up app infrastructure with project-based templates to establish consistency and best practices while maximizing security, compliance, and cost-efficiency. | Tech Community
 [Microsoft Dev Box and Azure Deployment Environments for .NET Developers](https://www.bing.com/videos/search?q=Microsoft+Dev+Box+and+Azure+Deployment+Environments+for+.NET+Developer&&view=detail&mid=8F6E9E26681C552EDC5F8F6E9E26681C552EDC5F&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3DMicrosoft%2BDev%2BBox%2Band%2BAzure%2BDeployment%2BEnvironments%2Bfor%2B.NET%2BDeveloper%26FORM%3DHDRSC6) | Microsoft Dev Box and Azure Deployment Environments for .NET Developers | YouTube
 [Microsoft.Crank](https://github.com/dotnet/crank) | Crank is the benchmarking infrastructure used by the .NET team to run benchmarks including (but not limited to) scenarios from the TechEmpower Web Framework Benchmarks. One of the goals of this system is to give developers a tool that lets them work on performance and measure potential improvements very easily.| GitHub

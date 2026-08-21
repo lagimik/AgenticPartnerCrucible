@@ -2,7 +2,7 @@
 title: Token Economics
 type: concept
 created: 2026-07-13
-updated: 2026-08-14
+updated: 2026-08-21
 tags:
   - finops
   - agentic-ai
@@ -13,6 +13,7 @@ sources:
   - raw/2026-07-13-token-economics-finops-agentic-ai/source.md
   - raw/2026-07-13-apim-gateway-azure-ai-foundry/source.md
   - raw/2026-08-14-github-open-issues-47-53/issues.md
+  - raw/2026-08-21-github-open-issues-55-63/issues.md
 status: active
 ---
 
@@ -55,6 +56,10 @@ AI FinOps operates at three speeds:
 
 Spend should be attributable by application, agent, workflow, and model. Roadmap capabilities must be separated from controls available today when designing governance.
 
+## AI Cost Taxonomy
+
+Vendor-neutral cost records need AI-specific enrichment before they support useful allocation. Normalize model or agent, token type, product line or use case, unit of measure, and source system. This makes showback, chargeback, and unit economics comparable across providers and delivery models.
+
 ## Token Meter Pattern
 
 ```
@@ -72,3 +77,4 @@ INTERCEPTOR → COUNTER (accounting / budget threshold) → ACTION HUB (throttle
 - [[ai-gateway-pattern]]
 - [[agentic-ai]]
 - [[economics-of-agent-optimization]]
+- [[focus-ai-spend-taxonomy]]

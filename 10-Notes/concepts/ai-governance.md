@@ -2,7 +2,7 @@
 title: AI Governance
 type: concept
 created: 2026-07-10
-updated: 2026-08-07
+updated: 2026-08-21
 tags:
   - governance
   - security
@@ -13,6 +13,7 @@ sources:
   - raw/2026-07-10-ingestlinks/
   - raw/2026-07-16-policy-to-proof-ai-governance/source.md
   - raw/2026-08-07-github-open-issues-42-45/issues.md
+  - raw/2026-08-21-github-open-issues-55-63/issues.md
 status: active
 ---
 
@@ -64,10 +65,23 @@ Governance evidence must cover both the model and the application around it. Man
 
 Cloud and AI posture should also be correlated with runtime, identity, data, application, and attack-path context. Treating AI systems as part of the broader cloud risk graph avoids a separate governance silo.
 
+## Deterministic Agent Controls
+
+Prompts should not be the authorization boundary for consequential actions. The SAFE pattern adds four enforceable controls:
+
+1. Scope the cases, tools, and parameters the agent may use.
+2. Anchor consequential decisions in host-verified evidence.
+3. Verify that required workflow stages occurred in order.
+4. Require or prevent human escalation according to trusted state.
+
+Signed evidence, policy-as-code, protected tool execution, and output gates keep these controls effective even when prompts are weak or adversarial.
+
 ## Related
 
 - [Policy to Proof — AI Governance Reference](../40-Resources/policy-to-proof-ai-governance.md)
 - [AI Gateway Pattern](ai-gateway-pattern.md)
 - [AI Red-Teaming Tool Selection](ai-red-teaming-tool-selection.md)
 - [CNAPP as a Cloud and AI Security Control Plane](../../40-Resources/cnapp-cloud-ai-security-control-plane.md)
+- [SAFE Agent Controls on Microsoft Foundry](../../40-Resources/safe-agent-controls-foundry.md)
+- [Microsoft Zero Trust Workshop and Assessment](../../40-Resources/zero-trust-workshop-assessment.md)
 - [[moc-ingested-link-library]]

@@ -2,7 +2,7 @@
 title: Agentic Cloud Operations
 type: concept
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-08-21
 tags:
   - ai-operations
   - observability
@@ -11,6 +11,7 @@ tags:
   - sre
 sources:
   - raw/2026-08-02-azure-copilot-observability-agent/source.md
+  - raw/2026-08-21-github-open-issues-55-63/issues.md
 status: active
 ---
 
@@ -30,6 +31,12 @@ Agentic cloud operations is an operations pattern where AI agents reason across 
 
 Cloud operations teams face more telemetry than manual workflows can interpret quickly. Agentic cloud operations shifts responders from dashboard-hopping and query assembly toward evidence-backed triage, lower alert noise, and faster time-to-mitigate without removing human judgment.
 
+## Infrastructure Ownership Choices
+
+Teams can run custom agents on AKS for full control over hosting, scaling, RAG, networking, and monitoring, or use Foundry-hosted agents for managed lifecycle, tracing, evaluation, and knowledge configuration. The choice shifts operational ownership but does not remove the need for managed identity, private networking, secrets management, observability, and cost controls.
+
 ## Related pages
 
 - [[azure-copilot-observability-agent]]
+- [[ai-agents-for-it-ops-workshop]]
+- [[cloud-native-application-platform-leader-2026]]

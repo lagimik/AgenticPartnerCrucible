@@ -54,6 +54,15 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[economics-of-agent-optimization]] - Framework for operating AI as a managed investment system.
 - [[defender-experts-mdr-idc-marketscape]] - Defender Experts MDR and 2026 IDC MarketScape recognition.
 - [[reliable-agent-recovery-foundry]] - Idempotency, action-ledger, verification, and escalation patterns for production agents.
+- [[hypervelocity-engineering-hve-core]] - Convention-driven agentic SDLC workflows for GitHub Copilot.
+- [[zero-trust-workshop-assessment]] - Guided Zero Trust assessment and implementation-roadmap planning.
+- [[microsoft-foundry-agent-selection]] - Prompt-agent versus hosted-agent architecture decision guide.
+- [[ai-agents-for-it-ops-workshop]] - Infrastructure workshop comparing custom AKS and Foundry-hosted agents.
+- [[frost-radar-cloud-workload-protection-2026]] - Runtime-centered cloud workload protection and Defender for Cloud positioning.
+- [[focus-ai-spend-taxonomy]] - FOCUS enrichment pattern for AI showback, chargeback, and unit economics.
+- [[safe-agent-controls-foundry]] - Scope, evidence, workflow-integrity, and escalation controls for agents.
+- [[cloud-native-application-platform-leader-2026]] - Azure cloud-native platform direction for modernization and AI.
+- [[pydantic-ai-playwright-browser-automation]] - Governed browser automation with Pydantic AI, Playwright, and Foundry.
 
 ## Entities
 

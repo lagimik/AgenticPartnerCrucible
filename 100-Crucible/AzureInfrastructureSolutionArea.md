@@ -2,6 +2,7 @@
 title: "Partner Crucible - Infrastructure Workloads"
 layout: "default"
 categories: "Infrastructure"
+updated: 2026-08-21
 ---
 
 # Azure Infrastructure Workloads
@@ -31,6 +32,7 @@ Source | Description | Notes
 [Microsoft Cloud for Sovereignty now generally available, opening new pathways for government innovation](https://blogs.microsoft.com/blog/2023/12/14/microsoft-cloud-for-sovereignty-now-generally-available-opening-new-pathways-for-government-innovation/) | General availability of Microsoft Cloud for Sovereignty across all Azure regions. Microsoft Cloud for Sovereignty helps governments meet their compliance, security, and policy requirements while utilizing the cloud to provide superior value to their citizens. | Microsoft
 [The Business Value of Azure VMware Solution](https://info.microsoft.com/ww-landing-idc-the-business-value-of-azure-vmware-solution.html?lcid=EN-US) | In this white paper, see the business benefits and ROI that organizations participating in an IDC research study reported from migrating and extending workloads to Azure VMware Solution. | IDC
 [Microsoft is named a leader in The Forrester Wave: Industry Cloud Solutions for Public Sector, Q1 2026](https://www.microsoft.com/en-us/industry/blog/government/2026/02/25/microsoft-is-named-a-leader-in-the-forrester-wave-industry-cloud-solutions-for-public-sector-q1-2026/) | Microsoft is named a leader in The Forrester Wave for Industry Cloud Solutions for Public Sector. | Microsoft Industry Blog |
+[Microsoft Cloud-Native Application Platform Leader 2026](../40-Resources/cloud-native-application-platform-leader-2026.md) | Azure integrates App Service, Container Apps, Functions, API Management, Foundry, identity, observability, and security as a common foundation for modernization and production AI. | Gartner 2026; Issue #62
 
 
 
@@ -156,6 +158,7 @@ Source | Description | Notes
 :----- | :---------- | :-----
 [AI for Operations](https://techcommunity.microsoft.com/blog/azurearchitectureblog/ai-for-operations/4329673?WT.mc_id=DT-MVP-5001664) | AI for Operations: An integrated framework leveraging Azure OpenAI,Logic Apps and Azure Fuctions to optimize operational processes, including cost monitoring, anomaly detection, security updates, and database assessments, with seamless scalability and intelligence for modern cloud environments | Tech Community
 [Azure Copilot Observability Agent](https://techcommunity.microsoft.com/blog/azureobservabilityblog/azure-copilot-observability-agent-is-generally-available-with-autonomous-operati/4528213) | Agentic cloud operations capability in Azure Monitor that moves teams from alert noise to explainable investigations, recommended next steps, Azure Monitor issues, and autonomous operations preview with humans in control. | Azure Observability Blog
+[AI Agents for IT and Operations Workshop](../40-Resources/ai-agents-for-it-ops-workshop.md) | Hands-on comparison of custom agents on AKS and Foundry-hosted agents, centered on managed identity, private networking, Key Vault, monitoring, and cost controls. | Issue #58
 [GitHub Copilot for Azure](https://code.visualstudio.com/blogs/2024/11/15/introducing-github-copilot-for-azure) | Preview -  GitHub Copilot for Azure - a new tool that integrates effortlessly with GitHub Copilot Chat in VS Code. Imagine it as your personal guide for navigating the Azure cloud| VS Vode 
 [GitHub Copilot for Azure in VS Code](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/streamline-your-azure-workflow-introducing-github-copilot-for-azure-in-vs-code/4276989) | Streamline Your Azure Workflow: Introducing GitHub Copilot for Azure in VS Code : public preview of GitHub Copilot for Azure - a new addition to your toolkit that seamlessly integrates with GitHub Copilot Chat in VS Code | Tech Community
 [Simplify IT management with Microsoft Copilot for Azure](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/simplify-it-management-with-microsoft-copilot-for-azure-save/ba-p/3981106) | Microsoft Copilot for Azure, an AI companion, that helps you design, operate, optimize, and troubleshoot your cloud infrastructure and services. Combining the power of cutting-edge large language models (LLMs) with the Azure Resource Model, Copilot for Azure enables rich understanding and management of everything that’s happening in Azure, from the cloud to the edge. | Tech Community

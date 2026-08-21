@@ -2,7 +2,7 @@
 title: "Partner Crucible - Security Workloads "
 layout: "default"
 categories: "Security"
-updated: 2026-08-14
+updated: 2026-08-21
 ---
 
 # Security Workloads
@@ -31,6 +31,7 @@ Source | Description | Notes
 [Microsoft Security Forrester TEI: 124% ROI](https://www.microsoft.com/en-us/security/blog/2026/06/18/new-forrester-study-shows-customers-who-unified-with-microsoft-security-benefited-from-124-roi/) | Commissioned Forrester TEI study summary for Microsoft's AI-first, end-to-end security platform, projecting 124% ROI, under-six-month payback, and $16.6M NPV for a composite organization. | Microsoft Security Blog
 [Project Perception: Rethinking security for the age of AI](https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/) | Introduces an agentic security system and new cyber stack where red, blue, and green team agents continuously perceive, reason, and act against AI-speed threats. | Microsoft Blog
 [Defender Experts MDR in the 2026 IDC MarketScape](../40-Resources/defender-experts-mdr-idc-marketscape.md) | Expert-led, round-the-clock managed detection and response operating natively on Microsoft Defender, combining threat hunting, AI-assisted operations, and human decision ownership. | IDC 2026; Issue #52
+[Frost Radar: Cloud Workload Protection Platforms 2026](../40-Resources/frost-radar-cloud-workload-protection-2026.md) | Runtime-centered cloud workload protection connecting posture, Kubernetes and container telemetry, identities, code, AI workloads, developer remediation, and SOC operations. | Frost & Sullivan 2026; Issue #59
 [The Forrester Wave™: Zero Trust Platforms, Q3 2025](https://www.linkedin.com/posts/martintenvoorde_microsoft-security-zerotrust-activity-7349441437165412352-2CT7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAuhUABpdpzK9SzuOG85oyUVHBGdeovPXU) | Microsoft is the Leader in The Forrester Wave™: Zero Trust Platforms, Q3 2025 | Forrester
 [Forrester Wave™: Zero Trust Platform Providers](https://www.microsoft.com/en-us/security/blog/2023/09/19/forrester-names-microsoft-a-leader-in-the-2023-zero-trust-platform-providers-wave-report/) | Q3 2023 - Microsoft is proud to be recognized as a Leader in the Forrester Wave™: Zero Trust Platform Providers, Q3 2023 report | Forrester
 [Forrester Wave™: Workforce Identity Platforms](https://www.microsoft.com/en-us/security/blog/2024/04/15/microsoft-recognized-as-a-leader-in-the-forrester-wave-workforce-identity-platform-q1-2024/) | Q1 2024 - Forrester has recognized Microsoft as a Leader in the Forrester Wave™: Workforce Identity Platforms, Q1 2024 report. | Forrester
@@ -276,6 +277,8 @@ Source | Description | Notes
 [Zero-Trust Agents: Adding Identity and Access to Multi-Agent Workflows](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/zero-trust-agents-adding-identity-and-access-to-multi-agent-workflows/4427790)| In this article, we demonstrate a zero-trust approach to autonomous AI agents by integrating Identity and access management into an enterprise agentic workflow| Tech Community
 [Project Perception: Rethinking security for the age of AI](https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/) | Agentic security stack built from signals, context, models, harness, agents, and actuators, coordinating red/blue/green agent teams to defend at machine speed while keeping humans in control. | Microsoft Blog
 [Microsoft Foundry and PyRIT for AI Red Teaming](../40-Resources/foundry-pyrit-ai-red-teaming.md) | Decision guide for managed Foundry red teaming of supported targets versus flexible PyRIT testing of custom APIs, RAG, tools, and agent workflows. | Issue #42
+[SAFE Agent Controls on Microsoft Foundry](../40-Resources/safe-agent-controls-foundry.md) | Deterministic runtime controls for agent scope, host-verified evidence, workflow integrity, and required human escalation, enforced independently of the prompt. | Issue #61
+[Microsoft Zero Trust Workshop and Assessment](../40-Resources/zero-trust-workshop-assessment.md) | Guided assessment and roadmap planning using implementation effort, user impact, and cross-pillar classifications. | Issue #56
 
 ## Microsoft Purview Information Protection Ninja
 

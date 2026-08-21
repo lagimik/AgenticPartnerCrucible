@@ -2,7 +2,7 @@
 title: Agentic Upgrade Workflow
 type: concept
 created: 2026-07-13
-updated: 2026-08-07
+updated: 2026-08-21
 tags:
   - agentic-ai
   - modernization
@@ -12,6 +12,7 @@ tags:
 sources:
   - raw/2026-07-13-modernize-dotnet-github-copilot-app/source.md
   - raw/2026-08-07-github-open-issues-42-45/issues.md
+  - raw/2026-08-21-github-open-issues-55-63/issues.md
 status: active
 ---
 
@@ -35,6 +36,7 @@ Each phase produces structured output consumed by the next. New information (bro
 - **Multi-surface** – Same workflow runs in IDE, CLI, or web app.
 - **Reusable expertise** – Proven migration tasks and organization-specific skills can be applied consistently across an application estate.
 - **Human accountability** – Recommendations and code changes remain reviewable and are validated through existing tests and pipelines.
+- **Convention-driven execution** – Versioned agents, prompts, instructions, and skills make the workflow repeatable across teams.
 
 ## Example: .NET Upgrade Agent
 
@@ -51,3 +53,4 @@ The GitHub Copilot upgrade agent implements this pattern for .NET modernization:
 - [[ai-augmented-code-modernization-leader]]
 - [[agentic-ai]]
 - [[github-copilot-cli]]
+- [[hypervelocity-engineering-hve-core]]

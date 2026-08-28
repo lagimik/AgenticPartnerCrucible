@@ -2,7 +2,7 @@
 title: Token Economics
 type: concept
 created: 2026-07-13
-updated: 2026-08-21
+updated: 2026-08-28
 tags:
   - finops
   - agentic-ai
@@ -14,6 +14,7 @@ sources:
   - raw/2026-07-13-apim-gateway-azure-ai-foundry/source.md
   - raw/2026-08-14-github-open-issues-47-53/issues.md
   - raw/2026-08-21-github-open-issues-55-63/issues.md
+  - raw/2026-08-28-github-open-issues-65-70/issues.md
 status: active
 ---
 
@@ -55,6 +56,15 @@ AI FinOps operates at three speeds:
 3. Govern spend continuously with attribution, quotas, budgets, enforcement, allocation, and chargeback.
 
 Spend should be attributable by application, agent, workflow, and model. Roadmap capabilities must be separated from controls available today when designing governance.
+
+## Runtime Optimization Levers
+
+Optimize cost per successful outcome, not token count in isolation:
+
+1. Route requests to the right model and deployment offer.
+2. Reuse stable prompt prefixes and deterministic results through caching.
+3. Optimize prompts, tools, memory, and agent configuration against representative tasks.
+4. Observe cost, quality, safety, latency, retries, and completed outcomes together.
 
 ## AI Cost Taxonomy
 

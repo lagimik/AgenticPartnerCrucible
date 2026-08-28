@@ -2,7 +2,7 @@
 title: "Partner Crucible - Modern Work Workloads - Copilot"
 layout: "default"
 categories: "Modern Work"
-updated: 2026-08-14
+updated: 2026-08-28
 ---
 
 # Modern Work Workloads - Copilot
@@ -30,6 +30,7 @@ Source | Description | Notes
 Source | Description | Notes
 :----- | :-----  | :-----
 [Microsoft Copilot specialization](https://partner.microsoft.com/en-US/partnership/specialization/microsoft-copilot) | The Microsoft Copilot specialization demonstrates your experience and skills related to Microsoft 365 Copilot, including Microsoft 365 Copilot Chat, Microsoft Copilot Studio, and agents | Microsoft Partner
+[Copilot and Agent Practice Development Tools](../40-Resources/copilot-agent-practice-development-tools.md) | Build a repeatable practice through evidence-led readiness, a managed-service operating model, outcome-based offers, reusable agent IP, and customer-specific value stories. | Issue #68
 [Cowork Partner Launch Kit](../40-Resources/cowork-partner-launch-kit.md) | Protected Microsoft partner launch package for Cowork. The linked ZIP requires authorized partner access. | Issue #47
 [Microsoft 365 Copilot: The AI-Powered Future of Work](https://aka.ms/M365CopilotPartner) | Partner resource landing page | Transform
 [Microsoft 365 Copilot - Partner Opportunities](https://cloudpartners.transform.microsoft.com/download?assetname=assets%2FMicrosoft365-Copilot-Services-Solution-Partner-Opportunities.pptx&download=1)| M365 Copilot Partner opportunities - guidance on advisory, deployment, selling, adopting, and extending M365 Copilot | Transform

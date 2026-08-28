@@ -26,6 +26,10 @@ Pillar | Description | Why? | Next Step
 
 Login to [Partner Center](https://partner.microsoft.com/) may be required 
 
+Source | Description | Notes
+:----- | :----- | :-----
+[Copilot and Agent Practice Development Tools](../40-Resources/copilot-agent-practice-development-tools.md) | Four-stage practice motion covering strategy, capabilities, offer development, and go-to-market with readiness, MSP, offer-validation, build-along, and pitch tools. | Issue #68
+
 
 Pillar | Description | Why? | Next Step
 -----: | :---------- | :----- | :-----
@@ -101,6 +105,5 @@ Association Type | Description | Guidance
 **Partner Admin Link (PAL)** | Using PAL, partners can associate their Microsoft AI Cloud Partner Program ID with the credentials used for service delivery whenever they act on behalf of the customer to manage, configure and support **Azure and Business Application services (Power Platform and Customer Insights)**. Unique to PAL is that it allows for *different partners to get recognized for the same customer engagement*. Partners can be associated to the same workloads, and both get ‘credit’. | - [Azure Usage report ](https://learn.microsoft.com/en-us/partner-center/insights-azure-usage-report) <br>- [Linking a Partner ID with PAL](https://docs.microsoft.com/en-us/partner-center/link-partner-id-for-azure-performance-pal-dpor)<br> - [Linking a Partner ID to Power Platform or Dynamics Customer Insights](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/link-partner-id-power-apps-accounts)<br> - [Partner FAQ](https://learn.microsoft.com/en-us/azure/cost-management-billing/partner-faq) <br> - [Azure Citadel - PAL](https://www.azurecitadel.com/pal/)
 **Digital Partner of Record (DPOR)**| Digital Partner of Record (DPOR) is an online capability for customers to attach a servicing partner to their Microsoft cloud subscription. To recognize the partner for that work, the customer adds the partner’s Microsoft AI Cloud Partner Program ID to the subscription via the customer’s service portal. **DPOR applies to Microsoft 365, Dynamics 365, and Azure.** | [Linking and Partner ID with DPOR](https://docs.microsoft.com/en-us/partner-center/link-partner-id-for-azure-performance-pal-dpor)
 **Cloud Solution Provider (CSP)** | When a partner sells through the Cloud Solution Provider program, the CSP association type is automatically applied. |
-
 
 

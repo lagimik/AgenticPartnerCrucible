@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-08-21
+updated: 2026-08-28
 ---
 
 # Data and AI
@@ -142,7 +142,7 @@ This section has been regrouped here: [Data & AI > Azure OpenAI](./DataAISolutio
 Source | Description | Notes
 :----- | :-----  | :-----
 [Microsoft Foundry Agent Optimizer](../40-Resources/microsoft-foundry-agent-optimizer.md) | Preview reflection-based optimization that uses representative datasets, trusted evaluators, and execution traces to propose reviewable changes to agent instructions and configuration. | Issue #43
-[Economics of Agent Optimization](../40-Resources/economics-of-agent-optimization.md) | Run AI as a managed investment system by optimizing each request at runtime, improving agent workflows over time, and governing spend continuously. | Issue #51
+[Economics of Agent Optimization](../40-Resources/economics-of-agent-optimization.md) | Run AI as a managed investment system with model and offer selection, caching, prompt and agent optimization, observability, and continuous spend governance. | Issues #51 and #70
 [Reliable Agent Recovery with Microsoft Foundry](../40-Resources/reliable-agent-recovery-foundry.md) | Production reliability pattern for side-effecting tools using explicit failure semantics, idempotency, action ledgers, state verification, recovery state machines, and risk-driven escalation. | Issue #53
 [Choosing the Right Agent in Microsoft Foundry](../40-Resources/microsoft-foundry-agent-selection.md) | Decision guide for prompt agents versus hosted agents based on ownership of orchestration, state, custom code, and operations. | Issue #57
 [AI Agents for IT and Operations Workshop](../40-Resources/ai-agents-for-it-ops-workshop.md) | Compares custom AKS-hosted agents with Foundry-hosted agents while teaching identity, networking, secrets, observability, and cost management. | Issue #58
@@ -271,5 +271,5 @@ Source | Description | Notes
 [Data & AI Industry DREAM Demos & DREAM Demo in a Box](https://partner.microsoft.com/en-us/asset/collection/industry-dream-demos-and-dream-demo-in-a-box#/) | Data & AI Industry DREAM Demos are realistic clickable demos based on actual customer engagements that cover a range of industry scenarios in story form. These can be used to help both BDMs and TDMs envision how to bring Data & AI to life in their organization. The walkthrough material offers step by step guidance on how land this with customers. DREAM Demos in a Box are packaged Industry Scenario DREAM Demos with ARM templates that can be deployed in a customer’s subscription using the CAPE tool in just a few hours, enabling customers to test out the demo scenarios. | Partner
 [The Full Guide to Packaging and Deploying ML Models to Production Using Azure: Step-by-Step Guide](https://techcommunity.microsoft.com/t5/educator-developer-blog/the-full-guide-to-packaging-and-deploying-ml-models-to/ba-p/3855628) | In this blog, we will go through a step-by-step coding guide, from converting our model to ONNX format until we use it in our Power Apps application.| Tech Community
 [An Enterprise Design for Azure Machine Learning - An Architect's Viewpoint](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/an-enterprise-design-for-azure-machine-learning-an-architect-s/ba-p/4111655?WT.mc_id=DT-MVP-5001664) | This Point-of-view provides an opinionated design for a "fit for purpose" enterprise data science platform, delivered with Azure Machine Learning. It covers infrastructure, identity, data and functionality, aligned to an MLOps delivery framework. | Tech Community
-[CAIRA (Composable AI Reference Architecture)](https://github.com/microsoft/CAIRA) | CAIRA (Composable AI Reference Architecture) is an infrastructure-as-code baseline that can accelerate the deployment of secure, observable AI-related environments in Azure. | Microsoft GitHub
+[CAIRA Composable AI Reference Architectures](../40-Resources/caira-composable-ai-reference-architectures.md) | Agent-consumable library of independent Azure AI building blocks: Foundry and Container Apps IaC, TypeScript and C# agent APIs, and a React frontend. | Issue #65
 [Amplifier: Metacognitive AI Development](https://github.com/microsoft/amplifier) | Amplifier is a coordinated and accelerated development system that turns your expertise into reusable AI tools without requiring code. | Microsoft GitHub

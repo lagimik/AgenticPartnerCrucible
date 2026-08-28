@@ -25,7 +25,7 @@ Source | Description | Notes
 Source | Description | Notes
 :----- | :---------- | :----
 [Accelerators and Demos](https://skillupwithlevelup.com/dealreadyaccelerators) | Microsoft LevelUp Deal Ready Accelerators for partner enablement | Microsoft LevelUp
-[Learning Journeys](https://www.skillupwithlevelup.com/journeys) | Curated learning paths and guided journeys for partner development | Microsoft LevelUp
+[Partner Skilling Learning Journeys](../40-Resources/levelup-learning-journeys.md) | GCPS Partner Skilling Catalog of curated learning paths and guided journeys for partner development | Issue #67
 [Skilling Agent](https://www.skilling-hub.com/) | AI-powered assistance within the Partner Skilling Hub to help partners navigate skilling offerings, identify learning opportunities, and build personalized skilling plans | Partner Skilling Hub
 [Microskilling](https://www.skilling-hub.com/en-US/type/microskilling) | Short-form, focused skill-building opportunities from the Partner Skilling Hub | Partner Skilling Hub
 
@@ -68,4 +68,3 @@ Source | Description | Notes
 [Learn Student](http://aka.ms/learnstudent) | Preparation for your career in tech begins here with free resources!| MS Learn
 [Activate GitHub Student Developer Account](https://education.github.com/discount_requests/pack_application) | Learn and teach using real-world developer tools | Github
 [Activate Azure for Student Credit](https://azure.microsoft.com/en-us/free/students/) |  Use your university or school email to sign up and renew each year you're a student | Azure
-

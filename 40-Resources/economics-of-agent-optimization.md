@@ -2,7 +2,7 @@
 title: Economics of Agent Optimization
 type: resource
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-28
 tags:
   - finops
   - agentic-ai
@@ -11,7 +11,9 @@ tags:
   - governance
 sources:
   - https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/
+  - https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/
   - raw/2026-08-14-github-open-issues-47-53/issues.md
+  - raw/2026-08-28-github-open-issues-65-70/issues.md
 status: active
 ---
 
@@ -26,6 +28,15 @@ Microsoft framework for operating AI as a managed investment system rather than 
 3. **Govern spend continuously** with metering, quotas, budgets, enforcement, allocation, and chargeback.
 
 The framework emphasizes that model price alone does not determine cost. Prompts, conversation history, retrieved context, tool definitions, retries, and workflow branching all contribute to spend.
+
+## Four runtime levers
+
+1. **Models and offers** - Route each request according to task complexity, quality, safety, latency, residency, and throughput needs. Match Standard, priority, provisioned throughput, or Batch deployment to the workload; use fine-tuning when a stable, high-volume task can move to a smaller model.
+2. **Caching** - Put stable instructions, tool definitions, and examples before volatile content so prompt caching can reuse the prefix. Use semantic caching and session affinity at the AI gateway where appropriate.
+3. **Prompt and agent optimization** - Reduce unnecessary context, scope tool definitions, externalize working state, and evaluate candidate instructions, skills, tool descriptions, and model choices.
+4. **Observability and evaluation** - Measure tokens, cache hits, latency, served model, quality, cost per request, and cost per completed outcome. Require standing evaluation sets to preserve quality and safety.
+
+The target is not minimum token use. It is lower cost per successful outcome without sacrificing quality, safety, or latency.
 
 ## Four management questions
 

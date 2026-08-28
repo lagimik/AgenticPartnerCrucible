@@ -2,7 +2,7 @@
 title: FinOps
 layout: default
 categories: FinOps
-updated: 2026-08-21
+updated: 2026-08-28
 ---
 
 # FinOps
@@ -34,7 +34,7 @@ Source | Description | Notes
 Source | Description | Notes
 :----- | :---------- | :-----
 [Token Economics: The New FinOps for Agentic AI](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/token-economics-the-new-finops-for-agentic-ai/4533743) | Explores token economics and financial optimization strategies specific to agentic AI deployments, highlighting cost considerations and token usage patterns for cost management. | Azure Dev Community Blog
-[Economics of Agent Optimization](../40-Resources/economics-of-agent-optimization.md) | Framework for making AI predictable to fund, efficient by design, optimized at scale, and proven in value across runtime requests, agent workflows, and continuous spend governance. | Issue #51
+[Economics of Agent Optimization](../40-Resources/economics-of-agent-optimization.md) | Optimize cost per successful outcome through model and offer selection, caching, prompt and agent optimization, and joint cost-quality observability. | Issues #51 and #70
 [Giving AI Spend a Name in FOCUS](../40-Resources/focus-ai-spend-taxonomy.md) | Enriches vendor-neutral FOCUS cost records with model, agent, token type, product line, unit, and source dimensions for AI showback, chargeback, and unit economics. | Issue #60
 
 ## Tools

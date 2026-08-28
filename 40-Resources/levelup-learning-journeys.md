@@ -2,7 +2,7 @@
 title: "LevelUp Learning Journeys"
 type: resource
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-08-28
 tags:
   - partner-skilling
   - learning-journeys
@@ -10,13 +10,17 @@ tags:
   - levelup
 sources:
   - https://www.skillupwithlevelup.com/journeys
+  - https://aka.ms/PartnerSkillingLearningJourneys
   - raw/2026-07-14-levelup-learning-journeys/source.md
+  - raw/2026-08-28-github-open-issues-65-70/issues.md
 status: active
 ---
 
 # LevelUp Learning Journeys
 
 Curated multi-course learning paths on the LevelUp platform designed to build Microsoft partner capability in specific solution areas.
+
+The current Microsoft short link resolves to the [GCPS Partner Skilling Catalog](https://catalog.skillupwithlevelup.com/journeys), which is the preferred entry point for browsing available journeys.
 
 ## Summary
 

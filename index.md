@@ -63,6 +63,10 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[safe-agent-controls-foundry]] - Scope, evidence, workflow-integrity, and escalation controls for agents.
 - [[cloud-native-application-platform-leader-2026]] - Azure cloud-native platform direction for modernization and AI.
 - [[pydantic-ai-playwright-browser-automation]] - Governed browser automation with Pydantic AI, Playwright, and Foundry.
+- [[caira-composable-ai-reference-architectures]] - Composable, agent-consumable Azure AI reference components across IaC, APIs, and frontend.
+- [[industry-frontier-transformation-resources]] - Microsoft partner collection for industry-focused Frontier Transformation assets.
+- [[copilot-agent-practice-development-tools]] - Tool-backed motion from Copilot and agent strategy through repeatable offers and go-to-market.
+- [[azure-sre-agent-incident-response-playbook]] - Evidence-led, approval-gated incident investigation and remediation with Azure SRE Agent.
 
 ## Entities
 

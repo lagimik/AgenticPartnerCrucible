@@ -8,3 +8,5 @@
 - Shakespeare's Partner Crucible newsletter workflow turns current-period vault ingests into workload-grouped Markdown posts under `Newsletter/_posts/`, using only curated, whiteboard-level summaries.
 - Shakespeare now includes a curated `100-Crucible/` publishing layer where ingested resources are organized into solution-area pages and refreshed from issue-driven source links.
 - July 2026 Shakespeare AI governance notes emphasize a runtime governance loop: Policy -> Control -> Visibility -> Proof, connecting Purview, Foundry, APIM, Defender/Entra, Agent 365/ACS, observability, evaluations, and audit evidence.
+- July 2026 Shakespeare added a Copilot Studio and agentic apps practice-building cluster: Agent 365 demo-led PoC kit, CAT Agent Skills, PAC CLI plugin, modern Copilot Studio technical guides, and an Agentic Apps partner practice guide.
+- Shakespeare's agent-security thread connects fast-growing AI agent estates to visibility, governance, Zero Trust, Agent 365-style controls, and executive partner conversations.

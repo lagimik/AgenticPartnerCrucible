@@ -51,3 +51,31 @@ Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broa
 ## 2026-07-23 Dream Loop
 
 Considered 5 candidates from the last 24 hours and promoted 0 new memories. Broad themes: routine Dream Loop continuity, no new Shakespeare vault log entries since the July 16 curation/newsletter work, a one-off partner kit/toolkit inventory query, and previously captured Partner Crucible publishing and governance patterns. No qualifying new durable facts for this vault met the promotion threshold, so MEMORY.md was left unchanged. Omitted raw private communication details, unrelated separate-vault activity, personal-context specifics, and low-confidence duplicate automation signals.
+
+## 2026-07-24 Dream Loop
+
+Considered 6 candidates from the last 24 hours and promoted 2 durable, whiteboard-level memories. Broad themes: Copilot Studio and agentic apps partner-practice building, Agent 365 demo-led PoC motion, CAT/PAC tooling, Cyber Pulse agent-security framing, and weekly Partner Crucible newsletter publishing. Did not promote the one-off kit inventory query as a durable memory because it was useful retrieval rather than lasting vault context. Omitted raw private communication details, unrelated separate-vault activity, personal-context specifics, and low-confidence duplicate automation signals.
+
+## 2026-07-24 Dream Loop (evening)
+
+Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broad themes: same-day Dream Loop continuity, the already-promoted Copilot Studio and agent-security cluster, weekly Partner Crucible newsletter publishing, and one-off partner kit retrieval. No distinct new durable facts for this vault met the promotion threshold, so MEMORY.md was left unchanged. Omitted raw private communication details, unrelated separate-vault activity, personal-context specifics, and duplicate-run signals.
+
+## 2026-07-25 Dream Loop
+
+Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broad themes: routine Dream Loop continuity, the already-promoted Copilot Studio and agent-security cluster, weekly Partner Crucible newsletter publishing, and one-off partner kit/newsletter retrieval. No distinct new durable facts for this vault met the promotion threshold, so MEMORY.md was left unchanged. Omitted raw private communication details, unrelated separate-vault activity, personal-context specifics, and duplicate-run signals.
+
+## 2026-07-26 Dream Loop
+
+Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broad themes: routine Dream Loop continuity, already-promoted Copilot Studio and agent-security work, prior Partner Crucible newsletter publishing, and unrelated personal/search activity. No distinct new durable facts for this vault met the promotion threshold, so MEMORY.md was left unchanged. Omitted raw private communication details, unrelated separate-vault activity, personal-context specifics, and duplicate-run signals.
+
+## 2026-07-27 Dream Loop
+
+Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broad themes: routine Dream Loop continuity, no new Shakespeare vault log entries since the July 24 newsletter work, previously captured Copilot Studio and agent-security patterns, and unrelated personal/search activity. No distinct new durable facts for this vault met the promotion threshold, so MEMORY.md was left unchanged. Omitted raw private communication details, unrelated separate-vault activity, personal-context specifics, and duplicate-run signals.
+
+## 2026-07-28 Dream Loop
+
+Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broad themes: routine Dream Loop continuity, no new Shakespeare vault log entries since the July 24 newsletter work, previously captured Copilot Studio and agent-security patterns, and unrelated personal/search activity. No distinct new durable facts for this vault met the promotion threshold, so MEMORY.md was left unchanged. Omitted raw private communication details, unrelated separate-vault activity, personal-context specifics, and duplicate-run signals.
+
+## 2026-08-01 Dream Loop
+
+Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broad themes: routine Dream Loop continuity, no new Shakespeare vault log entries since the July 24 newsletter work, previously captured Copilot Studio and agent-security patterns, and unrelated personal/search activity. No distinct new durable facts for this vault met the promotion threshold, so MEMORY.md was left unchanged. Omitted raw private communication details, unrelated separate-vault activity, personal-context specifics, and duplicate-run signals.

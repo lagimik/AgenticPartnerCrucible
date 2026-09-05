@@ -2,7 +2,7 @@
 title: "Partner Crucible - Security Workloads "
 layout: "default"
 categories: "Security"
-updated: 2026-08-21
+updated: 2026-09-05
 ---
 
 # Security Workloads
@@ -279,6 +279,9 @@ Source | Description | Notes
 [Microsoft Foundry and PyRIT for AI Red Teaming](../40-Resources/foundry-pyrit-ai-red-teaming.md) | Decision guide for managed Foundry red teaming of supported targets versus flexible PyRIT testing of custom APIs, RAG, tools, and agent workflows. | Issue #42
 [SAFE Agent Controls on Microsoft Foundry](../40-Resources/safe-agent-controls-foundry.md) | Deterministic runtime controls for agent scope, host-verified evidence, workflow integrity, and required human escalation, enforced independently of the prompt. | Issue #61
 [Microsoft Zero Trust Workshop and Assessment](../40-Resources/zero-trust-workshop-assessment.md) | Guided assessment and roadmap planning using implementation effort, user impact, and cross-pillar classifications. | Issue #56
+[Responsible AI in 2026](../40-Resources/responsible-ai-transparency-2026.md) | Adaptive governance and technical risk management for models, platforms, applications, agents, tools, identities, and actions. | Issue #77
+[ASCII Smuggling in Phishing Evasion](../40-Resources/ascii-smuggling-phishing-evasion.md) | Invisible Unicode tag characters used to split phishing lure words, showing AI-era prompt-obfuscation techniques crossing into email-filter evasion. | Issue #74
+[Securing Edge AI in Customer-Owned Environments](../40-Resources/secure-edge-ai-customer-environments.md) | Evidence-gated release using runtime attestation, artifact provenance, scoped credentials, and deterministic action mediation. | Issue #72
 
 ## Microsoft Purview Information Protection Ninja
 

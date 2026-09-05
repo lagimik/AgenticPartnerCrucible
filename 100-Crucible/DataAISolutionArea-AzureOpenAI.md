@@ -2,6 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Azure OpenAI"
 layout: "default"
 categories: "Data and AI"
+updated: 2026-09-05
 ---
 
 # Data & AI > Azure OpenAI
@@ -49,6 +50,9 @@ Source | Description | Notes
 [AI Industry Use Cases: Insights and Priorities from the Field](https://assetsprod.microsoft.com/mpn/en-us/industry-ai-use-cases-and-tech-patterns.ppt) | This deck provides high priority AI industry use cases. It is meant to help prioritize use cases for a customer and then link that business use cases to technical assets to facilitate implementation. | Microsoft Partners
 [AI-powered Use Cases and Technical Patterns for Key Organizational Functions](https://assetsprod.microsoft.com/mpn/en-us/rooms-of-the-house-use-cases-and-tech-patterns.ppt) |  This deck provides high priority AI use cases for key organizational functions. It is meant to help prioritize use cases for a customer and then link that business use cases to technical assets to facilitate implementation. | Microsoft Partners
 [Best Practices for Requesting Quota Increase for Azure OpenAI Models](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/bv-for-azure-openai-models/4397533) | This document outlines a set of best practices to guide users in submitting quota increase requests for Azure OpenAI models. Following these recommendations will help streamline the process, ensure proper documentation, and improve the likelihood of a successful request. | Tech Community
+[Azure API Management AI Gateway Capabilities](../40-Resources/azure-api-management-ai-gateway-capabilities.md) | Capability map for governing model APIs, MCP servers, and A2A APIs with identity, token limits, semantic caching, routing, and observability. | Issue #82
+[Azure AI Gateway Labs](../40-Resources/azure-ai-gateway-labs.md) | More than 30 deployable labs combining notebooks, Bicep, APIM policies, KQL, MCP, reliability, security, and FinOps patterns. | Issue #83
+[OpenAI at Scale with APIM Reliability Patterns](../40-Resources/openai-at-scale-apim-reliability.md) | Uses priority and weight-based backend pools, circuit breakers, and retry-driven failover across Azure OpenAI capacity and regions. | Issue #84
 
 ## Security for Generative AI
 Source | Description | Notes

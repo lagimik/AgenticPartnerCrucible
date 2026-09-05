@@ -2,7 +2,7 @@
 title: AI Governance
 type: concept
 created: 2026-07-10
-updated: 2026-08-21
+updated: 2026-09-05
 tags:
   - governance
   - security
@@ -14,6 +14,7 @@ sources:
   - raw/2026-07-16-policy-to-proof-ai-governance/source.md
   - raw/2026-08-07-github-open-issues-42-45/issues.md
   - raw/2026-08-21-github-open-issues-55-63/issues.md
+  - raw/2026-09-05-github-open-issues-72-85/issues.md
 status: active
 ---
 
@@ -76,6 +77,17 @@ Prompts should not be the authorization boundary for consequential actions. The 
 
 Signed evidence, policy-as-code, protected tool execution, and output gates keep these controls effective even when prompts are weak or adversarial.
 
+## Adaptive and Evidence-Gated Governance
+
+Agentic governance must cover the full interaction system: models, memory, identities, tools, permissions, data, actions, people, and other agents. Requirements should combine controls that always apply with scenario-specific controls that can evolve as capabilities and risks change.
+
+For customer-operated edge AI, release sensitive weights, credentials, and data only when both the runtime and its behavior-shaping artifacts are trusted:
+
+- Attestation verifies the hardware, firmware, runtime, and execution state.
+- Provenance verifies models, agent definitions, tools, retrieval indexes, and updates.
+- Deterministic mediation constrains actions outside the model.
+- Renewable evidence withdraws access when the environment no longer matches policy.
+
 ## Related
 
 - [Policy to Proof — AI Governance Reference](../40-Resources/policy-to-proof-ai-governance.md)
@@ -84,4 +96,7 @@ Signed evidence, policy-as-code, protected tool execution, and output gates keep
 - [CNAPP as a Cloud and AI Security Control Plane](../../40-Resources/cnapp-cloud-ai-security-control-plane.md)
 - [SAFE Agent Controls on Microsoft Foundry](../../40-Resources/safe-agent-controls-foundry.md)
 - [Microsoft Zero Trust Workshop and Assessment](../../40-Resources/zero-trust-workshop-assessment.md)
+- [Responsible AI in 2026](../../40-Resources/responsible-ai-transparency-2026.md)
+- [Securing Edge AI in Customer-Owned Environments](../../40-Resources/secure-edge-ai-customer-environments.md)
+- [ASCII Smuggling in Phishing Evasion](../../40-Resources/ascii-smuggling-phishing-evasion.md)
 - [[moc-ingested-link-library]]

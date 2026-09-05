@@ -2,7 +2,7 @@
 title: Azure AI Foundry
 type: concept
 created: 2026-07-10
-updated: 2026-08-21
+updated: 2026-09-05
 tags:
   - azure
   - ai-platform
@@ -11,6 +11,7 @@ sources:
   - raw/2026-07-10-ingestlinks/044-learn-microsoft-com-en-us-azure-ai-services-content-understanding-choosing-right/extracted_text.md
   - raw/2026-07-10-ingestlinks/056-techcommunity-microsoft-com-blog-azure-ai-foundry-blog-a-guided-tour-of-the-new/extracted_text.md
   - raw/2026-08-21-github-open-issues-55-63/issues.md
+  - raw/2026-09-05-github-open-issues-72-85/issues.md
 status: active
 ---
 
@@ -36,3 +37,5 @@ Use prompt agents when instructions and managed tools can express the workflow a
 - [[research-to-production-ai]]
 - [[microsoft-foundry-agent-selection]]
 - [[safe-agent-controls-foundry]]
+- [[inside-microsoft-foundry-playlist]]
+- [[art-voice-agent-accelerator]]

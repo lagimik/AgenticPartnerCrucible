@@ -2,6 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads - Power Platform"
 layout: "default"
 categories: "AI Business Solutions"
+updated: 2026-09-05
 ---
 
 # Power Platform - Copilot Studio Workload
@@ -30,6 +31,7 @@ To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuid
 | [Administering and Governing Agents](https://adoption.microsoft.com/files/copilot-studio/Agent-governance-whitepaper.pdf) | This whitepaper delves into the specifics of Microsoft’s tools and methodologies, offering insights on managing data security and agent integrity. It covers the role of Microsoft 365 agents, Agent Builder agents, and Copilot Studio agents, explaining how each type can be utilized to enhance operational efficiency while maintaining stringent security protocols. | Microsoft Adoption |
 | [Strengthen agent security with real-time protection in Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/strengthen-agent-security-with-near-real-time-protection-in-microsoft-copilot-studio/) | This capability enhances security for AI agents by enabling organizations to connect their own monitoring system such as Microsoft Defender as well as security platforms by other providers, or their own custom-built tools. These integrations allow for real-time evaluation and control of agent behavior during runtime. | Microsoft |
 | [Building reliable voice agents: A practical guide](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/building-reliable-voice-agents-a-practical-guide/) | Practical Copilot Studio guide for reliable customer-facing voice agents, covering IVR, generative voice, real-time speech-to-speech, grounding, confirmations, escalation, and handoff context. | Microsoft Copilot Blog |
+| [Choosing the Copilot Studio Harness](../40-Resources/copilot-studio-harness-selection.md) | Select the Standard harness for bounded, explicit workflows or the GitHub Copilot harness for dynamic planning, skills, memory, files, and multi-tool reasoning. | Issue #78 |
 | [Digital Deep Dive: Copilot Control System (CCS)](https://techcommunity.microsoft.com/event/microsoft365copilot-events/digital-deep-dive-copilot-control-system-ccs/4414752) | Learn how to secure, manage, and analyze Microsoft 365 Copilot, Copilot Chat, Microsoft Copilot Studio, and agents across your organization using the Copilot Control System (CCS). | Tech Community |
 
 ## Copilot Studio Skilling

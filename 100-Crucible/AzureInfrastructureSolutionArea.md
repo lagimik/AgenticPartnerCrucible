@@ -2,7 +2,7 @@
 title: "Partner Crucible - Infrastructure Workloads"
 layout: "default"
 categories: "Infrastructure"
-updated: 2026-08-28
+updated: 2026-09-05
 ---
 
 # Azure Infrastructure Workloads
@@ -228,6 +228,7 @@ Source | Description | Notes
 [Azure Networking: The Art of The Possible and the why](https://github.com/nehalineogi/azure-networking) | by @nehalineogi - The purpose of this repo is to deliver layered, reusable and github friendly network architecture diagrams for Cloud Solutions Architects to run effective Azure design and skilling sessions | GitHub
 [Securing AI Foundry Agent - Part 1 (Network Perspective)](https://www.youtube.com/watch?v=5KwDsYSqm1I) |  This video covers AI Foundry Agent networking and security via @Nehali Neogi| YouTube
 [Securing AI Foundry Agent - Part 2 (Developer perspective)](https://www.youtube.com/watch?v=ezd2Ejxmn-s) | This video covers AI Foundry Agent networking and security via @Nehali Neogi| YouTube
+[Azure Multicloud Interconnect for AWS](../40-Resources/azure-multicloud-interconnect-aws.md) | Provider-managed private connectivity between Azure VNets and Amazon VPCs with cloud-native provisioning, redundant links, and MACsec encryption. Validate preview regions, limits, and SLA before production use. | Issue #76
 
 ## Workload HCI
 

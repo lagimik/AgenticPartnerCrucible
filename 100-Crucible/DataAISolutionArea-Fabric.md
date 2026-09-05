@@ -2,6 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Microsoft Fabric"
 layout: "default"
 categories: "Data and AI"
+updated: 2026-09-05
 ---
 
 # Data & AI > Microsoft Fabric
@@ -55,6 +56,8 @@ Source | Description | Notes
 [Microsoft Fabric Data Gateway Real Time Monitoring](https://github.com/ecotte/rt-gateway-log) | Using Microsoft Fabric, these logs are centralized in an event stream and processed efficiently through the Eventhouse. This centralized data is then available for analysis in Power BI and can support automated response rules via a data activator (pending implementation). | GitHub @ecotte
 [Mirroring in Microsoft Fabric](https://blog.fabric.microsoft.com/en-us/blog/mirroring-in-microsoft-fabric-explained-benefits-use-cases-and-pricing-demystified?ft=Swetha%20Mannepalli:author) | Mirroring in Microsoft Fabric explained: benefits, use cases, and pricing demystified | Microsoft Fabric Blog
 [Fabric Spark best practices overview](https://learn.microsoft.com/en-us/fabric/data-engineering/spark-best-practices-overview) | This series of articles outlines best practices for optimizing the performance, security, and cost of Spark jobs when running Spark Notebooks and Spark Job Definitions (SJDs) on Microsoft Fabric | Microsoft Learn
+[Fabric Data Warehouse Medallion Architecture Series](../40-Resources/fabric-data-warehouse-medallion-series.md) | Three-part guide to selecting lakehouse or hybrid patterns, enforcing Bronze/Silver/Gold responsibilities, and operating scalable, auditable Fabric pipelines. | Issues #79-#81
+[Microsoft Fabric CI/CD Resources](../40-Resources/fabric-cicd-resources.md) | End-to-end delivery guidance across Git integration, deployment pipelines, REST APIs, Fabric CLI, IaC, environment configuration, and verification. | Issue #75
 
 ## Tools
 
@@ -138,5 +141,4 @@ Source | Description | Notes
 [Overview of new Microsoft Fabric Power BI Announcements](https://lnkd.in/d7GP4tnx) | | Data Goblins Blog
 [Direct Lake: My Favorite Feature in Microsoft Fabric](https://lnkd.in/dBW-K5vB) | | Artis Consulting
 [Data Intelligence on light speed: Microsoft Fabric](https://lnkd.in/dNe5mVTD) | | redgate
-
 

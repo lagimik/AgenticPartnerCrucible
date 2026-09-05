@@ -67,6 +67,18 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[industry-frontier-transformation-resources]] - Microsoft partner collection for industry-focused Frontier Transformation assets.
 - [[copilot-agent-practice-development-tools]] - Tool-backed motion from Copilot and agent strategy through repeatable offers and go-to-market.
 - [[azure-sre-agent-incident-response-playbook]] - Evidence-led, approval-gated incident investigation and remediation with Azure SRE Agent.
+- [[secure-edge-ai-customer-environments]] - Attestation, provenance, and deterministic mediation for customer-operated edge AI.
+- [[inside-microsoft-foundry-playlist]] - Video learning series for building and operating enterprise AI with Microsoft Foundry.
+- [[ascii-smuggling-phishing-evasion]] - Invisible Unicode tag characters crossing from prompt injection into phishing-filter evasion.
+- [[fabric-cicd-resources]] - Git, deployment pipelines, APIs, CLI, and environment promotion for Fabric.
+- [[azure-multicloud-interconnect-aws]] - Provider-managed private connectivity between Azure VNets and Amazon VPCs.
+- [[responsible-ai-transparency-2026]] - Adaptive, lifecycle-based responsible AI governance for agentic systems.
+- [[copilot-studio-harness-selection]] - Decision guide for Standard versus GitHub Copilot harnesses.
+- [[fabric-data-warehouse-medallion-series]] - Pattern selection and layer contracts for Fabric medallion architectures.
+- [[azure-api-management-ai-gateway-capabilities]] - APIM governance for models, MCP servers, A2A APIs, tokens, and caching.
+- [[azure-ai-gateway-labs]] - Deployable AI gateway labs with notebooks, IaC, policies, KQL, and MCP.
+- [[openai-at-scale-apim-reliability]] - Backend pools, circuit breakers, and failover for Azure OpenAI.
+- [[art-voice-agent-accelerator]] - End-to-end Azure voice-agent transport, inference, and orchestration accelerator.
 
 ## Entities
 

@@ -1,313 +1,76 @@
-# AGENTS.md
+# Vault Guidelines
 
-This vault is an LLM-maintained Second Brain: a personal wiki where raw material is preserved, useful knowledge is distilled into durable pages, and structure is maintained over time.
+This repository is an LLM-maintained second brain. Preserve source material,
+distill durable knowledge, connect related pages, cite evidence, and keep the
+vault navigable for people.
 
-The assistant should act as a careful wiki gardener: ingest new material, summarize it, connect it, cite it, and keep the vault navigable.
+## Repository Model
 
-## 1. Four Layers
-
-The vault has four knowledge layers.
-
-### Raw Layer
-
-**Location:** `raw/`
-
-**Owner:** User owns the source material. The assistant may read, summarize, reference, and organize pointers to it, but must not delete or overwrite raw files.
-
-**Purpose:** Preserve original inputs exactly as received: transcripts, pasted notes, exported documents, meeting notes, chat logs, articles, drafts, screenshots, and other source material.
-
-### Wiki Layer
-
-**Locations:**
-
-- `00-Inbox/`
-- `10-Notes/entities/`
-- `10-Notes/concepts/`
-- `20-Projects/`
-- `30-Areas/`
-- `40-Resources/`
-- `50-Archive/`
-- `_meta/MOCs/`
-
-**Owner:** Assistant maintains the wiki layer with user direction.
-
-**Purpose:** Turn raw material into useful, linked, readable knowledge pages. This is the working Second Brain.
-
-### Schema Layer
-
-**Locations:**
-
-- `AGENTS.md`
-- `_meta/conventions.md`
-- `_meta/templates/`
-- `index.md`
-- `log.md`
-
-**Owner:** User defines intent and rules. Assistant follows and proposes changes when patterns need to evolve.
-
-**Purpose:** Define how the vault works: folder rules, page types, frontmatter, naming conventions, logs, indexes, and maintenance operations.
-
-### Web Layer
-
-**Location:** `./100-Crucible/`
-
-**Owner:** Assistant maintains solution area, industry, and special topic markdown pages with user direction.
-
-**Purpose:** Curate and aggregate knowledge into public-facing web content organized by solution area (Azure Infrastructure, Data & AI, Modern Work, Power Platform, Security, etc.), industry vertical (Financial Services, Telecom, Public Sector, Sustainability, etc.), and special topics. Syncs to GitHub Pages (`gh-pages` branch) excluding the `raw/` folder for publication.
-
-## 2. Folder Conventions and Naming Rules
-
-Use folders consistently.
-
-| Folder | Purpose |
-| --- | --- |
-| `raw/` | Immutable source material. Never delete from here. |
-| `00-Inbox/` | Temporary holding area for unprocessed notes and captures. |
-| `10-Notes/entities/` | People, organizations, products, places, systems, partners, and named things. |
-| `10-Notes/concepts/` | Ideas, patterns, frameworks, definitions, methods, and reusable insights. |
-| `20-Projects/` | Active efforts with outcomes, milestones, decisions, and tasks. |
-| `30-Areas/` | Ongoing responsibilities with no fixed end date. |
-| `40-Resources/` | Reference material organized for reuse. |
-| `50-Archive/` | Completed, inactive, superseded, or retired wiki pages. |
-| `_meta/` | Vault operating rules, templates, maps of content, and maintenance notes. |
-| `100-Crucible/` | Web layer — solution area, industry, and special topic markdown files for GitHub Pages publication. |
-
-Naming rules:
-
-- Use clear, descriptive filenames.
-- Prefer lowercase kebab-case for new files: `partner-channel-strategy.md`.
-- Entity pages may use proper names when readability matters: `Microsoft.md`, `Contoso.md`, `Jane-Doe.md`.
-- Avoid vague filenames such as `notes.md`, `misc.md`, `thoughts.md`, or `new.md`.
-- One page should represent one durable idea, entity, project, area, or resource.
-- If a page grows into multiple ideas, split it and link the pieces.
-- Use relative links between wiki pages.
-
-## 3. Page Types and Required YAML Frontmatter
-
-Every wiki page should start with YAML frontmatter.
-
-Required fields:
-
-```yaml
----
-title: Page Title
-type: entity | concept | project | area | resource | moc | inbox | archive | log | meta
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-tags: []
-sources: []
-status: draft | active | stale | archived
----
-```
-
-Field meanings:
-
-| Field | Meaning |
-| --- | --- |
-| `title` | Human-readable page title. |
-| `type` | Page category. Must match the purpose of the page. |
-| `created` | Date the page was first created. |
-| `updated` | Date the page was last meaningfully changed. |
-| `tags` | Short topical tags for discovery. |
-| `sources` | Raw files, URLs, emails, meetings, or other references used to support the page. |
-| `status` | Lifecycle state of the page. |
-
-Common page types:
-
-| Type | Location | Use |
+| Layer | Locations | Ownership and purpose |
 | --- | --- | --- |
-| `entity` | `10-Notes/entities/` | A person, company, product, team, partner, platform, system, or named thing. |
-| `concept` | `10-Notes/concepts/` | A reusable idea, framework, term, mental model, or pattern. |
-| `project` | `20-Projects/` | A time-bound effort with outcomes. |
-| `area` | `30-Areas/` | An ongoing responsibility or domain. |
-| `resource` | `40-Resources/` | Reference material worth keeping. |
-| `moc` | `_meta/MOCs/` | Map of Content that links related pages. |
-| `inbox` | `00-Inbox/` | Unprocessed capture. |
-| `archive` | `50-Archive/` | Retired or completed material. |
-| `meta` | `_meta/` | Operating documentation for the vault. |
+| Raw | `raw/` | User-owned, immutable source material. Agents may read and reference it but must never delete or overwrite it. |
+| Wiki | `00-Inbox/`, `10-Notes/`, `20-Projects/`, `30-Areas/`, `40-Resources/`, `50-Archive/` | Agent-maintained knowledge pages, changed with user direction. |
+| Schema | `AGENTS.md`, `.github/instructions/`, `.github/skills/`, `index.md`, `log.md` | User-governed rules, workflows, indexes, and change history. |
+| Web | `100-Crucible/` | Public-facing solution area, industry, and special-topic content, maintained with user direction. |
 
-## 4. Operations
+The web layer publishes through the `gh-pages` branch. Never publish the
+`raw/` layer or expose private, protected, or internal-only source content.
 
-### Ingest
+## Hard Requirements
 
-Use this flow when new source material is added.
+* Never delete or overwrite files in `raw/`.
+* Summarize source material before filing derived knowledge into the wiki.
+* Preserve the distinction between source material, interpretation, and
+  decisions.
+* Cite sources for factual claims and decisions. Mark uncertainty instead of
+  overstating confidence.
+* Keep one durable idea, entity, project, area, or resource per page. Split
+  pages that grow beyond one subject and connect the resulting pages.
+* Prefer links over duplicated content and use relative links between wiki
+  pages.
+* Keep pages readable for people, not only optimized for retrieval.
+* Follow the scoped wiki-page instructions for frontmatter, page types, and
+  optional claim records.
+* Update a page's `updated` date after a meaningful change.
+* Keep `index.md` useful as the starting point for vault discovery.
+* Add a `log.md` entry for every meaningful operation that changes the vault.
 
-1. Store or identify the source in `raw/`.
-2. Create a concise summary of the source.
-3. Extract entities and update or create pages in `10-Notes/entities/`.
-4. Extract concepts and update or create pages in `10-Notes/concepts/`.
-5. Update relevant project, area, resource, or MOC pages.
-6. Update `index.md` so the material is findable.
-7. Add a dated entry to `log.md`.
+## Folder And Naming Conventions
 
-Ingest pattern:
+| Location | Content |
+| --- | --- |
+| `00-Inbox/` | Unprocessed notes and captures |
+| `10-Notes/entities/` | People, organizations, products, places, systems, partners, and named things |
+| `10-Notes/concepts/` | Ideas, patterns, frameworks, definitions, methods, and reusable insights |
+| `20-Projects/` | Time-bound efforts with outcomes, milestones, decisions, and tasks |
+| `30-Areas/` | Ongoing responsibilities without a fixed end date |
+| `40-Resources/` | Reference material organized for reuse |
+| `50-Archive/` | Completed, inactive, superseded, or retired wiki pages |
+| `100-Crucible/` | Public web content for solution areas, industries, and special topics |
 
-```text
-raw -> summary + entity updates + concept updates + index update + log entry
-```
+Use clear, descriptive filenames. Prefer lowercase kebab-case for new files,
+except when a proper name improves entity-page readability. Avoid vague names
+such as `notes.md`, `misc.md`, `thoughts.md`, and `new.md`.
 
-### Query
+## Workflow Routing
 
-Use this flow when answering a question from the vault.
+Load the matching workspace skill for task-specific procedures:
 
-1. Read `index.md` first.
-2. Drill into the most relevant linked pages.
-3. Check cited sources when precision matters.
-4. Synthesize an answer with clear uncertainty markers.
-5. If the answer is durable and useful, file it into the appropriate wiki page.
-6. Add or update links so the answer can be found again.
+* Use `vault-ingest` to preserve and process new source material.
+* Use `vault-query` to answer questions from indexed vault knowledge.
+* Use `vault-curate-web` to update public content in `100-Crucible/`.
+* Use `partner-crucible-newsletter` to generate or refresh the weekly
+  Generative Partner Crucible post.
+* Use `vault-lint` to audit vault structure, metadata, links, sources, and
+  claims.
 
-Query pattern:
+Vault queries are read-only by default. Change wiki pages only when the user
+requests or approves filing the result.
 
-```text
-read index -> drill -> synthesize -> file good answers
-```
+## Log Contract
 
-### Curate
-
-Use this flow to update solution area, industry, and special topic pages for the web layer.
-
-1. Identify the relevant solution area(s), industry vertical(s), and/or special topic(s) from ingested content.
-2. Locate or create the corresponding markdown file in `./100-Crucible/` (e.g., `DataAISolutionArea.md`, `IndustryFinancialServices.md`, `DREAMS.md`).
-3. Update the page using the existing format: maintain frontmatter, preserve structure, add or refresh section content with wiki links, learning resources, and relevant materials.
-4. Ensure internal links to wiki pages use relative paths back to the parent vault (`../`).
-5. Update the page's `updated` date.
-6. Add a `curate` entry to `log.md` referencing the web layer page(s) and source(s).
-
-Curate pattern:
-
-```text
-identify topic -> locate/create 100-Crucible page -> update with wiki content -> add log entry
-```
-
-### Lint
-
-Use this flow to maintain vault quality.
-
-Check for:
-
-- Contradictions between pages.
-- Orphan pages with no inbound or outbound links.
-- Stale pages whose `updated` date or status needs review.
-- Missing frontmatter.
-- Missing required fields.
-- Missing or weak sources.
-- Duplicate pages or overlapping concepts.
-- Pages that violate one-idea-per-page.
-
-Lint pattern:
-
-```text
-contradictions / orphans / stale / missing
-```
-
-## 5. Log Format
-
-`log.md` should use greppable, dated entries.
-
-Each entry should be one line when possible.
-
-Format:
+Keep each `log.md` entry on one line when possible and use this format:
 
 ```text
 YYYY-MM-DD | operation | target | summary | sources
 ```
-
-Examples:
-
-```text
-2026-07-10 | ingest | 10-Notes/concepts/llm-maintained-wiki.md | Created concept page from Karpathy wiki pattern notes | raw/2026-07-10-karpathy-wiki-notes.md
-2026-07-10 | update | index.md | Added links for entities, concepts, projects, and MOCs | AGENTS.md
-2026-07-10 | lint | vault | Found 3 orphan concept pages and 1 stale project page | n/a
-```
-
-Use operation names such as:
-
-- `ingest`
-- `create`
-- `update`
-- `query`
-- `curate`
-- `lint`
-- `archive`
-- `rename`
-- `merge`
-- `split`
-
-## 6. House Rules
-
-- Keep one idea per page.
-- Cite sources for claims, facts, and decisions.
-- Flag uncertainty clearly instead of overstating confidence.
-- Never delete from `raw/`.
-- Summarize source material before filing it into the wiki.
-- Preserve the difference between source material, interpretation, and decisions.
-- Prefer links over duplication.
-- Keep pages readable for a human, not just optimized for an LLM.
-- Update `updated` dates when pages materially change.
-- Keep `index.md` useful as the first place to look.
-- Add a `log.md` entry for every meaningful ingest, update, lint, archive, merge, split, or query result that changes the vault.
-
-## Optional Claims Block
-
-Wiki pages may include an optional `claims` block in YAML frontmatter when a page contains important assertions that should be tracked over time.
-
-Use claims for statements that are factual, decision-relevant, likely to be reused, or likely to become stale.
-
-Example:
-
-```yaml
-claims:
-  - id: claim-001
-    text: "Microsoft Skills for Fabric separates work into authoring, consumption, and operations bundles."
-    confidence: 0.95
-    status: evergreen
-    evidence:
-      - source: raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
-        kind: documentation
-        excerpt: "Or install a focused bundle..."
-    captured: 2026-07-10
-    updated: 2026-07-10
-```
-
-Claim fields:
-
-| Field | Required | Meaning |
-| --- | --- | --- |
-| `id` | Yes | Stable claim identifier, unique within the page. Use `claim-001`, `claim-002`, etc. |
-| `text` | Yes | The assertion being tracked. |
-| `confidence` | Yes | Numeric confidence from `0.0` to `1.0`. |
-| `status` | Yes | `provisional`, `evergreen`, or `disputed`. |
-| `evidence` | Yes | One or more supporting evidence entries. |
-| `captured` | Yes | Date the claim was first recorded. |
-| `updated` | Yes | Date the claim was last reviewed or changed. |
-
-Evidence fields:
-
-| Field | Required | Meaning |
-| --- | --- | --- |
-| `source` | Yes | Source path, usually `raw/<file>` or another durable source reference. |
-| `kind` | Yes | `documentation`, `quote`, or `observation`. |
-| `excerpt` | Yes | Short quote or note supporting the claim. |
-
-Claim rules:
-
-- Use `evergreen` only for claims expected to remain true for a long time.
-- Use `provisional` when evidence is incomplete, current only as of a point in time, or based on interpretation.
-- Use `disputed` when sources conflict or confidence has materially dropped.
-- Every claim must have evidence.
-- Keep excerpts short.
-- Do not use claims for every sentence; track only assertions worth maintaining.
-
-## Claims Linting
-
-The lint operation should check claim blocks in addition to normal vault health.
-
-Flag:
-
-- **Disputed claims:** any claim with `status: disputed`.
-- **Claims with no evidence:** missing `evidence`, empty `evidence`, or evidence entries without `source`, `kind`, or `excerpt`.
-- **Contradictions across pages:** claims whose `text` conflicts with another claim, especially when both are marked `evergreen` or have high confidence.
-- **Stale evergreen claims:** claims with `status: evergreen` whose `updated` date is more than 90 days old.
-- **Invalid confidence:** confidence outside `0.0` to `1.0`.
-- **Invalid status:** status other than `provisional`, `evergreen`, or `disputed`.

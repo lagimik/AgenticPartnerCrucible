@@ -91,3 +91,19 @@ Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broa
 ## 2026-08-28 Dream Loop
 
 Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broad themes: routine Dream Loop continuity, no new Shakespeare vault log entries for August 27-28, already-promoted August 14 issue-ingestion and newsletter context, and privacy-first filtering under limited session-history access. No qualifying new durable facts met the promotion threshold, so MEMORY.md was left unchanged. Omitted raw private communications, source-body detail, unrelated personal-context specifics, duplicate automation signals, and uncertain session signals.
+
+## 2026-08-28 Dream Loop (late)
+
+Considered 4 candidates from the last 24 hours and promoted 1 durable, whiteboard-level memory. Broad themes: open issue ingestion for AI architecture, industry transformation, partner skilling, Copilot practice development, SRE operations, and agent economics; outcome-based runtime optimization levers for token economics; curation across AI architecture, FinOps, skilling, industry, practice building, Modern Work, and Azure operations; and the Aug 28 newsletter generation. Did not promote duplicate Dream Loop/privacy signals or unrelated session activity. Omitted raw private communications, source-body detail, unrelated personal-context specifics, and sensitive details.
+
+## 2026-08-29 Dream Loop
+
+Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broad themes: routine Dream Loop continuity, no new Shakespeare vault log entries for August 29, already-promoted August 28 issue-ingestion and newsletter context, and privacy-first filtering of unrelated or low-confidence session activity. No qualifying new durable facts met the promotion threshold, so MEMORY.md was left unchanged. Omitted raw private communications, source-body detail, unrelated personal-context specifics, duplicate automation signals, and uncertain session signals.
+
+## 2026-08-30 Dream Loop
+
+Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broad themes: routine Dream Loop continuity, no new Shakespeare vault log entries for August 30, already-promoted August 28 issue-ingestion and newsletter context, and privacy-first filtering of unrelated or low-confidence session activity. No qualifying new durable facts met the promotion threshold, so MEMORY.md was left unchanged. Omitted raw private communications, source-body detail, unrelated personal-context specifics, duplicate automation signals, and uncertain session signals.
+
+## 2026-09-05 Dream Loop
+
+Considered 4 candidates from the last 24 hours and promoted 0 new memories. Broad themes: routine Dream Loop continuity, no new Shakespeare vault log entries for September 4-5, already-promoted August 28 issue-ingestion and newsletter context, and privacy-first filtering of unrelated or low-confidence session activity. No qualifying new durable facts met the promotion threshold, so MEMORY.md was left unchanged. Omitted raw private communications, source-body detail, unrelated personal-context specifics, duplicate automation signals, and uncertain session signals.

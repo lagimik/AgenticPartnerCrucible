@@ -2,7 +2,7 @@
 title: Agentic Cloud Operations
 type: concept
 created: 2026-08-02
-updated: 2026-08-21
+updated: 2026-09-12
 tags:
   - ai-operations
   - observability
@@ -12,6 +12,7 @@ tags:
 sources:
   - raw/2026-08-02-azure-copilot-observability-agent/source.md
   - raw/2026-08-21-github-open-issues-55-63/issues.md
+  - raw/2026-09-12-azure-copilot-troubleshooting-agent/source.md
 status: active
 ---
 
@@ -27,6 +28,14 @@ Agentic cloud operations is an operations pattern where AI agents reason across 
 4. Preserve context in a shared case file so humans and agents can collaborate.
 5. Keep humans accountable for approvals, mitigations, and environment changes.
 
+## Operational Agent Layers
+
+- **Observe** - Correlate telemetry, alerts, topology, health, and changes into explainable investigations.
+- **Troubleshoot** - Scope a resource-aware issue, run supported diagnostics, identify a likely cause, recommend a fix, or prepare an informed support escalation.
+- **Respond** - Propose bounded remediation, require risk-appropriate approval, execute through controlled action surfaces, and validate recovery.
+
+These layers can share context without sharing authority. Broader observation does not imply permission to remediate, and troubleshooting depth depends on the diagnostics available for the selected service and scenario.
+
 ## Why it matters
 
 Cloud operations teams face more telemetry than manual workflows can interpret quickly. Agentic cloud operations shifts responders from dashboard-hopping and query assembly toward evidence-backed triage, lower alert noise, and faster time-to-mitigate without removing human judgment.
@@ -40,3 +49,5 @@ Teams can run custom agents on AKS for full control over hosting, scaling, RAG, 
 - [[azure-copilot-observability-agent]]
 - [[ai-agents-for-it-ops-workshop]]
 - [[cloud-native-application-platform-leader-2026]]
+- [[azure-copilot-troubleshooting-agent]]
+- [[azure-sre-agent-incident-response-playbook]]

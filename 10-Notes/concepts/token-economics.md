@@ -2,7 +2,7 @@
 title: Token Economics
 type: concept
 created: 2026-07-13
-updated: 2026-08-28
+updated: 2026-09-12
 tags:
   - finops
   - agentic-ai
@@ -15,6 +15,7 @@ sources:
   - raw/2026-08-14-github-open-issues-47-53/issues.md
   - raw/2026-08-21-github-open-issues-55-63/issues.md
   - raw/2026-08-28-github-open-issues-65-70/issues.md
+  - raw/2026-09-12-github-open-issues-87-91/issues.md
 status: active
 ---
 
@@ -66,6 +67,12 @@ Optimize cost per successful outcome, not token count in isolation:
 3. Optimize prompts, tools, memory, and agent configuration against representative tasks.
 4. Observe cost, quality, safety, latency, retries, and completed outcomes together.
 
+## Compound Workflow Accounting
+
+For adaptive multi-model systems, account for every workflow leg: drafting, critique, revision, escalation, retries, and fallbacks. Route to the least complex workflow expected to meet the quality bar, but bound each leg by time, cost, and cancellation rules. Compare policies using cost per verified outcome rather than the price of an individual call.
+
+Context is another recurring cost surface. Measure tokens attributable to retrieved knowledge, tool definitions, procedural instructions, and conversation memory; load only what is relevant to the current task.
+
 ## AI Cost Taxonomy
 
 Vendor-neutral cost records need AI-specific enrichment before they support useful allocation. Normalize model or agent, token type, product line or use case, unit of measure, and source system. This makes showback, chargeback, and unit economics comparable across providers and delivery models.
@@ -88,3 +95,6 @@ INTERCEPTOR → COUNTER (accounting / budget threshold) → ACTION HUB (throttle
 - [[agentic-ai]]
 - [[economics-of-agent-optimization]]
 - [[focus-ai-spend-taxonomy]]
+- [[finops-for-ai-overview]]
+- [[ai-agent-roi-operating-model]]
+- [[adaptive-multi-model-orchestration]]

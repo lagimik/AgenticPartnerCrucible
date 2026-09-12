@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Azure OpenAI"
 layout: "default"
 categories: "Digital and App Innovation"
-updated: 2026-08-21
+updated: 2026-09-12
 ---
 
 # Digital Apps and Innovation
@@ -73,6 +73,7 @@ Source | Description | Notes
 [Improving token efficiency in GitHub Agentic Workflows](https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/) | Learn how GitHub instrumented production agentic workflows, audited token usage, and applied optimizations like MCP tool pruning and GitHub CLI substitution to lower token cost in CI. | GitHub Blog (May 2026)
 [GitHub Copilot App](https://github.com/github/app) | The GitHub Copilot app is a desktop application purpose-built for agent-driven development. It gives you a single place to direct AI agents across parallel workstreams, work with GitHub issues and pull requests, and manage the full development lifecycle. Available for Windows, Mac, and Linux. | GitHub (Technical Preview)
 [Hypervelocity Engineering Core](../40-Resources/hypervelocity-engineering-hve-core.md) | Opinionated agentic SDLC pattern library combining specialized agents, prompts, instructions, skills, and Research-Plan-Implement-Review workflows for GitHub Copilot. | Issue #55
+[Project HydraFusion Multi-Model Orchestration](../40-Resources/project-hydrafusion-multi-model-orchestration.md) | GitHub Copilot research preview that chooses single-model, cascade, or independent-critique workflows to balance verified quality, cost, and latency. | Research preview; Issue #87
 
 
 

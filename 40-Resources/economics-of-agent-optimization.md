@@ -2,7 +2,7 @@
 title: Economics of Agent Optimization
 type: resource
 created: 2026-08-14
-updated: 2026-08-28
+updated: 2026-09-12
 tags:
   - finops
   - agentic-ai
@@ -12,8 +12,10 @@ tags:
 sources:
   - https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/
   - https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/
+  - https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/
   - raw/2026-08-14-github-open-issues-47-53/issues.md
   - raw/2026-08-28-github-open-issues-65-70/issues.md
+  - raw/2026-09-12-github-open-issues-87-91/issues.md
 status: active
 ---
 
@@ -38,6 +40,17 @@ The framework emphasizes that model price alone does not determine cost. Prompts
 
 The target is not minimum token use. It is lower cost per successful outcome without sacrificing quality, safety, or latency.
 
+## Context Engineering
+
+Context is paid for on every turn, so agent economics must cover more than model selection:
+
+1. Retrieve and rerank only the knowledge needed for the current task.
+2. Discover relevant tools dynamically instead of sending an entire tool catalog.
+3. Load versioned procedural skills only when their descriptions match the task.
+4. Separate session, user, and procedural memory instead of replaying complete histories.
+
+Microsoft reports material retrieval, tool-token, and benchmark improvements from these patterns in internal evaluations. Treat those figures as product-specific evidence and validate them against the customer's workload. The durable principle is that less, better-targeted context can lower cost without accepting lower quality.
+
 ## Four management questions
 
 - Is spend attributable by model, agent, application, and workflow?
@@ -52,5 +65,7 @@ The article connects Microsoft Foundry and GitHub for building and running agent
 ## Related pages
 
 - [Token Economics](../10-Notes/concepts/token-economics.md)
+- [FinOps for AI Overview](finops-for-ai-overview.md)
+- [AI Agent ROI Operating Model](ai-agent-roi-operating-model.md)
 - [FinOps](../100-Crucible/FinOps.md)
 - [Data and AI](../100-Crucible/DataAISolutionArea.md)

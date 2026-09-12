@@ -108,7 +108,7 @@ Render each included section exactly as follows:
 
 ## What's new?
 
-* <Short highlight label>
+* <Relevant emoji> <Short highlight label>
 
 ## Deep links
 
@@ -117,11 +117,12 @@ Render each included section exactly as follows:
 Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/<topic_page_slug>) for more partner resources.
 ```
 
-Use one blank line between blocks. Keep `What's new?` labels concise and
-scannable; emoji are optional. Do not add headings, introductions, conclusions,
-or commentary outside this structure. If an included section has no deep links,
-retain the `## Deep links` heading with no bullets and still add the Topic Page
-sentence.
+Use one blank line between blocks. Start every `What's new?` bullet with one
+topic-relevant emoji followed by a space, then a concise, scannable label. Vary
+emoji when practical and do not use emoji in deep-link bullets. Do not add
+headings, introductions, conclusions, or commentary outside this structure. If
+an included section has no deep links, retain the `## Deep links` heading with
+no bullets and still add the Topic Page sentence.
 
 ## Images
 
@@ -159,6 +160,7 @@ Before completing the task, verify:
 * Frontmatter contains the five required keys in the exact order
 * Included sections follow the canonical order
 * Every included section has `## What's new?` and `## Deep links`
+* Every `What's new?` bullet starts with one topic-relevant emoji and a space
 * Every included section ends with the exact Topic Page sentence
 * Each deep link follows `[Title](URL): description (Source)`
 * Every referenced thumbnail, marker, or hero asset exists locally

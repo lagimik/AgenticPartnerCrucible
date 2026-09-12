@@ -83,6 +83,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[finops-for-ai-overview]] - Vendor-neutral operating guidance for AI cost allocation, capacity, pricing, quality, and business value.
 - [[ai-agent-roi-operating-model]] - Lifecycle for connecting use-case selection, full cost, adoption, governance, and multidimensional value.
 - [[azure-copilot-troubleshooting-agent]] - Governed Azure portal workflow from resource-aware diagnosis through recommended action or contextualized support escalation.
+- [[copilot-cowork-studio-app-building]] - Conversational full-stack app creation grounded in enterprise data, identity, ALM, administration, and usage controls.
 
 ## Entities
 

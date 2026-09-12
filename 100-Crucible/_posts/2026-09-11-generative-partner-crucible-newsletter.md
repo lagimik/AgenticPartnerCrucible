@@ -3,7 +3,7 @@ title: Generative Partner Crucible - for the week ending 2026-09-11
 date: 2026-09-11
 flag: GenerativePartnerCrucible
 layout: generativepartnercrucible
-thumbnail: /AgenticPartnerCrucible/assets/images/2026-09-12-DataAISolutionArea.md-image.png
+thumbnail: /AgenticPartnerCrucible/assets/images/2026-09-11-DataAISolutionArea.md-image.png
 ---
 
 # Industry Insights
@@ -40,3 +40,15 @@ Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.gi
 
 
 Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/DataAISolutionArea) for more partner resources.
+
+# AI Business Solutions
+
+## What's new?
+
+* Copilot Cowork and Copilot Studio add conversational full-stack business-app creation
+
+## Deep links
+
+* [Build Business Apps with Copilot Cowork and Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/): Microsoft introduces natural-language app creation connected to enterprise data and actions, with inspectable code, Git-backed lifecycle controls, Entra identity, centralized administration, and usage-based billing; Cowork access requires the Frontier program and native Copilot Studio app building is in public preview. (Microsoft Copilot Blog)
+
+Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/PowerPlatform-CopilotStudio) for more partner resources.

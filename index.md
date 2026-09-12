@@ -79,6 +79,10 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[azure-ai-gateway-labs]] - Deployable AI gateway labs with notebooks, IaC, policies, KQL, and MCP.
 - [[openai-at-scale-apim-reliability]] - Backend pools, circuit breakers, and failover for Azure OpenAI.
 - [[art-voice-agent-accelerator]] - End-to-end Azure voice-agent transport, inference, and orchestration accelerator.
+- [[project-hydrafusion-multi-model-orchestration]] - GitHub Copilot research preview for single, cascade, and critique workflows selected by quality, cost, and latency.
+- [[finops-for-ai-overview]] - Vendor-neutral operating guidance for AI cost allocation, capacity, pricing, quality, and business value.
+- [[ai-agent-roi-operating-model]] - Lifecycle for connecting use-case selection, full cost, adoption, governance, and multidimensional value.
+- [[azure-copilot-troubleshooting-agent]] - Governed Azure portal workflow from resource-aware diagnosis through recommended action or contextualized support escalation.
 
 ## Entities
 
@@ -105,6 +109,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[ai-red-teaming-tool-selection]] - Select managed or custom adversarial testing according to the system boundary.
 - [[agent-configuration-optimization]] - Evaluation-and-trace-driven improvement of versioned agent configuration.
 - [[agent-recovery-engineering]] - Safe recovery of side-effecting agent operations under uncertainty.
+- [[adaptive-multi-model-orchestration]] - Runtime selection of bounded direct, cascade, or critique workflows against a defined quality bar.
 
 ## Projects
 

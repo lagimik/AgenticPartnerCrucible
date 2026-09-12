@@ -10,13 +10,11 @@ thumbnail: /AgenticPartnerCrucible/assets/images/2026-09-11-DataAISolutionArea.m
 
 ## What's new?
 
-
-* FinOps practices expanded for tokens, GPU capacity, AI pricing models, quality, allocation, and business value
+* 💸 FinOps practices expanded for tokens, GPU capacity, AI pricing models, quality, allocation, and business value
 
 ## Deep links
 
 * [FinOps for AI Overview](https://www.finops.org/wg/finops-for-ai-overview/): FinOps Foundation guidance applies established cost-management practices to AI while addressing token meters, GPU scarcity, evolving SKUs, shared services, quality constraints, and cross-functional accountability. (FinOps Foundation)
-
 
 Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/FinOps) for more partner resources.
 
@@ -24,11 +22,10 @@ Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.gi
 
 ## What's new?
 
-* Azure Copilot Troubleshooting Agent (GA)
-* Project HydraFusion: GitHub Copilot research previews 
-* The Economics of Agent Optimization
-* AI Agent ROI Framework
-
+* 🛠️ Azure Copilot Troubleshooting Agent (GA)
+* 🔀 Project HydraFusion: GitHub Copilot research previews
+* 🧮 The Economics of Agent Optimization
+* 📈 AI Agent ROI Framework
 
 ## Deep links
 
@@ -38,14 +35,13 @@ Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.gi
 * [Maximize ROI from AI](https://azure.microsoft.com/en-us/solutions/maximize-roi-from-ai): Microsoft organizes value-driven AI adoption around planning the business case, designing efficient systems, managing investment through usage visibility, and evaluating direct and indirect outcomes. (Microsoft Azure)
 * [AI Agent ROI Framework](https://techcommunity.microsoft.com/blog/azurearchitectureblog/ai-agent-roi-framework/4555445): Practitioner framework for prioritizing measurable agent use cases, capturing implementation and operating costs, modeling multidimensional benefits, and governing improvement through an AI Center of Excellence, FinOps, and GenAIOps. (Microsoft Community Hub)
 
-
 Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/DataAISolutionArea) for more partner resources.
 
 # AI Business Solutions
 
 ## What's new?
 
-* Copilot Cowork and Copilot Studio add conversational full-stack business-app creation
+* 🧩 Copilot Cowork and Copilot Studio add conversational full-stack business-app creation
 
 ## Deep links
 

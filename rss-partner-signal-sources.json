@@ -1,0 +1,56 @@
+{
+  "feeds": [
+    {
+      "name": "Microsoft On the Issues",
+      "url": "https://blogs.microsoft.com/on-the-issues/feed/"
+    },
+    {
+      "name": "Microsoft Cloud Blog",
+      "url": "https://microsoft.com/en-us/microsoft-cloud/blog/feed/"
+    },
+    {
+      "name": "Microsoft Blogs",
+      "url": "https://blogs.microsoft.com/feed/"
+    },
+    {
+      "name": "Microsoft Tech Community",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/Community?interaction.style=blog"
+    },
+    {
+      "name": "Microsoft Education Blog",
+      "url": "https://microsoft.com/en-us/education/blog/feed/"
+    },
+    {
+      "name": "Microsoft Fabric Updates",
+      "url": "https://community.fabric.microsoft.com/oxcrx34285/rss/board?board.id=fbc_fabricupdatesblogs"
+    },
+    {
+      "name": "Microsoft Azure Blog",
+      "url": "https://azure.microsoft.com/en-us/blog/feed/"
+    },
+    {
+      "name": "Microsoft 365 Blog",
+      "url": "https://microsoft.com/en-us/microsoft-365/blog/feed/"
+    },
+    {
+      "name": "Microsoft Copilot Blog",
+      "url": "https://microsoft.com/en-us/microsoft-copilot/blog/feed/"
+    },
+    {
+      "name": "Microsoft Copilot Studio Blog",
+      "url": "https://microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/feed/"
+    },
+    {
+      "name": "Microsoft Security Blog",
+      "url": "https://microsoft.com/en-us/security/blog/feed/"
+    },
+    {
+      "name": "Microsoft Dynamics 365 Blog",
+      "url": "https://microsoft.com/en-us/dynamics-365/blog/feed/"
+    },
+    {
+      "name": "Microsoft Power Platform Blog",
+      "url": "https://microsoft.com/en-us/power-platform/blog/feed/"
+    }
+  ]
+}

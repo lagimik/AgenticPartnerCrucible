@@ -2,7 +2,7 @@
 title: "Partner Crucible - Infrastructure Workloads"
 layout: "default"
 categories: "Infrastructure"
-updated: 2026-09-12
+updated: 2026-09-18
 ---
 
 # Azure Infrastructure Workloads
@@ -27,6 +27,7 @@ Source | Description | Notes
 [The Total Economic Impact™ of Microsoft Azure VMware Solution](https://info.microsoft.com/ww-landing-forrester-the-projected-total-economic-impact-of-microsoft-azure-vmware-solution.html) | The 2024 Total Economic Impact of Microsoft Azure VMware Solution (2024), a commissioned study conducted by Forrester Consulting on behalf of Microsoft, to learn about the potential cost savings and business benefits of using Azure VMware Solution, such as: A projected return on investment of 298%. $5.1 million saved in server refresh and decommissioning costs by year three. Enhanced performance and an 80% reduction in downtime, saving $4 million over three years. $1.2 million saved over three years by moving workloads into a system that doesn’t require retraining system administrators. | Forrester
 [Microsoft recognized as a Leader in 2025 Gartner® Magic Quadrant™ for Desktop as a Service](https://www.gartner.com/doc/reprints?id=1-2LNQ8D8H&ct=250812&st=sb&trk=88d45d3f-333e-44f6-95bf-5943c1d425d1&sc_channel=el) | Microsoft is honored to be recognized as a Leader in the 2025 Gartner Magic Quadrant™ for Desktop as a Service (DaaS) | Gartner
 [Microsoft recognized as a Leader in 2023 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure](https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-2023-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/?utm_source=dlvr.it&utm_medium=LinkedIn) | Gartner has positioned Microsoft as a Leader in this new category that includes offerings that deliver cloud-native infrastructure attributes, which can be deployed and operated where the customer prefers. | Gartner
+[Distributed Hybrid Infrastructure 2026](../40-Resources/distributed-hybrid-infrastructure-2026.md) | Azure Arc and Azure Local operating model for cloud, datacenter, edge, multicloud, sovereign, and disconnected workloads, including Foundry Local inference near data. | Gartner 2026 context; Issue #97
 [Gartner® Magic Quadrant™ for Strategic Cloud Platform Services (SCPS)](https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-2024-gartner-magic-quadrant-for-strategic-cloud-platform-services/)| Microsoft named a Leader in 2024 Gartner® Magic Quadrant™ for Strategic Cloud Platform Services | Gartner
 [Gartner® Magic Quadrant™ for Container Management](https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2024-gartner-magic-quadrant-for-container-management/) | Microsoft has been named a Leader in the 2024 Gartner Magic Quadrant for Container Management.| 2024 Gartner
 [Microsoft Cloud for Sovereignty now generally available, opening new pathways for government innovation](https://blogs.microsoft.com/blog/2023/12/14/microsoft-cloud-for-sovereignty-now-generally-available-opening-new-pathways-for-government-innovation/) | General availability of Microsoft Cloud for Sovereignty across all Azure regions. Microsoft Cloud for Sovereignty helps governments meet their compliance, security, and policy requirements while utilizing the cloud to provide superior value to their citizens. | Microsoft

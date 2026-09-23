@@ -2,7 +2,7 @@
 title: FinOps
 layout: default
 categories: FinOps
-updated: 2026-09-12
+updated: 2026-09-18
 ---
 
 # FinOps
@@ -38,6 +38,7 @@ Source | Description | Notes
 [Giving AI Spend a Name in FOCUS](../40-Resources/focus-ai-spend-taxonomy.md) | Enriches vendor-neutral FOCUS cost records with model, agent, token type, product line, unit, and source dimensions for AI showback, chargeback, and unit economics. | Issue #60
 [FinOps for AI Overview](../40-Resources/finops-for-ai-overview.md) | Applies established FinOps practices to AI-specific token, GPU, capacity, allocation, quality, and total-cost challenges. | FinOps Foundation; Issue #89
 [AI Agent ROI Operating Model](../40-Resources/ai-agent-roi-operating-model.md) | Connects measurable use cases, lifecycle cost, adoption, multidimensional value, AI CoE governance, FinOps, and GenAIOps. | Issues #90 and #91
+[Tokenomics Foundation](../40-Resources/tokenomics-foundation.md) | Practitioner source for Total Cost of AI, model routing, consumption visibility, pilot governance, and finance-defensible value measurement, with emerging claims clearly separated from established guidance. | Public channel metadata; Issue #96
 
 ## Tools
 

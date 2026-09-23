@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-08-28
+updated: 2026-09-18
 ---
 
 # Data and AI
@@ -148,6 +148,7 @@ Source | Description | Notes
 [Choosing the Right Agent in Microsoft Foundry](../40-Resources/microsoft-foundry-agent-selection.md) | Decision guide for prompt agents versus hosted agents based on ownership of orchestration, state, custom code, and operations. | Issue #57
 [AI Agents for IT and Operations Workshop](../40-Resources/ai-agents-for-it-ops-workshop.md) | Compares custom AKS-hosted agents with Foundry-hosted agents while teaching identity, networking, secrets, observability, and cost management. | Issue #58
 [Browser Automation with Pydantic AI and Playwright](../40-Resources/pydantic-ai-playwright-browser-automation.md) | Typed agent pattern for stateful browser automation with Foundry models, Entra authentication, domain restrictions, and private-network blocking. | Issue #63
+[Playwright Workspaces Remote MCP](../40-Resources/playwright-workspaces-remote-mcp.md) | Preview managed-browser MCP service for Foundry, GitHub Copilot CLI, private-site access, accessibility-based interaction, bounded diagnostics, and observe-act-verify automation. | Microsoft Foundry; Issue #100
 [Inside Microsoft Foundry Playlist](../40-Resources/inside-microsoft-foundry-playlist.md) | Video series covering model and agent development, evaluation, deployment, monitoring, security, governance, and production operations. | Issue #73
 [ART Voice Agent Accelerator](../40-Resources/art-voice-agent-accelerator.md) | Azure sample for telephony, streaming, cascade or managed realtime voice inference, tool orchestration, observability, and deployment scaffolding. | Issue #85
 [Foundry Toolkit Lab](https://github.com/microsoft-foundry/Foundry_Toolkit_for_VSCode_Lab/) | Hands-on lab for VS Code development with Microsoft Foundry toolkit, from setup to advanced agent workflows. | Microsoft Foundry GitHub

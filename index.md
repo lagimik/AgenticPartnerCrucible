@@ -84,6 +84,12 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[ai-agent-roi-operating-model]] - Lifecycle for connecting use-case selection, full cost, adoption, governance, and multidimensional value.
 - [[azure-copilot-troubleshooting-agent]] - Governed Azure portal workflow from resource-aware diagnosis through recommended action or contextualized support escalation.
 - [[copilot-cowork-studio-app-building]] - Conversational full-stack app creation grounded in enterprise data, identity, ALM, administration, and usage controls.
+- [[legacy-modernization-agents]] - COBOL estate analysis, business-knowledge extraction, dependency mapping, and governed Java or .NET conversion.
+- [[tokenomics-foundation]] - Emerging practitioner guidance for Total Cost of AI, routing, consumption visibility, and value measurement.
+- [[distributed-hybrid-infrastructure-2026]] - Azure Arc, Azure Local, sovereignty, disconnected operations, and local AI infrastructure signals.
+- [[fabric-real-time-hub-event-architecture]] - Event-pillar, schema, consumer, fanout, and operations guidance for Fabric Real-Time Hub.
+- [[transformation-capacity-for-ai]] - Outcome-first operating model for moving AI pilots into production and transferred customer capability.
+- [[playwright-workspaces-remote-mcp]] - Managed remote-browser MCP service and governed agentic browser automation pattern.
 
 ## Entities
 
@@ -111,6 +117,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[agent-configuration-optimization]] - Evaluation-and-trace-driven improvement of versioned agent configuration.
 - [[agent-recovery-engineering]] - Safe recovery of side-effecting agent operations under uncertainty.
 - [[adaptive-multi-model-orchestration]] - Runtime selection of bounded direct, cascade, or critique workflows against a defined quality bar.
+- [[transformation-capacity]] - Repeatable organizational ability to move ideas into production, measurable outcomes, and scaled operations.
 
 ## Projects
 

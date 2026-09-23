@@ -12,6 +12,7 @@ To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuid
 Source | Description | Notes
 :----- | :---------- | :-----
 [Accelerating telco transformation in the era of AI](https://blogs.microsoft.com/blog/2024/02/25/accelerating-telco-transformation-in-the-era-of-ai/) | Accelerating Telco Transformation in the Era of AI by Jason Zander, Executive Vice President, Strategic Missions and Technology, to learn how operators are using Microsoft’s AI and Copilot solutions to elevate customer experiences, streamline business operations, monetize 5G investments, and modernize their network.| Microsoft Blog
+[Transformation Capacity for AI](../40-Resources/transformation-capacity-for-ai.md) | Outcome-first build-with model for moving telco AI pilots into production through short delivery cycles, reusable controls, measurable outcomes, and deliberate customer capability transfer. | Microsoft Tech Community; Issue #99
 [Launch into satellite applications with Microsoft Azure](https://www.infoworld.com/article/3705670/launch-into-satellite-applications-with-microsoft-azure.html) |Microsoft’s Azure Space platform and Azure Orbital Space SDK are taking edge computing to the final frontier, starting with satellite image processing, geospatial, and communications applications.| InfoWorld
 
 ## Azure for Operators

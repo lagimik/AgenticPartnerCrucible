@@ -2,7 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads - Power Platform"
 layout: "default"
 categories: "AI Business Solutions"
-updated: 2026-09-12
+updated: 2026-09-18
 ---
 
 # Power Platform - Copilot Studio Workload
@@ -31,7 +31,7 @@ To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuid
 | [Administering and Governing Agents](https://adoption.microsoft.com/files/copilot-studio/Agent-governance-whitepaper.pdf) | This whitepaper delves into the specifics of Microsoft’s tools and methodologies, offering insights on managing data security and agent integrity. It covers the role of Microsoft 365 agents, Agent Builder agents, and Copilot Studio agents, explaining how each type can be utilized to enhance operational efficiency while maintaining stringent security protocols. | Microsoft Adoption |
 | [Strengthen agent security with real-time protection in Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/strengthen-agent-security-with-near-real-time-protection-in-microsoft-copilot-studio/) | This capability enhances security for AI agents by enabling organizations to connect their own monitoring system such as Microsoft Defender as well as security platforms by other providers, or their own custom-built tools. These integrations allow for real-time evaluation and control of agent behavior during runtime. | Microsoft |
 | [Building reliable voice agents: A practical guide](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/building-reliable-voice-agents-a-practical-guide/) | Practical Copilot Studio guide for reliable customer-facing voice agents, covering IVR, generative voice, real-time speech-to-speech, grounding, confirmations, escalation, and handoff context. | Microsoft Copilot Blog |
-| [Choosing the Copilot Studio Harness](../40-Resources/copilot-studio-harness-selection.md) | Select the Standard harness for bounded, explicit workflows or the GitHub Copilot harness for dynamic planning, skills, memory, files, and multi-tool reasoning. | Issue #78 |
+| [Choosing the Copilot Studio Harness](../40-Resources/copilot-studio-harness-selection.md) | Select the Standard, GitHub Copilot, or Copilot Chat harness from orchestration, capability, publication, portability, evaluation, and billing requirements. | Issues #78 and #95 |
 | [App Building in Copilot Cowork and Copilot Studio](../40-Resources/copilot-cowork-studio-app-building.md) | Build conversational full-stack business apps connected to enterprise data, with inspectable code, Git-backed lifecycle controls, Entra identity, centralized administration, and usage-based billing. | Frontier and public preview |
 | [Digital Deep Dive: Copilot Control System (CCS)](https://techcommunity.microsoft.com/event/microsoft365copilot-events/digital-deep-dive-copilot-control-system-ccs/4414752) | Learn how to secure, manage, and analyze Microsoft 365 Copilot, Copilot Chat, Microsoft Copilot Studio, and agents across your organization using the Copilot Control System (CCS). | Tech Community |
 
@@ -40,6 +40,9 @@ To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuid
 | Source | Description | Notes |
 | :----- | :---------- | :---- |
 | [Copilot Studio Agent Academy](https://microsoft.github.io/agent-academy/) | This hands-on training is your entry point into the world of agents: from grounded prompts to Adaptive Cards and agent flows, you'll learn how to build, scale, and deploy intelligent agents using real-world tools and use cases. | Microsoft GitHub |
+| [Agent Academy: GitHub Copilot harness](https://microsoft.github.io/agent-academy/recruit-nextgen/) | Hands-on course for GitHub Copilot harness solution creation, custom agents, tools, skills, workflows, publishing, and licensing. | Microsoft GitHub; Issue #95 |
+| [Explore Copilot Studio and agent harnesses](https://learn.microsoft.com/en-us/training/modules/explore-copilot-studio-agent-harnesses/) | Compare GitHub Copilot, standard, and Copilot Chat harnesses across orchestration, authoring, capabilities, publishing, and billing. | Microsoft Learn; Issue #95 |
+| [GitHub Copilot certification](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/) | GH-300 validates responsible use, prompt and context practices, architecture, productivity, privacy, content exclusions, and safeguards. | Microsoft Learn; Issue #95 |
 | [Copilot Studio](https://github.com/Katerina-Chernevskaya/feature-a-day) | by @Katerina-Chernevskaya | Github |
 | [Copiot Developer Camp](https://microsoft.github.io/copilot-camp/pages/make/) | In this lab, you will design customised assistants to improve the overall experience of using Microsoft 365 Copilot. The process will begin with the creation of a basic agent using either the Copilot Studio Lite, or the SharePoint agent capability in SharePoint Online, or Copilot Studio. | Microsoft GitHub |
 | [Architecting agent solutions: Principles and patterns](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/architecture/) | Guidance for architecting agents using established patterns and best practices. Covers fit for purpose, operability, trust and transparency, and search and tool use architectures. | Microsoft Learn |

@@ -16,6 +16,7 @@ sources:
   - raw/2026-08-21-github-open-issues-55-63/issues.md
   - raw/2026-08-28-github-open-issues-65-70/issues.md
   - raw/2026-09-12-github-open-issues-87-91/issues.md
+  - raw/2026-09-18-tokenomics-foundation/source.md
 status: active
 ---
 
@@ -98,3 +99,4 @@ INTERCEPTOR → COUNTER (accounting / budget threshold) → ACTION HUB (throttle
 - [[finops-for-ai-overview]]
 - [[ai-agent-roi-operating-model]]
 - [[adaptive-multi-model-orchestration]]
+- [[tokenomics-foundation]]

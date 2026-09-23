@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Microsoft Fabric"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-09-05
+updated: 2026-09-18
 ---
 
 # Data & AI > Microsoft Fabric
@@ -58,6 +58,7 @@ Source | Description | Notes
 [Fabric Spark best practices overview](https://learn.microsoft.com/en-us/fabric/data-engineering/spark-best-practices-overview) | This series of articles outlines best practices for optimizing the performance, security, and cost of Spark jobs when running Spark Notebooks and Spark Job Definitions (SJDs) on Microsoft Fabric | Microsoft Learn
 [Fabric Data Warehouse Medallion Architecture Series](../40-Resources/fabric-data-warehouse-medallion-series.md) | Three-part guide to selecting lakehouse or hybrid patterns, enforcing Bronze/Silver/Gold responsibilities, and operating scalable, auditable Fabric pipelines. | Issues #79-#81
 [Microsoft Fabric CI/CD Resources](../40-Resources/fabric-cicd-resources.md) | End-to-end delivery guidance across Git integration, deployment pipelines, REST APIs, Fabric CLI, IaC, environment configuration, and verification. | Issue #75
+[Fabric Real-Time Hub Event Architecture](../40-Resources/fabric-real-time-hub-event-architecture.md) | Select Business, Fabric, or Azure Events by publisher ownership, then design versioned schemas, independent Activator, Eventhouse, or Eventstream consumers, idempotency, and operational controls. | Microsoft Fabric series; Issue #98
 
 ## Tools
 
@@ -141,4 +142,3 @@ Source | Description | Notes
 [Overview of new Microsoft Fabric Power BI Announcements](https://lnkd.in/d7GP4tnx) | | Data Goblins Blog
 [Direct Lake: My Favorite Feature in Microsoft Fabric](https://lnkd.in/dBW-K5vB) | | Artis Consulting
 [Data Intelligence on light speed: Microsoft Fabric](https://lnkd.in/dNe5mVTD) | | redgate
-

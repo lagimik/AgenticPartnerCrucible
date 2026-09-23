@@ -19,6 +19,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[partner-skilling-hub-microskilling]] - Bite-sized learning units on the Partner Skilling Hub.
 - [[partner-skilling-hub-agent]] - AI assistant for navigating partner skilling offerings.
 - [[levelup-deal-ready-accelerators]] - Bridge from skilling to customer deal engagement.
+- [[microsoft-what-the-hack]] - Coach-led challenge catalog for collaborative Microsoft cloud and AI skilling events.
 - [[agent-365-demo-led-poc-kit]] - Partner demo-led PoC kit for Agent 365 estate visibility, governance, and AI agent strategy conversations.
 - [[cyber-pulse-ai-security-report]] - Security Insider report/video on AI agent visibility gaps, governance, and Zero Trust protection.
 - [[cat-agent-skills-business-os]] - Business OS for Copilot Studio: structured agent skills for decision-making, planning, and reusable tasks.

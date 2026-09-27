@@ -2,7 +2,7 @@
 title: "Partner Crucible - Security Workloads "
 layout: "default"
 categories: "Security"
-updated: 2026-09-05
+updated: 2026-09-26
 ---
 
 # Security Workloads
@@ -30,6 +30,7 @@ Source | Description | Notes
 [The Partner Opportunity For Microsoft Security](http://aka.ms/ForresterMSSecurityTEI2024) | A Total Economic Impact™ Partner Opportunity Analysis | Forrester
 [Microsoft Security Forrester TEI: 124% ROI](https://www.microsoft.com/en-us/security/blog/2026/06/18/new-forrester-study-shows-customers-who-unified-with-microsoft-security-benefited-from-124-roi/) | Commissioned Forrester TEI study summary for Microsoft's AI-first, end-to-end security platform, projecting 124% ROI, under-six-month payback, and $16.6M NPV for a composite organization. | Microsoft Security Blog
 [Project Perception: Rethinking security for the age of AI](https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/) | Introduces an agentic security system and new cyber stack where red, blue, and green team agents continuously perceive, reason, and act against AI-speed threats. | Microsoft Blog
+[Microsoft Defender Agentic ISOC](../40-Resources/microsoft-defender-agentic-isoc.md) | Preview integrated security operations foundation combining SIEM, native threat protection, shared context, actuators, and human-directed agents. | Microsoft Security Blog; Issue #111
 [Defender Experts MDR in the 2026 IDC MarketScape](../40-Resources/defender-experts-mdr-idc-marketscape.md) | Expert-led, round-the-clock managed detection and response operating natively on Microsoft Defender, combining threat hunting, AI-assisted operations, and human decision ownership. | IDC 2026; Issue #52
 [Frost Radar: Cloud Workload Protection Platforms 2026](../40-Resources/frost-radar-cloud-workload-protection-2026.md) | Runtime-centered cloud workload protection connecting posture, Kubernetes and container telemetry, identities, code, AI workloads, developer remediation, and SOC operations. | Frost & Sullivan 2026; Issue #59
 [The Forrester Wave™: Zero Trust Platforms, Q3 2025](https://www.linkedin.com/posts/martintenvoorde_microsoft-security-zerotrust-activity-7349441437165412352-2CT7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAuhUABpdpzK9SzuOG85oyUVHBGdeovPXU) | Microsoft is the Leader in The Forrester Wave™: Zero Trust Platforms, Q3 2025 | Forrester

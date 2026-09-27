@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-09-18
+updated: 2026-09-26
 ---
 
 # Data and AI
@@ -28,6 +28,8 @@ Source | Description | Notes
 [Grow Your Business with AI You Can Trust](https://marketingassets.microsoft.com/gdc/gdctINjpb/original) | This e-book outlines several considerations business leaders can plan for to help unlock the promise of this new technology and avoid unintended consequences| Microsoft
 [Measuring AI Diffusion: A Population-Normalized Metric for Tracking Global AI Usage](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/10/AI-Usage-Technical-Report.pdf) | Built from anonymized Microsoft telemetry and  adjusted for device access and mobile scaling, this metric spans 147 economies and provides consistent,  real-time insight into global AI diffusion.| Microsoft AI for Good Lab
 [Seizing the agentic AI advantage](https://www.mckinsey.com/capabilities/quantumblack/our-insights/seizing-the-agentic-ai-advantage) | A CEO playbook to solve the gen AI paradox and unlock scalable impact with AI agents.| McKinsey
+[AI Value Capture and Competitive Advantage](../40-Resources/ai-value-capture-competitive-advantage.md) | Framework for assessing AI-driven value-pool shifts, durable competitive advantages, margin hollowing, and AI-native competitors. | BCG; Issue #101
+[Useful Yield for AI Infrastructure](../40-Resources/useful-yield-ai-infrastructure.md) | Outcome-oriented model connecting capability, deployment velocity, and utilization across power, silicon, memory, networking, models, and agent harnesses. | Microsoft; Issue #102
 [Why Enterprises Fail to Scale AI Agents And What Fixes It](https://www.linkedin.com/posts/janvanlooy_deloitte-report-why-enterprises-fail-to-ugcPost-7439217693611819008-Sp5d?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAAuhUABpdpzK9SzuOG85oyUVHBGdeovPXU) | Deloitte perspective on common barriers that prevent enterprises from moving AI initiatives from pilots to scaled business impact. | Deloitte Engineering
 [Building a Foundation for AI Success: A Leader’s Guide](https://info.microsoft.com/ww-landing-building-a-foundation-for-ai-success.html) | Discover insights informed by Microsoft, Microsoft customers and partners, industry analysts, and AI leaders—to help your organization thrive on your path to AI transformation.| Microsoft
 [How Real-World Businesses Are Transforming with AI](https://blogs.microsoft.com/blog/2025/04/22/https-blogs-microsoft-com-blog-2024-11-12-how-real-world-businesses-are-transforming-with-ai/) | Microsoft blog post highlighting real-world examples of businesses leveraging AI to drive transformation and innovation across industries. | Microsoft Blog, April 2025
@@ -161,6 +163,7 @@ Source | Description | Notes
 [Tracking Every Token: Granular Cost and Usage Metrics for Microsoft Foundry Agents](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/tracking-every-token-granular-cost-and-usage-metrics-for-microsoft-foundry-agent/4503143) | Shows how to instrument Foundry agents with APIM and Application Insights to get per-agent, per-request token and cost telemetry with KQL-based reporting. | Azure AI Foundry Blog
 [Foundry Local](https://www.foundrylocal.ai/) | Run AI models locally on your device. Foundry Local provides on-device inference with complete data privacy, no Azure subscription required. | foundrylocal.ai
 [Building Your First Local RAG Application with Foundry Local](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/building-your-first-local-rag-application-with-foundry-local/4501968) | A step-by-step guide to building a local RAG application using Foundry Local, enabling developers to run AI models locally for development and prototyping. | Tech Community
+[On-Premises Health RAG with Foundry Local](../40-Resources/on-premises-health-rag-foundry-local.md) | Residency-first architecture that keeps records, prompts, vectors, evidence, output, and telemetry on premises with explicit failure instead of cloud fallback. | Microsoft Tech Community; Issue #109
 [Azure AI Foundry: From Zero to Production](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/azure-ai-foundry-from-zero-to-production/44542960) | Issue-referenced Tech Community source for taking Azure AI Foundry projects from first build toward production readiness; revisit for detailed extraction when accessible. | Tech Community
 
 

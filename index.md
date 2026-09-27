@@ -91,6 +91,18 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[fabric-real-time-hub-event-architecture]] - Event-pillar, schema, consumer, fanout, and operations guidance for Fabric Real-Time Hub.
 - [[transformation-capacity-for-ai]] - Outcome-first operating model for moving AI pilots into production and transferred customer capability.
 - [[playwright-workspaces-remote-mcp]] - Managed remote-browser MCP service and governed agentic browser automation pattern.
+- [[ai-value-capture-competitive-advantage]] - Executive framework for AI value-pool shifts, durable moats, and margin hollowing.
+- [[useful-yield-ai-infrastructure]] - Whole-stack model for useful AI output per unit of capital, power, memory, and compute.
+- [[azure-container-management-2026]] - AKS, Container Apps, Arc, and Fleet Manager workload-placement and operating model.
+- [[copilot-studio-foundry-iq-retrieval-benchmarking]] - Evidence contract for comparing retrieval latency, quality, permissions, and cost.
+- [[qdk-analytics-tensor-pca]] - Private-preview quantum analytics for high-dimensional data with classical baselines.
+- [[azure-kars-multi-runtime-agent-infrastructure]] - Kubernetes execution contract for governed coding and business agents.
+- [[microsoft-finops-for-ai-capabilities]] - Agent 365 spending policies, allocation, reporting, and AI value management.
+- [[on-premises-health-rag-foundry-local]] - Residency-first local RAG architecture for regulated health-record workloads.
+- [[azure-sre-agent-configuration-guide]] - Seven configuration priorities for routing reliable operations work to agents.
+- [[microsoft-defender-agentic-isoc]] - Integrated SIEM and threat protection foundation for human-agent SOC operations.
+- [[continuous-azure-resilience-validation]] - Continuous proof of workload resilience beyond static architecture diagrams.
+- [[agent-first-platforms-foundry-container-apps]] - Governed agents in Foundry with isolated execution in Container Apps Sandboxes.
 
 ## Entities
 

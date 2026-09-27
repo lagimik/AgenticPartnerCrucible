@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Azure OpenAI"
 layout: "default"
 categories: "Digital and App Innovation"
-updated: 2026-09-18
+updated: 2026-09-26
 ---
 
 # Digital Apps and Innovation
@@ -161,6 +161,8 @@ Source | Description | Notes
 [Building Agent-to-Agent (A2A) Applications on Azure App Service](https://techcommunity.microsoft.com/blog/appsonazureblog/building-agent-to-agent-a2a-applications-on-azure-app-service/4433114) | A practical example that combines Microsoft Semantic Kernel with the A2A protocol to create an intelligent travel planning assistant. | Tech Community
 [Build Agent2Agent Communication on MCP](https://developer.microsoft.com/blog/can-you-build-agent2agent-communication-on-mcp-yes) |  MCP now provides a robust foundation for building complex agent-to-agent communication systems. | DevBlog
 [Deployment Guide-Copilot Studio agent with MCP Server exposed by API Management using OAuth 2.0](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/deployment-guide-copilot-studio-agent-with-mcp-server-exposed-by-api-management-/4462432) | Solution deployment guide to learn how Azure API Management (APIM) enables secure and scalable access to MCP servers for Copilot Studio AI agents. By leveraging OAuth 2.0 authorization code flow, you can ensure enterprise-grade security for seamless integration | Tech Community
+[Azure KARS Multi-Runtime Agent Infrastructure](../40-Resources/azure-kars-multi-runtime-agent-infrastructure.md) | Kubernetes execution contract for coding and business agents with pod-level trust boundaries, multiple runtimes, long tasks, skills, and governed tools. | Microsoft Tech Community; Issue #106
+[Agent-First Platforms with Foundry and Container Apps](../40-Resources/agent-first-platforms-foundry-container-apps.md) | Separates Foundry governance from isolated Azure Container Apps Sandbox execution for scalable, traceable, and controlled agent work. | Azure Blog; Issue #113
 [Build Intelligent Apps On Azure](https://azure.github.io/Cloud-Native/) | Combine the power of AI, cloud-scale data, and cloud-native app development to create highly differentiated digital experiences. Develop adaptive, responsive, and personalized experiences by building and modernizing intelligent applications with Azure.| Fall 2023 GitHub
 [30 Days of AI](https://azure.github.io/Cloud-Native/30DaysOfIA) | This Fall focus on building intelligent apps using AI and cloud-native technologies. #FallForIntelligentApps brings to you a learning journey to build your skills on creating differentiated experiences while modernizing your applications. It’s time to learn it all. | GitHub
 [30 Days of Serverless](https://azure.github.io/Cloud-Native/blog/01-kickoff) | A full month of content and activities to skill you up on all things Serverless on Azure with content, events, and community interactions! Read on to learn about what we have planned | Fall 2022 - GitHub

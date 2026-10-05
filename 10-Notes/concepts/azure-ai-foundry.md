@@ -2,7 +2,7 @@
 title: Azure AI Foundry
 type: concept
 created: 2026-07-10
-updated: 2026-09-05
+updated: 2026-10-03
 tags:
   - azure
   - ai-platform
@@ -39,3 +39,4 @@ Use prompt agents when instructions and managed tools can express the workflow a
 - [[safe-agent-controls-foundry]]
 - [[inside-microsoft-foundry-playlist]]
 - [[art-voice-agent-accelerator]]
+- [[deploying-hosted-agents-foundry-terraform]]

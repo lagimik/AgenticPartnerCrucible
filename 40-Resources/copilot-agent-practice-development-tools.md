@@ -2,7 +2,7 @@
 title: Copilot and Agent Practice Development Tools
 type: resource
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-10-03
 tags:
   - copilot
   - agents
@@ -39,3 +39,6 @@ Differentiate with a chain of proof: assess readiness, establish a secure platfo
 - [Practice Building](../100-Crucible/PracticeBuilding.md)
 - [Modern Work Copilot](../100-Crucible/ModernWorkSolutionArea-Copilot.md)
 - [[ai-agent-lifecycle]]
+- [[revenue-generating-partner-offer-anatomy]]
+- [[land-your-offer-copilot-in-30]]
+- [[land-your-offer-copilot-envisioning-poc]]

@@ -35,3 +35,4 @@ Default to the least-custom option that satisfies the requirements. Move to host
 - [[azure-ai-foundry]]
 - [[ai-agent-lifecycle]]
 - [[ai-agents-for-it-ops-workshop]]
+- [[deploying-hosted-agents-foundry-terraform]]

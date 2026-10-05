@@ -2,7 +2,7 @@
 title: Agent-First Platforms with Foundry and Container Apps
 type: resource
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-03
 tags: [agent-platform, microsoft-foundry, container-apps, sandboxes, governance]
 sources:
   - https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/
@@ -38,3 +38,9 @@ controls, evaluation systems, and scalable execution architectures for
 regulated or multi-tenant workloads. Customer examples in the source illustrate
 the pattern, but architecture and economics still require workload-specific
 validation.
+
+## Related Pages
+
+- [[agent-execution-sandbox-isolation]] — a deeper engineering comparison of
+  Azure Container Apps Sandboxes against an OpenSandbox-on-AKS alternative,
+  with concrete isolation, state, and credential-handling detail.

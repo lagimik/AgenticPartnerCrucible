@@ -2,7 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads - Power Platform"
 layout: "default"
 categories: "AI Business Solutions"
-updated: 2026-09-26
+updated: 2026-10-09
 ---
 
 # Power Platform - Copilot Studio Workload
@@ -31,6 +31,7 @@ To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuid
 | [Administering and Governing Agents](https://adoption.microsoft.com/files/copilot-studio/Agent-governance-whitepaper.pdf) | This whitepaper delves into the specifics of Microsoft’s tools and methodologies, offering insights on managing data security and agent integrity. It covers the role of Microsoft 365 agents, Agent Builder agents, and Copilot Studio agents, explaining how each type can be utilized to enhance operational efficiency while maintaining stringent security protocols. | Microsoft Adoption |
 | [Strengthen agent security with real-time protection in Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/strengthen-agent-security-with-near-real-time-protection-in-microsoft-copilot-studio/) | This capability enhances security for AI agents by enabling organizations to connect their own monitoring system such as Microsoft Defender as well as security platforms by other providers, or their own custom-built tools. These integrations allow for real-time evaluation and control of agent behavior during runtime. | Microsoft |
 | [Building reliable voice agents: A practical guide](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/building-reliable-voice-agents-a-practical-guide/) | Practical Copilot Studio guide for reliable customer-facing voice agents, covering IVR, generative voice, real-time speech-to-speech, grounding, confirmations, escalation, and handoff context. | Microsoft Copilot Blog |
+| [Copilot Studio Agent Scaling Design](../40-Resources/copilot-studio-agent-scaling.md) | Design guidance for keeping agent choices distinct, loading specialist guidance when needed, splitting at meaningful boundaries, and using workflows for fixed sequences. | Issue #124 |
 | [Choosing the Copilot Studio Harness](../40-Resources/copilot-studio-harness-selection.md) | Select the Standard, GitHub Copilot, or Copilot Chat harness from orchestration, capability, publication, portability, evaluation, and billing requirements. | Issues #78 and #95 |
 | [App Building in Copilot Cowork and Copilot Studio](../40-Resources/copilot-cowork-studio-app-building.md) | Build conversational full-stack business apps connected to enterprise data, with inspectable code, Git-backed lifecycle controls, Entra identity, centralized administration, and usage-based billing. | Frontier and public preview |
 | [Benchmarking Copilot Studio and Foundry IQ Retrieval](../40-Resources/copilot-studio-foundry-iq-retrieval-benchmarking.md) | Reproducible evaluation contract for retrieval boundaries, cost lanes, deterministic quality gates, evidence, and release decisions. | Microsoft Tech Community; Issue #104 |

@@ -2,7 +2,7 @@
 title: "Partner Crucible - Infrastructure Workloads"
 layout: "default"
 categories: "Infrastructure"
-updated: 2026-09-26
+updated: 2026-10-09
 ---
 
 # Azure Infrastructure Workloads
@@ -31,6 +31,7 @@ Source | Description | Notes
 [Gartner® Magic Quadrant™ for Strategic Cloud Platform Services (SCPS)](https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-2024-gartner-magic-quadrant-for-strategic-cloud-platform-services/)| Microsoft named a Leader in 2024 Gartner® Magic Quadrant™ for Strategic Cloud Platform Services | Gartner
 [Azure Container Management Direction 2026](../40-Resources/azure-container-management-2026.md) | Workload-placement and operating guidance across AKS, Azure Container Apps, Azure Arc, and Kubernetes Fleet Manager for AI, hybrid, edge, and sovereign estates. | Microsoft summary of Gartner 2026; Issue #103
 [Microsoft Cloud for Sovereignty now generally available, opening new pathways for government innovation](https://blogs.microsoft.com/blog/2023/12/14/microsoft-cloud-for-sovereignty-now-generally-available-opening-new-pathways-for-government-innovation/) | General availability of Microsoft Cloud for Sovereignty across all Azure regions. Microsoft Cloud for Sovereignty helps governments meet their compliance, security, and policy requirements while utilizing the cloud to provide superior value to their citizens. | Microsoft
+[Sovereign AI: Control, Choice, Flexibility, and Resilience](../40-Resources/sovereign-ai-control-choice.md) | Microsoft-authored framework for evaluating control, model and infrastructure choice, governance, and operational resilience across cloud and local AI workloads. | Issues #120 and #121
 [The Business Value of Azure VMware Solution](https://info.microsoft.com/ww-landing-idc-the-business-value-of-azure-vmware-solution.html?lcid=EN-US) | In this white paper, see the business benefits and ROI that organizations participating in an IDC research study reported from migrating and extending workloads to Azure VMware Solution. | IDC
 [Microsoft is named a leader in The Forrester Wave: Industry Cloud Solutions for Public Sector, Q1 2026](https://www.microsoft.com/en-us/industry/blog/government/2026/02/25/microsoft-is-named-a-leader-in-the-forrester-wave-industry-cloud-solutions-for-public-sector-q1-2026/) | Microsoft is named a leader in The Forrester Wave for Industry Cloud Solutions for Public Sector. | Microsoft Industry Blog |
 [Microsoft Cloud-Native Application Platform Leader 2026](../40-Resources/cloud-native-application-platform-leader-2026.md) | Azure integrates App Service, Container Apps, Functions, API Management, Foundry, identity, observability, and security as a common foundation for modernization and production AI. | Gartner 2026; Issue #62

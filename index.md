@@ -13,7 +13,10 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[foundry-toolkit-vscode-lab]] - Workshop: build/test/deploy Hosted Agents from VS Code.
 - [[token-economics-finops-agentic-ai]] - Token economics as FinOps discipline for agentic AI.
 - [[optimize-oracle-azure-netapp-files]] - Azure NetApp Files for Oracle on Azure with ANF advancements.
+- [[oracle-to-power-bi-modern-analytics]] - Oracle-to-Power BI performance assessment and Fabric Mirroring modernization path.
 - [[ai-agent-lifecycle-guide]] - 6-stage enterprise AI agent lifecycle with Microsoft tooling.
+- [[copilot-studio-agent-scaling]] - Copilot Studio design guidance for manageable agent choices, context, execution, and evaluation.
+- [[foundry-voice-agent-evaluation]] - Multi-turn voice-agent evaluator study with scope-specific results and limitations.
 - [[skills-for-fabric]] - Microsoft repository of reusable AI assistant skills for Fabric and Power BI workflows.
 - [[levelup-learning-journeys]] - Curated multi-course learning paths for partner solution areas.
 - [[partner-skilling-hub-microskilling]] - Bite-sized learning units on the Partner Skilling Hub.
@@ -51,6 +54,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[cowork-partner-launch-kit]] - Protected Microsoft partner launch package for Cowork.
 - [[sql-partner-community]] - Official registration entry point for the Microsoft SQL Partner Community.
 - [[dynamics-365-crm-sales-platform-leader]] - Dynamics 365 Sales, agentic CRM, and 2026 Gartner recognition.
+- [[dynamics-365-crm-flow-and-process-agents]] - Dynamics 365 customer context in Copilot and Teams, with sales and service process agents.
 - [[content-understanding-gpt5-model-selection]] - GPT-5 model-selection, grounding, and confidence guidance for Content Understanding.
 - [[economics-of-agent-optimization]] - Framework for operating AI as a managed investment system.
 - [[defender-experts-mdr-idc-marketscape]] - Defender Experts MDR and 2026 IDC MarketScape recognition.
@@ -88,6 +92,9 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[legacy-modernization-agents]] - COBOL estate analysis, business-knowledge extraction, dependency mapping, and governed Java or .NET conversion.
 - [[tokenomics-foundation]] - Emerging practitioner guidance for Total Cost of AI, routing, consumption visibility, and value measurement.
 - [[distributed-hybrid-infrastructure-2026]] - Azure Arc, Azure Local, sovereignty, disconnected operations, and local AI infrastructure signals.
+- [[sovereign-ai-control-choice]] - Microsoft's control, choice, flexibility, and resilience framing for sovereign AI.
+- [[digital-sovereignty-adoption-caf]] - Workload-based sovereignty planning guidance from the Cloud Adoption Framework.
+- [[azure-resource-inventory-ari]] - Microsoft PowerShell module for Azure estate inventory and reporting.
 - [[fabric-real-time-hub-event-architecture]] - Event-pillar, schema, consumer, fanout, and operations guidance for Fabric Real-Time Hub.
 - [[transformation-capacity-for-ai]] - Outcome-first operating model for moving AI pilots into production and transferred customer capability.
 - [[playwright-workspaces-remote-mcp]] - Managed remote-browser MCP service and governed agentic browser automation pattern.
@@ -139,6 +146,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[agent-execution-sandbox-isolation]] - Untangles MCP, OpenSandbox, and Kata Containers; compares three Azure execution-boundary hosting models.
 - [[government-cyber-resilience-ai-era]] - MDDR 2026 government cyber-threat findings and five resilience priorities for the AI era.
 - [[ai-threat-landscape-mddr-2026]] - MDDR 2026 security-practitioner view: AI in the threat landscape, agent identity/access risks, dual-use vulnerability discovery, and signal correlation.
+- [[agent-scaling-design]] - Manage agent selection, context, execution, and operations to support reliable growth.
 - [[token-economics]] - Making agentic AI economically sustainable through compression, caching, routing, and metering.
 - [[fabric-authoring-consumption-operations]]
 - [[model-context-protocol-mcp]]

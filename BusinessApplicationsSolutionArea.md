@@ -2,7 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads"
 layout: "default"
 categories: "Business Applications"
-updated: 2026-08-14
+updated: 2026-10-09
 ---
 
 # Business Applications Workloads
@@ -84,6 +84,7 @@ Source | Description | Notes
 Source | Description | Notes
 :----- | :---------- | :-----
 [AI and Copilot for Business Applications](https://dynamicspartners.transform.microsoft.com/solution-plays/ai-copilot)| Use the resources on this page to help build your knowledge and position these new technologies as key differentiators in helping your clients transform their businesses.| Transform
+[Dynamics 365 CRM in the Flow of Work and Process Agents](../40-Resources/dynamics-365-crm-flow-and-process-agents.md) | Bring Dynamics 365 customer context and actions into Copilot and Teams, and assess preview sales and service agents for defined business processes with appropriate human review. | Microsoft Copilot Blog; published 2026-10-08
 [Microsoft Sales Copilot](https://cloudblogs.microsoft.com/dynamics365/it/2023/07/18/improve-sales-productivity-and-close-more-deals-with-microsoft-sales-copilot/) | *Viva Sales in now Microsoft Sales Copilot*: Sales Copilot brings new capabilities to Microsoft Outlook, Teams, and Dynamics 365 Sales, helping sellers to increase their productivity and personalize every customer interaction. And it works out of the box—not just with Dynamics 365 Sales, but with Salesforce, too | Blog
 [AI Innovations](https://dynamicspartners.transform.microsoft.com/cloud-conversations?tab=tab-custom3) | Generative AI in Dynamics  including Power Dynamics 365 Copilot, Copilot in ERP, Copilot in Customer Experience| Transform
 [Dynamics Copilot Pitch Deck](https://dynamicspartners.transform.microsoft.com/download/protected?assetname=protectedassets%2FDynamics%20365%20Copilot%20pitch%20deck.pptx&download=1&protected=1&src=https:%2F%2Fdynamicspartners.transform.microsoft.com%2Fcloud-conversations) | Partner Pitch Deck - History, overview, and deep dive into fusing Dynamics 365 with Generative AI| Transform

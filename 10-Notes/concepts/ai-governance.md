@@ -2,7 +2,7 @@
 title: AI Governance
 type: concept
 created: 2026-07-10
-updated: 2026-09-05
+updated: 2026-10-03
 tags:
   - governance
   - security
@@ -15,6 +15,7 @@ sources:
   - raw/2026-08-07-github-open-issues-42-45/issues.md
   - raw/2026-08-21-github-open-issues-55-63/issues.md
   - raw/2026-09-05-github-open-issues-72-85/issues.md
+  - raw/2026-10-03-multitenant-ai-agent-governance/source.md
 status: active
 ---
 
@@ -91,6 +92,7 @@ For customer-operated edge AI, release sensitive weights, credentials, and data 
 ## Related
 
 - [Policy to Proof — AI Governance Reference](../40-Resources/policy-to-proof-ai-governance.md)
+- [Multitenant AI Agent Governance Architecture](multitenant-ai-agent-governance-architecture.md)
 - [AI Gateway Pattern](ai-gateway-pattern.md)
 - [AI Red-Teaming Tool Selection](ai-red-teaming-tool-selection.md)
 - [CNAPP as a Cloud and AI Security Control Plane](../../40-Resources/cnapp-cloud-ai-security-control-plane.md)
@@ -99,4 +101,6 @@ For customer-operated edge AI, release sensitive weights, credentials, and data 
 - [Responsible AI in 2026](../../40-Resources/responsible-ai-transparency-2026.md)
 - [Securing Edge AI in Customer-Owned Environments](../../40-Resources/secure-edge-ai-customer-environments.md)
 - [ASCII Smuggling in Phishing Evasion](../../40-Resources/ascii-smuggling-phishing-evasion.md)
+- [Government Cyber Resilience in an AI Era](government-cyber-resilience-ai-era.md)
+- [AI Threat Landscape and Agent Security (MDDR 2026)](ai-threat-landscape-mddr-2026.md)
 - [[moc-ingested-link-library]]

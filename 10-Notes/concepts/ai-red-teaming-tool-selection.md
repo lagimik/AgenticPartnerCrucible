@@ -2,7 +2,7 @@
 title: AI Red-Teaming Tool Selection
 type: concept
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-10-03
 tags:
   - ai-security
   - red-teaming
@@ -36,3 +36,4 @@ Model-focused evaluation asks whether responses are grounded, relevant, safe, an
 - [Microsoft Foundry and PyRIT for AI Red Teaming](../../40-Resources/foundry-pyrit-ai-red-teaming.md)
 - [AI Governance](ai-governance.md)
 - [AI Agent Lifecycle](ai-agent-lifecycle.md)
+- [AI Threat Landscape and Agent Security (MDDR 2026)](ai-threat-landscape-mddr-2026.md)

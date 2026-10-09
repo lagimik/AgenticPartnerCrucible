@@ -30,4 +30,7 @@ The public short link resolves to `Cowork-partner-launch-kit.zip`, but the packa
 
 ## Related pages
 
+- [[cowork-partner-kit]]
+- [[copilot-cowork-overview]]
+- [[copilot-cowork-nifty-fifty-scenarios]]
 - [Modern Work - Copilot](../100-Crucible/ModernWorkSolutionArea-Copilot.md)

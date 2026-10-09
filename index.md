@@ -110,6 +110,21 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[microsoft-defender-agentic-isoc]] - Integrated SIEM and threat protection foundation for human-agent SOC operations.
 - [[continuous-azure-resilience-validation]] - Continuous proof of workload resilience beyond static architecture diagrams.
 - [[agent-first-platforms-foundry-container-apps]] - Governed agents in Foundry with isolated execution in Container Apps Sandboxes.
+- [[build-and-govern-ai-agents-multitenant-organization]] - Federated agent factory reference architecture for governing AI agents across business-unit tenants.
+- [[build-execution-boundaries-opensandbox-aks]] - Practitioner comparison of OpenSandbox-on-AKS, ACA Sandboxes, and ACA Dynamic Sessions for agent code/tool execution.
+- [[postgres-mcp-server]] - Open-source Rust MCP server giving coding agents live, permission-scoped PostgreSQL schema, query, and performance context.
+- [[preparing-governments-interconnected-cyber-risk]] - MDDR 2026 government cyber-threat findings and five resilience priorities for the AI era.
+- [[insights-2026-microsoft-digital-defense-report]] - Security-practitioner companion to MDDR 2026 covering AI threat activity, agent security surfaces, and dual-use vulnerability discovery.
+- [[deploying-hosted-agents-foundry-terraform]] - Terraform/AzAPI pattern for deploying Foundry hosted agents, with Day-1/Day-n platform-vs-app-team workflow split.
+- [[land-your-offer-copilot-in-30]] - CSP-led $0 25-seat 30-day Copilot Business SMB trial packaged as a repeatable Marketplace offer with a managed-services follow-on.
+- [[land-your-offer-copilot-envisioning-poc]] - MCI-funded, six-tier enterprise Copilot/Agent 365 Envisioning & POC engagement with a stacked incentive-plus-managed-services revenue model.
+- [[copilot-cowork-overview]] - Microsoft Learn overview of Copilot Cowork's delegated multi-step task execution across Microsoft 365.
+- [[cowork-budget-and-usage-governance]] - Adoption guidance for setting Copilot Cowork budgets, guardrails, and usage visibility over Copilot Credits.
+- [[cowork-partner-kit]] - Protected Microsoft partner download package for Cowork (distinct from the Cowork Partner Launch Kit).
+- [[cowork-cost-management-demo]] - Partner-gated interactive demo on demos.microsoft.com for Copilot Cowork cost management.
+- [[copilot-credits-licensing-guide]] - Public PDF licensing guide for Copilot Credits (content pending PDF-capable re-ingest).
+- [[copilot-credit-planning-model]] - Interactive Copilot Credit Estimator tool (PPE) for forecasting Copilot Credits consumption.
+- [[copilot-cowork-nifty-fifty-scenarios]] - Protected partner deck of fifty curated Copilot Cowork usage scenarios.
 
 ## Entities
 
@@ -127,6 +142,10 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[agentic-upgrade-workflow]] - Multi-phase autonomous assess → plan → task → execute → validate pattern for migrations.
 - [[ai-gateway-pattern]] - API gateway in front of AI endpoints for governance, metering, and security.
 - [[ai-agent-lifecycle]] - 6-stage continuous lifecycle: Design → Build → Test → Deploy → Operate → Iterate.
+- [[multitenant-ai-agent-governance-architecture]] - Federated agent factory pattern for governing AI agents across business-unit tenants without centralizing their data.
+- [[agent-execution-sandbox-isolation]] - Untangles MCP, OpenSandbox, and Kata Containers; compares three Azure execution-boundary hosting models.
+- [[government-cyber-resilience-ai-era]] - MDDR 2026 government cyber-threat findings and five resilience priorities for the AI era.
+- [[ai-threat-landscape-mddr-2026]] - MDDR 2026 security-practitioner view: AI in the threat landscape, agent identity/access risks, dual-use vulnerability discovery, and signal correlation.
 - [[agent-scaling-design]] - Manage agent selection, context, execution, and operations to support reliable growth.
 - [[token-economics]] - Making agentic AI economically sustainable through compression, caching, routing, and metering.
 - [[fabric-authoring-consumption-operations]]
@@ -139,6 +158,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[agent-recovery-engineering]] - Safe recovery of side-effecting agent operations under uncertainty.
 - [[adaptive-multi-model-orchestration]] - Runtime selection of bounded direct, cascade, or critique workflows against a defined quality bar.
 - [[transformation-capacity]] - Repeatable organizational ability to move ideas into production, measurable outcomes, and scaled operations.
+- [[revenue-generating-partner-offer-anatomy]] - Five-stage Identify-Plan-Activate-Experience-Convert pattern for packaging a trial into a repeatable Marketplace offer with stacked incentive, funding, and managed-services revenue.
 
 ## Projects
 

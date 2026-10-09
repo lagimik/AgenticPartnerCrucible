@@ -61,6 +61,7 @@ Use committed capacity as the preferred backend and alternate deployments or reg
 - [[apim-gateway-azure-ai-foundry]]
 - [[token-economics]]
 - [[ai-governance]]
+- [[multitenant-ai-agent-governance-architecture]]
 - [[azure-ai-foundry]]
 - [[azure-api-management-ai-gateway-capabilities]]
 - [[azure-ai-gateway-labs]]

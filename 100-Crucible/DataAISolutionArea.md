@@ -233,6 +233,7 @@ Source | Description | Notes
 Source | Description | Notes
 :----- | :-----  | :-----
 [Scaling PostgreSQL to power 800 million ChatGPT users](https://openai.com/index/scaling-postgresql/) | OpenAI shares how they scaled Azure PostgreSQL flexible server to handle millions of queries per second for 800 million users. The architecture uses a single primary instance with nearly 50 read replicas across multiple regions, with write-heavy workloads migrated to Azure Cosmos DB. Includes lessons on query optimization, connection pooling with PgBouncer, caching strategies, and workload isolation. | OpenAI Engineering
+[Postgres MCP Server](../40-Resources/postgres-mcp-server.md) | Open-source, MIT-licensed, Rust-built MCP server that gives MCP-compatible coding agents live, permission-scoped PostgreSQL schema, query, and performance context across Azure, AWS, GCP, or on-premises. | Microsoft Blog for PostgreSQL
 
 ## Purview
 

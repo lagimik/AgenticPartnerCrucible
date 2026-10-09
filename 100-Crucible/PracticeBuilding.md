@@ -29,6 +29,8 @@ Login to [Partner Center](https://partner.microsoft.com/) may be required
 Source | Description | Notes
 :----- | :----- | :-----
 [Copilot and Agent Practice Development Tools](../40-Resources/copilot-agent-practice-development-tools.md) | Four-stage practice motion covering strategy, capabilities, offer development, and go-to-market with readiness, MSP, offer-validation, build-along, and pitch tools. | Issue #68
+[Land Your Offer - Copilot in 30](../40-Resources/land-your-offer-copilot-in-30.md) | CSP-led $0, 25-seat, 30-day Copilot Business SMB trial packaged as a repeatable Marketplace professional-service offer with a managed-services follow-on, plus a worked revenue model stacking CSP incentives, Frontier Accelerate funding, and managed services. | Microsoft Partner Community Blog
+[Land Your Offer - Copilot Envisioning & POC](../40-Resources/land-your-offer-copilot-envisioning-poc.md) | Microsoft-funded, six-tier (300 to 10,000+ seat) enterprise Copilot/Agent 365/M365 E7 Envisioning & POC engagement across five phases, with a worked revenue model stacking MCI incentives, CSP revenue share, and an outcome-priced managed-services catalog. | Microsoft Partner Community Blog
 
 
 Pillar | Description | Why? | Next Step

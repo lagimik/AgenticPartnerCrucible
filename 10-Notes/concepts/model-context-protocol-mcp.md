@@ -2,7 +2,7 @@
 title: Model Context Protocol MCP
 type: concept
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-10-03
 tags:
   - mcp
   - ai-tools
@@ -28,3 +28,6 @@ The repo includes FabricIQ MCP configuration for Power BI data analysis. The doc
 - [[power-bi]]
 - [[github-copilot-cli]]
 - [[ai-assistant-skills]]
+- [[multitenant-ai-agent-governance-architecture]]
+- [[agent-execution-sandbox-isolation]]
+- [[postgres-mcp-server]]

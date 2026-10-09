@@ -2,7 +2,7 @@
 title: App Building in Copilot Cowork and Copilot Studio
 type: resource
 created: 2026-09-12
-updated: 2026-09-12
+updated: 2026-10-03
 tags:
   - copilot-cowork
   - copilot-studio
@@ -64,5 +64,8 @@ The important distinction is that generating a user interface is only the first 
 
 - [[copilot-studio]]
 - [[cowork-partner-launch-kit]]
+- [[cowork-partner-kit]]
+- [[copilot-cowork-overview]]
+- [[cowork-budget-and-usage-governance]]
 - [[agent-cicd]]
 - [Copilot Studio Workload](../100-Crucible/PowerPlatform-CopilotStudio.md)

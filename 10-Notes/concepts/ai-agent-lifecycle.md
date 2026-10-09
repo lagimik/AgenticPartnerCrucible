@@ -2,7 +2,7 @@
 title: AI Agent Lifecycle
 type: concept
 created: 2026-07-13
-updated: 2026-08-14
+updated: 2026-10-03
 tags:
   - agentic-ai
   - responsible-ai
@@ -73,6 +73,8 @@ The operate stage must track the state of side-effecting business operations, no
 - [[ai-agent-lifecycle-guide]]
 - [[agentic-ai]]
 - [[ai-governance]]
+- [[multitenant-ai-agent-governance-architecture]]
 - [[azure-ai-foundry]]
 - [[agent-configuration-optimization]]
 - [[agent-recovery-engineering]]
+- [[agent-execution-sandbox-isolation]]

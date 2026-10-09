@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-09-26
+updated: 2026-10-09
 ---
 
 # Data and AI
@@ -153,6 +153,7 @@ Source | Description | Notes
 [Playwright Workspaces Remote MCP](../40-Resources/playwright-workspaces-remote-mcp.md) | Preview managed-browser MCP service for Foundry, GitHub Copilot CLI, private-site access, accessibility-based interaction, bounded diagnostics, and observe-act-verify automation. | Microsoft Foundry; Issue #100
 [Inside Microsoft Foundry Playlist](../40-Resources/inside-microsoft-foundry-playlist.md) | Video series covering model and agent development, evaluation, deployment, monitoring, security, governance, and production operations. | Issue #73
 [ART Voice Agent Accelerator](../40-Resources/art-voice-agent-accelerator.md) | Azure sample for telephony, streaming, cascade or managed realtime voice inference, tool orchestration, observability, and deployment scaffolding. | Issue #85
+[Evaluating Voice Agents with Foundry Multi-Turn Evaluators](../40-Resources/foundry-voice-agent-evaluation.md) | Internal tau-Voice study of task completion, generated rubrics, call-level accuracy, agent ranking, cross-judge agreement, and repeatability; results are specific to the study traces. | Issue #123
 [Foundry Toolkit Lab](https://github.com/microsoft-foundry/Foundry_Toolkit_for_VSCode_Lab/) | Hands-on lab for VS Code development with Microsoft Foundry toolkit, from setup to advanced agent workflows. | Microsoft Foundry GitHub
 [Foundry Agent Lab](https://github.com/microsoft-foundry/Foundry-Agent-Lab) | Progressive hands-on lab for building AI agents with Microsoft Foundry, from basic hello-world scenarios to more advanced agent workflows. | Microsoft Foundry GitHub
 [Building AI Agents with Microsoft Foundry: A Progressive Lab from Hello World to ...](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/building-ai-agents-with-microsoft-foundry-a-progressive-lab-from-hello-world-to-/4521792) | Companion walkthrough article for the Foundry Agent Lab that guides developers through the staged learning path and implementation approach. | Tech Community

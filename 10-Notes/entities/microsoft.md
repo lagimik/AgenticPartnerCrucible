@@ -2,7 +2,7 @@
 title: Microsoft
 type: entity
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-10-16
 tags:
   - organization
   - software
@@ -10,6 +10,7 @@ tags:
 sources:
   - raw/2026-07-10-github-microsoft-skills-for-fabric/package.json
   - raw/2026-07-10-github-microsoft-skills-for-fabric/LICENSE
+  - https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/
 status: active
 ---
 
@@ -19,6 +20,7 @@ Microsoft is the organization behind the `microsoft/skills-for-fabric` repositor
 
 ## Related Pages
 
+- [Open-Weight Model Risk Guidance with NVIDIA](../../40-Resources/open-weight-model-risk-enterprise.md)
 - [[microsoft-fabric]]
 - [[power-bi]]
 - [[github-copilot-cli]]

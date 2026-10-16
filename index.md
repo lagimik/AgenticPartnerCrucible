@@ -8,6 +8,9 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Resources
 
+- [[analytics-hub]] - Public Microsoft toolkit for goal-led Copilot adoption, agent usage, sentiment, and estimated-value measurement.
+- [[open-weight-model-risk-enterprise]] - Microsoft-NVIDIA model-risk guidance announcement: taxonomy, evaluation evidence, deployment responsibility, and whole-system assurance limits.
+- [[modernized-saas-accelerator]] - Marketplace SaaS integration guidance, coding-agent starting points, .NET modernization, and publisher production responsibility.
 - [[modernize-dotnet-github-copilot-app]] - GitHub Copilot upgrade agent for .NET modernization with interactive canvas.
 - [[apim-gateway-azure-ai-foundry]] - APIM as AI Gateway for per-model token governance and chargeback.
 - [[foundry-toolkit-vscode-lab]] - Workshop: build/test/deploy Hosted Agents from VS Code.
@@ -107,6 +110,8 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[microsoft-finops-for-ai-capabilities]] - Agent 365 spending policies, allocation, reporting, and AI value management.
 - [[on-premises-health-rag-foundry-local]] - Residency-first local RAG architecture for regulated health-record workloads.
 - [[azure-sre-agent-configuration-guide]] - Seven configuration priorities for routing reliable operations work to agents.
+- [[azure-sre-agent-first-deployment]] - Part 1 adoption guide: bounded read-only pilot, outcome baseline, focused customization, and reviewed automation.
+- [[azure-sre-agent-enterprise-adoption]] - Part 2 adoption guide: shared-context boundaries, roles, topology, handoffs, and agent-as-code governance.
 - [[microsoft-defender-agentic-isoc]] - Integrated SIEM and threat protection foundation for human-agent SOC operations.
 - [[continuous-azure-resilience-validation]] - Continuous proof of workload resilience beyond static architecture diagrams.
 - [[agent-first-platforms-foundry-container-apps]] - Governed agents in Foundry with isolated execution in Container Apps Sandboxes.
@@ -128,7 +133,9 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Entities
 
+- [[saas-accelerator]] - Reference implementation for Marketplace SaaS subscription and billing integration.
 - [[microsoft]]
+- [[azure-sre-agent]] - Azure operations agent with shared context and explicit workflow and authority boundaries.
 - [[microsoft-fabric]]
 - [[github-copilot-cli]]
 - [[power-bi]]
@@ -137,6 +144,9 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Concepts
 
+- [[copilot-adoption-measurement]] - Match adoption decisions to data sources, customer baselines, and explicit value-evidence boundaries.
+- [[deployment-context-ai-risk]] - Assess model access, hosting responsibility, and system authority separately, then map risks to controls and evidence.
+- [[marketplace-saas-integration]] - Maintained connection between commercial transactions, application behavior, and subscription and billing workflows.
 - [[ai-assistant-skills]]
 - [[agent-skill-common-architecture]]
 - [[agentic-upgrade-workflow]] - Multi-phase autonomous assess → plan → task → execute → validate pattern for migrations.

@@ -2,7 +2,7 @@
 title: Microsoft Foundry and PyRIT for AI Red Teaming
 type: resource
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-10-16
 tags:
   - ai-security
   - red-teaming
@@ -39,6 +39,8 @@ PyRIT is designed for flexible adversarial testing of custom application endpoin
 
 ## Related pages
 
+- [Open-Weight Model Risk in Enterprise Deployments](./open-weight-model-risk-enterprise.md)
+- [Deployment-Context AI Risk](../10-Notes/concepts/deployment-context-ai-risk.md)
 - [AI Red-Teaming Tool Selection](../10-Notes/concepts/ai-red-teaming-tool-selection.md)
 - [AI Governance](../10-Notes/concepts/ai-governance.md)
 - [Data and AI](../100-Crucible/DataAISolutionArea.md)

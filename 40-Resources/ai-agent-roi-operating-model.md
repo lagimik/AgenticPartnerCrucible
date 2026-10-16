@@ -2,7 +2,7 @@
 title: AI Agent ROI Operating Model
 type: resource
 created: 2026-09-12
-updated: 2026-09-12
+updated: 2026-10-16
 tags:
   - agentic-ai
   - roi
@@ -58,6 +58,8 @@ The framework is practitioner guidance, and the Azure solution page is primarily
 
 ## Related Pages
 
+- [Analytics Hub for Copilot Adoption and Value Measurement](./analytics-hub.md)
+- [Copilot Adoption Measurement](../10-Notes/concepts/copilot-adoption-measurement.md)
 - [FinOps for AI Overview](finops-for-ai-overview.md)
 - [Economics of Agent Optimization](economics-of-agent-optimization.md)
 - [AI Agent Lifecycle](../10-Notes/concepts/ai-agent-lifecycle.md)

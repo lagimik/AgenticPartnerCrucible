@@ -2,7 +2,7 @@
 title: Azure SRE Agent Incident Response Playbook
 type: resource
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-10-16
 tags:
   - azure
   - sre
@@ -46,6 +46,9 @@ Track time to acknowledge, time spent investigating, time to a supported root-ca
 
 ## Related Pages
 
+- [Azure SRE Agent](../10-Notes/entities/azure-sre-agent.md)
+- [First Deployment and Workflow Adoption](./azure-sre-agent-first-deployment.md)
+- [Enterprise Adoption and Governance](./azure-sre-agent-enterprise-adoption.md)
 - [[agentic-cloud-operations]]
 - [[agent-recovery-engineering]]
 - [[ai-agent-lifecycle]]

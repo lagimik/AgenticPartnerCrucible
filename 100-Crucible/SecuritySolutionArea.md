@@ -2,7 +2,7 @@
 title: "Partner Crucible - Security Workloads "
 layout: "default"
 categories: "Security"
-updated: 2026-09-26
+updated: 2026-10-16
 ---
 
 # Security Workloads
@@ -279,6 +279,7 @@ Source | Description | Notes
 [Zero-Trust Agents: Adding Identity and Access to Multi-Agent Workflows](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/zero-trust-agents-adding-identity-and-access-to-multi-agent-workflows/4427790)| In this article, we demonstrate a zero-trust approach to autonomous AI agents by integrating Identity and access management into an enterprise agentic workflow| Tech Community
 [Project Perception: Rethinking security for the age of AI](https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/) | Agentic security stack built from signals, context, models, harness, agents, and actuators, coordinating red/blue/green agent teams to defend at machine speed while keeping humans in control. | Microsoft Blog
 [Microsoft Foundry and PyRIT for AI Red Teaming](../40-Resources/foundry-pyrit-ai-red-teaming.md) | Decision guide for managed Foundry red teaming of supported targets versus flexible PyRIT testing of custom APIs, RAG, tools, and agent workflows. | Issue #42
+[Open-Weight Model Risk in Enterprise Deployments](../40-Resources/open-weight-model-risk-enterprise.md) | Microsoft-NVIDIA guidance announcement connecting five risk categories to deployment-specific evaluations, layered safeguards, and accountable owners; model evaluation alone does not establish application or agent safety. | [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/); verify model and deployment control availability
 [SAFE Agent Controls on Microsoft Foundry](../40-Resources/safe-agent-controls-foundry.md) | Deterministic runtime controls for agent scope, host-verified evidence, workflow integrity, and required human escalation, enforced independently of the prompt. | Issue #61
 [Microsoft Zero Trust Workshop and Assessment](../40-Resources/zero-trust-workshop-assessment.md) | Guided assessment and roadmap planning using implementation effort, user impact, and cross-pillar classifications. | Issue #56
 [Responsible AI in 2026](../40-Resources/responsible-ai-transparency-2026.md) | Adaptive governance and technical risk management for models, platforms, applications, agents, tools, identities, and actions. | Issue #77

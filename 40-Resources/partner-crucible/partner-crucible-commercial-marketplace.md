@@ -2,7 +2,7 @@
 title: "Partner Crucible - Commercial Marketplace"
 type: resource
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-10-16
 tags:
   - commercial-marketplace
   - isv
@@ -27,5 +27,8 @@ Curated link library for commercial marketplace offer development, SaaS offering
 
 ## Related Pages
 
+- [Modernized SaaS Accelerator Guidance](../modernized-saas-accelerator.md)
+- [SaaS Accelerator](../../10-Notes/entities/saas-accelerator.md)
+- [Marketplace SaaS Integration](../../10-Notes/concepts/marketplace-saas-integration.md)
 - [[partner-crucible-practice-building]]
 - [[moc-partner-crucible]]

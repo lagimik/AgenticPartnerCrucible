@@ -2,7 +2,7 @@
 title: Agentic Cloud Operations
 type: concept
 created: 2026-08-02
-updated: 2026-09-12
+updated: 2026-10-16
 tags:
   - ai-operations
   - observability
@@ -13,6 +13,8 @@ sources:
   - raw/2026-08-02-azure-copilot-observability-agent/source.md
   - raw/2026-08-21-github-open-issues-55-63/issues.md
   - raw/2026-09-12-azure-copilot-troubleshooting-agent/source.md
+  - https://techcommunity.microsoft.com/blog/appsonazureblog/enterprise-adoption-guide-for-azure-sre-agent-part-1-deploying-your-first-azure-/4564306
+  - https://techcommunity.microsoft.com/blog/appsonazureblog/enterprise-adoption-guide-for-azure-sre-agent-part-2-from-one-team-to-enterprise/4564311
 status: active
 ---
 
@@ -44,8 +46,25 @@ Cloud operations teams face more telemetry than manual workflows can interpret q
 
 Teams can run custom agents on AKS for full control over hosting, scaling, RAG, networking, and monitoring, or use Foundry-hosted agents for managed lifecycle, tracing, evaluation, and knowledge configuration. The choice shifts operational ownership but does not remove the need for managed identity, private networking, secrets management, observability, and cost controls.
 
+## Adoption and Shared-Agent Boundaries
+
+The [Azure SRE Agent adoption series](../../40-Resources/azure-sre-agent-first-deployment.md)
+recommends proving a bounded operational problem with read-only access, known
+incident replay, and an outcome baseline before expanding automation.
+
+Its [enterprise guidance](../../40-Resources/azure-sre-agent-enterprise-adoption.md)
+distinguishes roles from isolation: users of one SRE Agent share its operational
+context and memory. Split agents where visibility, permissions, action policies,
+ownership, or residency require separate boundaries, not simply because a
+resource count grows. Coordinate through evidence-bearing handoffs rather than
+combining authority, and review exported configuration and learned state before
+versioning or reuse.
+
 ## Related pages
 
+- [Azure SRE Agent](../entities/azure-sre-agent.md)
+- [First Deployment and Workflow Adoption](../../40-Resources/azure-sre-agent-first-deployment.md)
+- [Enterprise Adoption and Governance](../../40-Resources/azure-sre-agent-enterprise-adoption.md)
 - [[azure-copilot-observability-agent]]
 - [[ai-agents-for-it-ops-workshop]]
 - [[cloud-native-application-platform-leader-2026]]

@@ -2,7 +2,7 @@
 title: Power BI
 type: entity
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-10-16
 tags:
   - power-bi
   - business-intelligence
@@ -11,6 +11,7 @@ sources:
   - raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
   - raw/2026-07-10-github-microsoft-skills-for-fabric/agents/FabricIQ.agent.md
   - raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/powerbi-authoring/.github/plugin/plugin.json
+  - https://github.com/microsoft/Analytics-Hub
 status: active
 ---
 
@@ -20,6 +21,8 @@ Power BI appears in `skills-for-fabric` as both a Fabric-adjacent consumption ta
 
 ## Related Pages
 
+- [Analytics Hub for Copilot Adoption](../../40-Resources/analytics-hub.md)
+- [Copilot Adoption Measurement](../concepts/copilot-adoption-measurement.md)
 - [[skills-for-fabric]]
 - [[microsoft-fabric]]
 - [[model-context-protocol-mcp]]

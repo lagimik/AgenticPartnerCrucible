@@ -2,7 +2,7 @@
 title: Azure SRE Agent Configuration Guide
 type: resource
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-10-16
 tags: [azure-sre-agent, reliability, operations, incident-response, agentic-operations]
 sources:
   - https://techcommunity.microsoft.com/blog/appsonazureblog/getting-the-best-out-of-azure-sre-agent/4559745
@@ -37,3 +37,10 @@ finish assigned work.
 Partners can deliver SRE Agent readiness, data-connection design, response-plan
 routing, skill development, least-privilege reviews, approval design, and
 completion testing as an operational enablement package.
+
+## Related Pages
+
+- [Azure SRE Agent](../10-Notes/entities/azure-sre-agent.md)
+- [First Deployment and Workflow Adoption](./azure-sre-agent-first-deployment.md)
+- [Enterprise Adoption and Governance](./azure-sre-agent-enterprise-adoption.md)
+- [Incident Response Playbook](./azure-sre-agent-incident-response-playbook.md)

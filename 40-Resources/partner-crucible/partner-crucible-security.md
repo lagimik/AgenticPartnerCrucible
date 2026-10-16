@@ -2,7 +2,7 @@
 title: "Partner Crucible - Security"
 type: resource
 created: 2026-07-15
-updated: 2026-08-01
+updated: 2026-10-16
 tags:
   - security
   - zero-trust
@@ -34,6 +34,8 @@ Full link collection: `raw/2026-07-15-partner-crucible-bulk/SecuritySolutionArea
 
 ## Related Pages
 
+- [Open-Weight Model Risk in Enterprise Deployments](../open-weight-model-risk-enterprise.md)
+- [Deployment-Context AI Risk](../../10-Notes/concepts/deployment-context-ai-risk.md)
 - [[partner-crucible-security-copilot]]
 - [[partner-crucible-security-sentinel]]
 - [[security-advisors-program-member-sign-up]]

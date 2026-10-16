@@ -2,7 +2,7 @@
 title: AI Governance
 type: concept
 created: 2026-07-10
-updated: 2026-10-03
+updated: 2026-10-16
 tags:
   - governance
   - security
@@ -16,6 +16,7 @@ sources:
   - raw/2026-08-21-github-open-issues-55-63/issues.md
   - raw/2026-09-05-github-open-issues-72-85/issues.md
   - raw/2026-10-03-multitenant-ai-agent-governance/source.md
+  - https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/
 status: active
 ---
 
@@ -67,6 +68,16 @@ Governance evidence must cover both the model and the application around it. Man
 
 Cloud and AI posture should also be correlated with runtime, identity, data, application, and attack-path context. Treating AI systems as part of the broader cloud risk graph avoids a separate governance silo.
 
+## Deployment Context and Model Responsibility
+
+The [open-weight model risk guidance announcement](../../40-Resources/open-weight-model-risk-enterprise.md)
+emphasizes that weight openness does not determine system risk or safeguard
+ownership. Assess the actual use case, service configuration, data, tools, and
+permissions. Adapt the five-category taxonomy to the deployment and map relevant
+risks to evidence, controls, and accountable owners. Model evaluations remain
+partial evidence; reassess the surrounding system when models or deployments
+change.
+
 ## Deterministic Agent Controls
 
 Prompts should not be the authorization boundary for consequential actions. The SAFE pattern adds four enforceable controls:
@@ -91,6 +102,8 @@ For customer-operated edge AI, release sensitive weights, credentials, and data 
 
 ## Related
 
+- [Open-Weight Model Risk in Enterprise Deployments](../../40-Resources/open-weight-model-risk-enterprise.md)
+- [Deployment-Context AI Risk](./deployment-context-ai-risk.md)
 - [Policy to Proof — AI Governance Reference](../40-Resources/policy-to-proof-ai-governance.md)
 - [Multitenant AI Agent Governance Architecture](multitenant-ai-agent-governance-architecture.md)
 - [AI Gateway Pattern](ai-gateway-pattern.md)

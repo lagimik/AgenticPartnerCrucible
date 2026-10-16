@@ -2,7 +2,7 @@
 title: "Partner Crucible - Infrastructure Workloads"
 layout: "default"
 categories: "Infrastructure"
-updated: 2026-10-09
+updated: 2026-10-16
 ---
 
 # Azure Infrastructure Workloads
@@ -163,6 +163,8 @@ Source | Description | Notes
 [AI Agents for IT and Operations Workshop](../40-Resources/ai-agents-for-it-ops-workshop.md) | Hands-on comparison of custom agents on AKS and Foundry-hosted agents, centered on managed identity, private networking, Key Vault, monitoring, and cost controls. | Issue #58
 [Azure SRE Agent Incident Response Playbook](../40-Resources/azure-sre-agent-incident-response-playbook.md) | Ten-scenario operations pattern for read-only investigation, evidence-backed ticketing, bounded approved remediation, recovery validation, and follow-up records. | Issue #69
 [Azure SRE Agent Configuration Guide](../40-Resources/azure-sre-agent-configuration-guide.md) | Production-telemetry-informed guidance for data connections, response-plan routing, focused skills, custom agents, autonomy, permissions, and completion testing. | Microsoft Tech Community; Issue #110
+[Azure SRE Agent Enterprise Adoption - Part 1](../40-Resources/azure-sre-agent-first-deployment.md) | Start with a bounded read-only use case, replay known incidents, baseline outcomes, and add focused skills, tools, and reviewed automation only as needed. | [Apps on Azure Blog](https://techcommunity.microsoft.com/blog/appsonazureblog/enterprise-adoption-guide-for-azure-sre-agent-part-1-deploying-your-first-azure-/4564306); public guide
+[Azure SRE Agent Enterprise Adoption - Part 2](../40-Resources/azure-sre-agent-enterprise-adoption.md) | Design shared-context access, roles, guardrails, agent boundaries, evidence-bearing handoffs, and reviewed agent-as-code baselines for enterprise adoption. | [Apps on Azure Blog](https://techcommunity.microsoft.com/blog/appsonazureblog/enterprise-adoption-guide-for-azure-sre-agent-part-2-from-one-team-to-enterprise/4564311); public guide
 [Azure Copilot Troubleshooting Agent](../40-Resources/azure-copilot-troubleshooting-agent.md) | Generally available Azure portal agent that scopes resource issues, runs supported diagnostics, explains likely causes, recommends reviewed actions, and prepares contextualized support requests. Deep troubleshooting is GA for Compute and AKS. | Apps on Azure Blog; Microsoft Learn
 [GitHub Copilot for Azure](https://code.visualstudio.com/blogs/2024/11/15/introducing-github-copilot-for-azure) | Preview -  GitHub Copilot for Azure - a new tool that integrates effortlessly with GitHub Copilot Chat in VS Code. Imagine it as your personal guide for navigating the Azure cloud| VS Vode 
 [GitHub Copilot for Azure in VS Code](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/streamline-your-azure-workflow-introducing-github-copilot-for-azure-in-vs-code/4276989) | Streamline Your Azure Workflow: Introducing GitHub Copilot for Azure in VS Code : public preview of GitHub Copilot for Azure - a new addition to your toolkit that seamlessly integrates with GitHub Copilot Chat in VS Code | Tech Community

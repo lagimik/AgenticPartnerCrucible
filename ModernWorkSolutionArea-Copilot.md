@@ -2,7 +2,7 @@
 title: "Partner Crucible - Modern Work Workloads - Copilot"
 layout: "default"
 categories: "Modern Work"
-updated: 2026-10-16
+updated: 2026-10-27
 ---
 
 # Modern Work Workloads - Copilot
@@ -65,6 +65,7 @@ Source | Description | Notes
 [Microsoft Scenario Library](https://copilotscenarios.microsoft.com/) | Create a custom set of use cases to help your business units and user engagement teams plan your path to value with AI. Beginning from functional success metrics, identify process changes that will create value.| Microsoft
 [Super Usage Analysis Template (Copilot + Viva Insights)](https://github.com/microsoft/decodingsuperusage) | Insights into how super users of Microsoft Copilot emerge—and learn how to scale their success across your organization.| GitHub
 [Analytics Hub - Copilot Adoption and Value Measurement](../40-Resources/analytics-hub.md) | Public collection of Power BI templates, exporters, and related tools for Copilot readiness, usage, agent activity, sentiment, and estimated value; select by question and data availability, then compare progress with customer baselines. | [Microsoft Analytics Hub](https://microsoft.github.io/Analytics-Hub/); Issue #125; report-specific licensing, permissions, and privacy review apply
+[Copilot Analytics Labs](../40-Resources/copilot-analytics-labs.md) | Experimental DIY catalog of Copilot and agent analytics templates, sample code, research, and adoption guidance, including value and credit-consumption views. | [Public hub](https://microsoft.github.io/CopilotAnalyticsLabs/); Issue #132; distinct from Analytics Hub; validate tool prerequisites, privacy, and value assumptions
 
 
 ## Technical Readiness

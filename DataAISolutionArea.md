@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-10-09
+updated: 2026-10-27
 ---
 
 # Data and AI
@@ -144,6 +144,8 @@ This section has been regrouped here: [Data & AI > Azure OpenAI](./DataAISolutio
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Foundry Fine-Tuning and Shared Multi-LoRA](../40-Resources/foundry-fine-tuning-multi-lora.md) | Public-preview OSS SFT/RFT, MAI-Code RFT, and compatible shared-adapter Managed Compute; evaluate real agent workflows and utilization before choosing deployment economics. | [Microsoft announcement](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/foundry-fine-tuning-open-source-model-expansion-mai-code-and-shared-multi-lora-d/4565915); Issue #129; model-specific training and serving support
+[Microsoft IQ Solution Accelerator](../40-Resources/microsoft-iq-solution-accelerator.md) | Supply-chain disruption demonstration connecting Fabric IQ data, Foundry IQ knowledge, and Work IQ context through Copilot Studio; start with synthetic data and bounded evaluations. | [Public repository](https://github.com/microsoft/microsoft-iq-solution-accelerator); Issue #127; preview dependencies, tenant permissions, licensing, and deployment costs require review
 [Microsoft Foundry Agent Optimizer](../40-Resources/microsoft-foundry-agent-optimizer.md) | Preview reflection-based optimization that uses representative datasets, trusted evaluators, and execution traces to propose reviewable changes to agent instructions and configuration. | Issue #43
 [Economics of Agent Optimization](../40-Resources/economics-of-agent-optimization.md) | Run AI as a managed investment system with model and offer selection, caching, prompt and agent optimization, observability, and continuous spend governance. | Issues #51 and #70
 [Reliable Agent Recovery with Microsoft Foundry](../40-Resources/reliable-agent-recovery-foundry.md) | Production reliability pattern for side-effecting tools using explicit failure semantics, idempotency, action ledgers, state verification, recovery state machines, and risk-driven escalation. | Issue #53

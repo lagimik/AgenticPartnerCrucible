@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Azure OpenAI"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-09-05
+updated: 2026-10-27
 ---
 
 # Data & AI > Azure OpenAI
@@ -92,6 +92,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Azure OpenAI Decisions API](../40-Resources/azure-openai-decisions-api.md) | Generally available structured probabilities, choices, and rubric scores for routing and evaluation; retain deterministic authorization and human escalation for high-impact decisions. | [Microsoft announcement](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/azure-openai-decisions-api-now-generally-available-in-microsoft-foundry/4567265); Issue #134; verify model and regional support
 [Azure OpenAI Assistants](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/assistant) | Azure OpenAI Assistants (Preview) allows you to create AI assistants tailored to your needs through custom instructions and augmented by advanced tools like code interpreter, and custom functions. Discover Assistants API, Tools, and PLayground. | Microsoft Learn
 
 ## Azure OpenAI Models

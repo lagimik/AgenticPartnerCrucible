@@ -2,12 +2,13 @@
 title: Model Context Protocol MCP
 type: concept
 created: 2026-07-10
-updated: 2026-10-03
+updated: 2026-10-27
 tags:
   - mcp
   - ai-tools
   - integration
 sources:
+  - https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp?view=o365-worldwide
   - raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
   - raw/2026-07-10-github-microsoft-skills-for-fabric/mcp-setup/README.md
   - raw/2026-07-10-github-microsoft-skills-for-fabric/.mcp.json
@@ -24,6 +25,7 @@ The repo includes FabricIQ MCP configuration for Power BI data analysis. The doc
 
 ## Related Pages
 
+- [Microsoft Release Communications MCP](../../40-Resources/microsoft-release-communications-mcp.md) - Public release discovery, pagination, details, and live-schema naming caveats.
 - [[skills-for-fabric]]
 - [[power-bi]]
 - [[github-copilot-cli]]

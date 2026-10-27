@@ -2,7 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads"
 layout: "default"
 categories: "Business Applications"
-updated: 2026-10-09
+updated: 2026-10-27
 ---
 
 # Business Applications Workloads
@@ -20,6 +20,7 @@ To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuid
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Dynamics 365 Contact Center: 2026 CCaaS Visionary](../40-Resources/dynamics-365-contact-center-ccaas-2026.md) | Microsoft-reported Gartner Visionary placement and contact-center modernization narrative covering self-service, human handoff, representative assistance, and supervisor insights. | [Microsoft announcement](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/10/22/microsoft-is-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/); Issue #130; research is opinion, not endorsement or a customer outcome guarantee
 [Microsoft is named a Leader in 2023 Gartner® Magic Quadrant™ for B2B Marketing Automation Platform](https://cloudblogs.microsoft.com/dynamics365/bdm/2023/09/25/microsoft-is-named-a-leader-in-2023-gartner-magic-quadrant-for-b2b-marketing-automation-platform/) | Microsoft has been recognized as a Leader within the 2023 Gartner Magic Quadrant for B2B Marketing Automation Platforms* for the second consecutive year. In this year’s report, Microsoft is positioned highest in Ability to Execute. | Blog
 [Dynamics 365 in the 2026 CRM Sales Platforms Magic Quadrant](../40-Resources/dynamics-365-crm-sales-platform-leader.md) | Microsoft recognition and agentic CRM summary covering Dynamics 365 Sales, Microsoft 365 Copilot, sales agents, workflow automation, and the shift from system of record to system of action. | Gartner 2026; Issue #49
 [IDC MarketScapes for Finance & Accounting Applications](https://idcdocserv.com/US51405823e_Microsoft) | Microsoft Recognized as a Leader in IDC’s MarketScapes for Finance & Accounting Applications | IDC

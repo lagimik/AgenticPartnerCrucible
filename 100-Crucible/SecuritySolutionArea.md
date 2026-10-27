@@ -2,7 +2,7 @@
 title: "Partner Crucible - Security Workloads "
 layout: "default"
 categories: "Security"
-updated: 2026-10-16
+updated: 2026-10-27
 ---
 
 # Security Workloads
@@ -278,6 +278,7 @@ Source | Description | Notes
 [From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence](https://techcommunity.microsoft.com/blog/azurearchitectureblog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and-machine-intelligen/4535137) | Comprehensive AI governance reference architecture covering four pillars (Policy, Control, Visibility, Proof), nine domains, the Microsoft governance stack (Foundry, Purview, Entra, Defender, APIM AI Gateway, Agent 365), and the Agent Control Specification (ACS) for portable runtime controls. | Azure Architecture Blog
 [Zero-Trust Agents: Adding Identity and Access to Multi-Agent Workflows](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/zero-trust-agents-adding-identity-and-access-to-multi-agent-workflows/4427790)| In this article, we demonstrate a zero-trust approach to autonomous AI agents by integrating Identity and access management into an enterprise agentic workflow| Tech Community
 [Project Perception: Rethinking security for the age of AI](https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/) | Agentic security stack built from signals, context, models, harness, agents, and actuators, coordinating red/blue/green agent teams to defend at machine speed while keeping humans in control. | Microsoft Blog
+[Project Perception: Securing the Agentic Insider](../40-Resources/project-perception-agentic-security-stack.md#october-update-the-agentic-insider) | Extends the security-stack vision to internal agents with identity and permission inventory, dynamic risk signals, supervision, containment, and human accountability. | [Microsoft October update](https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/); Issue #128; vision and future transparency goals are not universal protection guarantees
 [Microsoft Foundry and PyRIT for AI Red Teaming](../40-Resources/foundry-pyrit-ai-red-teaming.md) | Decision guide for managed Foundry red teaming of supported targets versus flexible PyRIT testing of custom APIs, RAG, tools, and agent workflows. | Issue #42
 [Open-Weight Model Risk in Enterprise Deployments](../40-Resources/open-weight-model-risk-enterprise.md) | Microsoft-NVIDIA guidance announcement connecting five risk categories to deployment-specific evaluations, layered safeguards, and accountable owners; model evaluation alone does not establish application or agent safety. | [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/); verify model and deployment control availability
 [SAFE Agent Controls on Microsoft Foundry](../40-Resources/safe-agent-controls-foundry.md) | Deterministic runtime controls for agent scope, host-verified evidence, workflow integrity, and required human escalation, enforced independently of the prompt. | Issue #61

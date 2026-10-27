@@ -2,7 +2,7 @@
 title: "Partner Crucible - Infrastructure Workloads"
 layout: "default"
 categories: "Infrastructure"
-updated: 2026-10-16
+updated: 2026-10-27
 ---
 
 # Azure Infrastructure Workloads
@@ -109,6 +109,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :---------- | :-----
+[Microsoft Sovereign Cloud Explorer](../40-Resources/sovereign-cloud-explorer.md) | Nine-question discovery aid for jurisdiction, workload and AI scope, operator access, residency, and resilience requirements; turn its starting point into workload-specific architecture and evidence. | [Microsoft explorer](https://www.microsoft.com/en-us/sovereignty/sovereign-cloud-explorer/); Issue #133; not certification or legal advice
 [Azure Verified Modules](https://azure.github.io/Azure-Verified-Modules/) | AVM modules are used to deploy Azure resources and their extensions, as well as reusable architectural patterns consistently. | GitHub
 [Microsoft Datacenters Experience](https://datacenters.microsoft.com/globe/) | Explore the core elements of Azure’s global infrastructure | Microsoft Datacenters
 [Subscription Vending IaC Modules for Bicep & Terraform](https://techcommunity.microsoft.com/t5/azure-tools-blog/announcing-our-new-subscription-vending-iac-modules-for-bicep/ba-p/3770617?utm_content=buffer89d4a&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer) | These modules are designed to help you streamline and automate the process of provisioning Azure subscriptions, making it easier than ever to get started with Azure. | Tech Community

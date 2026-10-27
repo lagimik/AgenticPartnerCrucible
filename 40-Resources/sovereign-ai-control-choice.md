@@ -2,9 +2,10 @@
 title: Sovereign AI Control, Choice, Flexibility, and Resilience
 type: resource
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-27
 tags: [sovereign-ai, azure, microsoft-foundry, governance, resilience]
 sources:
+  - https://www.microsoft.com/en-us/sovereignty/sovereign-cloud-explorer/
   - https://www.microsoft.com/en-us/microsoft-cloud/blog/general/2026/10/05/sovereign-ai-accelerate-innovation-with-control-and-choice/
   - https://marketingassets.microsoft.com/adobe/assets/urn:aaid:aem:a039e98b-05e0-4987-a3a4-1114501caec4/original/as/whitepaper-sovereign-ai-control-choice-flexibility-resilience.pdf
   - raw/2026-10-09-github-open-issues-116-124/issues.md
@@ -26,6 +27,7 @@ These are Microsoft-authored materials and an architectural framing, not indepen
 
 ## Related Pages
 
+- [Sovereign Cloud Explorer](sovereign-cloud-explorer.md) - Nine-question discovery aid, not a compliance determination.
 - [[digital-sovereignty-adoption-caf]]
 - [[distributed-hybrid-infrastructure-2026]]
 - [[secure-edge-ai-customer-environments]]

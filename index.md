@@ -8,6 +8,13 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Resources
 
+- [[azure-openai-decisions-api]] - GA structured decisions for routing and evaluation, with authorization and confidence boundaries.
+- [[foundry-fine-tuning-multi-lora]] - Public-preview customization and shared-adapter serving with model-specific support and utilization economics.
+- [[microsoft-iq-solution-accelerator]] - Cross-IQ supply-chain demonstration, synthetic data, deployment prerequisites, and production-readiness boundaries.
+- [[sovereign-cloud-explorer]] - Nine-question sovereignty discovery aid and workload-specific evidence requirements.
+- [[copilot-analytics-labs]] - Experimental analytics templates, code, and research, distinct from Analytics Hub.
+- [[microsoft-release-communications-mcp]] - Public roadmap and Azure update queries with pagination, date, and live-schema caveats.
+- [[dynamics-365-contact-center-ccaas-2026]] - Microsoft-reported Gartner Visionary placement and contact-center modernization context.
 - [[analytics-hub]] - Public Microsoft toolkit for goal-led Copilot adoption, agent usage, sentiment, and estimated-value measurement.
 - [[open-weight-model-risk-enterprise]] - Microsoft-NVIDIA model-risk guidance announcement: taxonomy, evaluation evidence, deployment responsibility, and whole-system assurance limits.
 - [[modernized-saas-accelerator]] - Marketplace SaaS integration guidance, coding-agent starting points, .NET modernization, and publisher production responsibility.
@@ -48,7 +55,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[forrester-wave-data-lakehouses-q3-2026]] - Forrester Wave Data Lakehouses Q3 2026 reprint pointer for Data & AI positioning.
 - [[reliable-voice-agents-practical-guide]] - Copilot Studio practical guide for reliable customer-facing voice agents.
 - [[azure-chaos-studio-workspaces]] - Azure Chaos Studio Workspaces for scenario-based resilience validation and AI-powered operations.
-- [[project-perception-agentic-security-stack]] - Microsoft Project Perception and the agentic security cyber stack.
+- [[project-perception-agentic-security-stack]] - Project Perception cyber stack and October agentic-insider supervision and containment framing.
 - [[azure-copilot-observability-agent]] - Azure Monitor-powered Copilot Observability Agent for explainable investigations and autonomous operations preview.
 - [[foundry-pyrit-ai-red-teaming]] - Decision guide for managed Foundry red teaming versus flexible PyRIT application testing.
 - [[microsoft-foundry-agent-optimizer]] - Reflection-based optimization of agent instructions and configuration using traces and evaluators.
@@ -133,6 +140,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Entities
 
+- [[microsoft-foundry]] - Model and agent platform; capability-specific GA and preview references.
 - [[saas-accelerator]] - Reference implementation for Marketplace SaaS subscription and billing integration.
 - [[microsoft]]
 - [[azure-sre-agent]] - Azure operations agent with shared context and explicit workflow and authority boundaries.
@@ -144,6 +152,8 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Concepts
 
+- [[structured-ai-decisions]] - Bounded model outcomes separated from deterministic authorization and business constraints.
+- [[shared-adapter-serving]] - Compatible adapter pooling evaluated against aggregate capacity, latency, and idle hardware costs.
 - [[copilot-adoption-measurement]] - Match adoption decisions to data sources, customer baselines, and explicit value-evidence boundaries.
 - [[deployment-context-ai-risk]] - Assess model access, hosting responsibility, and system authority separately, then map risks to controls and evidence.
 - [[marketplace-saas-integration]] - Maintained connection between commercial transactions, application behavior, and subscription and billing workflows.

@@ -2,9 +2,11 @@
 title: Analytics Hub for Copilot Adoption and Value Measurement
 type: resource
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-27
 tags: [copilot, adoption, power-bi, viva-insights, value-measurement]
 sources:
+  - raw/2026-10-27-github-open-issues-125-134/issues.md
+  - raw/2026-10-27-github-open-issues-125-134/sources.md
   - https://microsoft.github.io/Analytics-Hub/
   - https://microsoft.github.io/Analytics-Hub/choose-report/
   - https://microsoft.github.io/Analytics-Hub/faq/
@@ -69,6 +71,7 @@ Microsoft-only and team-only navigation destinations were excluded.
 
 ## Related Pages
 
+- [Copilot Analytics Labs](copilot-analytics-labs.md) - Distinct experimental catalog with overlapping analytics tools; use each tool's current setup guide.
 - [Copilot Adoption Measurement](../10-Notes/concepts/copilot-adoption-measurement.md)
 - [Power BI](../10-Notes/entities/power-bi.md)
 - [AI Agent ROI Operating Model](./ai-agent-roi-operating-model.md)

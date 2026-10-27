@@ -2,12 +2,13 @@
 title: Microsoft Fabric
 type: entity
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-10-27
 tags:
   - microsoft-fabric
   - analytics
   - data-platform
 sources:
+  - https://github.com/microsoft/microsoft-iq-solution-accelerator
   - raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
   - raw/2026-07-10-github-microsoft-skills-for-fabric/AGENTS.md
   - raw/2026-07-10-github-microsoft-skills-for-fabric/CLAUDE.md
@@ -27,6 +28,7 @@ Microsoft Fabric is the data and analytics platform targeted by the `skills-for-
 
 ## Related Pages
 
+- [Microsoft IQ Solution Accelerator](../../40-Resources/microsoft-iq-solution-accelerator.md) - Fabric ontology and data in a cross-IQ supply-chain demonstration with preview dependencies.
 - [[skills-for-fabric]]
 - [[agent-skill-common-architecture]]
 - [[fabric-authoring-consumption-operations]]

@@ -2,7 +2,7 @@
 title: "Partner Crucible - Modern Work Workloads - Copilot"
 layout: "default"
 categories: "Modern Work"
-updated: 2026-10-27
+updated: 2026-11-02
 ---
 
 # Modern Work Workloads - Copilot
@@ -101,6 +101,7 @@ Source | Description | Notes
 :----- | :---------- | :-----
 [Accelerating Microsoft 365 Copilot Adoption with Automated Readiness Assessment](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/accelerating-microsoft-365-copilot-adoption-with-automated-readiness-assessment/4488879) | This playbook is designed for Microsoft partners operating within the AI Business Solutions commercial solution area to support their customers with the adoption journey of Microsoft 365 Copilot. | Tech Community
 [Copilot for Finance (preview)](https://learn.microsoft.com/en-us/copilot/finance/welcome) | Copilot empowers finance professionals to stay in the flow of work by seamlessly connecting productivity tools such as Excel with existing financial systems to support critical business processes and generate insights and actions in real time.| Microsoft Learn
+[Copilot Finance Skills and Plugins](../40-Resources/copilot-finance-skills-and-plugins.md) | Role-specific reconciliation, close, forecast, and capital-markets workflows across Excel and Cowork with sourced inputs and professional review. | [October 29 announcement](https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/); Issue #137; accounting is Frontier, Excel finance skills and Cowork Finance/Capital Markets plugins are GA, ERP/partner plugins are rolling out; distinct from the older preview above
 [Microsoft Copilot Scenario Library](https://adoption.microsoft.com/en-us/copilot-scenario-library/) |  Use our guidance by department and individual scenario to get inspired, empower your workforce and realize value from your Copilot investment. ​| Microsoft Adoption
 [Plugin for Copilot for Microsoft 365 - Sample](https://github.com/OfficeDev/Copilot-for-M365-Plugins-Samples/tree/main/samples/msgext-northwind-inventory-ts) | orthwind inventory message extension sample - This sample implements a Teams message extension that can be used as a plugin for Microsoft Copilot for Microsoft 365. The message extension allows users to query the Northwind Database.| GitHub
 [Microsoft Graph connector project generator](https://github.com/microsoft/m365advocacy-templates/blob/main/templates/dotnet-graphconnectors/README.md) | Create a new Microsoft Graph connector project with a single command. Using Graph connectors you can import external data into Microsoft 365 and Microsoft Search. Ingested content is available to Microsoft Copilot for Microsoft 365, Microsoft Search and other Microsoft 365 services| GitHub

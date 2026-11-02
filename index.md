@@ -8,6 +8,14 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Resources
 
+- [[fabric-assessment-tool]] - Synapse and Databricks discovery for migration scoping, with inventory-completeness and optional schema-change boundaries.
+- [[fabric-capacity-observability-and-protection]] - Surge controls, paid overage, real-time events, soft thresholds, and documentation caveats.
+- [[fabric-direct-lake-design]] - OneLake versus SQL variants, framing, security, fallback, and capacity guardrails.
+- [[fabric-onelake-govern-and-skills]] - GA Govern experience, Health/Protect/Trust skills, reviewed remediation, and preview Policies Center.
+- [[fabric-project-osmos-data-engineering-agent]] - Preview persistent Fabric tasks with executable validation, explicit permissions, and consumption controls.
+- [[foundry-copilot-harness-managed-execution]] - Public-preview managed prompt-agent execution, separate GA hosted resilience, and billing boundaries.
+- [[foundry-claude-cost-allocation]] - GA Foundry resource attribution and model/token-type cost dimensions for Claude allocation.
+- [[copilot-finance-skills-and-plugins]] - Finance workflows across Excel and Cowork with distinct Frontier, GA, and rollout boundaries.
 - [[azure-openai-decisions-api]] - GA structured decisions for routing and evaluation, with authorization and confidence boundaries.
 - [[foundry-fine-tuning-multi-lora]] - Public-preview customization and shared-adapter serving with model-specific support and utilization economics.
 - [[microsoft-iq-solution-accelerator]] - Cross-IQ supply-chain demonstration, synthetic data, deployment prerequisites, and production-readiness boundaries.
@@ -88,7 +96,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[fabric-cicd-resources]] - Git, deployment pipelines, APIs, CLI, and environment promotion for Fabric.
 - [[azure-multicloud-interconnect-aws]] - Provider-managed private connectivity between Azure VNets and Amazon VPCs.
 - [[responsible-ai-transparency-2026]] - Adaptive, lifecycle-based responsible AI governance for agentic systems.
-- [[copilot-studio-harness-selection]] - Decision guide for Standard versus GitHub Copilot harnesses.
+- [[copilot-studio-harness-selection]] - Standard versus Microsoft Copilot harness selection, formerly named GitHub Copilot, with rename and evaluation boundaries.
 - [[fabric-data-warehouse-medallion-series]] - Pattern selection and layer contracts for Fabric medallion architectures.
 - [[azure-api-management-ai-gateway-capabilities]] - APIM governance for models, MCP servers, A2A APIs, tokens, and caching.
 - [[azure-ai-gateway-labs]] - Deployable AI gateway labs with notebooks, IaC, policies, KQL, and MCP.
@@ -152,6 +160,8 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Concepts
 
+- [[capacity-admission-and-cost-governance]] - Separate admission control, paid throttling relief, telemetry, and sustained capacity sizing.
+- [[evidence-validated-agentic-data-engineering]] - Acceptance contracts for permissions, staged writes, reruns, reconciliation, and human validation.
 - [[structured-ai-decisions]] - Bounded model outcomes separated from deterministic authorization and business constraints.
 - [[shared-adapter-serving]] - Compatible adapter pooling evaluated against aggregate capacity, latency, and idle hardware costs.
 - [[copilot-adoption-measurement]] - Match adoption decisions to data sources, customer baselines, and explicit value-evidence boundaries.

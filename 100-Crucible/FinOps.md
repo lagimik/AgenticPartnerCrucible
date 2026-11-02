@@ -2,7 +2,7 @@
 title: FinOps
 layout: default
 categories: FinOps
-updated: 2026-09-26
+updated: 2026-11-02
 ---
 
 # FinOps
@@ -40,6 +40,8 @@ Source | Description | Notes
 [AI Agent ROI Operating Model](../40-Resources/ai-agent-roi-operating-model.md) | Connects measurable use cases, lifecycle cost, adoption, multidimensional value, AI CoE governance, FinOps, and GenAIOps. | Issues #90 and #91
 [Tokenomics Foundation](../40-Resources/tokenomics-foundation.md) | Practitioner source for Total Cost of AI, model routing, consumption visibility, pilot governance, and finance-defensible value measurement, with emerging claims clearly separated from established guidance. | Public channel metadata; Issue #96
 [Microsoft FinOps for AI Capabilities](../40-Resources/microsoft-finops-for-ai-capabilities.md) | Agent 365 spending policies, tenant/group/user controls, departmental billing, usage reporting, and value-oriented AI investment management. | Microsoft Tech Community; Issue #108
+[Claude Cost Allocation in Foundry](../40-Resources/foundry-claude-cost-allocation.md) | GA resource attribution and model/usage_type dimensions for allocating Claude consumption through Azure Cost Management. | [Azure update 577260](https://azure.microsoft.com/en-us/updates?id=577260); Issue #144; validate customer billing records before chargeback
+[Fabric Capacity Overage and Surge Controls](../40-Resources/fabric-capacity-observability-and-protection.md) | Separate admission control from paid throttling relief; overage is documented at three times PAYG rates without adding compute, and thresholds are not hard spending caps. | [Microsoft Learn](https://learn.microsoft.com/en-us/fabric/enterprise/capacity-overage-overview); Issue #138; inspect actual settings and optimize sustained demand
 
 ## Tools
 

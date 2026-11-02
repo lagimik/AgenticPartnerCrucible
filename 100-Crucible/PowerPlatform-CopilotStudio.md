@@ -2,7 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads - Power Platform"
 layout: "default"
 categories: "AI Business Solutions"
-updated: 2026-10-09
+updated: 2026-11-02
 ---
 
 # Power Platform - Copilot Studio Workload
@@ -32,7 +32,7 @@ To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuid
 | [Strengthen agent security with real-time protection in Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/strengthen-agent-security-with-near-real-time-protection-in-microsoft-copilot-studio/) | This capability enhances security for AI agents by enabling organizations to connect their own monitoring system such as Microsoft Defender as well as security platforms by other providers, or their own custom-built tools. These integrations allow for real-time evaluation and control of agent behavior during runtime. | Microsoft |
 | [Building reliable voice agents: A practical guide](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/building-reliable-voice-agents-a-practical-guide/) | Practical Copilot Studio guide for reliable customer-facing voice agents, covering IVR, generative voice, real-time speech-to-speech, grounding, confirmations, escalation, and handoff context. | Microsoft Copilot Blog |
 | [Copilot Studio Agent Scaling Design](../40-Resources/copilot-studio-agent-scaling.md) | Design guidance for keeping agent choices distinct, loading specialist guidance when needed, splitting at meaningful boundaries, and using workflows for fixed sequences. | Issue #124 |
-| [Choosing the Copilot Studio Harness](../40-Resources/copilot-studio-harness-selection.md) | Select the Standard, GitHub Copilot, or Copilot Chat harness from orchestration, capability, publication, portability, evaluation, and billing requirements. | Issues #78 and #95 |
+| [Choosing the Copilot Studio Harness](../40-Resources/copilot-studio-harness-selection.md) | Select from orchestration, capability, publication, portability, evaluation, and billing requirements; the GitHub Copilot harness is now named Microsoft Copilot harness. | [Rename announcement](https://www.microsoft.com/en-us/copilot/blog/copilot-studio/the-github-copilot-harness-in-copilot-studio-is-now-the-microsoft-copilot-harness/); Issues #78, #95, and #141; rename does not change existing agents, capabilities, or billing; internal comparisons are not customer guarantees |
 | [App Building in Copilot Cowork and Copilot Studio](../40-Resources/copilot-cowork-studio-app-building.md) | Build conversational full-stack business apps connected to enterprise data, with inspectable code, Git-backed lifecycle controls, Entra identity, centralized administration, and usage-based billing. | Frontier and public preview |
 | [Benchmarking Copilot Studio and Foundry IQ Retrieval](../40-Resources/copilot-studio-foundry-iq-retrieval-benchmarking.md) | Reproducible evaluation contract for retrieval boundaries, cost lanes, deterministic quality gates, evidence, and release decisions. | Microsoft Tech Community; Issue #104 |
 | [Digital Deep Dive: Copilot Control System (CCS)](https://techcommunity.microsoft.com/event/microsoft365copilot-events/digital-deep-dive-copilot-control-system-ccs/4414752) | Learn how to secure, manage, and analyze Microsoft 365 Copilot, Copilot Chat, Microsoft Copilot Studio, and agents across your organization using the Copilot Control System (CCS). | Tech Community |

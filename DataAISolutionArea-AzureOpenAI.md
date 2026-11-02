@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Azure OpenAI"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-10-27
+updated: 2026-11-02
 ---
 
 # Data & AI > Azure OpenAI
@@ -157,6 +157,8 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Microsoft Copilot Harness in Foundry Agent Service](../40-Resources/foundry-copilot-harness-managed-execution.md) | Public-preview managed execution for prompt agents with skills, tools, files, and bounded delegation; hosted-agent long-running resilience is separately GA and still needs checkpointing and duplicate-action controls. | [Microsoft announcement](https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/); Issue #140; creation-time selection and regional/tool limits apply; runtime billing scheduled December 1, 2026, with inference and separate services still charged before then
+[Claude Cost Management and Tagging](../40-Resources/foundry-claude-cost-allocation.md) | GA attribution of Claude spending to Foundry resources with organizational tags and model/usage_type cost dimensions for showback and chargeback. | [Azure update 577260](https://azure.microsoft.com/en-us/updates?id=577260); Issue #144; allocation is not a spending cap or savings guarantee
 [An Introduction to LLMOps](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/an-introduction-to-llmops-operationalizing-and-managing-large/ba-p/3910996) | Operationalizing and Managing Large Language Models using Azure ML: Operationalizing and Managing Large Language Models using Azure ML  | Tech Community
 [Azure OpenAI client library for .NET - version 1.0.0-beta.5](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.openai-readme?view=azure-dotnet-preview) | The Azure OpenAI client library for .NET is an adaptation of OpenAI's REST APIs that provides an idiomatic interface and rich integration with the rest of the Azure SDK ecosystem | Microsoft Learn
 [Azure OpenAI Service REST API reference](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/reference)| This article provides details on the inference REST API endpoints for Azure OpenAI.| Microsoft Learn

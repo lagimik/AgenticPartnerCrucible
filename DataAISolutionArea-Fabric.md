@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Microsoft Fabric"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-10-09
+updated: 2026-11-02
 ---
 
 # Data & AI > Microsoft Fabric
@@ -60,6 +60,9 @@ Source | Description | Notes
 [Microsoft Fabric CI/CD Resources](../40-Resources/fabric-cicd-resources.md) | End-to-end delivery guidance across Git integration, deployment pipelines, REST APIs, Fabric CLI, IaC, environment configuration, and verification. | Issue #75
 [Fabric Real-Time Hub Event Architecture](../40-Resources/fabric-real-time-hub-event-architecture.md) | Select Business, Fabric, or Azure Events by publisher ownership, then design versioned schemas, independent Activator, Eventhouse, or Eventstream consumers, idempotency, and operational controls. | Microsoft Fabric series; Issue #98
 [Oracle-to-Power BI Performance and Modern Analytics](../40-Resources/oracle-to-power-bi-modern-analytics.md) | Microsoft guidance for assessing Oracle-to-Power BI performance and considering Fabric Mirroring as an alternative analytics access pattern. | Issue #122
+[Direct Lake Storage Mode Design](../40-Resources/fabric-direct-lake-design.md) | Choose OneLake versus SQL variants with explicit Delta layout, framing, security, fallback, and capacity guardrail tests. | [Microsoft Learn](https://learn.microsoft.com/en-us/fabric/fundamentals/direct-lake-overview); Issue #139; SQL-endpoint RLS does not protect direct OneLake file access
+[Fabric Capacity Observability and Protection](../40-Resources/fabric-capacity-observability-and-protection.md) | Combine surge admission controls, paid overage, and aggregate/per-operation events; overage does not add compute and its threshold is not a hard spending cap. | [Surge guidance](https://learn.microsoft.com/en-us/fabric/enterprise/surge-protection); [overage guidance](https://learn.microsoft.com/en-us/fabric/enterprise/capacity-overage-overview); Issue #138; workspace surge protection is preview; verify event status and documented exemption/default inconsistencies
+[OneLake Catalog Govern and Govern Skills](../40-Resources/fabric-onelake-govern-and-skills.md) | GA Govern experience with Health, Protect, and Trust skills for evidence-led assessments and confirmation-gated remediation. | [Microsoft announcement](https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/govern-your-microsoft-fabric-data-estate-from-one-place-with-the-onelake-catalog/5377369); Issue #142; Policies Center remains preview; admin permissions apply
 
 ## Tools
 
@@ -67,6 +70,7 @@ Source | Description | Notes
 :----- | :-----  | :-----
 [Microsoft Fabric CLI](https://github.com/microsoft/fabric-cli) | The Microsoft Fabric CLI (fab) is a powerful, file-system-inspired command-line interface for Microsoft Fabric. Explore, automate, and script your Fabric environment directly from your terminal with familiar commands like ls, cd, mkdir, cp, and more.| GitHub
 [Fabric Toolbox](https://github.com/microsoft/fabric-toolbox/tree/main) | Fabric toolbox is a repository of tools, accelerators, scripts, and samples to help you work with Microsoft Fabric. This repository is brought to you by the Fabric Customer Advisory Team (CAT) and will continue to grow as we develop new tools and accelerators.| GitHub
+[Fabric Assessment Tool](../40-Resources/fabric-assessment-tool.md) | Inventory Synapse and Databricks assets, export JSON, and visualize discovery evidence for migration planning. | [Microsoft GitHub](https://github.com/microsoft/fabric-toolbox/tree/main/tools/fabric-assessment-tool); Issue #136; permissions affect completeness; optional SQL statistics collection can create a view
 [Rayfin](https://github.com/microsoft/rayfin) | A fully managed Backend-as-a-Service (BaaS) platform built on Microsoft Fabric for the agentic era. Define your data model with TypeScript decorators and Rayfin provisions and manages database, authentication, data APIs, storage, and hosting. | GitHub
 [Skills for Fabric](https://github.com/microsoft/skills-for-fabric) | Reusable AI assistant instructions for working with Microsoft Fabric. They help GitHub Copilot CLI and compatible AI coding tools understand Fabric workloads, APIs, query patterns, and operational best practices. Includes bundles for authoring, consumption, operations, and Power BI authoring. | GitHub
 
@@ -104,6 +108,7 @@ Source | Description | Notes
 [Revolutionize reports with Fabric Copilot and Power BI](https://build.microsoft.com/en-US/sessions/be2b066b-8785-4c92-97d6-9e42e4be74fd?source=sessions) | This presentation will show how to leverage Fabric Copilot to improve the Power BI experience for developers and end users. We'll show you how to go from start to finish applying our favorite new features that Fabric Copilot offers. By the end of this presentation, you'll know how to leverage Fabric Copilot in Microsoft Fabric and be equipped with strategies to increase productivity, improve efficiency, and report utilization for your teams. | Microsoft Build
 [Copilot in Power BI Demo](https://www.youtube.com/watch?v=wr__6tM5U6I) | ith Copilot in Power BI, we are infusing the power of large language models into Power BI at every layer to help users get more done and create more value from their data. Using Copilot, you can simply describe the visuals and insights you’re looking for and Copilot will do the rest. Users can create and tailor reports in seconds, generate and edit DAX calculations, create narrative summaries, and ask questions about their data, all in conversational language. With the ability to easily tailor the tone, scope and style of narratives and add them seamlessly within reports, Power BI can also deliver data insights even more impactfully through easy-to-understand text summaries | YouTube
 [Use Azure OpenAI to turn whiteboard sketches into data pipelines](https://blog.fabric.microsoft.com/en-US/blog/use-azure-openai-to-turn-whiteboard-sketches-into-data-pipelines/) | General Availability (GA) of Copilot for Data Factory. It operates like a subject-matter expert (SME), collaborating with you to design your dataflows.| Fabric Blog
+[Fabric Data Engineering Agent - Project Osmos](../40-Resources/fabric-project-osmos-data-engineering-agent.md) | Preview persistent tasks that execute Spark work and validate data outcomes; use bounded nonproduction pilots with reviewed writes, reruns, and acceptance evidence. | [Microsoft Learn](https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-agent-get-started); Issue #143; eligible nontrial capacity, Contributor access, tenant settings, permissions, and model/Spark consumption review required
 
 ## databricks
 

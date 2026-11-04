@@ -2,13 +2,16 @@
 title: Microsoft Skills for Fabric Repository
 type: resource
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-11-02
 tags:
   - microsoft-fabric
   - ai-skills
   - github-copilot
   - power-bi
 sources:
+  - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/govern-your-microsoft-fabric-data-estate-from-one-place-with-the-onelake-catalog/5377369
+  - https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-agent-overview
+  - https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-agent-get-started
   - raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
   - raw/2026-07-10-github-microsoft-skills-for-fabric/package.json
   - raw/2026-07-10-github-microsoft-skills-for-fabric/AGENTS.md
@@ -52,6 +55,22 @@ The root README recommends adding the public marketplace and installing bundles 
 ```
 
 Focused bundles can be installed for authoring, consumption, operations, or Power BI authoring. The repo also includes compatibility files for Claude Code, Cursor, Windsurf, Codex/Jules/OpenCode, and Gemini CLI.
+
+## November 2026 Additions
+
+[Govern Skills](fabric-onelake-govern-and-skills.md) add Health, Protect, and
+Trust procedures for evidence-led governance audits and reviewed remediation.
+The OneLake catalog Govern experience is GA, but Policies Center remains
+preview; skill installation does not confer administrative permissions.
+
+[Project Osmos](fabric-project-osmos-data-engineering-agent.md) adds preview
+Fabric-hosted tasks that plan, execute, and validate data engineering work.
+Tasks continue beyond local client disconnection and consume model and Spark
+resources. Eligible nontrial capacity, workspace permissions, required tenant
+settings, explicit write boundaries, and human acceptance are prerequisites.
+
+These are different motions: governance skills guide assessment and remediation;
+Osmos runs persistent data engineering tasks, not ordinary report authoring.
 
 ## Notes for Shakespeare
 

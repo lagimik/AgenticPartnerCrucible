@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Microsoft Fabric"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-11-02
+updated: 2026-11-14
 ---
 
 # Data & AI > Microsoft Fabric
@@ -58,6 +58,8 @@ Source | Description | Notes
 [Fabric Spark best practices overview](https://learn.microsoft.com/en-us/fabric/data-engineering/spark-best-practices-overview) | This series of articles outlines best practices for optimizing the performance, security, and cost of Spark jobs when running Spark Notebooks and Spark Job Definitions (SJDs) on Microsoft Fabric | Microsoft Learn
 [Fabric Data Warehouse Medallion Architecture Series](../40-Resources/fabric-data-warehouse-medallion-series.md) | Three-part guide to selecting lakehouse or hybrid patterns, enforcing Bronze/Silver/Gold responsibilities, and operating scalable, auditable Fabric pipelines. | Issues #79-#81
 [Microsoft Fabric CI/CD Resources](../40-Resources/fabric-cicd-resources.md) | End-to-end delivery guidance across Git integration, deployment pipelines, REST APIs, Fabric CLI, IaC, environment configuration, and verification. | Issue #75
+[Fabric Warehouse CI/CD Preview Lifecycle](../40-Resources/fabric-warehouse-cicd-preview.md) | Build Warehouse ALM assessments around SQL projects, DacFx incremental schema deployment, versioned pre/post scripts, and definition APIs. | [Fabric announcement](https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/the-next-chapter-for-cicd-in-fabric-warehouse-preview/5401222); preview; deployment configurations, Warehouse fabric-cicd support, and SQL endpoint CI/CD are future investments without dates; validate data effects and recovery
+[OneLake Native Storage for Azure Databricks](../40-Resources/onelake-native-storage-azure-databricks.md) | Pilot shared storage with Unity Catalog governance, sole-identity storage access, and mirrored catalog readers rather than direct Fabric-user access. | [Fabric announcement](https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/use-onelake-as-native-storage-for-azure-databricks/5377939); [setup guide](https://learn.microsoft.com/en-us/azure/databricks/connect/unity-catalog/cloud-storage/external-locations-onelake); Fabric GA, Databricks Public Preview; file events need higher workspace roles; Fabric Spark cannot read tables with catalog commits, and FILE columns are omitted
 [Fabric Real-Time Hub Event Architecture](../40-Resources/fabric-real-time-hub-event-architecture.md) | Select Business, Fabric, or Azure Events by publisher ownership, then design versioned schemas, independent Activator, Eventhouse, or Eventstream consumers, idempotency, and operational controls. | Microsoft Fabric series; Issue #98
 [Oracle-to-Power BI Performance and Modern Analytics](../40-Resources/oracle-to-power-bi-modern-analytics.md) | Microsoft guidance for assessing Oracle-to-Power BI performance and considering Fabric Mirroring as an alternative analytics access pattern. | Issue #122
 [Direct Lake Storage Mode Design](../40-Resources/fabric-direct-lake-design.md) | Choose OneLake versus SQL variants with explicit Delta layout, framing, security, fallback, and capacity guardrail tests. | [Microsoft Learn](https://learn.microsoft.com/en-us/fabric/fundamentals/direct-lake-overview); Issue #139; SQL-endpoint RLS does not protect direct OneLake file access

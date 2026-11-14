@@ -2,7 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads"
 layout: "default"
 categories: "Business Applications"
-updated: 2026-11-02
+updated: 2026-11-14
 ---
 
 # Business Applications Workloads
@@ -20,6 +20,8 @@ To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuid
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Dynamics 365: Product-Centric ERP Recognition and Delivery Context](../40-Resources/dynamics-365-product-centric-erp-leader-2026.md) | Microsoft-reported 2026 Gartner Leader placement and manufacturer/distributor discovery around planning, sourcing, fulfillment and governed agent-assisted exceptions. | [Microsoft announcement](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/06/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-erp-for-product-centric-enterprises/); Issue #150; Procurement Agent and Rental Management remain preview; analyst opinion is not endorsement, and customer examples are not outcome guarantees
+[Dynamics 365: Service-Centric ERP Recognition and Delivery Context](../40-Resources/dynamics-365-service-centric-erp-leader-2026.md) | Microsoft-reported 2026 Gartner Leader placement and services discovery connecting contracts, resourcing, delivery, cost and billing across the ERP portfolio. | [Microsoft announcement](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/05/microsoft-dynamics-365-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-erp-for-service-centric-enterprises/); Issue #149; verify feature availability, configuration and permissions; analyst opinion and attributed customer results do not establish customer fit or savings
 [Dynamics 365 Contact Center: 2026 CCaaS Visionary](../40-Resources/dynamics-365-contact-center-ccaas-2026.md) | Microsoft-reported Gartner Visionary placement and contact-center modernization narrative covering self-service, human handoff, representative assistance, and supervisor insights. | [Microsoft announcement](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/10/22/microsoft-is-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/); Issue #130; research is opinion, not endorsement or a customer outcome guarantee
 [Microsoft is named a Leader in 2023 Gartner® Magic Quadrant™ for B2B Marketing Automation Platform](https://cloudblogs.microsoft.com/dynamics365/bdm/2023/09/25/microsoft-is-named-a-leader-in-2023-gartner-magic-quadrant-for-b2b-marketing-automation-platform/) | Microsoft has been recognized as a Leader within the 2023 Gartner Magic Quadrant for B2B Marketing Automation Platforms* for the second consecutive year. In this year’s report, Microsoft is positioned highest in Ability to Execute. | Blog
 [Dynamics 365 in the 2026 CRM Sales Platforms Magic Quadrant](../40-Resources/dynamics-365-crm-sales-platform-leader.md) | Microsoft recognition and agentic CRM summary covering Dynamics 365 Sales, Microsoft 365 Copilot, sales agents, workflow automation, and the shift from system of record to system of action. | Gartner 2026; Issue #49

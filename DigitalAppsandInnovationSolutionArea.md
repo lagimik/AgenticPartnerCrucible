@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Azure OpenAI"
 layout: "default"
 categories: "Digital and App Innovation"
-updated: 2026-09-26
+updated: 2026-11-14
 ---
 
 # Digital Apps and Innovation
@@ -91,6 +91,7 @@ Source | Description | Notes
 [Migration of multiple ASP.NET web apps at-scale](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/assess-asp-net-web-apps-at-scale-to-accelerate-your-app/ba-p/3718361) | Assess ASP.NET web apps at scale to accelerate your app migration strategy on Azure | Tech Community
 [ASP. NET web app migration to Azure App Service using PowerShell Scripts](https://azure.microsoft.com/en-us/updates/general-availability-asp-net-web-app-migration-to-azure-app-service-using-powershell-scripts/) | General availability of ASP. Net web app Migration to Azure App Service using PowerShell Scripts is now available. | Azure
 [Tutorial: Run a load test to identify performance bottlenecks in a web app](https://learn.microsoft.com/en-us/azure/load-testing/tutorial-identify-bottlenecks-azure-portal) | In this tutorial, you'll learn how to identify performance bottlenecks in a web application by using Azure Load Testing. You'll create a load test for a sample Node.js application.| Microsoft Learn
+[Database Caching Patterns with Azure Managed Redis](../40-Resources/azure-managed-redis-database-caching-patterns.md) | Assess hot reads and choose caching patterns for PostgreSQL, Azure SQL, or Cosmos DB using staleness budgets, outage fallback, identity controls, and measured database-load reduction. | [Microsoft Community Hub](https://techcommunity.microsoft.com/blog/azure-managed-redis/build-faster-apps-database-caching-patterns-with-azure-managed-redis/4572989); eight patterns, seven demonstrated across single-region samples; write-behind requires acceptable loss; sample resources bill, and savings are not guaranteed
 [Contoso Traders - Cloud testing tools demo app](https://github.com/microsoft/contosotraders-cloudtesting/) | The Contoso Traders app is a sample application showcasing Playwright, Azure Load Testing, Azure Chaos Studio and more. This repo contains the source code, deployment templates, and demo scripts for exploring these cloud testing tools. | GitHub
 [Azure Load Testing samples](https://github.com/Azure-Samples/azure-load-testing-samples/tree/main) | This repo contains a collection of samples for using Azure Load Testing. Azure Load Testing is a fully managed load-testing service that enables you to generate high-scale load. The service simulates traffic for your applications, regardless of where they're hosted. | GitHub
 [Microsoft.Crank](https://github.com/dotnet/crank) | Crank is the benchmarking infrastructure used by the .NET team to run benchmarks including (but not limited to) scenarios from the TechEmpower Web Framework Benchmarks. One of the goals of this system is to give developers a tool that lets them work on performance and measure potential improvements very easily.| GitHub
@@ -174,6 +175,8 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :---------- | :----
+[GitHub Pricing Calculator](../40-Resources/github-pricing-calculator.md) | Structure platform estimates across seats, Copilot credits, Codespaces compute/storage, Actions usage and committer-based security/quality products. | [Public calculator](https://github.com/pricing/calculator); Issue #152; USD estimates exclude free entitlements and are not binding quotes; reconcile agreement terms and separately estimated usage before proposals
+[GitHub Copilot Benchmarks](../40-Resources/github-copilot-benchmarks.md) | Provisional discovery pointer for model-plus-harness resolution-rate and average-cost tradeoffs; shortlist configurations, then validate representative repository tasks. | [Public dashboard](https://benchmarks.github.com/); Issue #146; no numerical rankings reproduced; benchmark cost is not subscription pricing, and results do not measure latency or every developer workflow
 [How GitHub compares to other DevOps platforms](https://assets.ctfassets.net/wfutmusr1t3h/1uXup5mE9ImWc5j8lB4Ddn/5f2b3b3d65e26b18f8ed3713d57a6714/GitHub_vs._Competitors.pdf) | There are dozens of alternative DevOps tools from best-in-breed point solutions to full platforms. So how does GitHub compare? There are plenty of analyst reports that answer that question--but here's an overview to help you get started. | GitHub
 [GitHub Roadmap](https://github.com/orgs/github/projects/4247/views/1) | GitHub public roadmap | GitHub
 [GitHub Learning Paths](https://learn.microsoft.com/en-us/training/github/) | Collections and Recommended learning paths for foundational GitHub knowledge | Microsoft Learn

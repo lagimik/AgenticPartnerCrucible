@@ -2,12 +2,16 @@
 title: Microsoft Fabric
 type: entity
 created: 2026-07-10
-updated: 2026-11-02
+updated: 2026-11-14
 tags:
   - microsoft-fabric
   - analytics
   - data-platform
 sources:
+  - https://techcommunity.microsoft.com/blog/microsoft-security-blog/a-next-step-in-the-evolution-of-the-microsoft-data-governance-strategy/4572227
+  - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/use-onelake-as-native-storage-for-azure-databricks/5377939
+  - https://learn.microsoft.com/en-us/azure/databricks/connect/unity-catalog/cloud-storage/external-locations-onelake
+  - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/the-next-chapter-for-cicd-in-fabric-warehouse-preview/5401222
   - https://learn.microsoft.com/en-us/fabric/fundamentals/direct-lake-overview
   - https://learn.microsoft.com/en-us/fabric/enterprise/capacity-overage-overview
   - https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-agent-overview
@@ -32,6 +36,9 @@ Microsoft Fabric is the data and analytics platform targeted by the `skills-for-
 
 ## Related Pages
 
+- [Microsoft Data Governance Transition](../../40-Resources/microsoft-data-governance-fabric-transition.md) - Fabric governance strategy and Purview Data Governance support-end announcement, with security/compliance and transition-gap boundaries.
+- [OneLake native storage for Databricks](../../40-Resources/onelake-native-storage-azure-databricks.md) - Fabric-side GA, Databricks preview, sole-identity storage access, and catalog-commit/Spark limits.
+- [Warehouse CI/CD Preview](../../40-Resources/fabric-warehouse-cicd-preview.md) - State-aware SQL project deployment, release scripts, and APIs, with explicit delivered-versus-planned boundaries.
 - [Assessment tool](../../40-Resources/fabric-assessment-tool.md) - Source-estate discovery for migration planning, not automatic migration.
 - [Direct Lake design](../../40-Resources/fabric-direct-lake-design.md) - OneLake versus SQL access, fallback, framing, and capacity boundaries.
 - [Capacity operations](../../40-Resources/fabric-capacity-observability-and-protection.md) - Admission controls, paid overage, and real-time evidence.

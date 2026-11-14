@@ -2,7 +2,7 @@
 title: Copilot Studio
 type: concept
 created: 2026-07-10
-updated: 2026-11-02
+updated: 2026-11-14
 tags:
   - copilot
   - agents
@@ -50,6 +50,7 @@ for current naming, historical training links, and evaluation boundaries.
 
 ## Related
 
+- [Microsoft Copilot Agents Labs](../../40-Resources/microsoft-copilot-agents-labs.md) - Current guided bootcamp, harness distinctions and training prerequisites.
 - [[moc-ingested-link-library]]
 - [[copilot-cowork-studio-app-building]]
 - [[copilot-studio-harness-selection]]

@@ -8,6 +8,27 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Resources
 
+- [GitHub Pricing Calculator](40-Resources/github-pricing-calculator.md) - Workload cost inputs; estimates exclude free entitlements and are not binding quotes.
+- [Microsoft Copilot Agents Labs](40-Resources/microsoft-copilot-agents-labs.md) - Current bootcamp, guided skilling and tenant prerequisites.
+- [Microsoft SQL Presentation Hub](40-Resources/microsoft-sql-presentation-hub.md) - Public catalogue discovery; individual presentations unreviewed.
+- [Product-Centric ERP Recognition](40-Resources/dynamics-365-product-centric-erp-leader-2026.md) - Microsoft-reported Gartner context, operational discovery and preview boundaries.
+- [Service-Centric ERP Recognition](40-Resources/dynamics-365-service-centric-erp-leader-2026.md) - Contracts, resourcing, delivery and billing; customer outcomes not guarantees.
+- [Agent 365 AI Management Recognition](40-Resources/agent-365-ai-management-platform-leader-2026.md) - Identity-first management with connector, discovery and enforcement limits.
+- [GitHub Copilot Benchmarks](40-Resources/github-copilot-benchmarks.md) - Provisional dashboard pointer; model-plus-harness results are not customer pricing or latency.
+- [Benchmark-to-Workload Validation](10-Notes/concepts/benchmark-to-workload-validation.md) - Shortlist with benchmarks, then verify representative tasks and actual usage.
+- [GitHub](10-Notes/entities/github.md), [Dynamics 365](10-Notes/entities/dynamics-365.md), and [Microsoft Agent 365](10-Notes/entities/microsoft-agent-365.md) - Entity discovery for the November 14 open-issue ingestions.
+- [Purview Data Governance Partner Resources](40-Resources/purview-data-governance-partner-resources.md) - Draft collection pointer; public metadata verified, assets unreviewed, newer transition guidance linked.
+- [Microsoft Data Governance Transition to Fabric](40-Resources/microsoft-data-governance-fabric-transition.md) - Purview Data Governance support ends November 12, 2027; Purview security and compliance continue.
+- [Governance and Data Protection Responsibility Split](10-Notes/concepts/governance-data-protection-responsibility-split.md) - Catalog/stewardship migration without conflating security and compliance obligations.
+- [OneLake Native Storage for Azure Databricks](40-Resources/onelake-native-storage-azure-databricks.md) - GA/preview split, identity isolation, mirrored readers, file events, and Spark compatibility limits.
+- [Shared Storage with Catalog-Mediated Access](10-Notes/concepts/shared-storage-catalog-mediated-access.md) - Shared data locations do not imply shared permissions or universal reader support.
+- [ARM MCP Ignite 2026 Expansion](40-Resources/azure-resource-manager-mcp-ignite-2026.md) - Resource operations, deployment verification, cost tools, and experimental Skills with live-schema caveats.
+- [Database Caching Patterns with Azure Managed Redis](40-Resources/azure-managed-redis-database-caching-patterns.md) - Eight workload patterns, seven-pattern sample coverage, authentication, and operational limits.
+- [Caching Correctness and Failure Budgets](10-Notes/concepts/caching-correctness-and-failure-budgets.md) - Staleness, loss, recovery, and fallback-load decisions.
+- [Fabric Warehouse CI/CD Preview](40-Resources/fabric-warehouse-cicd-preview.md) - DacFx, SQL projects, release scripts, and APIs; planned capabilities distinguished from delivered preview work.
+- [State-Aware Warehouse Deployment](10-Notes/concepts/state-aware-warehouse-deployment.md) - Schema reconciliation and data-action validation rather than artifact-copy promotion.
+- [Detecting Sleeper Agents Hiding in AI Model Neurons](40-Resources/detecting-sleeper-agents-model-neurons.md) - Research-demonstrated weight tampering, layered intake audits, and runtime containment; no observed weaponization reported.
+- [Model-Weight Integrity Assurance](10-Notes/concepts/model-weight-integrity-assurance.md) - Checkpoint provenance and update evidence distinct from malware scans, evaluations, and action authorization.
 - [[fabric-assessment-tool]] - Synapse and Databricks discovery for migration scoping, with inventory-completeness and optional schema-change boundaries.
 - [[fabric-capacity-observability-and-protection]] - Surge controls, paid overage, real-time events, soft thresholds, and documentation caveats.
 - [[fabric-direct-lake-design]] - OneLake versus SQL variants, framing, security, fallback, and capacity guardrails.
@@ -148,6 +169,10 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Entities
 
+- [Microsoft Purview](10-Notes/entities/microsoft-purview.md) - Continuing security and compliance, distinct from the announced Data Governance retirement.
+- [Azure Databricks](10-Notes/entities/azure-databricks.md) - Unity Catalog-managed OneLake storage and cross-platform reader boundaries.
+- [Azure Resource Manager MCP Server](10-Notes/entities/azure-resource-manager-mcp-server.md) - Azure control-plane operations, distinct from read-only release communications.
+- [Azure Managed Redis](10-Notes/entities/azure-managed-redis.md) - Application-level caching, rankings, counters, and short-lived state.
 - [[microsoft-foundry]] - Model and agent platform; capability-specific GA and preview references.
 - [[saas-accelerator]] - Reference implementation for Marketplace SaaS subscription and billing integration.
 - [[microsoft]]

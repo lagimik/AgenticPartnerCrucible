@@ -2,7 +2,7 @@
 title: "Partner Crucible - Security Workloads "
 layout: "default"
 categories: "Security"
-updated: 2026-10-27
+updated: 2026-11-14
 ---
 
 # Security Workloads
@@ -253,6 +253,8 @@ Source | Description | Notes
 
 ## Purview
 
+For the announced Purview Data Governance transition, see [current governance guidance](DataAISolutionArea.md#purview); Purview security and compliance continue, and historical governance references below are not transition commitments.
+
 Source | Description | Notes
 :----- | :---------- | :----
 [Purview Deployment Blueprint](https://learn.microsoft.com/en-ca/purview/deploymentmodels/depmod-data-leak-shadow-ai-intro) | In this deployment blueprint, we provide a recommended approach to prevent data leak to shadow AI utilizing Microsoft Purview, Microsoft Defender for Cloud Apps, Microsoft Entra, and Microsoft Intune | Microsoft Learn
@@ -274,6 +276,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :---------- | :----
+[Agent 365: AI Agent Management Recognition and Control Boundaries](../40-Resources/agent-365-ai-management-platform-leader-2026.md) | Microsoft-reported Gartner Leader placement and identity-first agent management linking ownership, purpose, permissions, registry and supported security operations. | [Microsoft announcement](https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/); Issue #147; platform GA is not universal connector/control coverage; cloud discovery is preview and some integrations planned; analyst opinion is not endorsement
 [Using APIM as the Gateway for Azure AI Foundry: AI Adoption to Governance](https://techcommunity.microsoft.com/blog/appsonazureblog/from-ai-adoption-to-ai-governance---using-apim-as-the-gateway-for-azure-ai-found/4536247) | Demonstrates how to use Azure API Management (APIM) as a governance layer and gateway for Azure AI Foundry deployments, enabling enterprise-grade security, rate limiting, and policy enforcement for AI workloads. | Apps on Azure Blog
 [From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence](https://techcommunity.microsoft.com/blog/azurearchitectureblog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and-machine-intelligen/4535137) | Comprehensive AI governance reference architecture covering four pillars (Policy, Control, Visibility, Proof), nine domains, the Microsoft governance stack (Foundry, Purview, Entra, Defender, APIM AI Gateway, Agent 365), and the Agent Control Specification (ACS) for portable runtime controls. | Azure Architecture Blog
 [Zero-Trust Agents: Adding Identity and Access to Multi-Agent Workflows](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/zero-trust-agents-adding-identity-and-access-to-multi-agent-workflows/4427790)| In this article, we demonstrate a zero-trust approach to autonomous AI agents by integrating Identity and access management into an enterprise agentic workflow| Tech Community
@@ -281,6 +284,7 @@ Source | Description | Notes
 [Project Perception: Securing the Agentic Insider](../40-Resources/project-perception-agentic-security-stack.md#october-update-the-agentic-insider) | Extends the security-stack vision to internal agents with identity and permission inventory, dynamic risk signals, supervision, containment, and human accountability. | [Microsoft October update](https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/); Issue #128; vision and future transparency goals are not universal protection guarantees
 [Microsoft Foundry and PyRIT for AI Red Teaming](../40-Resources/foundry-pyrit-ai-red-teaming.md) | Decision guide for managed Foundry red teaming of supported targets versus flexible PyRIT testing of custom APIs, RAG, tools, and agent workflows. | Issue #42
 [Open-Weight Model Risk in Enterprise Deployments](../40-Resources/open-weight-model-risk-enterprise.md) | Microsoft-NVIDIA guidance announcement connecting five risk categories to deployment-specific evaluations, layered safeguards, and accountable owners; model evaluation alone does not establish application or agent safety. | [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/); verify model and deployment control availability
+[Detecting Sleeper Agents Hiding in AI Model Neurons](../40-Resources/detecting-sleeper-agents-model-neurons.md) | Scope model-intake and update assessments around provenance, weight audits, behavioral testing, and independent runtime containment. | [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/); research demonstration, no observed weaponization; malware scanning does not replace weight audits, and passing checks does not guarantee safety
 [SAFE Agent Controls on Microsoft Foundry](../40-Resources/safe-agent-controls-foundry.md) | Deterministic runtime controls for agent scope, host-verified evidence, workflow integrity, and required human escalation, enforced independently of the prompt. | Issue #61
 [Microsoft Zero Trust Workshop and Assessment](../40-Resources/zero-trust-workshop-assessment.md) | Guided assessment and roadmap planning using implementation effort, user impact, and cross-pillar classifications. | Issue #56
 [Responsible AI in 2026](../40-Resources/responsible-ai-transparency-2026.md) | Adaptive governance and technical risk management for models, platforms, applications, agents, tools, identities, and actions. | Issue #77

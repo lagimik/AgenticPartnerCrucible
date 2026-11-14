@@ -2,9 +2,10 @@
 title: OneLake Catalog Govern and Govern Skills
 type: resource
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-14
 tags: [microsoft-fabric, onelake, governance, skills]
 sources:
+  - https://techcommunity.microsoft.com/blog/microsoft-security-blog/a-next-step-in-the-evolution-of-the-microsoft-data-governance-strategy/4572227
   - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/govern-your-microsoft-fabric-data-estate-from-one-place-with-the-onelake-catalog/5377369
   - https://community.fabric.microsoft.com/oxcrx34285/rss/board?board.id=fbc_fabricupdatesblogs
   - raw/2026-11-02-github-open-issues-136-144/issues.md
@@ -49,6 +50,8 @@ an audit. The initial skill set has broader Health coverage than Protect or
 Trust; do not market it as complete compliance assurance.
 
 ## Related
+
+- [Microsoft Data Governance Transition to Fabric](microsoft-data-governance-fabric-transition.md) - November 12 announcement of Purview Data Governance support ending November 12, 2027, distinct from continuing Purview security and compliance; this does not establish universal capability parity.
 
 - [Skills for Fabric](skills-for-fabric.md)
 - [Microsoft Fabric](../10-Notes/entities/microsoft-fabric.md)

@@ -2,7 +2,7 @@
 title: AI Governance
 type: concept
 created: 2026-07-10
-updated: 2026-10-16
+updated: 2026-11-14
 tags:
   - governance
   - security
@@ -17,6 +17,7 @@ sources:
   - raw/2026-09-05-github-open-issues-72-85/issues.md
   - raw/2026-10-03-multitenant-ai-agent-governance/source.md
   - https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/
+  - https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/
 status: active
 ---
 
@@ -80,6 +81,12 @@ change.
 
 ## Deterministic Agent Controls
 
+[Model-weight integrity assurance](model-weight-integrity-assurance.md) adds
+checkpoint provenance, weight auditing, behavioral testing, and update evidence
+to model governance. The [sleeper-agent research summary](../../40-Resources/detecting-sleeper-agents-model-neurons.md)
+distinguishes weight-level audits from malware scanning and evaluation scores:
+none replaces independent runtime containment or guarantees safe behavior.
+
 Prompts should not be the authorization boundary for consequential actions. The SAFE pattern adds four enforceable controls:
 
 1. Scope the cases, tools, and parameters the agent may use.
@@ -102,6 +109,8 @@ For customer-operated edge AI, release sensitive weights, credentials, and data 
 
 ## Related
 
+- [Microsoft Agent 365](../entities/microsoft-agent-365.md) - Ownership, identity and supported control coverage.
+- [Agent Management Recognition and Boundaries](../../40-Resources/agent-365-ai-management-platform-leader-2026.md) - Platform GA is not uniform feature enforcement.
 - [Open-Weight Model Risk in Enterprise Deployments](../../40-Resources/open-weight-model-risk-enterprise.md)
 - [Deployment-Context AI Risk](./deployment-context-ai-risk.md)
 - [Policy to Proof — AI Governance Reference](../40-Resources/policy-to-proof-ai-governance.md)

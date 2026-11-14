@@ -2,7 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads - Power Platform"
 layout: "default"
 categories: "AI Business Solutions"
-updated: 2026-11-02
+updated: 2026-11-14
 ---
 
 # Power Platform - Copilot Studio Workload
@@ -41,6 +41,7 @@ To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuid
 
 | Source | Description | Notes |
 | :----- | :---------- | :---- |
+| [Microsoft Copilot Agents Labs](../40-Resources/microsoft-copilot-agents-labs.md) | Guided Copilot and Copilot Studio enablement spanning Work IQ, Cowork, harnesses, skills, tools, workflows, integration, evaluations, FinOps and identity. | [Public lab hub](https://microsoft.github.io/mcs-labs/); Issue #151; choose the latest bootcamp, distinguish Standard from Microsoft Copilot harness, and verify training accounts, tenant and license requirements; lab execution and individual slide contents unverified |
 | [Copilot Studio Agent Academy](https://microsoft.github.io/agent-academy/) | This hands-on training is your entry point into the world of agents: from grounded prompts to Adaptive Cards and agent flows, you'll learn how to build, scale, and deploy intelligent agents using real-world tools and use cases. | Microsoft GitHub |
 | [Agent Academy: GitHub Copilot harness](https://microsoft.github.io/agent-academy/recruit-nextgen/) | Hands-on course for GitHub Copilot harness solution creation, custom agents, tools, skills, workflows, publishing, and licensing. | Microsoft GitHub; Issue #95 |
 | [Explore Copilot Studio and agent harnesses](https://learn.microsoft.com/en-us/training/modules/explore-copilot-studio-agent-harnesses/) | Compare GitHub Copilot, standard, and Copilot Chat harnesses across orchestration, authoring, capabilities, publishing, and billing. | Microsoft Learn; Issue #95 |

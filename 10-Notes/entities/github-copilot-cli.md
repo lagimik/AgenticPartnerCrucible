@@ -2,7 +2,7 @@
 title: GitHub Copilot CLI
 type: entity
 created: 2026-07-10
-updated: 2026-07-13
+updated: 2026-11-14
 tags:
   - github-copilot
   - ai-coding-agent
@@ -12,6 +12,7 @@ sources:
   - raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
   - raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/fabric-skills/.github/plugin/plugin.json
   - raw/2026-07-13-modernize-dotnet-github-copilot-app/source.md
+  - https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/
 status: active
 ---
 
@@ -21,6 +22,8 @@ GitHub Copilot CLI is the recommended installation surface for the `skills-for-f
 
 ## Related Pages
 
+- [GitHub](github.md)
+- [Copilot Benchmarks and Workload Validation](../../40-Resources/github-copilot-benchmarks.md) - Harness measurements are not universal model rankings.
 - [[skills-for-fabric]]
 - [[microsoft-fabric]]
 - [[ai-assistant-skills]]

@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-10-27
+updated: 2026-11-14
 ---
 
 # Data and AI
@@ -239,8 +239,12 @@ Source | Description | Notes
 
 ## Purview
 
+Microsoft's November 12, 2026 announcement positions Fabric/OneLake catalog as its governance foundation and sets **November 12, 2027** as the support-end date for **Purview Data Governance**, not all Purview. Security and compliance continue; assess regulated and contractual cases with the Microsoft account team. The roadmap and older governance resources below are historical context, not evidence of transition parity or future support.
+
 Source | Description | Notes
 :----- | :-----  | :-----
+[Microsoft Data Governance Transition to Fabric](../40-Resources/microsoft-data-governance-fabric-transition.md) | Plan affected governance inventories, capability-gap assessments, and controlled transitions while preserving Purview security and compliance obligations. | [Microsoft announcement](https://techcommunity.microsoft.com/blog/microsoft-security-blog/a-next-step-in-the-evolution-of-the-microsoft-data-governance-strategy/4572227); support ends November 12, 2027; no automatic migration or universal parity established; Fabric capacity inclusion is not unlimited or zero-cost usage
+[Purview Data Governance Partner Resources](../40-Resources/purview-data-governance-partner-resources.md) | Public collection pointer for partner enablement discovery; review individual assets against the newer transition announcement before customer use. | [Public Partner Marketing Center landing page](https://partner.microsoft.com/en-us/marketing-center/assets/collection/purview-data-governance-partner-resources#/); last modified November 3, 2026; asset listing returned HTTP 500, so assets, access requirements, and transition alignment remain unverified; no protected content reproduced
 [Purview Data Governance Roadmap](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/MS-Purview-Data-Governance-Roadmap.pdf) | The roadmap describes functionality that may or may not have been released yet. | Microsoft 365 Roadmap
 [Microsoft Purview Workshop](https://github.com/tayganr/purviewlab) | 16 Purview learning modules | by @tayganr on Github
 [Microsoft Purview Resource Provider Rest API](https://learn.microsoft.com/en-us/rest/api/purview/) | Documentation on the Purview Rest API capability | Microsoft Learn
@@ -270,6 +274,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Microsoft SQL Presentation Hub](../40-Resources/microsoft-sql-presentation-hub.md) | Discover SQL roadmap, modernization, Hyperscale, AI-assisted performance and developer enablement presentations through a searchable public catalogue. | [Public Microsoft SQL hub](https://mssqldecks.azurewebsites.net/); Issue #148; publisher describes content as public-facing and reusable; catalogue metadata reviewed, individual slides and downloads unverified; check asset rights, dates and feature status before customer reuse
 [accelerators.ms](https://accelerators.ms/) | Launch AI products faster with enterprise-grade, customizable solutions built on trusted architectures—kept up to date, easy to configure, and supported with guided setup and sample data. | accelerators
 [AI Landing Zone - Preview](https://github.com/Azure/AI-Landing-Zones) | The AI Landing Zone provides an enterprise-scale production ready reference architecture with implementation (Portal, Bicep & Terraform) to deploy secure and resilient AI Apps & Agents solutions in Azure. | GitHub
 [AI Dev Gallery (Preview)](https://github.com/microsoft/ai-dev-gallery/) | Designed for Windows developers, the AI Dev Gallery helps integrate AI capabilities into apps and projects. It includes:| GitHub

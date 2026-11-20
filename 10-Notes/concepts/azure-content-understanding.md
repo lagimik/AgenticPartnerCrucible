@@ -2,13 +2,15 @@
 title: Azure Content Understanding
 type: concept
 created: 2026-07-10
-updated: 2026-08-14
+updated: 2026-11-20
 tags:
   - azure
   - azure-ai-foundry
   - document-processing
   - content-understanding
 sources:
+  - https://azure.microsoft.com/en-us/updates?id=563661
+  - https://learn.microsoft.com/en-us/azure/search/cognitive-search-skill-content-understanding
   - raw/2026-07-10-ingestlinks/044-learn-microsoft-com-en-us-azure-ai-services-content-understanding-choosing-right/extracted_text.md
   - raw/2026-08-14-github-open-issues-47-53/issues.md
 status: active
@@ -37,6 +39,7 @@ Acceptance thresholds should be calibrated per field and recalibrated whenever t
 
 ## Related
 
+- [Search Semantic Chunking and Image Descriptions](../../40-Resources/content-understanding-search-semantic-chunking.md) - GA in Search API 2026-10-01; extraction, descriptions, vectors, serving, polling, and billing remain separate concerns.
 - [[azure-ai-foundry]]
 - [[azure-document-intelligence]]
 - [[document-processing-tool-selection]]

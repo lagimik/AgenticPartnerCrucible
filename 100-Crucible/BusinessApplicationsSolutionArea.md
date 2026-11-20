@@ -2,7 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads"
 layout: "default"
 categories: "Business Applications"
-updated: 2026-11-14
+updated: 2026-11-20
 ---
 
 # Business Applications Workloads
@@ -77,6 +77,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Dynamics 365 Activate Migration](../40-Resources/dynamics-365-activate-migration.md) | Guide discovery, requirements, approved configuration, and trial/reconciled migration while teams retain design and go-live decisions. | [Microsoft announcement](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/dynamics-365-activate-erp-crm-migration/); ERP/SAP ECC private preview versus Salesforce GA; public setup English-only US workspaces for Sales/Customer Service; membership and project sharing required; record counts do not prove business/security correctness
 [FastTrack for Dynamics 365](https://businessapplications.transform.microsoft.com/download?assetname=assets/FastTrack%20for%20Dynamics%20365%20Overview%20Partner%20Pitch%20Deck.pptx) | FastTrack for Dynamics 365 is a customer success program powered by the Microsoft engineering team to enable organizations to accelerate Dynamics 365 implementations and go-live with confidence| Transform
 [For FastTrack for Dynamics 365 partners FAQ](https://dynamicspartners.transform.microsoft.com/download/protected?assetname=assets/FastTrack%20for%20Dynamics%20365%20-%20Partner%20FAQ.pdf&download=1&protected=1) | document that will be updated regularly to address frequently asked questions related to the FastTrack for Dynamics 365 program.| Transform
 [FastTrack Recognized Solution Architects—Dynamics 365](https://dynamics.microsoft.com/en-us/fasttrack/recognized-solution-architects/) |  The Dynamics 365 product engineering team recognizes practicing solution architects for consistently exhibiting deep architecture expertise and creating high-quality solutions for customers during Dynamics 365 FastTrack governed engagements.|

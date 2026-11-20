@@ -2,7 +2,7 @@
 title: Token Economics
 type: concept
 created: 2026-07-13
-updated: 2026-09-12
+updated: 2026-11-20
 tags:
   - finops
   - agentic-ai
@@ -10,6 +10,7 @@ tags:
   - model-routing
   - architecture
 sources:
+  - https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/
   - raw/2026-07-13-token-economics-finops-agentic-ai/source.md
   - raw/2026-07-13-apim-gateway-azure-ai-foundry/source.md
   - raw/2026-08-14-github-open-issues-47-53/issues.md
@@ -77,6 +78,15 @@ Context is another recurring cost surface. Measure tokens attributable to retrie
 ## AI Cost Taxonomy
 
 Vendor-neutral cost records need AI-specific enrichment before they support useful allocation. Normalize model or agent, token type, product line or use case, unit of measure, and source system. This makes showback, chargeback, and unit economics comparable across providers and delivery models.
+
+## Subscription and Workflow Cost
+
+Token price is not the entire customer bill. Separate subscription-included
+work from metered workflows, and include task frequency, retries, integration,
+support, and human rework. Microsoft's [modeled enterprise AI comparison](../../40-Resources/copilot-enterprise-ai-cost-comparison.md)
+illustrates how inclusion, retrieval paths, and routing can affect cost.
+Its sponsored results and pricing assumptions are directional, not universal
+savings or a substitute for customer-specific quality and billing evidence.
 
 ## Token Meter Pattern
 

@@ -2,7 +2,7 @@
 title: "Partner Crucible - Security Workloads "
 layout: "default"
 categories: "Security"
-updated: 2026-11-14
+updated: 2026-11-20
 ---
 
 # Security Workloads
@@ -111,6 +111,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :---------- | :----
+[Microsoft Perception Third-Party Security Data](../40-Resources/project-perception-agentic-security-stack.md#november-update-third-party-security-data) | Connect Defender telemetry for cross-system triage, investigation, and reviewed detection authoring across supported AWS, Okta, and Salesforce scenarios. | [Microsoft announcement](https://techcommunity.microsoft.com/blog/perception-blog/more-signals-stronger-defense-microsoft-perception-expands-to-third-party-data/4573037); Triage GA only for selected Microsoft-generated Okta/Salesforce alerts; connector coverage and analyst approval matter; research simulations are not observed incident prevention or timing guarantees
 [Microsoft Defender portal implementation guide for MSSPs](https://learn.microsoft.com/en-us/unified-secops/playbook-managed-security) | This guide focuses on implementing tenant management for Managed Security Service Providers (MSSPs). It covers the entire process from initial setup and customer onboarding through advanced operational workflows for MSSPs.| Microsoft Learn
 [Microsoft Defender XDR Blog](https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/bg-p/MicrosoftThreatProtectionBlog) |  Includes monthly news summaries and operations insights across the Microsoft Defender Products | Microsoft
 
@@ -127,12 +128,14 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :---------- | :----
+[Azure Agent Grid Preview](../40-Resources/azure-agent-grid-preview.md) | Apply identity-based network, destination, and MCP tool controls outside enrolled ACI/AKS agents' trust boundary, with mTLS and enforcement telemetry. | [Azure update 580684](https://azure.microsoft.com/en-us/updates?id=580684); update says public preview, Learn requires limited-preview access; only enrolled members governed; regions/compute restricted, private AKS and Foundry hosted agents unsupported; identities not Entra Agent ID; Content Safety resource required for Prompt Shields
 [Azure Network Security Ninja Training](https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-network-security-ninja-training/ba-p/2356101) | In this blog post, we will walk you through basic to advanced scenarios for Azure network security. Ready to become an Azure NetSec ninja? Dive right in! | Tech Community 2022
 
 ## Agent 365
 
 Source | Description | Notes
 :----- | :---------- | :----
+[Agent 365 Governance with APIM and AI Gateway](../40-Resources/agent-365-apim-runtime-governance.md) | Connect centralized supported-gateway/MCP inventory to server- and tool-level runtime blocking and agent interaction evidence. | [Azure update 580055](https://azure.microsoft.com/en-us/updates?id=580055); GA integration, not universal discovery or protection; validate registration, routed enforcement, backend permissions, and supported Defender/Purview coverage
 [Everything you need to know about Microsoft Agent 365](https://aka.ms/AiWebinars/Agent365) | Introduce Agent 365, the control plane for agents to manage and secure AI agents at scale, fully integrated with Microsoft 365 admin and security tools.  | Power CAT
 [Agent 365 - Discoverable, governed and secure agents](https://aka.ms/A365/Registry) | Agent 365 agent registry for agent discoverability and governance| Power CAT
 [Agent 365 – Identity, Observability, and Interoperability](https://aka.ms/A365/Interop) | Walkthrough of Agent 365 - Microsoft’s control plane for securely managing AI agents at scale | Power CAT

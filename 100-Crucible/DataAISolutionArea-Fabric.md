@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Microsoft Fabric"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-11-14
+updated: 2026-11-20
 ---
 
 # Data & AI > Microsoft Fabric
@@ -43,6 +43,8 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[OneLake Data, Context, and Governance](../40-Resources/onelake-data-context-governance.md) | Assess lake-first governance, cross-estate coverage, and interoperable data access; OneLake is not a feature-for-feature Purview Data Governance replacement. | [Fabric announcement](https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/onelake-the-unified-foundation-for-data-context-governance-and-ai/5423035); publisher RSS reviewed after HTTP 403; Iceberg credential vending and catalog federation GA; IQ Sharing, semantic views, and Foundry IQ integration preview; native Iceberg writes only, with client and security limits
+[Governed Fabric Apps with Rayfin](../40-Resources/fabric-apps-rayfin-governed-delivery.md) | Pilot data-driven apps with reviewed TypeScript models, explicit source identities, row/field policies, deployment controls, and workload cost estimates. | [Fabric announcement](https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/build-governed-data-apps-with-microsoft-fabric-apps-generally-available/5423011); publisher RSS and Learn reviewed; Apps/Rayfin announced GA, Fabric HorizonDB preview; SQL identity wording differs from current connector docs; semantic models delegated only; anonymous options and capacity/Pro limits require review
 [Fabric Roadmap](https://roadmap.fabric.microsoft.com/?product=administration%2Cgovernanceandsecurity) | Microsoft Fabric Roadmap: data engineering, data factory, data science, data warehousoe, OneLake, POwerBI, Real-Time Intelligence, and SQL database | Fabric Roadmap
 [Fabric Readiness](https://github.com/microsoft/Fabric-Readiness/) | The Fabric Readiness repo is designed to enable communities interested in topics and concepts related to Microsoft Fabric. This repository currently provides a collection of presentation decks that are intended to be reused in user groups, online presentations, in-person conferences, and customer conversations.| GitHub
 [Microsoft Fabric decision guide: choose a data store](https://learn.microsoft.com/en-us/fabric/get-started/decision-guide-data-store) | Use this reference guide and the example scenarios to help you choose a data store for your Microsoft Fabric workloads. |  Microsoft Learn
@@ -106,6 +108,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Fabric IQ Trusted Context Across Agents and Apps](../40-Resources/fabric-iq-trusted-context.md) | Reuse OneLake data, semantic metrics, and business ontologies across supported Copilot, Excel, Foundry, MCP, and application experiences. | [Microsoft announcement](https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/bringing-trusted-fabric-iq-context-to-wherever-people-and-agents-work/5423049); Copilot semantic models and IQ MCP GA; data-agent Copilot GA and ChatGPT/Claude preview coming soon; Excel Beta; ontology and some Foundry knowledge sources preview; verify licenses, tenant settings, permissions, and geography
 [Overview of Copilot for Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction) | Copilot for Microsoft Fabric Public Preview is available in Power BI. Copilot helps you use the transformational power of generative AI to get the most from your data.| Microsoft Learn
 [Revolutionize reports with Fabric Copilot and Power BI](https://build.microsoft.com/en-US/sessions/be2b066b-8785-4c92-97d6-9e42e4be74fd?source=sessions) | This presentation will show how to leverage Fabric Copilot to improve the Power BI experience for developers and end users. We'll show you how to go from start to finish applying our favorite new features that Fabric Copilot offers. By the end of this presentation, you'll know how to leverage Fabric Copilot in Microsoft Fabric and be equipped with strategies to increase productivity, improve efficiency, and report utilization for your teams. | Microsoft Build
 [Copilot in Power BI Demo](https://www.youtube.com/watch?v=wr__6tM5U6I) | ith Copilot in Power BI, we are infusing the power of large language models into Power BI at every layer to help users get more done and create more value from their data. Using Copilot, you can simply describe the visuals and insights you’re looking for and Copilot will do the rest. Users can create and tailor reports in seconds, generate and edit DAX calculations, create narrative summaries, and ask questions about their data, all in conversational language. With the ability to easily tailor the tone, scope and style of narratives and add them seamlessly within reports, Power BI can also deliver data insights even more impactfully through easy-to-understand text summaries | YouTube

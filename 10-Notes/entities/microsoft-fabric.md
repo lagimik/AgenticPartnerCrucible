@@ -2,12 +2,15 @@
 title: Microsoft Fabric
 type: entity
 created: 2026-07-10
-updated: 2026-11-14
+updated: 2026-11-20
 tags:
   - microsoft-fabric
   - analytics
   - data-platform
 sources:
+  - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/bringing-trusted-fabric-iq-context-to-wherever-people-and-agents-work/5423049
+  - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/onelake-the-unified-foundation-for-data-context-governance-and-ai/5423035
+  - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/build-governed-data-apps-with-microsoft-fabric-apps-generally-available/5423011
   - https://techcommunity.microsoft.com/blog/microsoft-security-blog/a-next-step-in-the-evolution-of-the-microsoft-data-governance-strategy/4572227
   - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/use-onelake-as-native-storage-for-azure-databricks/5377939
   - https://learn.microsoft.com/en-us/azure/databricks/connect/unity-catalog/cloud-storage/external-locations-onelake
@@ -36,6 +39,10 @@ Microsoft Fabric is the data and analytics platform targeted by the `skills-for-
 
 ## Related Pages
 
+- [Fabric IQ](fabric-iq.md) - Business-context layers and separately scoped GA, Beta, preview, and coming-soon consumers.
+- [OneLake Data, Context, and Governance](../../40-Resources/onelake-data-context-governance.md) - Lake-first governance, Atlan complement, native Iceberg writes, and separately preview sharing/context features.
+- [Fabric Apps](fabric-apps.md) - Dedicated GA announcement with source-identity, authorization, anonymous-access, and capacity boundaries.
+- [Microsoft IQ](microsoft-iq.md) - Enterprise-context platform, distinct from the demonstration accelerator.
 - [Microsoft Data Governance Transition](../../40-Resources/microsoft-data-governance-fabric-transition.md) - Fabric governance strategy and Purview Data Governance support-end announcement, with security/compliance and transition-gap boundaries.
 - [OneLake native storage for Databricks](../../40-Resources/onelake-native-storage-azure-databricks.md) - Fabric-side GA, Databricks preview, sole-identity storage access, and catalog-commit/Spark limits.
 - [Warehouse CI/CD Preview](../../40-Resources/fabric-warehouse-cicd-preview.md) - State-aware SQL project deployment, release scripts, and APIs, with explicit delivered-versus-planned boundaries.

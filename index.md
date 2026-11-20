@@ -8,6 +8,27 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Resources
 
+- [Microsoft Copilot Enterprise AI Cost Comparison](40-Resources/copilot-enterprise-ai-cost-comparison.md) - Issue #154; sponsor-run modeled workloads, dated pricing, task-level quality gates, and customer-specific TCO boundaries.
+- [Microsoft Copilot](10-Notes/entities/microsoft-copilot.md) - Workplace AI context, subscription versus metered-workflow economics, and related evaluation guidance.
+- [Azure AI Gateway GA and Resource Migration](40-Resources/azure-ai-gateway-ga.md) - Dedicated resource, January 15 retirement, reviewed cutover, and capability differences.
+- [Fabric IQ Trusted Context](40-Resources/fabric-iq-trusted-context.md) - Shared semantics with per-consumer GA, Beta, preview, coming-soon, and permission boundaries.
+- [Content Understanding Search Enrichment](40-Resources/content-understanding-search-semantic-chunking.md) - GA semantic chunks/descriptions; separate embeddings, serving, billing, and polling limits.
+- [Oracle-to-PostgreSQL Application Migration](40-Resources/oracle-postgresql-application-code-migration.md) - Preview reviewed code compatibility, distinct from database migration and Oracle-preserving integration.
+- [Agent 365 APIM Runtime Governance](40-Resources/agent-365-apim-runtime-governance.md) - Supported inventory, routed server/tool blocking, and authorization evidence.
+- [Azure Agent Grid Preview](40-Resources/azure-agent-grid-preview.md) - Public-update versus limited-access scope, enrolled members, and network/identity limits.
+- [Sovereign Control Panel Preview](40-Resources/sovereign-control-panel-preview.md) - Non-enforcing posture assessment, Swedish metadata hosting, and limited residency remediation.
+- [Perception Third-Party Security Data](40-Resources/project-perception-agentic-security-stack.md#november-update-third-party-security-data) - Selected-alert Triage GA, connected telemetry, and reviewed detections; research demonstrations not prevention evidence.
+- [Azure Catalyst Webapp Assessment](40-Resources/azure-catalyst-webapp-target-assessment.md) - Comparative target evidence, estimates, dependencies, and approved migration waves.
+- [Dynamics 365 Activate Migration](40-Resources/dynamics-365-activate-migration.md) - ERP private preview versus Salesforce GA, US/English setup, and reviewed business reconciliation.
+- [Azure AI Gateway](10-Notes/entities/azure-ai-gateway.md), [Fabric IQ](10-Notes/entities/fabric-iq.md), [Agent Grid](10-Notes/entities/azure-agent-grid.md), [Perception](10-Notes/entities/microsoft-perception.md), [Azure Catalyst](10-Notes/entities/azure-catalyst.md), and [Activate](10-Notes/entities/dynamics-365-activate.md) - Entity discovery for the second November 20 ingestion.
+- [Microsoft IQ Enterprise Context Platform](40-Resources/microsoft-iq-enterprise-context-platform.md) - Reusable business plugins and four context layers; capability-specific status differences preserved.
+- [Foundry Continuous Improvement](40-Resources/foundry-continuous-improvement.md) - Evaluated candidates, expert feedback, reviewed promotion, and distinct preview training/optimization boundaries.
+- [Oracle AI Database and Work IQ](40-Resources/oracle-ai-database-work-iq-integration.md) - Approved MCP operations, Excel analysis, auditability, and limited-preview Workload Center.
+- [OneLake Data, Context, and Governance](40-Resources/onelake-data-context-governance.md) - Lake-first governance, Atlan complement, native Iceberg writes, and preview context/sharing.
+- [Governed Fabric Apps with Rayfin](40-Resources/fabric-apps-rayfin-governed-delivery.md) - GA announcement with source-identity discrepancies, layered authorization, and capacity/Pro boundaries.
+- [Copilot and Agent 365 Cost/Value Controls](40-Resources/copilot-agent-365-cost-value-controls.md) - Estimated value, delegated budgets, shared pools, and limits that do not reserve credits.
+- [Reusable Enterprise Context](10-Notes/concepts/reusable-enterprise-context.md) - Versioned sources, meaning, skills, permissions, and evaluated reuse.
+- [Microsoft IQ](10-Notes/entities/microsoft-iq.md), [Oracle AI Database](10-Notes/entities/oracle-ai-database.md), and [Fabric Apps](10-Notes/entities/fabric-apps.md) - Entity discovery for the six November 20 ingestions.
 - [GitHub Pricing Calculator](40-Resources/github-pricing-calculator.md) - Workload cost inputs; estimates exclude free entitlements and are not binding quotes.
 - [Microsoft Copilot Agents Labs](40-Resources/microsoft-copilot-agents-labs.md) - Current bootcamp, guided skilling and tenant prerequisites.
 - [Microsoft SQL Presentation Hub](40-Resources/microsoft-sql-presentation-hub.md) - Public catalogue discovery; individual presentations unreviewed.

@@ -2,7 +2,7 @@
 title: Agent Configuration Optimization
 type: concept
 created: 2026-08-07
-updated: 2026-09-12
+updated: 2026-11-20
 tags:
   - agents
   - evaluation
@@ -10,6 +10,7 @@ tags:
   - observability
   - lifecycle
 sources:
+  - https://azure.microsoft.com/en-us/blog/continuous-improvement-comes-to-microsoft-foundry/
   - raw/2026-08-07-github-open-issues-42-45/issues.md
   - https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/from-good-to-great-we-put-agent-optimizer-to-the-test-in-microsoft-foundry/4543982
   - raw/2026-09-12-github-open-issues-87-91/issues.md
@@ -42,6 +43,8 @@ For multi-model systems, the versioned configuration also includes routing thres
 
 ## Related pages
 
+- [Foundry Continuous Improvement](../../40-Resources/foundry-continuous-improvement.md) - Traces and expert feedback feed candidate optimization; preview datasets/skills and model training remain separate capabilities.
+- [Reusable Enterprise Context](reusable-enterprise-context.md)
 - [Microsoft Foundry Agent Optimizer](../../40-Resources/microsoft-foundry-agent-optimizer.md)
 - [AI Agent Lifecycle](ai-agent-lifecycle.md)
 - [AI Governance](ai-governance.md)

@@ -2,13 +2,15 @@
 title: AI Gateway Pattern
 type: concept
 created: 2026-07-13
-updated: 2026-09-05
+updated: 2026-11-20
 tags:
   - azure-api-management
   - ai-governance
   - architecture-pattern
   - token-management
 sources:
+  - https://azure.microsoft.com/en-us/updates?id=580080
+  - https://learn.microsoft.com/en-us/azure/ai-gateway/ai-gateway-resource
   - raw/2026-07-13-apim-gateway-azure-ai-foundry/source.md
   - raw/2026-09-05-github-open-issues-72-85/issues.md
 status: active
@@ -53,6 +55,12 @@ Azure API Management with:
 - Semantic caching backed by a compatible vector cache
 
 ## Reliability Pattern
+
+Azure also offers a [dedicated GA AI Gateway](../../40-Resources/azure-ai-gateway-ga.md)
+as of November 2026. This is distinct from APIM's policy capabilities. Migrating
+the former `AIGateway` SKU to its new resource requires client, identity, policy,
+and network review; the architectural pattern does not imply zero-change
+cutover or identical capability coverage.
 
 Use committed capacity as the preferred backend and alternate deployments or regions as fallback. A circuit breaker temporarily removes throttled or failing backends; retry logic then selects another healthy member of the pool. Clients retain one stable endpoint while the gateway owns failover.
 

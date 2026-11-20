@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-11-14
+updated: 2026-11-20
 ---
 
 # Data and AI
@@ -144,6 +144,9 @@ This section has been regrouped here: [Data & AI > Azure OpenAI](./DataAISolutio
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Microsoft IQ Enterprise Context](../40-Resources/microsoft-iq-enterprise-context-platform.md) | Curate reusable business plugins combining work context, governed business data, institutional knowledge, and external evidence for a bounded agent workflow. | [Microsoft announcement](https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent/); capability-specific GA/preview and roadmap differences require verification; Foundry IQ Serverless GA announced for December 2026
+[Foundry Continuous Improvement](../40-Resources/foundry-continuous-improvement.md) | Build an evaluated-agent operations service around traces, expert feedback, candidate optimization, reviewed promotion, and rollback. | [Microsoft announcement](https://azure.microsoft.com/en-us/blog/continuous-improvement-comes-to-microsoft-foundry/); Insights GA; trace annotations, golden datasets, skill/cost optimization, and Programmed Training preview; customer savings are not guarantees
+[Oracle Data in Agent Workflows](../40-Resources/oracle-ai-database-work-iq-integration.md) | Assess approved Oracle MCP operations, Work IQ context, Excel analysis, and audited Foundry agent workflows without assuming a database migration. | [Microsoft/Oracle announcement](https://azure.microsoft.com/en-us/blog/microsoft-and-oracle-bring-agentic-ai-into-flow-of-enterprise-work/); Workload Center limited preview; verify plug-in entitlements and role boundaries; announced government certification is coming soon
 [Foundry Fine-Tuning and Shared Multi-LoRA](../40-Resources/foundry-fine-tuning-multi-lora.md) | Public-preview OSS SFT/RFT, MAI-Code RFT, and compatible shared-adapter Managed Compute; evaluate real agent workflows and utilization before choosing deployment economics. | [Microsoft announcement](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/foundry-fine-tuning-open-source-model-expansion-mai-code-and-shared-multi-lora-d/4565915); Issue #129; model-specific training and serving support
 [Microsoft IQ Solution Accelerator](../40-Resources/microsoft-iq-solution-accelerator.md) | Supply-chain disruption demonstration connecting Fabric IQ data, Foundry IQ knowledge, and Work IQ context through Copilot Studio; start with synthetic data and bounded evaluations. | [Public repository](https://github.com/microsoft/microsoft-iq-solution-accelerator); Issue #127; preview dependencies, tenant permissions, licensing, and deployment costs require review
 [Microsoft Foundry Agent Optimizer](../40-Resources/microsoft-foundry-agent-optimizer.md) | Preview reflection-based optimization that uses representative datasets, trusted evaluators, and execution traces to propose reviewable changes to agent instructions and configuration. | Issue #43
@@ -213,6 +216,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Content Understanding Semantic Chunking and Image Descriptions](../40-Resources/content-understanding-search-semantic-chunking.md) | Produce grounded Markdown chunks, figure descriptions, and location metadata for Search and Foundry IQ enrichment. | [Azure update 563661](https://azure.microsoft.com/en-us/updates?id=563661); GA in Search API 2026-10-01; descriptions, embeddings, and image serving configured separately; eight-minute analysis polling is not an SLA; verify enrichment errors, permissions, supported models/regions, and separate processing charges
 [Azure AI Content Understanding YouTube Playlist](https://www.youtube.com/playlist?list=PLlrxD0HtieHiy0w4peKmU-1eyMwFHd8UL) | A curated YouTube playlist featuring demos, tutorials, and deep dives on Azure AI Content Understanding capabilities. | YouTube
 [Choose the right Azure AI tool for document processing](https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/choosing-right-ai-tool) | Learn about Azure Content Understanding in Foundry Tools, Azure Document Intelligence in Foundry Tools, and Azure LLM solutions for document processing workflows and field extractions. | Microsoft Learn
 [Azure Content Understanding GPT-5 Model Selection](../40-Resources/content-understanding-gpt5-model-selection.md) | Benchmark-informed starting points for balancing quality, cost, grounding, and confidence across document, speech, video, and image workloads. | Issue #50
@@ -234,6 +238,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Oracle-to-PostgreSQL Application Code Migration](../40-Resources/oracle-postgresql-application-code-migration.md) | Use AI-assisted skills through GitHub Copilot CLI, VS Code, or Modernize workflows to identify Oracle dependencies and propose PostgreSQL-compatible application changes. | [Azure update 579231](https://azure.microsoft.com/en-us/updates?id=579231); public preview; developer review and compatibility testing required; not automatic schema/data migration or the separate Oracle/Work IQ integration
 [Scaling PostgreSQL to power 800 million ChatGPT users](https://openai.com/index/scaling-postgresql/) | OpenAI shares how they scaled Azure PostgreSQL flexible server to handle millions of queries per second for 800 million users. The architecture uses a single primary instance with nearly 50 read replicas across multiple regions, with write-heavy workloads migrated to Azure Cosmos DB. Includes lessons on query optimization, connection pooling with PgBouncer, caching strategies, and workload isolation. | OpenAI Engineering
 [Postgres MCP Server](../40-Resources/postgres-mcp-server.md) | Open-source, MIT-licensed, Rust-built MCP server that gives MCP-compatible coding agents live, permission-scoped PostgreSQL schema, query, and performance context across Azure, AWS, GCP, or on-premises. | Microsoft Blog for PostgreSQL
 

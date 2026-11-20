@@ -2,9 +2,10 @@
 title: Dynamics 365
 type: entity
 created: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-20
 tags: [dynamics-365, business-applications, erp]
 sources:
+  - https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/dynamics-365-activate-erp-crm-migration/
   - https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/06/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-erp-for-product-centric-enterprises/
   - https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/05/microsoft-dynamics-365-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-erp-for-service-centric-enterprises/
 status: active
@@ -19,6 +20,7 @@ oversight; availability and integration are scenario-specific.
 
 ## Related
 
+- [Dynamics 365 Activate](dynamics-365-activate.md) - GA Salesforce migration and separately private-preview ERP implementation/migration.
 - [Microsoft](microsoft.md)
 - [Product-Centric ERP](../../40-Resources/dynamics-365-product-centric-erp-leader-2026.md)
 - [Service-Centric ERP](../../40-Resources/dynamics-365-service-centric-erp-leader-2026.md)

@@ -2,7 +2,7 @@
 title: Microsoft Sovereign Cloud Explorer
 type: resource
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-11-20
 tags: [sovereignty, azure, assessment, governance]
 sources:
   - https://www.microsoft.com/en-us/sovereignty/sovereign-cloud-explorer/
@@ -37,6 +37,7 @@ service documentation before selecting an operating model.
 
 ## Related Pages
 
+- [Sovereign Control Panel Assessment](sovereign-control-panel-preview.md) - Non-enforcing posture evidence after discovery, with European preview coverage and Swedish metadata hosting.
 - [Sovereign AI Control and Choice](sovereign-ai-control-choice.md)
 - [Digital Sovereignty Adoption](digital-sovereignty-adoption-caf.md)
 - [Distributed Hybrid Infrastructure](distributed-hybrid-infrastructure-2026.md)

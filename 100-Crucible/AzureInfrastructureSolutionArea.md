@@ -2,7 +2,7 @@
 title: "Partner Crucible - Infrastructure Workloads"
 layout: "default"
 categories: "Infrastructure"
-updated: 2026-11-14
+updated: 2026-11-20
 ---
 
 # Azure Infrastructure Workloads
@@ -109,6 +109,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :---------- | :-----
+[Sovereign Control Panel Preview](../40-Resources/sovereign-control-panel-preview.md) | Assess residency, encryption, network exposure, and continuity compatibility over explicit subscription/management-group scopes; plan approved responses from dated evidence. | [Microsoft Learn](https://learn.microsoft.com/en-ca/azure/azure-sovereign-clouds/public/sovereign-control-panel); European preview with view data/metadata in Sweden; policies non-enforcing, eligible primary-residency remediation only, linked copies assessment-only; not real-time reporting, recovery configuration, or certification
 [Azure Resource Manager MCP Expansion at Ignite 2026](../40-Resources/azure-resource-manager-mcp-ignite-2026.md) | Design bounded infrastructure pilots spanning Resource Graph discovery, schema-informed plans, approved resource changes, exact-state verification, and cost-driver analysis. | [Microsoft Community Hub](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/what%E2%80%99s-new-in-the-azure-resource-manager-mcp-server-at-ignite-2026/4571824); Skills experimental and opt-in; verify live schemas including get_skill/get_skills discrepancy; tool exposure is not authorization, cancellation is not rollback, and retail prices differ from negotiated billing
 [Microsoft Sovereign Cloud Explorer](../40-Resources/sovereign-cloud-explorer.md) | Nine-question discovery aid for jurisdiction, workload and AI scope, operator access, residency, and resilience requirements; turn its starting point into workload-specific architecture and evidence. | [Microsoft explorer](https://www.microsoft.com/en-us/sovereignty/sovereign-cloud-explorer/); Issue #133; not certification or legal advice
 [Azure Verified Modules](https://azure.github.io/Azure-Verified-Modules/) | AVM modules are used to deploy Azure resources and their extensions, as well as reusable architectural patterns consistently. | GitHub

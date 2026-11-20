@@ -2,7 +2,7 @@
 title: FinOps
 layout: default
 categories: FinOps
-updated: 2026-11-02
+updated: 2026-11-20
 ---
 
 # FinOps
@@ -33,6 +33,8 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :---------- | :-----
+[What AI at Work Really Costs](../40-Resources/copilot-enterprise-ai-cost-comparison.md) | Compare subscription-included work, metered agent workflows, retrieval, and routing through repeated, quality-gated customer workload evaluation. | [Microsoft article](https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/); Issue #154; Microsoft-funded and Microsoft-run comparison with GigaOm validation; October list/assumed pricing, no negotiated discounts; modeled costs and aggregate quality are not customer savings guarantees; linked full report unreviewed
+[Copilot and Agent 365 Cost, Value, and Budget Controls](../40-Resources/copilot-agent-365-cost-value-controls.md) | Assess task/service/model costs, conservative use-case value, shared-credit forecasts, delegated budgets, and interruption handling. | [Microsoft Mechanics](https://techcommunity.microsoft.com/blog/microsoftmechanicsblog/manage-ai-cost--roi-with-copilot-and-agent-365/4574647); [cost guidance](https://learn.microsoft.com/en-us/plugins/cost-considerations); demonstrated AI value is estimated, not realized savings; policies do not reserve credits or cover both administration planes; verify Analytics rollout and contract pricing
 [Token Economics: The New FinOps for Agentic AI](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/token-economics-the-new-finops-for-agentic-ai/4533743) | Explores token economics and financial optimization strategies specific to agentic AI deployments, highlighting cost considerations and token usage patterns for cost management. | Azure Dev Community Blog
 [Economics of Agent Optimization](../40-Resources/economics-of-agent-optimization.md) | Optimize cost per successful outcome through model and offer selection, caching, prompt and agent optimization, and joint cost-quality observability. | Issues #51 and #70
 [Giving AI Spend a Name in FOCUS](../40-Resources/focus-ai-spend-taxonomy.md) | Enriches vendor-neutral FOCUS cost records with model, agent, token type, product line, unit, and source dimensions for AI showback, chargeback, and unit economics. | Issue #60

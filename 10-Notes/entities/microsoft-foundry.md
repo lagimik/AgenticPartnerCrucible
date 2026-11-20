@@ -2,9 +2,11 @@
 title: Microsoft Foundry
 type: entity
 created: 2026-10-27
-updated: 2026-11-02
+updated: 2026-11-20
 tags: [microsoft-foundry, models, agents, ai-platform]
 sources:
+  - https://azure.microsoft.com/en-us/blog/continuous-improvement-comes-to-microsoft-foundry/
+  - https://azure.microsoft.com/en-us/blog/microsoft-and-oracle-bring-agentic-ai-into-flow-of-enterprise-work/
   - https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/
   - https://azure.microsoft.com/en-us/updates?id=577260
   - https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/azure-openai-decisions-api-now-generally-available-in-microsoft-foundry/4567265
@@ -27,6 +29,9 @@ Do not inherit one capability's release status or billing rules for another.
 
 ## Related Pages
 
+- [Continuous Improvement](../../40-Resources/foundry-continuous-improvement.md) - Evidence-led optimization with reviewed promotion; annotations, datasets, skill/cost optimization, and Programmed Training remain preview.
+- [Oracle Agent Integration](../../40-Resources/oracle-ai-database-work-iq-integration.md) - Approved MCP operations, identities, auditability, and limited-preview Workload Center.
+- [Microsoft IQ](microsoft-iq.md)
 - [Managed Copilot Harness](../../40-Resources/foundry-copilot-harness-managed-execution.md)
 - [Claude Cost Allocation](../../40-Resources/foundry-claude-cost-allocation.md)
 - [Decisions API](../../40-Resources/azure-openai-decisions-api.md)

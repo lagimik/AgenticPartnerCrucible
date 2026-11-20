@@ -2,7 +2,7 @@
 title: Microsoft FinOps for AI Capabilities
 type: resource
 created: 2026-09-26
-updated: 2026-09-26
+updated: 2026-11-20
 tags: [finops, ai-cost-management, agent-365, copilot, value-realization]
 sources:
   - https://techcommunity.microsoft.com/blog/ai-finops-blog/new-finops-for-ai-capabilities-control-spend-measure-value-and-optimize-for-impa/4559660
@@ -38,3 +38,8 @@ allocation, usage reporting, forecasting, value measurement, and continuous
 optimization. Availability and licensing must be verified before proposals
 because the announcement mixes capabilities available now with capabilities
 coming later.
+
+## Related
+
+- [November Cost, Value, and Budget Controls](copilot-agent-365-cost-value-controls.md) - Detailed demonstration and current documentation; policies do not reserve credits, controls differ by administration plane, and AI value is estimated rather than realized savings.
+- [Microsoft Agent 365](../10-Notes/entities/microsoft-agent-365.md)

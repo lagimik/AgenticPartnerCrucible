@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Azure OpenAI"
 layout: "default"
 categories: "Digital and App Innovation"
-updated: 2026-11-14
+updated: 2026-11-20
 ---
 
 # Digital Apps and Innovation
@@ -83,6 +83,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :---------- | :----
+[Azure Catalyst Webapp Target Assessment](../40-Resources/azure-catalyst-webapp-target-assessment.md) | Compare Container Apps and Managed Instance on App Service with App Service Code/Containers and AKS using dependency discovery, readiness, remediation, sizing, and cost assumptions. | [Microsoft announcement](https://techcommunity.microsoft.com/blog/azuremigrationblog/azure-catalyst-expands-webapp-target-coverage/4574689); assessment is not migration; optional Copilot code insights, reviewed CAF/WAF design and migration waves remain separate; costs/effort are estimates and scale-to-zero is configuration-specific
 [Inside Microsoft's AI transformation across the software lifecycle](https://www.youtube.com/watch?v=opq5Y3QyXmY&list=WL&index=11) | Learn how AI-powered tools like GitHub Copilot, Microsoft Foundry, and Azure are empowering developers at Microsoft to innovate faster and more securely. Gain practical insights and strategies from Microsoft’s journey to empower your own DevOps transformation.| YouTube
 [SAS Code Migration into Open-Source Language by Using Azure OpenAI](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/sas-code-migration-into-open-source-language-by-using-azure/ba-p/3910795) | n this blog post, we will explore the incredible capabilities of Azure OpenAI GPT-4 to effortlessly convert code from SAS to Python | Tech Community
 [CAST - Modernizing your .NET apps to Windows containers on Azure Kubernetes Services](https://techcommunity.microsoft.com/t5/containers/cast-modernizing-your-net-apps-to-windows-containers-on-azure/ba-p/4037740) | Since 2019, CAST has been working alongside Microsoft to automate the migration and modernization of custom applications for hundreds of clients worldwide, addressing a large variety of old and new languages such as C#, C++, VB.NET, Java, JavaScript, Python, Cobol and more, and various application types among Windows, mainframes, monoliths, databases and others. | Tech Community
@@ -208,6 +209,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :-----  | :-----
+[Azure AI Gateway GA and Resource Migration](../40-Resources/azure-ai-gateway-ga.md) | Govern model and MCP access, routing, usage, and estimated spend through the new managed gateway; plan reviewed cutover from the former APIM AIGateway SKU. | [Azure update 580080](https://azure.microsoft.com/en-us/updates?id=580080); migrate before January 15, 2027; new identities/roles and client endpoints require validation; private endpoints approval-gated preview; content-safety policy scope differs from announcement; free gateway requests do not include model usage
 [How API Management supports monetization](https://learn.microsoft.com/en-us/azure/api-management/monetization-support) | In this document, we focus on API Management features that enable the implementation of your monetization strategy| Microsoft Learn
 [Marketplace metered billing APIs](https://learn.microsoft.com/en-us/partner-center/marketplace/marketplace-metering-service-apis) | The metered billing APIs should be used when the publisher creates custom metering dimensions for an offer to be published in Partner Center. Integration with the metered billing APIs is required for any purchased offer that has one or more plans with custom dimensions to emit usage events. | Microsoft Learn
 [Build REST APIs in three steps with API Management and Azure Functions](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-rest-apis-in-three-steps-with-api-management-and-azure/ba-p/1869627) |  A design-first approach allows you to  design your API in API Management and export it to an OpenAPI specification file, which could be used to bring organizational alignment and serve as a guidance for implementing backend services that support the API logic and client applications that consume the API. | Tech Community

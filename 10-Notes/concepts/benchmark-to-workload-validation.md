@@ -2,9 +2,10 @@
 title: Benchmark-to-Workload Validation
 type: concept
 created: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-20
 tags: [benchmarks, evaluation, harness, quality, cost]
 sources:
+  - https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/
   - https://benchmarks.github.com/
   - https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/
 status: active
@@ -35,6 +36,7 @@ changes.
 
 ## Related
 
+- [Enterprise AI Cost Comparison](../../40-Resources/copilot-enterprise-ai-cost-comparison.md) - Sponsor-run modeled workloads require customer pricing, repeated task-level evaluation, and explicit quality gates.
 - [GitHub Copilot Benchmarks](../../40-Resources/github-copilot-benchmarks.md)
 - [GitHub Pricing Calculator](../../40-Resources/github-pricing-calculator.md)
 - [Responsible AI in 2026](../../40-Resources/responsible-ai-transparency-2026.md)

@@ -2,7 +2,7 @@
 title: FinOps
 layout: default
 categories: FinOps
-updated: 2026-11-02
+updated: 2026-11-21
 ---
 
 # FinOps
@@ -34,14 +34,14 @@ Source | Description | Notes
 Source | Description | Notes
 :----- | :---------- | :-----
 [Token Economics: The New FinOps for Agentic AI](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/token-economics-the-new-finops-for-agentic-ai/4533743) | Explores token economics and financial optimization strategies specific to agentic AI deployments, highlighting cost considerations and token usage patterns for cost management. | Azure Dev Community Blog
-[Economics of Agent Optimization](../40-Resources/economics-of-agent-optimization.md) | Optimize cost per successful outcome through model and offer selection, caching, prompt and agent optimization, and joint cost-quality observability. | Issues #51 and #70
-[Giving AI Spend a Name in FOCUS](../40-Resources/focus-ai-spend-taxonomy.md) | Enriches vendor-neutral FOCUS cost records with model, agent, token type, product line, unit, and source dimensions for AI showback, chargeback, and unit economics. | Issue #60
-[FinOps for AI Overview](../40-Resources/finops-for-ai-overview.md) | Applies established FinOps practices to AI-specific token, GPU, capacity, allocation, quality, and total-cost challenges. | FinOps Foundation; Issue #89
-[AI Agent ROI Operating Model](../40-Resources/ai-agent-roi-operating-model.md) | Connects measurable use cases, lifecycle cost, adoption, multidimensional value, AI CoE governance, FinOps, and GenAIOps. | Issues #90 and #91
-[Tokenomics Foundation](../40-Resources/tokenomics-foundation.md) | Practitioner source for Total Cost of AI, model routing, consumption visibility, pilot governance, and finance-defensible value measurement, with emerging claims clearly separated from established guidance. | Public channel metadata; Issue #96
-[Microsoft FinOps for AI Capabilities](../40-Resources/microsoft-finops-for-ai-capabilities.md) | Agent 365 spending policies, tenant/group/user controls, departmental billing, usage reporting, and value-oriented AI investment management. | Microsoft Tech Community; Issue #108
-[Claude Cost Allocation in Foundry](../40-Resources/foundry-claude-cost-allocation.md) | GA resource attribution and model/usage_type dimensions for allocating Claude consumption through Azure Cost Management. | [Azure update 577260](https://azure.microsoft.com/en-us/updates?id=577260); Issue #144; validate customer billing records before chargeback
-[Fabric Capacity Overage and Surge Controls](../40-Resources/fabric-capacity-observability-and-protection.md) | Separate admission control from paid throttling relief; overage is documented at three times PAYG rates without adding compute, and thresholds are not hard spending caps. | [Microsoft Learn](https://learn.microsoft.com/en-us/fabric/enterprise/capacity-overage-overview); Issue #138; inspect actual settings and optimize sustained demand
+[Economics of Agent Optimization](https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/) | Optimize cost per successful outcome through model and offer selection, caching, prompt and agent optimization, and joint cost-quality observability. | Issues #51 and #70
+[Giving AI Spend a Name in FOCUS](https://techcommunity.microsoft.com/blog/finopsblog/who-ordered-all-these-tokens-giving-ai-spend-a-name-in-focus/4547978) | Enriches vendor-neutral FOCUS cost records with model, agent, token type, product line, unit, and source dimensions for AI showback, chargeback, and unit economics. | Issue #60
+[FinOps for AI Overview](https://www.finops.org/wg/finops-for-ai-overview/) | Applies established FinOps practices to AI-specific token, GPU, capacity, allocation, quality, and total-cost challenges. | FinOps Foundation; Issue #89
+[AI Agent ROI Operating Model](https://techcommunity.microsoft.com/blog/azurearchitectureblog/ai-agent-roi-framework/4555445) | Connects measurable use cases, lifecycle cost, adoption, multidimensional value, AI CoE governance, FinOps, and GenAIOps. | Issues #90 and #91
+[Tokenomics Foundation](https://www.youtube.com/@TokenomicsFoundation) | Practitioner source for Total Cost of AI, model routing, consumption visibility, pilot governance, and finance-defensible value measurement, with emerging claims clearly separated from established guidance. | Public channel metadata; Issue #96
+[Microsoft FinOps for AI Capabilities](https://techcommunity.microsoft.com/blog/ai-finops-blog/new-finops-for-ai-capabilities-control-spend-measure-value-and-optimize-for-impa/4559660) | Agent 365 spending policies, tenant/group/user controls, departmental billing, usage reporting, and value-oriented AI investment management. | Microsoft Tech Community; Issue #108
+[Claude Cost Allocation in Foundry](https://azure.microsoft.com/en-us/updates?id=577260) | GA resource attribution and model/usage_type dimensions for allocating Claude consumption through Azure Cost Management. | [Azure update 577260](https://azure.microsoft.com/en-us/updates?id=577260); Issue #144; validate customer billing records before chargeback
+[Fabric Capacity Overage and Surge Controls](https://learn.microsoft.com/en-us/fabric/enterprise/surge-protection?tabs=onelake-catalog) | Separate admission control from paid throttling relief; overage is documented at three times PAYG rates without adding compute, and thresholds are not hard spending caps. | [Microsoft Learn](https://learn.microsoft.com/en-us/fabric/enterprise/capacity-overage-overview); Issue #138; inspect actual settings and optimize sustained demand
 
 ## Tools
 

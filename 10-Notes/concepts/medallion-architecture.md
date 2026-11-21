@@ -2,15 +2,13 @@
 title: Medallion Architecture
 type: concept
 created: 2026-07-10
-updated: 2026-09-05
+updated: 2026-11-21
 tags:
   - data-engineering
   - lakehouse
   - microsoft-fabric
 sources:
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/AGENTS.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/CLAUDE.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/agents/FabricDataEngineer.agent.md
+  - raw/2026-07-10-ingestlinks/023-github-com-microsoft-skills-for-fabric/content.html
   - raw/2026-09-05-github-open-issues-72-85/issues.md
 status: active
 ---
@@ -21,7 +19,7 @@ Medallion architecture organizes data into progressive quality layers: Bronze fo
 
 ## In Skills for Fabric
 
-`skills-for-fabric` treats medallion architecture as a preferred Fabric data engineering pattern, especially for Lakehouse and Spark workflows. `FabricDataEngineer` is responsible for orchestrating cross-workload medallion designs and delegating implementation details to specialized skills.
+The preserved `skills-for-fabric` README includes medallion architecture workflows and a NYC taxi medallion example. It does not establish a preferred pattern for every workload or verify a specific agent's orchestration responsibilities.
 
 ## Layer Contracts
 

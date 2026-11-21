@@ -2,22 +2,19 @@
 title: Fabric Authoring Consumption Operations
 type: concept
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-11-21
 tags:
   - microsoft-fabric
   - operating-model
   - ai-skills
 sources:
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/fabric-authoring/.github/plugin/plugin.json
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/fabric-consumption/.github/plugin/plugin.json
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/fabric-operations/.github/plugin/plugin.json
+  - raw/2026-07-10-ingestlinks/023-github-com-microsoft-skills-for-fabric/content.html
 status: active
 ---
 
 # Fabric Authoring Consumption Operations
 
-`skills-for-fabric` separates Fabric work into three practical modes:
+The preserved July 10 `skills-for-fabric` README describes three practical bundle modes:
 
 - **Authoring:** create, change, deploy, and manage Fabric items.
 - **Consumption:** query, inspect, explore, and monitor without changing resources.
@@ -26,6 +23,10 @@ status: active
 ## Why It Matters
 
 This separation gives an AI assistant safer defaults. Read-only exploration can be routed differently from write operations, and diagnostics can use specialized workflows without accidentally changing production artifacts.
+
+Bundle descriptions express intended use, not an enforced permission boundary.
+The original plugin manifests are unavailable in the vault; verify installed
+tools and resource permissions before relying on read-only behavior.
 
 ## Related Pages
 

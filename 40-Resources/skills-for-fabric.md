@@ -2,59 +2,53 @@
 title: Microsoft Skills for Fabric Repository
 type: resource
 created: 2026-07-10
-updated: 2026-11-02
+updated: 2026-11-21
 tags:
   - microsoft-fabric
   - ai-skills
   - github-copilot
   - power-bi
 sources:
+  - raw/2026-07-10-ingestlinks/023-github-com-microsoft-skills-for-fabric/content.html
   - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/govern-your-microsoft-fabric-data-estate-from-one-place-with-the-onelake-catalog/5377369
   - https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-agent-overview
   - https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-agent-get-started
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/package.json
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/AGENTS.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/CLAUDE.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/CHANGELOG.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/fabric-skills/.github/plugin/plugin.json
 status: active
 ---
 
 # Microsoft Skills for Fabric Repository
 
-[[microsoft]] maintains `microsoft/skills-for-fabric`, a MIT-licensed repository of reusable AI assistant instructions for working with [[microsoft-fabric]]. The repository is packaged for [[github-copilot-cli]] and compatible coding agents, with skills that help assistants understand Fabric workloads, APIs, query patterns, and operational best practices.
+The preserved July 10 README describes `microsoft/skills-for-fabric` as a MIT-licensed repository of reusable AI assistant instructions for working with [[microsoft-fabric]]. It documents installation through [[github-copilot-cli]] and compatibility with other coding agents, with guidance on Fabric workloads, APIs, query patterns, and operational best practices.
 
 ## Key Takeaways
 
 1. The repository is a packaged skill system, not a single tutorial. It includes plugin bundles such as `fabric-skills`, `fabric-authoring`, `fabric-consumption`, `fabric-operations`, and `powerbi-authoring` for installing focused capability sets.
-2. Its operating model is [[agent-skill-common-architecture]]: high-level Fabric agents delegate work to specialized skills, while shared common references keep workload patterns consistent.
-3. The guidance is safety-oriented: it separates authoring from read-only consumption, requires Azure/Fabric authentication, favors REST APIs and [[model-context-protocol-mcp]] where appropriate, and emphasizes confirmation gates, parameterization, no hardcoded IDs or secrets, and workload-specific best practices.
+2. The README separates authoring, read-only consumption, and diagnostics into focused bundles. [[agent-skill-common-architecture]] is a related design interpretation, not verified agent implementation behavior.
+3. Most operations require Azure authentication and workload-specific endpoints or token audiences. Skills provide guidance; [[model-context-protocol-mcp]] servers provide live access where supported. Bundle labels alone do not enforce read-only permissions.
 
 ## What It Covers
 
 The repo covers Fabric workloads and adjacent Power BI workflows:
 
-- Spark, Lakehouse, notebooks, and Materialized Lake Views.
-- Warehouse and SQL Database in Fabric.
-- Eventhouse, KQL, Eventstreams, Activator, and Real-Time Intelligence.
+- Spark, Lakehouse, and notebooks.
+- Warehouse and SQL data warehouse workflows.
+- Eventhouse, KQL, and Eventstreams.
 - Dataflows Gen2 authoring and consumption.
 - [[power-bi]] semantic model consumption and authoring.
-- Power BI report planning, design, authoring, and management.
-- FabricIQ and Fabric IQ Ontology.
-- Synapse, HDInsight, Databricks, and pipeline migrations.
+- Power BI report planning, design, authoring, management, and PBIP workflows.
+- Catalog search and migration scenarios.
 - End-to-end [[medallion-architecture]] patterns.
 
 ## Installation Model
 
-The root README recommends adding the public marketplace and installing bundles through GitHub Copilot CLI:
+The captured README recommends adding the public marketplace and installing bundles through GitHub Copilot CLI:
 
 ```text
 /plugin marketplace add microsoft/skills-for-fabric
 /plugin install fabric-skills@fabric-collection
 ```
 
-Focused bundles can be installed for authoring, consumption, operations, or Power BI authoring. The repo also includes compatibility files for Claude Code, Cursor, Windsurf, Codex/Jules/OpenCode, and Gemini CLI.
+Focused bundles can be installed for authoring, consumption, operations, or Power BI authoring. The captured README excludes `powerbi-authoring` from the full bundle and shows it as a separate installation. It also lists compatibility files for Claude Code, Cursor, Windsurf, Codex/Jules/OpenCode, and Gemini CLI. Recheck current repository instructions before installing.
 
 ## November 2026 Additions
 
@@ -81,10 +75,22 @@ This source is useful as a reference pattern for building a second-brain assista
 - Separation between immutable source/reference material, reusable instructions, and live tool access.
 - Installable bundles that map to user personas and task modes.
 
+## Evidence Boundaries
+
+The separate checkout files originally cited by these notes are unavailable in
+the vault. The existing July 10 HTML capture preserves the rendered README and
+supports the repository purpose, bundle descriptions, installation commands,
+authentication, MCP distinction, compatibility files, and MIT-license label.
+It does not preserve individual agent, plugin manifest, package, changelog, or
+license-file contents. Specific routing, safety enforcement, package fields,
+and copyright assertions must not be inferred from the README.
+
+No missing raw files were reconstructed or overwritten. Related architectural
+recommendations are interpretations; current installation and implementation
+details require separate verification.
+
 ## Citations
 
-- Root purpose, installation, bundles, authentication, MCP note, compatibility files, and license: `raw/2026-07-10-github-microsoft-skills-for-fabric/README.md`.
-- Package name, version, description, repository, keywords, author, license, and test scripts: `raw/2026-07-10-github-microsoft-skills-for-fabric/package.json`.
-- Agent/skill/common architecture and workload routing: `raw/2026-07-10-github-microsoft-skills-for-fabric/AGENTS.md` and `raw/2026-07-10-github-microsoft-skills-for-fabric/CLAUDE.md`.
-- Current release context and recently added SQL Database in Fabric skills: `raw/2026-07-10-github-microsoft-skills-for-fabric/CHANGELOG.md`.
-- Full bundle packaging: `raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/fabric-skills/.github/plugin/plugin.json`.
+- Preserved repository README: `raw/2026-07-10-ingestlinks/023-github-com-microsoft-skills-for-fabric/content.html`.
+- Capture provenance: `raw/2026-07-10-ingestlinks/023-github-com-microsoft-skills-for-fabric/metadata.json`.
+- Later governance and engineering additions: the public sources linked from [OneLake Govern and Skills](fabric-onelake-govern-and-skills.md) and [Project Osmos](fabric-project-osmos-data-engineering-agent.md).

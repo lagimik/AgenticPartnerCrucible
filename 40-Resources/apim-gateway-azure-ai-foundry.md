@@ -2,7 +2,7 @@
 title: "Using APIM as the Gateway for Azure AI Foundry"
 type: resource
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-11-21
 tags:
   - azure-api-management
   - azure-ai-foundry
@@ -12,12 +12,12 @@ tags:
 sources:
   - https://techcommunity.microsoft.com/blog/appsonazureblog/from-ai-adoption-to-ai-governance---using-apim-as-the-gateway-for-azure-ai-found/4536247
   - raw/2026-07-13-apim-gateway-azure-ai-foundry/source.md
-status: active
+status: stale
 claims:
   - id: claim-001
     text: "APIM can emit per-model token metrics (prompt, completion, total) using the azure-openai-emit-token-metric policy with model dimensions."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-apim-gateway-azure-ai-foundry/source.md
         kind: documentation
@@ -27,7 +27,7 @@ claims:
   - id: claim-002
     text: "APIM authenticates to Azure AI Foundry using system-assigned managed identity for cognitiveservices.azure.com — no keys leave the gateway."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-apim-gateway-azure-ai-foundry/source.md
         kind: documentation
@@ -37,6 +37,13 @@ claims:
 ---
 
 # Using APIM as the Gateway for Azure AI Foundry
+
+## Review Required
+
+The July 13 claim evidence is more than 90 days old. Previously evergreen
+claims are now provisional pending source revalidation. Original claim
+capture and review dates are preserved; the page update records this
+review flag, not renewed verification of product behavior or availability.
 
 Tech Community article showing how Azure API Management serves as an AI Gateway in front of Azure AI Foundry for governance, chargeback, and budget control.
 

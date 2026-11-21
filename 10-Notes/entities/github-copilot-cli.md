@@ -2,15 +2,14 @@
 title: GitHub Copilot CLI
 type: entity
 created: 2026-07-10
-updated: 2026-11-14
+updated: 2026-11-21
 tags:
   - github-copilot
   - ai-coding-agent
   - cli
   - dotnet-modernization
 sources:
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/fabric-skills/.github/plugin/plugin.json
+  - raw/2026-07-10-ingestlinks/023-github-com-microsoft-skills-for-fabric/content.html
   - raw/2026-07-13-modernize-dotnet-github-copilot-app/source.md
   - https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/
 status: active
@@ -33,7 +32,7 @@ GitHub Copilot CLI is the recommended installation surface for the `skills-for-f
 ## Source Notes
 
 - The README describes `/plugin marketplace add microsoft/skills-for-fabric` and `/plugin install fabric-skills@fabric-collection`.
-- Plugin manifests define bundle names, versions, skills, agents, and MCP server configuration.
+- The preserved README describes bundle purposes and notes that some bundles include MCP configuration. Individual plugin manifests are unavailable; verify installed versions and tool schemas before use.
 
 ## .NET Upgrade Agent
 

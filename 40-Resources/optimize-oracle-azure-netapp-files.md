@@ -2,7 +2,7 @@
 title: "Optimize Oracle Workloads on Azure with Azure NetApp Files"
 type: resource
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-11-21
 tags:
   - oracle
   - azure-netapp-files
@@ -25,15 +25,15 @@ claims:
     captured: 2026-07-13
     updated: 2026-07-13
   - id: claim-002
-    text: "ANF built-in replication delivers RPO as low as 10 minutes for Oracle data protection with near-zero RTO on replica activation."
+    text: "The captured Oracle/ANF guide describes built-in replication with an RPO as low as 10 minutes for Oracle data protection."
     confidence: 0.90
     status: provisional
     evidence:
       - source: raw/2026-07-13-optimize-oracle-azure-netapp-files/source.md
         kind: documentation
-        excerpt: "deliver an RPO as low as 10 minutes. The replica can also be activated for a near-zero RTO."
+        excerpt: "RPO as low as 10 minutes with built-in replication."
     captured: 2026-07-13
-    updated: 2026-07-13
+    updated: 2026-11-21
 ---
 
 # Optimize Oracle Workloads on Azure with Azure NetApp Files
@@ -55,6 +55,12 @@ Builds on the Azure Architecture Center Oracle + ANF reference architecture. Hig
 | Short-term clones | Space-efficient writable clones for test/dev |
 | Migration assistant | Block-level replication from ONTAP preserving snapshots |
 | Cool access | Auto-tiering for inactive data cost optimization |
+
+## Recovery Evidence Boundary
+
+The retained capture supports the stated RPO but does not establish an RTO.
+Do not infer near-zero recovery time from replica availability; validate
+application recovery targets and procedures for the actual workload.
 
 ## VM IO Advantage
 

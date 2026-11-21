@@ -2,7 +2,7 @@
 title: "Foundry Toolkit for VS Code Lab"
 type: resource
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-11-21
 tags:
   - azure-ai-foundry
   - hosted-agents
@@ -12,12 +12,12 @@ tags:
 sources:
   - https://github.com/microsoft-foundry/Foundry_Toolkit_for_VSCode_Lab/
   - raw/2026-07-13-foundry-toolkit-vscode-lab/source.md
-status: active
+status: stale
 claims:
   - id: claim-001
     text: "Foundry Hosted Agents use the /responses API and are deployed as Docker images pushed to Azure Container Registry."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-foundry-toolkit-vscode-lab/source.md
         kind: documentation
@@ -27,7 +27,7 @@ claims:
   - id: claim-002
     text: "Azure AI User or Azure AI Owner role is required to build and deploy agents — standard Owner/Contributor roles only include management permissions."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-foundry-toolkit-vscode-lab/source.md
         kind: documentation
@@ -37,6 +37,13 @@ claims:
 ---
 
 # Foundry Toolkit for VS Code Lab
+
+## Review Required
+
+The July 13 claim evidence is more than 90 days old. Previously evergreen
+claims are now provisional pending source revalidation. Original claim
+capture and review dates are preserved; the page update records this
+review flag, not renewed verification of product behavior or availability.
 
 Microsoft workshop repository for building, testing, and deploying AI agents to Microsoft Foundry Agent Service as Hosted Agents entirely from VS Code.
 

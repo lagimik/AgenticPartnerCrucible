@@ -2,14 +2,13 @@
 title: Microsoft
 type: entity
 created: 2026-07-10
-updated: 2026-11-14
+updated: 2026-11-21
 tags:
   - organization
   - software
   - cloud
 sources:
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/package.json
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/LICENSE
+  - raw/2026-07-10-ingestlinks/023-github-com-microsoft-skills-for-fabric/content.html
   - https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/
   - https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/
 status: active
@@ -17,7 +16,7 @@ status: active
 
 # Microsoft
 
-Microsoft is the organization behind the `microsoft/skills-for-fabric` repository and the copyright holder named in its MIT license.
+Microsoft publishes the `microsoft/skills-for-fabric` repository. Its preserved July 10 README identifies the project as MIT-licensed.
 
 ## Related Pages
 
@@ -34,5 +33,5 @@ Microsoft is the organization behind the `microsoft/skills-for-fabric` repositor
 
 ## Source Notes
 
-- `package.json` lists the author as Microsoft and the repository as `https://github.com/microsoft/skills-for-fabric.git`.
-- `LICENSE` lists "Copyright (c) 2026 Microsoft Corporation."
+- The preserved repository HTML contains the README and identifies `microsoft/skills-for-fabric` and the MIT license.
+- The original `package.json` and license-file captures are unavailable in this vault; their exact author and copyright fields have not been revalidated.

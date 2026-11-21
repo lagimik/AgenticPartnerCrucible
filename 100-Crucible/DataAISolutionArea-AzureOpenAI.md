@@ -2,7 +2,7 @@
 title: "Partner Crucible - Data & AI Workloads - Azure OpenAI"
 layout: "default"
 categories: "Data and AI"
-updated: 2026-11-02
+updated: 2026-11-21
 ---
 
 # Data & AI > Azure OpenAI
@@ -50,9 +50,9 @@ Source | Description | Notes
 [AI Industry Use Cases: Insights and Priorities from the Field](https://assetsprod.microsoft.com/mpn/en-us/industry-ai-use-cases-and-tech-patterns.ppt) | This deck provides high priority AI industry use cases. It is meant to help prioritize use cases for a customer and then link that business use cases to technical assets to facilitate implementation. | Microsoft Partners
 [AI-powered Use Cases and Technical Patterns for Key Organizational Functions](https://assetsprod.microsoft.com/mpn/en-us/rooms-of-the-house-use-cases-and-tech-patterns.ppt) |  This deck provides high priority AI use cases for key organizational functions. It is meant to help prioritize use cases for a customer and then link that business use cases to technical assets to facilitate implementation. | Microsoft Partners
 [Best Practices for Requesting Quota Increase for Azure OpenAI Models](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/bv-for-azure-openai-models/4397533) | This document outlines a set of best practices to guide users in submitting quota increase requests for Azure OpenAI models. Following these recommendations will help streamline the process, ensure proper documentation, and improve the likelihood of a successful request. | Tech Community
-[Azure API Management AI Gateway Capabilities](../40-Resources/azure-api-management-ai-gateway-capabilities.md) | Capability map for governing model APIs, MCP servers, and A2A APIs with identity, token limits, semantic caching, routing, and observability. | Issue #82
-[Azure AI Gateway Labs](../40-Resources/azure-ai-gateway-labs.md) | More than 30 deployable labs combining notebooks, Bicep, APIM policies, KQL, MCP, reliability, security, and FinOps patterns. | Issue #83
-[OpenAI at Scale with APIM Reliability Patterns](../40-Resources/openai-at-scale-apim-reliability.md) | Uses priority and weight-based backend pools, circuit breakers, and retry-driven failover across Azure OpenAI capacity and regions. | Issue #84
+[Azure API Management AI Gateway Capabilities](https://learn.microsoft.com/en-us/azure/api-management/genai-gateway-capabilities) | Capability map for governing model APIs, MCP servers, and A2A APIs with identity, token limits, semantic caching, routing, and observability. | Issue #82
+[Azure AI Gateway Labs](https://github.com/Azure-Samples/AI-Gateway) | More than 30 deployable labs combining notebooks, Bicep, APIM policies, KQL, MCP, reliability, security, and FinOps patterns. | Issue #83
+[OpenAI at Scale with APIM Reliability Patterns](https://techcommunity.microsoft.com/blog/appsonazureblog/openai-at-scale-maximizing-api-management-through-effective-service-utilization/4240317) | Uses priority and weight-based backend pools, circuit breakers, and retry-driven failover across Azure OpenAI capacity and regions. | Issue #84
 
 ## Security for Generative AI
 Source | Description | Notes
@@ -92,7 +92,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :-----  | :-----
-[Azure OpenAI Decisions API](../40-Resources/azure-openai-decisions-api.md) | Generally available structured probabilities, choices, and rubric scores for routing and evaluation; retain deterministic authorization and human escalation for high-impact decisions. | [Microsoft announcement](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/azure-openai-decisions-api-now-generally-available-in-microsoft-foundry/4567265); Issue #134; verify model and regional support
+[Azure OpenAI Decisions API](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/azure-openai-decisions-api-now-generally-available-in-microsoft-foundry/4567265) | Generally available structured probabilities, choices, and rubric scores for routing and evaluation; retain deterministic authorization and human escalation for high-impact decisions. | [Microsoft announcement](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/azure-openai-decisions-api-now-generally-available-in-microsoft-foundry/4567265); Issue #134; verify model and regional support
 [Azure OpenAI Assistants](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/assistant) | Azure OpenAI Assistants (Preview) allows you to create AI assistants tailored to your needs through custom instructions and augmented by advanced tools like code interpreter, and custom functions. Discover Assistants API, Tools, and PLayground. | Microsoft Learn
 
 ## Azure OpenAI Models
@@ -157,8 +157,8 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :-----  | :-----
-[Microsoft Copilot Harness in Foundry Agent Service](../40-Resources/foundry-copilot-harness-managed-execution.md) | Public-preview managed execution for prompt agents with skills, tools, files, and bounded delegation; hosted-agent long-running resilience is separately GA and still needs checkpointing and duplicate-action controls. | [Microsoft announcement](https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/); Issue #140; creation-time selection and regional/tool limits apply; runtime billing scheduled December 1, 2026, with inference and separate services still charged before then
-[Claude Cost Management and Tagging](../40-Resources/foundry-claude-cost-allocation.md) | GA attribution of Claude spending to Foundry resources with organizational tags and model/usage_type cost dimensions for showback and chargeback. | [Azure update 577260](https://azure.microsoft.com/en-us/updates?id=577260); Issue #144; allocation is not a spending cap or savings guarantee
+[Microsoft Copilot Harness in Foundry Agent Service](https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/) | Public-preview managed execution for prompt agents with skills, tools, files, and bounded delegation; hosted-agent long-running resilience is separately GA and still needs checkpointing and duplicate-action controls. | [Microsoft announcement](https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/); Issue #140; creation-time selection and regional/tool limits apply; runtime billing scheduled December 1, 2026, with inference and separate services still charged before then
+[Claude Cost Management and Tagging](https://azure.microsoft.com/en-us/updates?id=577260) | GA attribution of Claude spending to Foundry resources with organizational tags and model/usage_type cost dimensions for showback and chargeback. | [Azure update 577260](https://azure.microsoft.com/en-us/updates?id=577260); Issue #144; allocation is not a spending cap or savings guarantee
 [An Introduction to LLMOps](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/an-introduction-to-llmops-operationalizing-and-managing-large/ba-p/3910996) | Operationalizing and Managing Large Language Models using Azure ML: Operationalizing and Managing Large Language Models using Azure ML  | Tech Community
 [Azure OpenAI client library for .NET - version 1.0.0-beta.5](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.openai-readme?view=azure-dotnet-preview) | The Azure OpenAI client library for .NET is an adaptation of OpenAI's REST APIs that provides an idiomatic interface and rich integration with the rest of the Azure SDK ecosystem | Microsoft Learn
 [Azure OpenAI Service REST API reference](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/reference)| This article provides details on the inference REST API endpoints for Azure OpenAI.| Microsoft Learn

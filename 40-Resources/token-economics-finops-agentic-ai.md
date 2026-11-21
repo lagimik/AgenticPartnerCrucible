@@ -2,7 +2,7 @@
 title: "Token Economics: The New FinOps for Agentic AI"
 type: resource
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-11-21
 tags:
   - token-economics
   - finops
@@ -12,12 +12,12 @@ tags:
 sources:
   - https://techcommunity.microsoft.com/blog/azuredevcommunityblog/token-economics-the-new-finops-for-agentic-ai/4533743
   - raw/2026-07-13-token-economics-finops-agentic-ai/source.md
-status: active
+status: stale
 claims:
   - id: claim-001
     text: "Token economics applies four engineering techniques: context compression, prompt deduplication/cache, on-demand model routing, and short-term memory."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-token-economics-finops-agentic-ai/source.md
         kind: documentation
@@ -37,6 +37,13 @@ claims:
 ---
 
 # Token Economics: The New FinOps for Agentic AI
+
+## Review Required
+
+The July 13 claim evidence is more than 90 days old. Previously evergreen
+claims are now provisional pending source revalidation. Original claim
+capture and review dates are preserved; the page update records this
+review flag, not renewed verification of product behavior or availability.
 
 Tech Community article positioning token economics as an architectural discipline for making agentic AI economically sustainable.
 

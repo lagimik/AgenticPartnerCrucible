@@ -2,7 +2,7 @@
 title: AI Governance
 type: concept
 created: 2026-07-10
-updated: 2026-11-14
+updated: 2026-11-21
 tags:
   - governance
   - security
@@ -113,7 +113,7 @@ For customer-operated edge AI, release sensitive weights, credentials, and data 
 - [Agent Management Recognition and Boundaries](../../40-Resources/agent-365-ai-management-platform-leader-2026.md) - Platform GA is not uniform feature enforcement.
 - [Open-Weight Model Risk in Enterprise Deployments](../../40-Resources/open-weight-model-risk-enterprise.md)
 - [Deployment-Context AI Risk](./deployment-context-ai-risk.md)
-- [Policy to Proof — AI Governance Reference](../40-Resources/policy-to-proof-ai-governance.md)
+- [Policy to Proof — AI Governance Reference](../../40-Resources/policy-to-proof-ai-governance.md)
 - [Multitenant AI Agent Governance Architecture](multitenant-ai-agent-governance-architecture.md)
 - [AI Gateway Pattern](ai-gateway-pattern.md)
 - [AI Red-Teaming Tool Selection](ai-red-teaming-tool-selection.md)

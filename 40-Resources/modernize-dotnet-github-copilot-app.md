@@ -2,7 +2,7 @@
 title: "Modernize .NET in the GitHub Copilot App"
 type: resource
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-11-21
 tags:
   - dotnet
   - github-copilot
@@ -11,12 +11,12 @@ tags:
 sources:
   - https://devblogs.microsoft.com/dotnet/modernize-dotnet-in-github-copilot-app/
   - raw/2026-07-13-modernize-dotnet-github-copilot-app/source.md
-status: active
+status: stale
 claims:
   - id: claim-001
     text: "The GitHub Copilot upgrade agent follows a structured workflow: assess, plan, task, execute, validate."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-modernize-dotnet-github-copilot-app/source.md
         kind: documentation
@@ -26,7 +26,7 @@ claims:
   - id: claim-002
     text: "The upgrade agent is available in Visual Studio, VS Code, GitHub Copilot CLI, and the GitHub Copilot app."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-modernize-dotnet-github-copilot-app/source.md
         kind: documentation
@@ -36,7 +36,7 @@ claims:
   - id: claim-003
     text: "The upgrade canvas in the GitHub Copilot app provides a live, interactive view of the full modernization workflow."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-modernize-dotnet-github-copilot-app/source.md
         kind: documentation
@@ -46,6 +46,13 @@ claims:
 ---
 
 # Modernize .NET in the GitHub Copilot App
+
+## Review Required
+
+The July 13 claim evidence is more than 90 days old. Previously evergreen
+claims are now provisional pending source revalidation. Original claim
+capture and review dates are preserved; the page update records this
+review flag, not renewed verification of product behavior or availability.
 
 Microsoft DevBlogs article describing the GitHub Copilot upgrade agent for .NET modernization with an interactive upgrade canvas.
 

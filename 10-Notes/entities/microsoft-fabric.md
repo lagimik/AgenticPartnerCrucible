@@ -2,12 +2,13 @@
 title: Microsoft Fabric
 type: entity
 created: 2026-07-10
-updated: 2026-11-14
+updated: 2026-11-21
 tags:
   - microsoft-fabric
   - analytics
   - data-platform
 sources:
+  - raw/2026-07-10-ingestlinks/023-github-com-microsoft-skills-for-fabric/content.html
   - https://techcommunity.microsoft.com/blog/microsoft-security-blog/a-next-step-in-the-evolution-of-the-microsoft-data-governance-strategy/4572227
   - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/use-onelake-as-native-storage-for-azure-databricks/5377939
   - https://learn.microsoft.com/en-us/azure/databricks/connect/unity-catalog/cloud-storage/external-locations-onelake
@@ -17,15 +18,12 @@ sources:
   - https://learn.microsoft.com/en-us/fabric/data-engineering/data-engineering-agent-overview
   - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/govern-your-microsoft-fabric-data-estate-from-one-place-with-the-onelake-catalog/5377369
   - https://github.com/microsoft/microsoft-iq-solution-accelerator
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/AGENTS.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/CLAUDE.md
 status: active
 ---
 
 # Microsoft Fabric
 
-Microsoft Fabric is the data and analytics platform targeted by the `skills-for-fabric` repository. The repo treats Fabric as a multi-workload environment spanning Lakehouse, Warehouse, SQL Database in Fabric, Dataflows Gen2, Eventhouse/KQL, Eventstreams, Activator, semantic models, Power BI reports, FabricIQ, and migration scenarios.
+Microsoft Fabric is the data and analytics platform targeted by the `skills-for-fabric` repository. The preserved July 10 README describes a multi-workload environment spanning Lakehouse/Spark, Warehouse, Dataflows Gen2, Eventhouse/KQL, Eventstreams, semantic models, Power BI reports, catalog search, and migration scenarios.
 
 ## Operating Patterns
 
@@ -33,6 +31,10 @@ Microsoft Fabric is the data and analytics platform targeted by the `skills-for-
 - Use REST APIs for programmatic workspace and item management.
 - Use protocol-specific access for workload data: Spark/PySpark, T-SQL, KQL, XMLA/DAX, or MCP-backed query workflows.
 - Prefer [[medallion-architecture]] and incremental processing for data engineering.
+
+These are operating recommendations, not a guarantee of tool behavior. The
+retained README documents Azure authentication and workload-specific access;
+individual agent implementation files were not retained.
 
 ## Related Pages
 

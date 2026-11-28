@@ -25,7 +25,7 @@ Source | Description | Notes
 Source | Description | Notes
 :----- | :---------- | :----
 [Accelerators and Demos](https://skillupwithlevelup.com/dealreadyaccelerators) | Microsoft LevelUp Deal Ready Accelerators for partner enablement | Microsoft LevelUp
-[Partner Skilling Learning Journeys](../40-Resources/levelup-learning-journeys.md) | GCPS Partner Skilling Catalog of curated learning paths and guided journeys for partner development | Issue #67
+[Partner Skilling Learning Journeys](https://www.skillupwithlevelup.com/journeys) | GCPS Partner Skilling Catalog of curated learning paths and guided journeys for partner development | Issue #67
 [Skilling Agent](https://www.skilling-hub.com/) | AI-powered assistance within the Partner Skilling Hub to help partners navigate skilling offerings, identify learning opportunities, and build personalized skilling plans | Partner Skilling Hub
 [Microskilling](https://www.skilling-hub.com/en-US/type/microskilling) | Short-form, focused skill-building opportunities from the Partner Skilling Hub | Partner Skilling Hub
 
@@ -37,7 +37,7 @@ Source | Description | Notes
 [Microsoft Learn](https://learn.microsoft.com)| Discover new skills, find certifications, and advance your career in minutes with interactive, hands-on learning paths.| Open to All
 [Microsoft Learn Cloud Games](https://learn.microsoft.com/en-ca/training/cloud-games) | Play. Solve. Learn. You’re invited to be a cybersecurity pro or a data expert with Who Hacked? and Data Feeds. Immersive role-playing games from Cloud Games, created by and for technical professionals. Both games are available to play on-demand in single-player mode, each with two episodes that can be played in any order.| Microsoft Learn
 [Cloud Skills Challenge](https://www.microsoft.com/en-ca/sites/cloud-skills-challenge/)| Learn. Compete. Develop skills with this self-paced technical upskilling challenge. For teams or individuals | Microsoft Learn
-[Microsoft What The Hack](../40-Resources/microsoft-what-the-hack.md) | Coach-led, challenge-based hackathons for squads solving realistic Microsoft cloud and AI scenarios without step-by-step instructions. Includes hosting and authoring guidance for events of 5 to 50 people. | Microsoft GitHub; MIT license
+[Microsoft What The Hack](https://github.com/microsoft/WhatTheHack/blob/master/README.md) | Coach-led, challenge-based hackathons for squads solving realistic Microsoft cloud and AI scenarios without step-by-step instructions. Includes hosting and authoring guidance for events of 5 to 50 people. | Microsoft GitHub; MIT license
 [30 Days to Learn It](https://developer.microsoft.com/en-US/offers/30-days-to-learn-it) | Cloud Skills Challenge > 30 Days to Learn It :  Days to Learn It can help you build skills and start your preparation for Microsoft Certifications for AI, DevOps, Microsoft 365, low code, IoT, data science, cloud development, and more. Select your challenge below, work through learning modules, and exchange ideas with peers through a global community forum. | Developer
 
 
@@ -54,7 +54,7 @@ Source | Description | Notes
 [Cloud Skills Challenge - 30 days to learn it](https://developer.microsoft.com/en-us/offers/30-days-to-learn-it) |30 Days to Learn It can help you build skills and start your preparation for Microsoft Certifications for AI, DevOps, Microsoft 365, low code, IoT, data science, cloud development, and more. Select your challenge below, work through learning modules, and exchange ideas with peers through a global community forum.|...
 [Cloud Games](https://docs.microsoft.com/en-ca/certifications/cloud-games)| Play. Solve. Win. Enjoy the thrill of solving real-world challenges in immersive role-playing games that can help you sharpen your technical skills. | Who Hacked?<br>Data Feeds
 [Partner Virtual Training](https://partner.microsoft.com/en-US/training/virtual-training-series#/)| These training opportunities provide chat-based instructors with targeted information delivered in a consolidated time frame to enhance your expertise.|Required Microsoft AI Cloud Partner Program membership
-[Enterprise Skilling Initiative](esi.microsoft.com)|Enterprise Skilling Initiative| By invitation
+[Enterprise Skilling Initiative](https://esi.microsoft.com)|Enterprise Skilling Initiative| By invitation
 [Virtual Training Days](https://www.microsoft.com/en-ie/training-days)| explore our webinars below for Developers and IT professionals and register for the subjects best suited to you and your organization |...
 [Microsoft Events](https://events.microsoft.com/)|Explore special events and learning opportunities created to help you expand your expertise, learn new skills, and build community.}| Can filter on Workloads and language of delivery
 [CLX Support](https://support.spektrasystems.com/portal/en/newticket?_gl=1*1am1gln*_ga*ODUwNjk4MDgzLjE2NTE2MjczMDQ.*_ga_WJ29EGCL9Y*MTY1MTYyNzMwMy4xLjEuMTY1MTYyNzMyOC4w&_ga=2.13350832.667915366.1651627304-850698083.1651627304)| CloudLabs support by Spektra|

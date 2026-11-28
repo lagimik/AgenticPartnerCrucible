@@ -50,7 +50,7 @@ Source | Description | Notes
 [ALM for developers](https://learn.microsoft.com/en-us/power-platform/alm/alm-for-developers) | The articles in this section describe how you as a developer can use available APIs, tools, and other resources to implement application lifecycle management (ALM) using Microsoft Power Platform  | Microsoft Learn
 [Microsoft Power Platform Build Tools for Azure DevOps](https://learn.microsoft.com/en-us/power-platform/alm/devops-build-tools) | Use Microsoft Power Platform Build Tools to automate common build and deployment tasks related to apps built on Microsoft Power Platform. | Microsoft Learn
 [Integrating Microsoft Sentinel and Power Platform to better monitor and protect your low-code solutions](https://powerapps.microsoft.com/en-us/blog/integrating-microsoft-sentinel-and-power-platform-to-better-monitor-and-protect-your-low-code-solutions/) | Microsoft Sentinel solution for Microsoft Power Platform, a premium offering, allowing customers to detect various suspicious activities such as Microsoft Power Apps execution from unauthorized geographies, suspicious data destruction by Power Apps, mass deletion of Power Apps, phishing attacks made possible through Power Apps, Power Automate flows activity by departing employees, Microsoft Power Platform connectors added to the an environment, and the update or removal of Microsoft Power Platform data loss prevention policies.| Microsoft Blog
-[Power Demos](https//aka.ms/PowerDemos) | Power Demos is the go-to portal for everything low code demos. Find solution play and community-shared
+[Power Demos](https://aka.ms/PowerDemos) | Power Demos is the go-to portal for everything low code demos. Find solution play and community-shared
 demos, request a demo tenant, and submit demos to the site—all in one place! | Power Demos
 [PowerCAT Tools for Power Platform](https://appsource.microsoft.com/en-us/product/dynamics-365/microsoftpowercatarch.powercattools?tab=overview) | A suite of tools from the Power CAT team to help with governance, migration, and management of Power Platform environments. | AppSource
 
@@ -145,7 +145,7 @@ Source | Description | Notes
 
 Source | Description | Notes
 :----- | :---------- | :-----
-[Power Automate Expert Community](https//aka.ms/PowerAutomate/Expert) | Weekly office hours with Deep dive sessions, deep dive content, and one central repository| Power Automate Expert Communit
+[Power Automate Expert Community](https://aka.ms/PowerAutomate/Expert) | Weekly office hours with Deep dive sessions, deep dive content, and one central repository| Power Automate Expert Communit
 [Power Automate Cloud flows Best Practices](https://go.microsoft.com/fwlink/?linkid=2290320) |  This technical white paper is aimed at Microsoft Power Automate Makers in the enterprise. It contains the best practices for building efficient Power Automate Cloud flows. | Microsoft 
 [Microsoft Power Automate Community](https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity ) | Connect with peers, share ideas, and learn from experts | Community
 [Microsoft Learn for Power Automate](https://learn.microsoft.com/en-us/training/powerplatform/power-automate) | Learn how to free your organization from mundane tasks with automated flows and robotic process automation (RPA).| Microsoft Learn

@@ -2,7 +2,7 @@
 title: "Partner Crucible - Modern Work Workloads - Copilot"
 layout: "default"
 categories: "Modern Work"
-updated: 2026-11-02
+updated: 2026-11-21
 ---
 
 # Modern Work Workloads - Copilot
@@ -31,14 +31,14 @@ Source | Description | Notes
 :----- | :-----  | :-----
 [Microsoft Copilot specialization](https://partner.microsoft.com/en-US/partnership/specialization/microsoft-copilot) | The Microsoft Copilot specialization demonstrates your experience and skills related to Microsoft 365 Copilot, including Microsoft 365 Copilot Chat, Microsoft Copilot Studio, and agents | Microsoft Partner
 [Copilot and Agent Practice Development Tools](https://techcommunity.microsoft.com/blog/partnernews/differentiate-your-copilot-and-agent-practice-with-tools-from-microsoft/4550111) | Build a repeatable practice through evidence-led readiness, a managed-service operating model, outcome-based offers, reusable agent IP, and customer-specific value stories. | Issue #68
-[Cowork Partner Launch Kit](https://aka.ms/CoworkPartnerLaunchKit) | Protected Microsoft partner launch package for Cowork. The linked ZIP requires authorized partner access. | Issue #47
+Cowork Partner Launch Kit (access-limited) | Microsoft partner launch package for Cowork. | Issue #47; partner-only package; contents unreviewed; obtain through authorized partner channels.
 [Copilot Cowork Overview](https://aka.ms/CopilotCoworkDocs) | Microsoft Learn overview of Cowork's delegated multi-step task execution across Microsoft 365 (email, calendar, documents, Teams, research, app building). | Issue #115
 [Cowork Budget and Usage Governance](https://adoption.microsoft.com/en-us/copilot/cowork/ai-user/) | Admin guidance for setting Copilot Credits budgets, guardrails, and usage visibility for Cowork. | Issue #115
-[Cowork Partner Kit](https://aka.ms/CoworkPartnerKit) | Protected Microsoft partner download package for Cowork, distinct from the Launch Kit above. Requires authorized partner access. | Issue #115
-[Cowork Cost Management Demo](https://demos.microsoft.com/app/present/6694#/0/0) | Partner-gated interactive cost-management demo for Copilot Cowork on demos.microsoft.com. | Issue #115
+Cowork Partner Kit (access-limited) | Microsoft partner package for Cowork, distinct from the Launch Kit above. | Issue #115; partner-only package; contents unreviewed; obtain through authorized partner channels.
+Cowork Cost Management Demo (access-limited) | Interactive cost-management demo for Copilot Cowork. | Issue #115; partner login required; demo contents unreviewed; obtain through authorized partner channels.
 [Copilot Credits Licensing Guide](https://aka.ms/CopilotCredits/LicensingGuide) | Public PDF licensing guide for Copilot Credits (Cowork, Copilot Code, Autopilot consumption). | Issue #115
-[Copilot Credit Planning Model](https://aka.ms/CopilotCreditPlanningModel) | Interactive Copilot Credit Estimator tool for forecasting Copilot Credits consumption. | Issue #115
-[Copilot Cowork Nifty Fifty Scenarios](https://microsoftpartners.powerappsportals.com/Downloads/?filename=abs/protected/Copilot-Cowork-Nifty-Fifty-Scenarios.pptx) | Protected partner deck of fifty curated Copilot Cowork usage scenarios. Requires authorized partner access. | Issue #115
+Copilot Credit Planning Model (pre-production) | Interactive Copilot Credit Estimator entry point; outputs unreviewed. | Issue #115; production availability unverified; no public destination linked.
+Copilot Cowork Nifty Fifty Scenarios (access-limited) | Microsoft partner scenario deck for Copilot Cowork. | Issue #115; partner-only deck; contents unreviewed; obtain through authorized partner channels.
 [Microsoft 365 Copilot: The AI-Powered Future of Work](https://aka.ms/M365CopilotPartner) | Partner resource landing page | Transform
 [Microsoft 365 Copilot - Partner Opportunities](https://cloudpartners.transform.microsoft.com/download?assetname=assets%2FMicrosoft365-Copilot-Services-Solution-Partner-Opportunities.pptx&download=1)| M365 Copilot Partner opportunities - guidance on advisory, deployment, selling, adopting, and extending M365 Copilot | Transform
 [Get AI-ready with Microsoft 365](https://cloudpartners.transform.microsoft.com/partner-gtm/csp?tab=get-ai-ready) | CSP - With Microsoft 365, SMBs can safely run their businesses from anywhere with a secure, comprehensive, AI-powered cloud solution that makes hybrid work, work.| Transform

@@ -2,7 +2,7 @@
 title: FinOps
 layout: default
 categories: FinOps
-updated: 2026-11-02
+updated: 2026-11-21
 ---
 
 # FinOps

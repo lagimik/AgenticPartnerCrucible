@@ -1,5 +1,5 @@
 ---
-title: Partner Crucible - Power Platform Workloads
+title: "Partner Crucible - Power Platform Solution Area"
 type: resource
 created: 2026-07-10
 updated: 2026-11-27
@@ -15,7 +15,7 @@ sources:
 status: active
 ---
 
-# Partner Crucible - Power Platform Workloads
+# Partner Crucible - Power Platform Solution Area
 
 Source: https://lagimik.github.io/PartnerCrucible/PowerPlatformSolutionArea
 

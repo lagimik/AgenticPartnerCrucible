@@ -2,7 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads"
 layout: "default"
 categories: "Business Applications"
-updated: 2026-11-14
+updated: 2026-11-21
 ---
 
 # Business Applications Workloads

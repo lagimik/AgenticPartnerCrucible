@@ -2,7 +2,7 @@
 title: "Using APIM as the Gateway for Azure AI Foundry"
 type: resource
 created: 2026-07-13
-updated: 2026-11-27
+updated: 2026-11-28
 tags:
   - azure-api-management
   - azure-ai-foundry
@@ -13,12 +13,12 @@ sources:
   - https://techcommunity.microsoft.com/blog/appsonazureblog/from-ai-adoption-to-ai-governance---using-apim-as-the-gateway-for-azure-ai-found/4536247
   - raw/2026-07-13-apim-gateway-azure-ai-foundry/source.md
   - https://learn.microsoft.com/en-us/azure/api-management/llm-emit-token-metric-policy
-status: active
+status: stale
 claims:
   - id: claim-001
     text: "APIM's llm-emit-token-metric policy can emit model/provider-dependent token metrics to Application Insights for supported LLM APIs, with up to five custom dimensions."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: https://learn.microsoft.com/en-us/azure/api-management/llm-emit-token-metric-policy
         kind: documentation
@@ -28,7 +28,7 @@ claims:
   - id: claim-002
     text: "The article's configured APIM gateway authenticates to its Foundry backend using a system-assigned managed identity for cognitiveservices.azure.com, avoiding backend API keys in that flow."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-apim-gateway-azure-ai-foundry/source.md
         kind: documentation
@@ -38,6 +38,13 @@ claims:
 ---
 
 # Using APIM as the Gateway for Azure AI Foundry
+
+## Review Scope
+
+The November 21 review flagged the age of the July capture. The November 27
+review checked the public article and current token-metric policy reference,
+as recorded below. Claims remain scope-qualified; revalidation does not test
+customer gateway configuration, API compatibility or runtime authorization.
 
 Tech Community article showing how Azure API Management serves as an AI Gateway in front of Azure AI Foundry for governance, chargeback, and budget control.
 

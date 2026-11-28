@@ -2,17 +2,15 @@
 title: Model Context Protocol MCP
 type: concept
 created: 2026-07-10
-updated: 2026-11-14
+updated: 2026-11-28
 tags:
   - mcp
   - ai-tools
   - integration
 sources:
+  - raw/2026-07-10-ingestlinks/023-github-com-microsoft-skills-for-fabric/content.html
   - https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/what%E2%80%99s-new-in-the-azure-resource-manager-mcp-server-at-ignite-2026/4571824
   - https://learn.microsoft.com/en-us/microsoft-365/admin/manage/mrc-mcp?view=o365-worldwide
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/mcp-setup/README.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/.mcp.json
 status: active
 ---
 
@@ -20,9 +18,15 @@ status: active
 
 Model Context Protocol, or MCP, provides live tool access to external systems and APIs. In `skills-for-fabric`, skills provide instructions and patterns while MCP servers provide live access where supported.
 
-## FabricIQ Example
+## Fabric Skills and Live Tools
 
-The repo includes FabricIQ MCP configuration for Power BI data analysis. The documented FabricIQ server supports artifact discovery, report metadata inspection, semantic model schema inspection, value search, query execution, and report ID resolution.
+The preserved Fabric README distinguishes skills, which provide guidance and
+patterns, from MCP servers, which provide live access to data sources and APIs.
+It says some bundles include MCP configuration where supported. Historical
+MCP configuration and FabricIQ agent files were restored at the pinned revision
+on November 27; see the [capture provenance](../../40-Resources/skills-for-fabric.md#capture-provenance).
+Specific current tool names and capabilities must still be checked against the
+live server's schema rather than inferred from historical notes.
 
 ## Related Pages
 

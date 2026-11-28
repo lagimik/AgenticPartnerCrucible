@@ -1,5 +1,5 @@
 ---
-title: Partner Crucible - Copilot Studio Workload
+title: "Partner Crucible - Copilot Studio Workload"
 type: resource
 created: 2026-07-10
 updated: 2026-11-27

@@ -2,7 +2,7 @@
 title: "The AI Agent Lifecycle: A Simple Guide"
 type: resource
 created: 2026-07-13
-updated: 2026-11-27
+updated: 2026-11-28
 tags:
   - ai-agent-lifecycle
   - agentic-ai
@@ -12,12 +12,12 @@ tags:
 sources:
   - https://techcommunity.microsoft.com/blog/azurearchitectureblog/the-ai-agent-lifecycle-a-simple-guide/4535729
   - raw/2026-07-13-ai-agent-lifecycle/source.md
-status: active
+status: stale
 claims:
   - id: claim-001
     text: "The guide recommends six lifecycle stages: Design, Build, Test, Deploy, Operate and Iterate, with continuous iteration rather than treating deployment as completion."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-ai-agent-lifecycle/source.md
         kind: documentation
@@ -27,7 +27,7 @@ claims:
   - id: claim-002
     text: "A golden dataset of SME-validated expected outcomes serves as ground truth for evaluating accuracy, consistency, and regression throughout the agent lifecycle."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-ai-agent-lifecycle/source.md
         kind: documentation
@@ -37,6 +37,13 @@ claims:
 ---
 
 # The AI Agent Lifecycle: A Simple Guide
+
+## Review Scope
+
+The November 21 review flagged the age of the July capture. The November 27
+review revalidated the lifecycle and golden-dataset claims against the public
+article, as recorded below. Product availability, tooling and customer rollout
+requirements still need workload-specific verification.
 
 Azure Architecture Blog article presenting a 6-stage lifecycle for enterprise AI agents with a banking use case and Microsoft tooling at each stage.
 

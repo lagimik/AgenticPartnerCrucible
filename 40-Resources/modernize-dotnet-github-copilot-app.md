@@ -2,7 +2,7 @@
 title: "Modernize .NET in the GitHub Copilot App"
 type: resource
 created: 2026-07-13
-updated: 2026-11-27
+updated: 2026-11-28
 tags:
   - dotnet
   - github-copilot
@@ -11,7 +11,7 @@ tags:
 sources:
   - https://devblogs.microsoft.com/dotnet/modernize-dotnet-in-github-copilot-app/
   - raw/2026-07-13-modernize-dotnet-github-copilot-app/source.md
-status: active
+status: stale
 claims:
   - id: claim-001
     text: "The GitHub Copilot upgrade agent follows a structured workflow: assess, plan, task, execute, validate."
@@ -46,6 +46,13 @@ claims:
 ---
 
 # Modernize .NET in the GitHub Copilot App
+
+## Review Scope
+
+The November 21 review flagged the age of the July capture. The November 27
+review rechecked the public article, as recorded below. Claims remain
+provisional product guidance; installed versions and current setup requirements
+need verification, and no upgrade execution was tested.
 
 Microsoft DevBlogs article describing the GitHub Copilot upgrade agent for .NET modernization with an interactive upgrade canvas.
 

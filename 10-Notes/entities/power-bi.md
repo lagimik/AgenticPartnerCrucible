@@ -2,22 +2,20 @@
 title: Power BI
 type: entity
 created: 2026-07-10
-updated: 2026-10-16
+updated: 2026-11-28
 tags:
   - power-bi
   - business-intelligence
   - microsoft-fabric
 sources:
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/README.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/agents/FabricIQ.agent.md
-  - raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/powerbi-authoring/.github/plugin/plugin.json
+  - raw/2026-07-10-ingestlinks/023-github-com-microsoft-skills-for-fabric/content.html
   - https://github.com/microsoft/Analytics-Hub
 status: active
 ---
 
 # Power BI
 
-Power BI appears in `skills-for-fabric` as both a Fabric-adjacent consumption target and an authoring surface. The repo includes skills for semantic model consumption and authoring, FabricIQ-backed Power BI data analysis, and Power BI report planning, design, authoring, and management.
+Power BI appears in the preserved `skills-for-fabric` README as both a consumption target and an authoring surface. Its bundle descriptions cover semantic model exploration and authoring, plus Power BI report planning, design, authoring, management, and PBIP workflows.
 
 ## Related Pages
 
@@ -29,5 +27,5 @@ Power BI appears in `skills-for-fabric` as both a Fabric-adjacent consumption ta
 
 ## Source Notes
 
-- `FabricIQ.agent.md` routes Power BI report and semantic model questions through artifact discovery, schema inspection, value resolution, DAX generation, and execution.
-- The `powerbi-authoring` plugin includes semantic model authoring plus Power BI report planning, design, authoring, and management skills.
+- The README describes read-only consumption and a separate `powerbi-authoring` bundle for semantic models, reports, and PBIP workflows.
+- Historical FabricIQ agent and Power BI plugin manifest files were restored on November 27; see the [capture provenance](../../40-Resources/skills-for-fabric.md#capture-provenance). The retained README alone does not establish detailed routing or current tool behavior.

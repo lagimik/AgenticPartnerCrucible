@@ -2,7 +2,7 @@
 title: "Partner Crucible - Business Applications Workloads - Power Platform"
 layout: "default"
 categories: "AI Business Solutions"
-updated: 2026-11-14
+updated: 2026-11-21
 ---
 
 # Power Platform - Copilot Studio Workload

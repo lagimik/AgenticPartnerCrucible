@@ -1,21 +1,23 @@
 ---
-title: Ingested Link Library
+title: "July 10 Ingested Link Library"
 type: moc
-created: 2026-11-27
-updated: 2026-11-27
-tags: [discovery, partner-crucible]
+created: 2026-11-21
+updated: 2026-11-28
+tags: ["moc", "resources", "microsoft-partner"]
 sources:
-  - raw/2026-07-10-ingestlinks
+  - raw/2026-07-10-ingestlinks/
 status: active
 ---
 
-# Ingested Link Library
+# July 10 Ingested Link Library
 
-Discovery map for captured link resources and their related derived notes.
+Discovery map for the 78 retained resources from the July 10, 2026 link
+ingestion. Entries link to derived summaries, not live-status guarantees.
+Reference-only captures and draft pages require review before reuse.
 Entries retain their own provenance and access requirements; inclusion is
 not an endorsement or a fresh validation of the linked source.
 
-## Captured link resources
+## Platforms, Agent Tools, and Workshops
 
 - [Microsoft Build Live](001-microsoft-build-live.md)
 - [Work IQ - Data, Context, and Tools at Scale - YouTube](002-work-iq-data-context-and-tools-at-scale-youtube.md)
@@ -42,12 +44,18 @@ not an endorsement or a fresh validation of the linked source.
 - [GitHub - microsoft/skills-for-fabric - A collection of skills and MCP systems to enable users of CLI, VSCode, Claude to operate over Microsoft Fabric · GitHub](023-github-microsoft-skills-for-fabric-a-collection-of-skills-and-mcp-systems-to-ena.md)
 - [GitHub - microsoft/work-iq-samples - Provides samples for use with the work-iq apis · GitHub](024-github-microsoft-work-iq-samples-provides-samples-for-use-with-the-work-iq-apis.md)
 - [Catalog — Fabric Jumpstart](025-catalog-fabric-jumpstart.md)
+
+## Reference Images
+
 - [2026 04 02 Dataaisolutionarea.Md Image](026-2026-04-02-dataaisolutionarea-md-image.md)
 - [2026 03 17 Dataaisolutionarea.Md Image](027-2026-03-17-dataaisolutionarea-md-image.md)
 - [2026 03 17 Digitalappsandinnovationsolutionarea.Md Image](028-2026-03-17-digitalappsandinnovationsolutionarea-md-image.md)
 - [2026 03 17 Securitysolutionarea.Md Image](029-2026-03-17-securitysolutionarea-md-image.md)
 - [2026 04 02 Digitalappsandinnovationsolutionarea.Md Image](030-2026-04-02-digitalappsandinnovationsolutionarea-md-image.md)
 - [2026 04 02 Powerplatformsolutionarea.Md Image](031-2026-04-02-powerplatformsolutionarea-md-image.md)
+
+## Partner Solution and Workload Collections
+
 - [Partner Crucible - Infrastructure Workloads | Partner Crucible](032-partner-crucible-infrastructure-workloads-partner-crucible.md)
 - [Partner Crucible - Infrastructure Workloads - Landing Zones | Partner Crucible](033-partner-crucible-infrastructure-workloads-landing-zones-partner-crucible.md)
 - [Cloud Solution Provider Program | Partner Crucible](034-cloud-solution-provider-program-partner-crucible.md)
@@ -56,9 +64,12 @@ not an endorsement or a fresh validation of the linked source.
 - [Partner Crucible - Modern Work Workloads | Partner Crucible](037-partner-crucible-modern-work-workloads-partner-crucible.md)
 - [Partner Crucible - Modern Work Workloads - Copilot | Partner Crucible](038-partner-crucible-modern-work-workloads-copilot-partner-crucible.md)
 - [Partner Crucible - Copilot Studio Workload](039-partner-crucible-business-applications-workloads-power-platform-partner-crucible.md)
-- [Partner Crucible - Power Platform Workloads](040-partner-crucible-business-applications-workloads-power-platform-partner-crucible.md)
+- [Partner Crucible - Power Platform Solution Area](040-partner-crucible-business-applications-workloads-power-platform-partner-crucible.md)
 - [Partner Crucible - Security Workloads | Partner Crucible](041-partner-crucible-security-workloads-partner-crucible.md)
 - [Partner Crucible - Security Workloads - Sentinel | Partner Crucible](042-partner-crucible-security-workloads-sentinel-partner-crucible.md)
+
+## Documentation and Additional References
+
 - [Microsoft Copilot Studio guidance documentation - Microsoft Copilot Studio | Microsoft Learn](043-microsoft-copilot-studio-guidance-documentation-microsoft-copilot-studio-microso.md)
 - [Choose the right Azure AI tool for document processing - Foundry Tools | Microsoft Learn](044-choose-the-right-azure-ai-tool-for-document-processing-foundry-tools-microsoft-l.md)
 - [AI Agent Adoption Guidance for Organizations - Cloud Adoption Framework | Microsoft Learn](045-ai-agent-adoption-guidance-for-organizations-cloud-adoption-framework-microsoft.md)
@@ -110,6 +121,8 @@ not an endorsement or a fresh validation of the linked source.
 - [Research to Production AI](../10-Notes/concepts/research-to-production-ai.md)
 - [Microsoft Foundry Labs](../10-Notes/entities/microsoft-foundry-labs.md)
 
-## Navigation
+## Related Maps
 
 - [Vault index](../index.md)
+- [Microsoft Fabric AI Skills](moc-microsoft-fabric-ai-skills.md)
+- [Partner Crucible Resources](moc-partner-crucible.md)

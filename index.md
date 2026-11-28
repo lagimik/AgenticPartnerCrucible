@@ -6,7 +6,7 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 - [Microsoft Ignite 2026 Book of News](40-Resources/moc-ignite-2026-book-of-news.md) - Eight source-led topic areas, 23 category headings and 59 announcement summaries; capability-specific release labels and evidence reconciliation.
 
-- [[moc-microsoft-fabric-ai-skills]] - Microsoft Fabric AI skills, plugin bundles, agents, and operating patterns.
+- [Microsoft Fabric AI Skills](40-Resources/moc-microsoft-fabric-ai-skills.md) - Microsoft Fabric AI skills, plugin bundles, agents, and operating patterns.
 
 ## Resources
 
@@ -243,8 +243,8 @@ No area pages yet.
 
 ## Bulk Ingests
 
-- [[moc-ingested-link-library]] - Resources captured from `ingestlinks.md` on 2026-07-10.
-- [[moc-partner-crucible]] - Partner Crucible derived link library: 25 workload and practice pages organized by solution area (Data & AI, Security, Infrastructure, Modern Work, Power Platform, Industry, Practice Building).
+- [July 10 Ingested Link Library](40-Resources/moc-ingested-link-library.md) - 78 retained resource summaries from the July 10, 2026 capture.
+- [Partner Crucible Resources](40-Resources/moc-partner-crucible.md) - 25 retained topic summaries of the July 15 collection across solution areas, industries, and practice building.
 
 ## Recent Analysis Concepts
 

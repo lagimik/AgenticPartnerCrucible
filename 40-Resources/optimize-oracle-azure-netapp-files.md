@@ -32,7 +32,7 @@ claims:
     evidence:
       - source: https://techcommunity.microsoft.com/blog/azurestorageblog/optimize-oracle-workloads-on-azure-with-azure-netapp-files/4532644
         kind: documentation
-        excerpt: "deliver an RPO as low as 10 minutes. The replica can also be activated for a near-zero RTO."
+        excerpt: "RPO as low as 10 minutes with built-in replication."
     captured: 2026-07-13
     updated: 2026-11-27
 ---
@@ -56,6 +56,12 @@ Builds on the Azure Architecture Center Oracle + ANF reference architecture. Hig
 | Short-term clones | Space-efficient writable clones for test/dev |
 | Migration assistant | Block-level replication from ONTAP preserving snapshots |
 | Cool access | Auto-tiering for inactive data cost optimization |
+
+## Recovery Evidence Boundary
+
+The retained capture supports the stated RPO but does not establish an RTO.
+Do not infer near-zero recovery time from replica availability; validate
+application recovery targets and procedures for the actual workload.
 
 ## VM IO Advantage
 

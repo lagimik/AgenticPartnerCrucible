@@ -1,20 +1,23 @@
 ---
-title: Partner Crucible Resource Map
+title: "Partner Crucible Resources"
 type: moc
-created: 2026-11-27
-updated: 2026-11-27
-tags: [discovery, partner-crucible]
+created: 2026-11-21
+updated: 2026-11-28
+tags: ["moc", "partner-crucible", "practice-building"]
 sources:
+  - raw/2026-07-15-partner-crucible-bulk/
   - 40-Resources/partner-crucible/partner-crucible-data-ai.md
 status: active
 ---
 
-# Partner Crucible Resource Map
+# Partner Crucible Resources
 
-Navigate the derived Partner Crucible workload and practice-building pages.
+Discovery map for the 25 retained topic summaries of the July 15, 2026
+Partner Crucible collection. These are historical source summaries;
+check current public guidance and access requirements before customer use.
 Private/raw captures remain outside the public site export.
 
-## Workloads and partner practices
+## Topic Summaries
 
 - [Partner Crucible - Accessibility](partner-crucible/partner-crucible-accessibility.md)
 - [Partner Crucible - Azure Infrastructure](partner-crucible/partner-crucible-azure-infrastructure.md)
@@ -42,6 +45,8 @@ Private/raw captures remain outside the public site export.
 - [Partner Crucible - Sentinel](partner-crucible/partner-crucible-security-sentinel.md)
 - [Partner Crucible - Security](partner-crucible/partner-crucible-security.md)
 
-## Navigation
+## Related Maps
 
 - [Vault index](../index.md)
+- [Microsoft Fabric AI Skills](moc-microsoft-fabric-ai-skills.md)
+- [July 10 Ingested Link Library](moc-ingested-link-library.md)

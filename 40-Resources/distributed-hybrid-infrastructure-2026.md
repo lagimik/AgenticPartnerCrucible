@@ -2,7 +2,7 @@
 title: Distributed Hybrid Infrastructure 2026
 type: resource
 created: 2026-09-18
-updated: 2026-10-09
+updated: 2026-11-27
 tags: [azure-local, azure-arc, hybrid-cloud, edge, sovereignty, foundry-local]
 sources:
   - https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/
@@ -40,6 +40,10 @@ Analyst recognition can support market context but should not replace customer-s
 
 ## Related Pages
 
+- [Azure Local](../10-Notes/entities/azure-local.md)
+- [Azure Local Deployment Readiness](azure-local-deployment-readiness.md) - Pre-procurement architecture, governance, connectivity, and go-live evidence.
+- [Azure Local Running-Cluster Review](azure-local-running-cluster-review.md) - Topology-specific operating checks and supported change paths.
+- [Workload Recovery Evidence](../10-Notes/concepts/workload-recovery-evidence.md) - User-flow recovery targets rather than cluster status alone.
 - [[adaptive-cloud-hosting-modernization]]
 - [[secure-edge-ai-customer-environments]]
 - [[agentic-cloud-operations]]

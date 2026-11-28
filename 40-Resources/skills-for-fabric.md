@@ -2,7 +2,7 @@
 title: Microsoft Skills for Fabric Repository
 type: resource
 created: 2026-07-10
-updated: 2026-11-02
+updated: 2026-11-27
 tags:
   - microsoft-fabric
   - ai-skills
@@ -80,6 +80,17 @@ This source is useful as a reference pattern for building a second-brain assista
 - Procedural safety rules embedded near the tools that need them.
 - Separation between immutable source/reference material, reusable instructions, and live tool access.
 - Installable bundles that map to user personas and task modes.
+
+## Capture Provenance
+
+The missing cited files were restored on 2026-11-27 from the original
+`microsoft/skills-for-fabric` submodule revision `b961296e97a89a39e81e10501c2ef846ad0c54db`.
+Their Git blob hashes were verified against that revision; existing raw
+files were not overwritten. This restores historical evidence, not a
+revalidation of the repository's current release or installation behavior.
+The existing pinned submodule is registered in `.gitmodules` so a fresh clone
+can retrieve it with `git submodule update --init -- raw/2026-07-10-github-microsoft-skills-for-fabric`.
+Do not run an updating checkout over locally modified raw material.
 
 ## Citations
 

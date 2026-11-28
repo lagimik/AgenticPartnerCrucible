@@ -2,7 +2,7 @@
 title: Digital Sovereignty Adoption with the Cloud Adoption Framework
 type: resource
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-11-27
 tags: [digital-sovereignty, cloud-adoption-framework, azure, governance]
 sources:
   - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/sovereignty/executive-strategy
@@ -28,5 +28,7 @@ Use the framework as planning guidance, not as legal advice or a substitute for 
 
 ## Related Pages
 
+- [Cloud Adoption Framework](../10-Notes/entities/cloud-adoption-framework.md)
+- [CAF Architecture and Governance for AI](caf-ai-architecture-governance.md) - Workload-specific regional data, model capacity, and recovery requirements within the existing baseline.
 - [[sovereign-ai-control-choice]]
 - [[distributed-hybrid-infrastructure-2026]]

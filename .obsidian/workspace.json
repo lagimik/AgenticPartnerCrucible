@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_meta/MOCs/moc-ingested-link-library.md",
+                "file": "10-Notes/concepts/ai-agent-lifecycle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "moc-ingested-link-library"
+              "title": "ai-agent-lifecycle"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:agents",
+                "query": "tag:finops",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,12 +186,46 @@
   },
   "active": "8de05e45b6945720",
   "lastOpenFiles": [
-    "40-Resources/001-microsoft-build-live.md",
-    "_meta/MOCs/moc-ingested-link-library.md",
-    "10-Notes/concepts/agent-cicd.md",
-    "AGENTS.md",
+    "10-Notes/concepts/azure-ai-foundry.md",
+    "10-Notes/concepts/enterprise-context-management.md",
+    "10-Notes/entities/windows.md",
+    "10-Notes/entities/microsoft-iq.md",
+    "10-Notes/entities/microsoft-edge.md",
+    "10-Notes/entities/microsoft-copilot.md",
+    "10-Notes/entities/azure.md",
+    "10-Notes/entities/microsoft-ignite-2026.md",
+    "40-Resources/apim-gateway-azure-ai-foundry.md",
+    "40-Resources/token-economics-finops-agentic-ai.md",
+    "10-Notes/concepts/token-economics.md",
+    "40-Resources/partner-crucible/partner-crucible-finops.md",
+    "40-Resources/moc-partner-crucible.md",
+    "40-Resources/partner-crucible/partner-crucible-accessibility.md",
+    "40-Resources/ignite-2026/windows.md",
+    "40-Resources/ignite-2026/security.md",
+    "40-Resources/ignite-2026/microsoft-iq.md",
+    "40-Resources/ignite-2026/microsoft-edge.md",
+    "40-Resources/ignite-2026/microsoft-copilot.md",
+    "40-Resources/ignite-2026/github.md",
+    "40-Resources/ignite-2026/microsoft-foundry.md",
+    "40-Resources/ignite-2026/azure.md",
+    "40-Resources/ignite-2026",
+    "40-Resources/moc-ignite-2026-book-of-news.md",
+    "raw/2026-11-27-ignite-2026-book-of-news/source.md",
+    "raw/2026-11-27-ignite-2026-book-of-news",
     "index.md",
-    "log.md",
-    "README.md"
+    "40-Resources/fabric-assessment-tool.md",
+    "raw/2026-07-10-github-microsoft-skills-for-fabric/package.json",
+    "100-Crucible/assets/images/2026-10-02-DataAISolutionArea.md-image.png",
+    "100-Crucible/assets/images/2026-07-16-PowerPlatformSolutionArea.md-image.png",
+    "100-Crucible/assets/images/2026-07-13-DataAISolutionArea.md-image.png",
+    "100-Crucible/assets/images/2026-07-10-DataAISolutionArea.md-image.png",
+    "raw/2026-07-10-github-microsoft-skills-for-fabric/mcp-setup",
+    "raw/2026-07-10-github-microsoft-skills-for-fabric/agents",
+    "raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/fabric-operations",
+    "raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/powerbi-authoring",
+    "raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/fabric-consumption",
+    "raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/fabric-skills",
+    "raw/2026-07-10-github-microsoft-skills-for-fabric/plugins/fabric-authoring",
+    "100-Crucible/assets/images/2026-11-27-DataAISolutionArea-Fabric.md-image.png"
   ]
 }

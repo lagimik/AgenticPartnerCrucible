@@ -2,7 +2,7 @@
 title: AI Threat Landscape and Agent Security (MDDR 2026)
 type: concept
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-11-27
 tags:
   - ai-security
   - cybersecurity
@@ -83,6 +83,11 @@ dividing line for scoping AI-assisted vs. human-led red-team engagements.
 
 ## Related
 
+- [ARTEX Agentic Attack Defense](../../40-Resources/artex-agentic-attack-defense.md) -
+  a later November threat report, separate from MDDR, with source-attributed
+  examples and explicit telemetry and control prerequisites.
+- [Behavior-First Agentic Attack Detection](behavior-first-agentic-attack-detection.md) -
+  correlated sequences distinguished from tool or actor attribution.
 - [Government Cyber Resilience in an AI Era](government-cyber-resilience-ai-era.md) —
   the sector-specific, statistics-heavy companion drawn from the same MDDR
   2026 report.

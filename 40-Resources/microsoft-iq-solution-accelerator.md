@@ -2,7 +2,7 @@
 title: Microsoft IQ Solution Accelerator
 type: resource
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-11-27
 tags: [fabric-iq, foundry-iq, work-iq, supply-chain, solution-accelerator]
 sources:
   - https://github.com/microsoft/microsoft-iq-solution-accelerator
@@ -44,6 +44,7 @@ No accelerator deployment or customer-data connection was performed.
 
 ## Related Pages
 
+- [Fabric Data Agent Platform Selection](fabric-data-agents-platform-selection.md) - Broader architecture-choice guidance; core data-agent GA does not remove this demonstration's preview dependencies.
 - [Microsoft Fabric](../10-Notes/entities/microsoft-fabric.md)
 - [Microsoft Foundry](../10-Notes/entities/microsoft-foundry.md)
 - [Model Context Protocol](../10-Notes/concepts/model-context-protocol-mcp.md)

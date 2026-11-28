@@ -2,7 +2,7 @@
 title: AI Agent Lifecycle
 type: concept
 created: 2026-07-13
-updated: 2026-10-03
+updated: 2026-11-27
 tags:
   - agentic-ai
   - responsible-ai
@@ -69,6 +69,9 @@ The iterate stage can use evaluation results and execution traces to propose ver
 The operate stage must track the state of side-effecting business operations, not only response quality. Tool contracts, idempotency keys, durable action ledgers, downstream verification, explicit recovery state machines, and risk-driven escalation prevent retries from creating duplicate or unsafe outcomes.
 
 ## Related Pages
+
+- [Foundry Agentic Loop](../../40-Resources/foundry-agentic-loop.md) - Evidence-gated build phases and a separate operational improvement loop.
+- [Time-Boxed AI-Assisted Experimentation](time-boxed-ai-assisted-experimentation.md) - Learning prototypes remain distinct from production acceptance.
 
 - [[ai-agent-lifecycle-guide]]
 - [[agentic-ai]]

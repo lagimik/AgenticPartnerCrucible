@@ -2,7 +2,7 @@
 title: "Token Economics: The New FinOps for Agentic AI"
 type: resource
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-11-27
 tags:
   - token-economics
   - finops
@@ -15,7 +15,7 @@ sources:
 status: active
 claims:
   - id: claim-001
-    text: "Token economics applies four engineering techniques: context compression, prompt deduplication/cache, on-demand model routing, and short-term memory."
+    text: "The article groups token-cost optimization into four techniques: context compression, prompt deduplication/cache, on-demand model routing and short-term memory; this is a reusable framework, not an exhaustive taxonomy."
     confidence: 0.95
     status: evergreen
     evidence:
@@ -23,7 +23,7 @@ claims:
         kind: documentation
         excerpt: "Four Engineering Techniques... Context Compression... Prompt Deduplication / Cache... On-Demand Model Routing... Short-term Memory"
     captured: 2026-07-13
-    updated: 2026-07-13
+    updated: 2026-11-27
   - id: claim-002
     text: "GitHub Copilot's 2026 move to usage-based billing through GitHub AI Credits aligns usage with token consumption including input, output, and cached tokens."
     confidence: 0.90
@@ -45,6 +45,12 @@ Tech Community article positioning token economics as an architectural disciplin
 In agentic systems, one user goal can trigger planning, retrieval, tool selection, execution, reflection, repair, and summarization — dozens of model calls. Tokens become a measure of system design, not just text length.
 
 ## Four Engineering Techniques
+
+The four-technique framework was revalidated against the public article on
+2026-11-27. Its model tiers, prices and routing thresholds are illustrative;
+validate current provider pricing, quality and cache correctness for the
+customer workload. The separate billing claim remains a dated provisional
+source assertion, not a current price quote.
 
 1. **Context Compression** — Convert verbose prose into structured JSON for agent consumption (not summarization)
 2. **Prompt Deduplication / Cache** — Hash context, apply TTLs, reuse when unchanged

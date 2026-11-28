@@ -19,15 +19,20 @@ To contribute to the PartnerCrucible, see [Contributor's Guide](ContributorsGuid
 
 Source | Description | Notes
 :----- | :---------- | :-----
+[CAF Architecture and Governance for AI](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/ready?tabs=conceptual) | Extend existing landing-zone governance and connectivity for approved AI services; retain platform/workload responsibilities and plan regional model, capacity, data and recovery dependencies. | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/ready?tabs=conceptual); document dated October 14, 2026; generally no AI-only management groups; deployment policies are not per-request controls; validate DDoS/WAF scope and customer recovery evidence
 [Azure Design Review](https://github.com/Azure/review-checklists) | Checklists for LZ, AKS, AVS, Multitenancy, Security, AVS, and SAP | Github
 [Tailor the Azure landing zone architecture to meet requirements](https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/landing-zone/tailoring-alz) | Because not all use cases are the same, not all organizations can use an implementation approach in the exact way it was intended. You need to understand the considerations when a requirement for tailoring is identified | Microsoft Learn
 [Transition an existing Azure environment to the Azure landing zone reference architecture](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) | Recommendations to help your organization navigate changes based on your existing Azure environment that's transitioning into the Azure landing zone reference architecture. This article describes considerations for moving resources, subscriptions, and scenarios for alignment. | Microsoft Learn
 [Testing approach for Azure landing zones](https://learn.microsoft.com/en-ca/azure/cloud-adoption-framework/ready/enterprise-scale/testing-approach) | The canary management group hierarchy can be independently used to author and test deployments before you deploy them into the production environment. | Microsoft Learn
-[Digital Sovereignty Adoption - Cloud Adoption Framework](../40-Resources/digital-sovereignty-adoption-caf.md) | Executive strategy guidance for defining sovereignty requirements by workload and selecting appropriate cloud and operational controls. | Issue #116
-[Azure Resource Inventory (ARI)](../40-Resources/azure-resource-inventory-ari.md) | Microsoft PowerShell module for point-in-time Azure estate inventory and reporting; check the repository for current setup and scope requirements. | Issue #119
+[Digital Sovereignty Adoption - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/sovereignty/executive-strategy) | Executive strategy guidance for defining sovereignty requirements by workload and selecting appropriate cloud and operational controls. | Issue #116
+[Azure Resource Inventory (ARI)](https://github.com/microsoft/ARI) | Microsoft PowerShell module for point-in-time Azure estate inventory and reporting; check the repository for current setup and scope requirements. | Issue #119
 [Cloudockit](https://www.cloudockit.com/) |Automatically Generate Architecture Diagrams and Technical Documentation of Your Cloud Environments | by Lansweeper
 
 ## Landing Zone Accelerators
+
+AI-focused deployment references do not imply a separate governance hierarchy.
+Use the [CAF baseline guidance](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/ready?tabs=conceptual)
+to assess fit, inherited controls, and workload-specific production readiness.
 
 Source | Description | Notes
 :----- | :---------- | :-----

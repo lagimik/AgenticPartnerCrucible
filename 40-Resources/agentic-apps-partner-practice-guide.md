@@ -2,9 +2,9 @@
 title: "Agentic Apps - Power Platform & Copilot Studio Partner Practice Guide"
 type: resource
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-11-27
 tags: [copilot-studio, power-platform, partner-practice, agentic-apps, practice-building]
-sources: [https://microsoftpartners.microsoft.com/Downloads/?filename=/abs/protected/Agentic-Apps-PP-and-CS-Partner-practice-guide.pptx]
+sources: ["https://microsoftpartners.microsoft.com/Downloads/?filename=/abs/protected/Agentic-Apps-PP-and-CS-Partner-practice-guide.pptx"]
 status: active
 ---
 

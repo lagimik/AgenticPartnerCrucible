@@ -2,7 +2,7 @@
 title: Choosing the Right Agent in Microsoft Foundry
 type: resource
 created: 2026-08-21
-updated: 2026-11-02
+updated: 2026-11-27
 tags:
   - microsoft-foundry
   - agents
@@ -47,6 +47,7 @@ Default to the least-custom option that satisfies the requirements. Move to host
 
 ## Related Pages
 
+- [Fabric Data Agent Platform Selection](fabric-data-agents-platform-selection.md) - Cross-platform front door, analytics specialist, and action separation before choosing a Foundry runtime.
 - [Managed Copilot harness](foundry-copilot-harness-managed-execution.md)
 - [[azure-ai-foundry]]
 - [[ai-agent-lifecycle]]

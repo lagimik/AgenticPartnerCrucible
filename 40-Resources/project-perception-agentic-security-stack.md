@@ -2,7 +2,7 @@
 title: Project Perception Agentic Security Stack
 type: resource
 created: 2026-08-01
-updated: 2026-10-27
+updated: 2026-11-27
 tags:
   - security
   - agentic-security
@@ -10,6 +10,9 @@ tags:
   - ai-security
   - mdash
 sources:
+  - https://news.microsoft.com/events/ignite/2026/book-of-news/
+  - https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/
+  - raw/2026-11-27-artex-agentic-attack-defense/source.md
   - https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/
   - raw/2026-10-27-github-open-issues-125-134/issues.md
   - raw/2026-10-27-github-open-issues-125-134/sources.md
@@ -46,6 +49,31 @@ containment and escalation before expanding autonomy. The post's future model
 transparency goals are not a present API guarantee, universal protection claim,
 or general-availability announcement for every proposed control.
 
+## November threat-report context
+
+The [November 25 ARTEX report](artex-agentic-attack-defense.md) describes
+observed abuse of a separate offensive framework, not an internal Perception
+agent. It positions Perception Recon Agent as read-only exposure and
+identity-path analysis, distinct from authorized exploitation validation.
+Defensive investigations still need collected evidence, qualified attribution,
+and supported response actions; the report is not proof that every tenant has
+all Perception or Defender capabilities enabled.
+
+## Ignite Launch Context
+
+The [Book of News](https://news.microsoft.com/events/ignite/2026/book-of-news/)
+announces Microsoft Perception, formerly Project Perception, as GA for the
+core agents and playbooks announced in July. This updates the earlier vision,
+not every capability's availability: the new web pen-test agent and risk
+reduction workflow are preview, AI-agent-security playbooks are private
+preview, and MDASH retains separate preview/eligibility boundaries.
+The [Ignite security inventory](ignite-2026/security.md#perception) preserves
+the capability-specific distinctions.
+
+The historical source title and earlier summaries remain for provenance.
+GA of the core does not establish tenant enablement, telemetry completeness,
+testing permission or blanket protection.
+
 ## Partner relevance
 
 - Sharpens the partner narrative for AI defending against AI.
@@ -54,6 +82,8 @@ or general-availability announcement for every proposed control.
 
 ## Related pages
 
+- [ARTEX Agentic Attack Defense](artex-agentic-attack-defense.md)
+- [Behavior-First Agentic Attack Detection](../10-Notes/concepts/behavior-first-agentic-attack-detection.md)
 - [SAFE Agent Controls](safe-agent-controls-foundry.md)
 - [Deployment-Context AI Risk](../10-Notes/concepts/deployment-context-ai-risk.md)
 - [Defender Agentic ISOC](microsoft-defender-agentic-isoc.md)

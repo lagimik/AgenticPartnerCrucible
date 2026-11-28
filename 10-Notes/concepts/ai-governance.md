@@ -2,7 +2,7 @@
 title: AI Governance
 type: concept
 created: 2026-07-10
-updated: 2026-11-14
+updated: 2026-11-27
 tags:
   - governance
   - security
@@ -10,6 +10,9 @@ tags:
   - responsible-ai
   - agents
 sources:
+  - raw/2026-11-27-caf-ai-architecture-governance/source.md
+  - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/ready
+  - https://learn.microsoft.com/en-us/azure/foundry/how-to/model-deployment-policy
   - raw/2026-07-10-ingestlinks/
   - raw/2026-07-16-policy-to-proof-ai-governance/source.md
   - raw/2026-08-07-github-open-issues-42-45/issues.md
@@ -63,6 +66,20 @@ The continuous loop — not any single control — is what makes governance real
 3. **Apply controls** – Purview, Entra, Defender, Foundry guardrails, APIM AI Gateway, Agent 365, ACS.
 4. **Measure and prove** – Evaluations (ASSERT), observability, audit evidence, dashboards.
 
+## Extend the Platform Baseline
+
+[CAF AI readiness](../../40-Resources/caf-ai-architecture-governance.md)
+starts with existing Azure landing-zone governance, management groups, and
+shared capabilities. Extend that baseline for approved AI services rather than
+default to a parallel AI governance hierarchy. Workload teams still own
+environment isolation, data placement, model capacity, and recovery dependencies.
+
+Distinguish policy scope from runtime authority. Reviewed Foundry model policies
+evaluate deployment creation/updates, not every routed request; Audit, default
+eligibility settings, and broad prefix-based approvals must not be mistaken for
+effective Deny controls. Model subsets and independent runtime controls need
+separate validation.
+
 ## Security Validation Boundaries
 
 Governance evidence must cover both the model and the application around it. Managed Foundry evaluation and red teaming can test supported Foundry and Azure OpenAI targets, while custom endpoints, RAG layers, tools, and business logic may require PyRIT or comparable application-level adversarial testing.
@@ -109,11 +126,13 @@ For customer-operated edge AI, release sensitive weights, credentials, and data 
 
 ## Related
 
+- [CAF Architecture and Governance for AI](../../40-Resources/caf-ai-architecture-governance.md) - Extend inherited controls and verify workload-specific enforcement and recovery.
+- [Cloud Adoption Framework](../entities/cloud-adoption-framework.md)
 - [Microsoft Agent 365](../entities/microsoft-agent-365.md) - Ownership, identity and supported control coverage.
 - [Agent Management Recognition and Boundaries](../../40-Resources/agent-365-ai-management-platform-leader-2026.md) - Platform GA is not uniform feature enforcement.
 - [Open-Weight Model Risk in Enterprise Deployments](../../40-Resources/open-weight-model-risk-enterprise.md)
 - [Deployment-Context AI Risk](./deployment-context-ai-risk.md)
-- [Policy to Proof — AI Governance Reference](../40-Resources/policy-to-proof-ai-governance.md)
+- [Policy to Proof — AI Governance Reference](../../40-Resources/policy-to-proof-ai-governance.md)
 - [Multitenant AI Agent Governance Architecture](multitenant-ai-agent-governance-architecture.md)
 - [AI Gateway Pattern](ai-gateway-pattern.md)
 - [AI Red-Teaming Tool Selection](ai-red-teaming-tool-selection.md)

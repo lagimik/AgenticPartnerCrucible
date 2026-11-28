@@ -2,7 +2,7 @@
 title: "The AI Agent Lifecycle: A Simple Guide"
 type: resource
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-11-27
 tags:
   - ai-agent-lifecycle
   - agentic-ai
@@ -15,7 +15,7 @@ sources:
 status: active
 claims:
   - id: claim-001
-    text: "The enterprise AI agent lifecycle has 6 stages: Design, Build, Test, Deploy, Operate, Iterate — with the iterate loop being the most important part."
+    text: "The guide recommends six lifecycle stages: Design, Build, Test, Deploy, Operate and Iterate, with continuous iteration rather than treating deployment as completion."
     confidence: 0.95
     status: evergreen
     evidence:
@@ -23,7 +23,7 @@ claims:
         kind: documentation
         excerpt: "The iterate loop is how you answer yes. The loop is the product."
     captured: 2026-07-13
-    updated: 2026-07-13
+    updated: 2026-11-27
   - id: claim-002
     text: "A golden dataset of SME-validated expected outcomes serves as ground truth for evaluating accuracy, consistency, and regression throughout the agent lifecycle."
     confidence: 0.95
@@ -33,7 +33,7 @@ claims:
         kind: documentation
         excerpt: "Establish the golden dataset during this phase: a representative set of real-world scenarios with SME validated expected outcomes."
     captured: 2026-07-13
-    updated: 2026-07-13
+    updated: 2026-11-27
 ---
 
 # The AI Agent Lifecycle: A Simple Guide
@@ -60,6 +60,11 @@ Design → Build → Test → Deploy → Operate → Iterate (loop back)
 | Iterate | Loop back to appropriate stage | Continuous improvement |
 
 ## Deployment Pattern
+
+The following percentages and observation periods are the article's banking
+example, not universal rollout requirements. Set customer-specific quality,
+safety and recovery gates. The lifecycle and golden-dataset claims were
+revalidated against the public article on 2026-11-27.
 
 1. **Shadow mode** — agent processes, responses NOT shown to customers
 2. **Pilot (5%)** — watch error rates for 2 weeks

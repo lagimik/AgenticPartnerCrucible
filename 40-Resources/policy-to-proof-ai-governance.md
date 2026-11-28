@@ -2,7 +2,7 @@
 title: "From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence"
 type: resource
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-11-27
 tags:
   - ai-governance
   - responsible-ai
@@ -65,6 +65,7 @@ Journey: Align → Safe Foundation → Build & Validate → Operate & Scale
 
 ## Related
 
+- [CAF Architecture and Governance for AI](caf-ai-architecture-governance.md) - Existing platform baseline and workload ownership complement runtime evidence and governance domains.
 - [AI Governance](../10-Notes/concepts/ai-governance.md)
 - [AI Gateway Pattern](../10-Notes/concepts/ai-gateway-pattern.md)
 - [AI Agent Lifecycle](../40-Resources/ai-agent-lifecycle-guide.md)

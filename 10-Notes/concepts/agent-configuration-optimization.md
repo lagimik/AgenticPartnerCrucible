@@ -2,7 +2,7 @@
 title: Agent Configuration Optimization
 type: concept
 created: 2026-08-07
-updated: 2026-09-12
+updated: 2026-11-27
 tags:
   - agents
   - evaluation
@@ -10,6 +10,8 @@ tags:
   - observability
   - lifecycle
 sources:
+  - https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/optimize-agents-from-insights
+  - raw/2026-11-27-foundry-routing-and-agent-insights/source.md
   - raw/2026-08-07-github-open-issues-42-45/issues.md
   - https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/from-good-to-great-we-put-agent-optimizer-to-the-test-in-microsoft-foundry/4543982
   - raw/2026-09-12-github-open-issues-87-91/issues.md
@@ -42,7 +44,18 @@ For multi-model systems, the versioned configuration also includes routing thres
 
 ## Related pages
 
+- [Foundry Agent Insights](../../40-Resources/foundry-agent-insights.md) - Evidence review precedes candidate evaluation and promotion.
 - [Microsoft Foundry Agent Optimizer](../../40-Resources/microsoft-foundry-agent-optimizer.md)
 - [AI Agent Lifecycle](ai-agent-lifecycle.md)
 - [AI Governance](ai-governance.md)
 - [Adaptive Multi-Model Orchestration](adaptive-multi-model-orchestration.md)
+
+## Evaluation Is an Execution Boundary
+
+The [Foundry insights-driven optimization preview](https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/optimize-agents-from-insights)
+illustrates why a promotion gate is insufficient protection by itself:
+candidate evaluation can call tools that modify live systems. Restrict the
+tools' resources and permissions before evaluation, not only the runtime.
+Judge proposed fixes against both targeted issue improvement and independent
+regression evidence; the service's acceptance rule is not automatically the
+customer's quality or safety threshold.

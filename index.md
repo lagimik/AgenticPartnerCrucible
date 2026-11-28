@@ -1,12 +1,24 @@
-# Shakespeare Second Brain Index
+# Agentic Partner Crucible Vault Index
 
 Start here when querying the vault. Drill into the most relevant map, resource, entity, concept, project, or area.
 
 ## Maps of Content
 
+- [Microsoft Ignite 2026 Book of News](40-Resources/moc-ignite-2026-book-of-news.md) - Eight source-led topic areas, 23 category headings and 59 announcement summaries; capability-specific release labels and evidence reconciliation.
+
 - [[moc-microsoft-fabric-ai-skills]] - Microsoft Fabric AI skills, plugin bundles, agents, and operating patterns.
 
 ## Resources
+
+- [CAF Architecture and Governance for AI](40-Resources/caf-ai-architecture-governance.md) - Extend the existing landing-zone baseline; distinguish deployment policy from runtime control and validate regional recovery.
+- [Fabric Data Agents - Platform Selection and Governed Delivery](40-Resources/fabric-data-agents-platform-selection.md) - Choose guide with current identity, source, preview, output-fidelity, and compliance qualifications.
+- [Foundry Model Router - Responses, Capacity, and AI Gateway](40-Resources/foundry-model-router-responses-capacity-gateway.md) - Responses GA versus Auto/capacity/gateway previews; eligibility, precedence, protocol, and billing boundaries.
+- [Foundry Agent Insights](40-Resources/foundry-agent-insights.md) - GA trace analysis; reviewed optimizer workflow preview versus Ignite GA scope is unresolved; evaluations can invoke live tools.
+- [ARTEX Agentic Attack Defense](40-Resources/artex-agentic-attack-defense.md) - Behavioral correlation, hardening, hunting prerequisites, and qualified containment/identity coverage.
+- [Azure Local Deployment Readiness](40-Resources/azure-local-deployment-readiness.md) - Ten pre-procurement/go-live checks; placement, DNS, proxy previews, lifecycle ownership, and recovery constraints.
+- [Azure Local Running-Cluster Review](40-Resources/azure-local-running-cluster-review.md) - Ten Day-2 checks; S2D/SAN boundaries, supported security changes, capacity measures, and workload evidence.
+- [Foundry Agentic Loop](40-Resources/foundry-agentic-loop.md) - Public workshop and build workflow; evidence-gated deployment, runtime distinctions and readiness limits.
+- [Art of Play in the Age of AI](40-Resources/github-art-of-play-ai.md) - GitHub skilling perspective on small experiments, human review and maintainer-aware contributions.
 
 - [GitHub Pricing Calculator](40-Resources/github-pricing-calculator.md) - Workload cost inputs; estimates exclude free entitlements and are not binding quotes.
 - [Microsoft Copilot Agents Labs](40-Resources/microsoft-copilot-agents-labs.md) - Current bootcamp, guided skilling and tenant prerequisites.
@@ -15,20 +27,14 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [Service-Centric ERP Recognition](40-Resources/dynamics-365-service-centric-erp-leader-2026.md) - Contracts, resourcing, delivery and billing; customer outcomes not guarantees.
 - [Agent 365 AI Management Recognition](40-Resources/agent-365-ai-management-platform-leader-2026.md) - Identity-first management with connector, discovery and enforcement limits.
 - [GitHub Copilot Benchmarks](40-Resources/github-copilot-benchmarks.md) - Provisional dashboard pointer; model-plus-harness results are not customer pricing or latency.
-- [Benchmark-to-Workload Validation](10-Notes/concepts/benchmark-to-workload-validation.md) - Shortlist with benchmarks, then verify representative tasks and actual usage.
 - [GitHub](10-Notes/entities/github.md), [Dynamics 365](10-Notes/entities/dynamics-365.md), and [Microsoft Agent 365](10-Notes/entities/microsoft-agent-365.md) - Entity discovery for the November 14 open-issue ingestions.
 - [Purview Data Governance Partner Resources](40-Resources/purview-data-governance-partner-resources.md) - Draft collection pointer; public metadata verified, assets unreviewed, newer transition guidance linked.
 - [Microsoft Data Governance Transition to Fabric](40-Resources/microsoft-data-governance-fabric-transition.md) - Purview Data Governance support ends November 12, 2027; Purview security and compliance continue.
-- [Governance and Data Protection Responsibility Split](10-Notes/concepts/governance-data-protection-responsibility-split.md) - Catalog/stewardship migration without conflating security and compliance obligations.
 - [OneLake Native Storage for Azure Databricks](40-Resources/onelake-native-storage-azure-databricks.md) - GA/preview split, identity isolation, mirrored readers, file events, and Spark compatibility limits.
-- [Shared Storage with Catalog-Mediated Access](10-Notes/concepts/shared-storage-catalog-mediated-access.md) - Shared data locations do not imply shared permissions or universal reader support.
 - [ARM MCP Ignite 2026 Expansion](40-Resources/azure-resource-manager-mcp-ignite-2026.md) - Resource operations, deployment verification, cost tools, and experimental Skills with live-schema caveats.
 - [Database Caching Patterns with Azure Managed Redis](40-Resources/azure-managed-redis-database-caching-patterns.md) - Eight workload patterns, seven-pattern sample coverage, authentication, and operational limits.
-- [Caching Correctness and Failure Budgets](10-Notes/concepts/caching-correctness-and-failure-budgets.md) - Staleness, loss, recovery, and fallback-load decisions.
 - [Fabric Warehouse CI/CD Preview](40-Resources/fabric-warehouse-cicd-preview.md) - DacFx, SQL projects, release scripts, and APIs; planned capabilities distinguished from delivered preview work.
-- [State-Aware Warehouse Deployment](10-Notes/concepts/state-aware-warehouse-deployment.md) - Schema reconciliation and data-action validation rather than artifact-copy promotion.
 - [Detecting Sleeper Agents Hiding in AI Model Neurons](40-Resources/detecting-sleeper-agents-model-neurons.md) - Research-demonstrated weight tampering, layered intake audits, and runtime containment; no observed weaponization reported.
-- [Model-Weight Integrity Assurance](10-Notes/concepts/model-weight-integrity-assurance.md) - Checkpoint provenance and update evidence distinct from malware scans, evaluations, and action authorization.
 - [[fabric-assessment-tool]] - Synapse and Databricks discovery for migration scoping, with inventory-completeness and optional schema-change boundaries.
 - [[fabric-capacity-observability-and-protection]] - Surge controls, paid overage, real-time events, soft thresholds, and documentation caveats.
 - [[fabric-direct-lake-design]] - OneLake versus SQL variants, framing, security, fallback, and capacity guardrails.
@@ -84,10 +90,10 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 - [[forrester-wave-data-lakehouses-q3-2026]] - Forrester Wave Data Lakehouses Q3 2026 reprint pointer for Data & AI positioning.
 - [[reliable-voice-agents-practical-guide]] - Copilot Studio practical guide for reliable customer-facing voice agents.
 - [[azure-chaos-studio-workspaces]] - Azure Chaos Studio Workspaces for scenario-based resilience validation and AI-powered operations.
-- [[project-perception-agentic-security-stack]] - Project Perception cyber stack and October agentic-insider supervision and containment framing.
+- [[project-perception-agentic-security-stack]] - Historical security stack plus Ignite Microsoft Perception core GA, with new agent/playbook previews.
 - [[azure-copilot-observability-agent]] - Azure Monitor-powered Copilot Observability Agent for explainable investigations and autonomous operations preview.
 - [[foundry-pyrit-ai-red-teaming]] - Decision guide for managed Foundry red teaming versus flexible PyRIT application testing.
-- [[microsoft-foundry-agent-optimizer]] - Reflection-based optimization of agent instructions and configuration using traces and evaluators.
+- [[microsoft-foundry-agent-optimizer]] - Reflection-based optimization with preserved Ignite GA versus reviewed-workflow preview scope.
 - [[ai-augmented-code-modernization-leader]] - Microsoft agentic modernization approach and 2026 Gartner recognition.
 - [[cnapp-cloud-ai-security-control-plane]] - CNAPP evolution toward unified cloud, application, identity, data, runtime, and AI risk.
 - [[cowork-partner-launch-kit]] - Protected Microsoft partner launch package for Cowork.
@@ -169,11 +175,18 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Entities
 
+- [Microsoft Ignite 2026](10-Notes/entities/microsoft-ignite-2026.md) - Event provenance and heading-led announcement map.
+- [Azure](10-Notes/entities/azure.md), [Microsoft Copilot](10-Notes/entities/microsoft-copilot.md), [Microsoft Edge](10-Notes/entities/microsoft-edge.md), [Microsoft IQ](10-Notes/entities/microsoft-iq.md), and [Windows](10-Notes/entities/windows.md) - Product discovery connected to the event's source structure.
+
+- [Cloud Adoption Framework](10-Notes/entities/cloud-adoption-framework.md) - Reviewed AI readiness and sovereignty architecture sources.
+- [Fabric Data Agent](10-Notes/entities/fabric-data-agent.md) - Read-only analytics with connection-specific identity and separate external orchestration.
+- [ARTEX](10-Notes/entities/artex.md) - Dual-use framework with source-reported abuse, distinct from Microsoft's defensive products.
+- [Azure Local](10-Notes/entities/azure-local.md) - Hybrid platform with distinct VM lifecycle and storage-topology operating models.
 - [Microsoft Purview](10-Notes/entities/microsoft-purview.md) - Continuing security and compliance, distinct from the announced Data Governance retirement.
 - [Azure Databricks](10-Notes/entities/azure-databricks.md) - Unity Catalog-managed OneLake storage and cross-platform reader boundaries.
 - [Azure Resource Manager MCP Server](10-Notes/entities/azure-resource-manager-mcp-server.md) - Azure control-plane operations, distinct from read-only release communications.
 - [Azure Managed Redis](10-Notes/entities/azure-managed-redis.md) - Application-level caching, rankings, counters, and short-lived state.
-- [[microsoft-foundry]] - Model and agent platform; capability-specific GA and preview references.
+- [Microsoft Foundry](10-Notes/entities/microsoft-foundry.md) - Model and agent platform; capability-specific GA and preview references.
 - [[saas-accelerator]] - Reference implementation for Marketplace SaaS subscription and billing integration.
 - [[microsoft]]
 - [[azure-sre-agent]] - Azure operations agent with shared context and explicit workflow and authority boundaries.
@@ -185,6 +198,11 @@ Start here when querying the vault. Drill into the most relevant map, resource, 
 
 ## Concepts
 
+- [Enterprise Context Management](10-Notes/concepts/enterprise-context-management.md) - Permission-aware evidence, meaning, reusable expertise and authority kept separate.
+
+- [Read-Only Analytics and Action Separation](10-Notes/concepts/read-only-analytics-and-action-separation.md) - Data access and analytical evidence do not confer downstream action authority or audience permission.
+- [Behavior-First Agentic Attack Detection](10-Notes/concepts/behavior-first-agentic-attack-detection.md) - Cross-stage evidence without mistaking mutable indicators or missing logs for an attribution verdict.
+- [Workload Recovery Evidence](10-Notes/concepts/workload-recovery-evidence.md) - Independent recovery dependencies, measured user flows, RTO/RPO, and change-acceptance evidence.
 - [[capacity-admission-and-cost-governance]] - Separate admission control, paid throttling relief, telemetry, and sustained capacity sizing.
 - [[evidence-validated-agentic-data-engineering]] - Acceptance contracts for permissions, staged writes, reruns, reconciliation, and human validation.
 - [[structured-ai-decisions]] - Bounded model outcomes separated from deterministic authorization and business constraints.
@@ -226,9 +244,17 @@ No area pages yet.
 ## Bulk Ingests
 
 - [[moc-ingested-link-library]] - Resources captured from `ingestlinks.md` on 2026-07-10.
-- [[moc-partner-crucible]] - Partner Crucible link library: 46 files organized by solution area (Data & AI, Security, Infrastructure, Modern Work, Power Platform, Industry, Practice Building).
+- [[moc-partner-crucible]] - Partner Crucible derived link library: 25 workload and practice pages organized by solution area (Data & AI, Security, Infrastructure, Modern Work, Power Platform, Industry, Practice Building).
 
 ## Recent Analysis Concepts
+
+- [Time-Boxed AI-Assisted Experimentation](10-Notes/concepts/time-boxed-ai-assisted-experimentation.md) - Bounded learning without confusing prototype success with production acceptance.
+- [Benchmark-to-Workload Validation](10-Notes/concepts/benchmark-to-workload-validation.md) - Shortlist with benchmarks, then verify representative tasks and actual usage.
+- [Governance and Data Protection Responsibility Split](10-Notes/concepts/governance-data-protection-responsibility-split.md) - Catalog/stewardship migration without conflating security and compliance obligations.
+- [Shared Storage with Catalog-Mediated Access](10-Notes/concepts/shared-storage-catalog-mediated-access.md) - Shared data locations do not imply shared permissions or universal reader support.
+- [Caching Correctness and Failure Budgets](10-Notes/concepts/caching-correctness-and-failure-budgets.md) - Staleness, loss, recovery, and fallback-load decisions.
+- [State-Aware Warehouse Deployment](10-Notes/concepts/state-aware-warehouse-deployment.md) - Schema reconciliation and data-action validation rather than artifact-copy promotion.
+- [Model-Weight Integrity Assurance](10-Notes/concepts/model-weight-integrity-assurance.md) - Checkpoint provenance and update evidence distinct from malware scans, evaluations, and action authorization.
 
 - [[document-processing-tool-selection]] - Decision model for Content Understanding, Document Intelligence, and custom LLM document processing.
 - [[research-to-production-ai]] - Pattern for moving frontier AI research into interactive, shippable builder workflows.

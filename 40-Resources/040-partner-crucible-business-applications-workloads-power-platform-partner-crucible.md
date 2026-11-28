@@ -1,8 +1,8 @@
 ---
-title: Partner Crucible - Business Applications Workloads - Power Platform | Partner Crucible
+title: Partner Crucible - Power Platform Workloads
 type: resource
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-11-27
 tags:
   - copilot
   - power-platform
@@ -15,7 +15,7 @@ sources:
 status: active
 ---
 
-# Partner Crucible - Business Applications Workloads - Power Platform | Partner Crucible
+# Partner Crucible - Power Platform Workloads
 
 Source: https://lagimik.github.io/PartnerCrucible/PowerPlatformSolutionArea
 

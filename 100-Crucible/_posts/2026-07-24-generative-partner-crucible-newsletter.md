@@ -14,7 +14,7 @@ thumbnail: /AgenticPartnerCrucible/assets/images/2026-07-24-PowerPlatform-Copilo
 
 ## Deep links
 
-Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/Industry) for more partner resources.
+Visit the extended Partner Crucible page on this [Topic Page](https://lagimik.github.io/AgenticPartnerCrucible/IndustryGeneral) for more partner resources.
 
 # Microsoft AI Workload
 

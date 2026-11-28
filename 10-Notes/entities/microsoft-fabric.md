@@ -2,12 +2,15 @@
 title: Microsoft Fabric
 type: entity
 created: 2026-07-10
-updated: 2026-11-14
+updated: 2026-11-27
 tags:
   - microsoft-fabric
   - analytics
   - data-platform
 sources:
+  - https://news.microsoft.com/events/ignite/2026/book-of-news/
+  - https://techcommunity.microsoft.com/blog/analyticsonazure/unlocking-data-value-with-fabric-and-microsoft-ai-agents-choose-deploy-optimise/4574895
+  - raw/2026-11-27-fabric-agent-platform-selection/source.md
   - https://techcommunity.microsoft.com/blog/microsoft-security-blog/a-next-step-in-the-evolution-of-the-microsoft-data-governance-strategy/4572227
   - https://community.fabric.microsoft.com/blog/fbc_fabricupdatesblogs/use-onelake-as-native-storage-for-azure-databricks/5377939
   - https://learn.microsoft.com/en-us/azure/databricks/connect/unity-catalog/cloud-storage/external-locations-onelake
@@ -36,6 +39,12 @@ Microsoft Fabric is the data and analytics platform targeted by the `skills-for-
 
 ## Related Pages
 
+- [Ignite Azure Data announcements](../../40-Resources/ignite-2026/azure.md#data) - Database Hub and Fabric apps GA, with separate Fabric HorizonDB and Pro app-creation previews.
+- [Ignite Fabric IQ announcements](../../40-Resources/ignite-2026/microsoft-iq.md#fabric-iq) - Specific integration labels qualify broad GA wording.
+- [Microsoft IQ](microsoft-iq.md)
+
+- [Fabric Data Agent](fabric-data-agent.md) - Read-only analytical specialist, distinct from write-capable Data Engineering Agent.
+- [Fabric Agent Platform Selection](../../40-Resources/fabric-data-agents-platform-selection.md) - Copilot, Studio, and Foundry fit, connection identity, source limits, and consuming-platform boundaries.
 - [Microsoft Data Governance Transition](../../40-Resources/microsoft-data-governance-fabric-transition.md) - Fabric governance strategy and Purview Data Governance support-end announcement, with security/compliance and transition-gap boundaries.
 - [OneLake native storage for Databricks](../../40-Resources/onelake-native-storage-azure-databricks.md) - Fabric-side GA, Databricks preview, sole-identity storage access, and catalog-commit/Spark limits.
 - [Warehouse CI/CD Preview](../../40-Resources/fabric-warehouse-cicd-preview.md) - State-aware SQL project deployment, release scripts, and APIs, with explicit delivered-versus-planned boundaries.

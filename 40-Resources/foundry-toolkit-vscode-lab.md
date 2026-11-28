@@ -2,7 +2,7 @@
 title: "Foundry Toolkit for VS Code Lab"
 type: resource
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-11-27
 tags:
   - azure-ai-foundry
   - hosted-agents
@@ -15,25 +15,25 @@ sources:
 status: active
 claims:
   - id: claim-001
-    text: "Foundry Hosted Agents use the /responses API and are deployed as Docker images pushed to Azure Container Registry."
+    text: "This workshop's hosted-agent path uses /responses communication and deploys Docker images through Azure Container Registry; it is not a statement about every supported Foundry deployment path."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
       - source: raw/2026-07-13-foundry-toolkit-vscode-lab/source.md
         kind: documentation
         excerpt: "Uses /responses API for agent communication... deploy to Foundry (Docker image pushed to ACR)"
     captured: 2026-07-13
-    updated: 2026-07-13
+    updated: 2026-11-27
   - id: claim-002
-    text: "Azure AI User or Azure AI Owner role is required to build and deploy agents — standard Owner/Contributor roles only include management permissions."
+    text: "The workshop requires Foundry data-action roles, with scope-dependent combinations of Azure AI Owner, Azure AI User, Reader and Contributor; subscription Owner/Contributor alone is not sufficient for its development flow."
     confidence: 0.95
-    status: evergreen
+    status: provisional
     evidence:
-      - source: raw/2026-07-13-foundry-toolkit-vscode-lab/source.md
+      - source: https://github.com/microsoft-foundry/Foundry_Toolkit_for_VSCode_Lab/
         kind: documentation
-        excerpt: "Azure Owner and Contributor roles only include management permissions, not development (data action) permissions. You need Azure AI User or Azure AI Owner to build and deploy agents."
+        excerpt: "Deploy to fully configured project | Reader on account + Azure AI User on project"
     captured: 2026-07-13
-    updated: 2026-07-13
+    updated: 2026-11-27
 ---
 
 # Foundry Toolkit for VS Code Lab
@@ -57,10 +57,18 @@ Foundry extension scaffolds agent → customize code → test locally (Agent Ins
 
 ## Stack
 
-- Python 3.10+, Microsoft Agent Framework v1.1.0+
+- Python 3.12+, Microsoft Agent Framework v1.1.0+
 - Azure OpenAI (GPT-4.1 / GPT-4.1-mini)
 - Azure CLI + Azure Developer CLI (azd)
 - Foundry Toolkit VS Code extension
+
+## Revalidation
+
+The upstream README was rechecked on 2026-11-27. It labels Hosted Agents as
+preview with limited regions, now lists Python 3.12+, and distinguishes role
+requirements for project creation, new-resource deployment and an already
+configured project. The claims remain provisional because this is a changing
+workshop and preview deployment path, not universal service guidance.
 
 ## Key Links
 

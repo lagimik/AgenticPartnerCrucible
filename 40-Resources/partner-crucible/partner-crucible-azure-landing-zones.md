@@ -2,7 +2,7 @@
 title: "Partner Crucible - Azure Landing Zones"
 type: resource
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-11-27
 tags:
   - azure-landing-zones
   - cloud-adoption-framework
@@ -22,5 +22,7 @@ Full link collection: `raw/2026-07-15-partner-crucible-bulk/AzureInfrastructureS
 
 ## Related Pages
 
+- [CAF Architecture and Governance for AI](../caf-ai-architecture-governance.md) - Extend the platform baseline rather than default to an AI-only hierarchy.
+- [Cloud Adoption Framework](../../10-Notes/entities/cloud-adoption-framework.md)
 - [[partner-crucible-azure-infrastructure]]
 - [[moc-partner-crucible]]

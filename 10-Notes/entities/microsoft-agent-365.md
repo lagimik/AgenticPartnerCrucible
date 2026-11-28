@@ -2,9 +2,10 @@
 title: Microsoft Agent 365
 type: entity
 created: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-27
 tags: [agent-365, agent-identity, governance, security]
 sources:
+  - https://news.microsoft.com/events/ignite/2026/book-of-news/
   - https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/
 status: active
 ---
@@ -21,6 +22,9 @@ establish that every connector, cloud discovery feature or policy is GA or
 enforced for every agent.
 
 ## Related
+
+- [Ignite Agent 365 security announcements](../../40-Resources/ignite-2026/security.md#agent-365) - Basic insights versus licensed governance, GA plugin controls, preview risk and planned action center.
+- [Ignite Copilot cost and value announcements](../../40-Resources/ignite-2026/microsoft-copilot.md) - Distinct preview/Frontier cost, outcome and forecast capabilities.
 
 - [Microsoft](microsoft.md)
 - [AI Management Recognition and Control Boundaries](../../40-Resources/agent-365-ai-management-platform-leader-2026.md)

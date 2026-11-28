@@ -2,7 +2,7 @@
 title: Microsoft
 type: entity
 created: 2026-07-10
-updated: 2026-11-14
+updated: 2026-11-27
 tags:
   - organization
   - software
@@ -21,6 +21,8 @@ Microsoft is the organization behind the `microsoft/skills-for-fabric` repositor
 
 ## Related Pages
 
+- [ARTEX Agentic Attack Defense](../../40-Resources/artex-agentic-attack-defense.md) - Microsoft Threat Intelligence research on abuse of a non-Microsoft framework.
+- [Azure Local](azure-local.md) - Hybrid platform deployment and operating-model source guidance.
 - [Dynamics 365](dynamics-365.md) - Product- and service-centric ERP source context.
 - [Microsoft Agent 365](microsoft-agent-365.md) - Identity, inventory and supported control boundaries.
 - [Microsoft SQL Presentation Hub](../../40-Resources/microsoft-sql-presentation-hub.md) - Public catalogue; presentation contents unreviewed.
